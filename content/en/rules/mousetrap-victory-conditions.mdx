@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mousetrap Victory Conditions: Rules & Setup Guide",
+  description: "Learn the official Mousetrap victory conditions, board game rules, setup steps, and winning strategies to defeat your opponents.",
+  category: "Rules",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Victory+Conditions",
+  date: "2026-07-14",
+  author: "mousetrap Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Goal**: Achieve the official **mousetrap victory conditions** by being the last untrapped player on the board.
+- **Trap Assembly**: Collaborate with players during the early game to build the complex 3D contraption step-by-step.
+- **Cheese Economy**: Collect and spend cheese tokens strategically to force opponent movement or trigger the trap.
+- **Winning Strategy**: Position your mouse token carefully, hoarding cheese while avoiding the dangerous trap loop.
+</Callout>
+
+<Section icon={Target} title="The Core Objective and Mousetrap Victory Conditions">
+
+To understand the **mousetrap victory conditions**, players must first understand the fundamental flow of this classic board game. Originally published by Milton Bradley in 1963, the game blends traditional roll-and-move mechanics with a physical, interactive 3D contraption. The primary objective is to navigate your plastic mouse token around the board, gathering cheese pieces while avoiding the elaborate trap built by the players. 
+
+Unlike modern games that rely on high scores or reaching a finish line, this game is a battle of attrition. The game ends when only one player remains uncaught, making survival the ultimate goal. Understanding how to trigger the trap and how to protect your mouse from being targeted is crucial to securing victory.
+
+| Condition Type | Trigger Event | Game Outcome |
+| :--- | :--- | :--- |
+| **Last Mouse Standing** | All opponent mice are captured in the cage | The remaining player wins the game immediately |
+| **Cheese Dominance** | A player collects a set number of cheese pieces | Used as a tie-breaker or alternative house rule |
+| **Trap Completion** | The physical trap is fully constructed on the board | Players transition from build phase to capture phase |
+
+<Callout type="info" title="Game Version Differences">
+In older versions of the game, the layout of the board and the exact number of cheese pieces required to trigger certain actions may vary. However, the core rule that the last remaining mouse wins remains consistent across all editions.
+</Callout>
+
+During the first phase of the game, players focus on building the trap. Every time a player lands on a "Build" space, they add a piece to the contraption and receive a cheese token. Once the trap is fully assembled, the game transitions to the capture phase, where players actively try to trap their opponents.
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Board Setup and Assembly">
+
+Assembling the Rube Goldberg machine is one of the most famous aspects of the game. Proper assembly is essential because physical misalignment can prevent the trap from functioning correctly, leading to disputes over victory. Follow these steps to ensure the mechanism works smoothly during gameplay.
+
+<Steps>
+  <Step num="1" title="Base Setup">
+    Lay the game board flat on a sturdy table. Insert the main plastic base pieces into their designated slots on the board, ensuring they are firmly seated.
+  </Step>
+  <Step num="2" title="Gears and Crank">
+    Attach the gear support structure, then place the interlocking gears onto the pegs. Connect the crank handle to the main gear, ensuring the teeth align perfectly.
+  </Step>
+  <Step num="3" title="Stairs and Chute">
+    Snap the plastic staircase into place, followed by the vertical chute. Place the bucket hanger at the top of the stairs, ready to hold the metal marble.
+  </Step>
+  <Step num="4" title="Bathtub and Diverter">
+    Mount the bathtub and the diverter mechanism. Ensure the diverter can swing freely, as this controls the path of the marble during trap activation.
+  </Step>
+  <Step num="5" title="Cage and Helper">
+    Position the helper figure next to the bathtub. Hang the red cage from the hook on the crane arm, aligning it directly over the trap space.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Assembly Warning">
+Do not force the plastic parts into the board slots. If a piece does not fit easily, check for plastic debris or alignment issues. Forcing the parts can warp the plastic and cause the trap to misfire.
+</Callout>
+
+| Component | Common Issue | Quick Fix |
+| :--- | :--- | :--- |
+| **Gears & Crank** | Gears slip or do not turn the stop sign | Re-align the base pegs and tighten the gear connections |
+| **Marble & Bucket** | Marble misses the bucket or stops in the chute | Adjust the angle of the chute and clear debris from the path |
+| **Diverter & Tub** | The marble fails to fall through the bathtub | Ensure the diverter is set to the correct active channel |
+| **Cage Release** | The cage does not drop when the helper is hit | Check the hook balance and ensure the cage hangs freely |
+
+</Section>
+
+<Section icon={Sparkles} title="Detailed Gameplay Mechanics and Turn Structure">
+
+Understanding the turn-by-turn loop is key to positioning your mouse for a win. Players take turns rolling a standard die and moving their tokens clockwise around the board. Depending on where you land, you will perform different actions that bring you closer to achieving the victory conditions.
+
+<CardGrid cols={3}>
+  <Card title="Building Phase">
+    - **Assemble the Trap**
+    - Earn cheese tokens
+    - Safe movement zones
+  </Card>
+  <Card title="Cheese Economy">
+    - **Collect cheese pieces**
+    - Trade tokens with players
+    - Use cheese to force moves
+  </Card>
+  <Card title="The Capture Phase">
+    - **Trigger the crank**
+    - Trap opponent mice
+    - Secure the win
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Strategic Positioning">
+Always keep track of how many cheese pieces your opponents hold. If an opponent has a large cheese stash, avoid landing on the cheese wheel space, as they can use their tokens to force you into the trap zone.
+</Callout>
+
+| Space Name | Action Required | Strategic Value |
+| :--- | :--- | :--- |
+| **Build Space** | Add a piece to the trap if not complete | Earns cheese tokens and builds the trap infrastructure |
+| **Cheese Space** | Collect cheese tokens from the central pile | Critical resource used to force opponent movement |
+| **Turn Crank** | Spend cheese to trigger the trap mechanism | The primary method to capture opponents and secure victory |
+| **Safe Zone** | No actions taken, safe from trap activation | Provides temporary refuge during aggressive phases |
+
+</Section>
+
+<Section icon={Shield} title="Advanced Strategies to Achieve Victory">
+
+Winning the game requires a mix of luck and tactical planning. While the movement is determined by die rolls, how you manage your cheese tokens and when you choose to trigger the trap will decide the outcome of the match.
+
+<Checklist
+  id="victory-checklist"
+  title="Pre-Victory Checklist:"
+  items={[
+    "Accumulate at least 5 cheese tokens before entering the loop",
+    "Ensure the trap is fully built and functioning correctly",
+    "Wait for opponents to land on the cheese wheel space",
+    "Prepare to trigger the crank when safety margins are low"
+  ]}
+/>
+
+<Callout type="success" title="Winning Playbook">
+If you land on the Turn Crank space but do not have enough cheese to force an opponent onto the trap, save your tokens. It is generally better to wait for a guaranteed capture than to waste resources on a low-probability move.
+</Callout>
+
+| Playstyle | Primary Objective | Key Risk | Effectiveness |
+| :--- | :--- | :--- | :--- |
+| **Cheese Hoarder** | Focus on gathering cheese tokens quickly | Vulnerable to early trap triggers by opponents | High in long games |
+| **Aggressive Builder** | Rush the trap assembly to start trapping | May run out of cheese to trigger the crank | Medium-High |
+| **Tactical Defender** | Stay in safe zones and bait opponents | Slow progress, relies on opponent mistakes | Medium |
+
+</Section>
+
+<Section icon={Swords} title="Rule Variations and FAQ">
+
+Different households often play with slightly modified rules. While the official rules are designed for balanced play, adjusting the victory conditions or the cheese economy can speed up the game or add an extra layer of difficulty.
+
+<FAQ items={[
+  {
+    question: "What are the official mousetrap victory conditions?",
+    answer: "The official victory condition is to be the last remaining player with an untrapped mouse on the board. Once all other players have been captured by the trap, the survivor is declared the winner."
+  },
+  {
+    question: "Can you move another player's mouse onto the trap space?",
+    answer: "Yes. If you land on the Turn Crank space, you can return cheese pieces to the bank to force an opponent's mouse to move onto the cheese wheel space, where the trap can capture them."
+  },
+  {
+    question: "What happens if the trap fails to trigger during a turn?",
+    answer: "If the trap is triggered but fails to drop the cage due to a mechanical error, the target mouse is not captured. The turn ends, and play continues. It is important to reset the trap carefully after a misfire."
+  },
+  {
+    question: "How do you win cheese pieces from other players?",
+    answer: "You can obtain cheese pieces by landing on designated cheese spaces, building parts of the trap, or by landing on the same space as an opponent and challenging them to a trade."
+  }
+]} />
+
+<Callout type="info" title="Official Rule Clarification">
+According to the official rulebook, if the cage drops but does not completely cover the mouse token, the player is still considered trapped as long as the cage made contact and disrupted the token's position.
+</Callout>
+
+</Section>

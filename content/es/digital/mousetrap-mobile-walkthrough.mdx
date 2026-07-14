@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Mousetrap Mobile: Reglas, Configuración y Estrategias",
+  description: "Domina el juego de mesa digital con nuestra guía de Mousetrap Mobile. Aprende reglas, estrategias de queso, mecánicas de trampas y configuración multijugador en iOS y Android.",
+  category: "Digital",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Mobile+Walkthrough",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Mousetrap",
+  keywords: "mousetrap mobile, guía de juego, reglas de mousetrap, estrategias de queso, multijugador"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal**: Completa esta **guía de Mousetrap Mobile** para asegurar la mayor reserva de queso.
+- **Mecánica clave**: Muévete por el tablero animado en 3D, recolectando queso y evitando el artefacto de acción.
+- **Mejor estrategia**: Concéntrate en robar directamente al jugador líder para crear grandes cambios en la puntuación.
+- **Consejo crítico**: Guarda tu queso después de las partidas para desbloquear más de 22 atuendos cosméticos únicos.
+- **Mejor opción**: Usa el modo de un solo jugador para practicar las mecánicas del tablero antes de entrar al emparejamiento en línea.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos con Mouse Trap Mobile">
+
+Bienvenido a la adaptación digital del clásico juego de mesa de Hasbro, desarrollado por Marmalade Game Studio. Esta guía completa cubre todo lo que necesitas para dominar el tablero animado en 3D en iOS y Android. A diferencia de la versión física, la edición móvil gestiona automáticamente toda la física, la configuración y el cumplimiento de las reglas, permitiéndote concentrarte por completo en la estrategia.
+
+Para comenzar tu viaje, debes entender la configuración básica de la partida y el flujo del primer juego. Sigue estos pasos para lanzar tu primera partida y establecer una base sólida.
+
+<Steps>
+  <Step num="1" title="Elige tu modo de juego">
+    Selecciona "Single Player" (Un solo jugador) en el menú principal para practicar contra oponentes de la IA. Esto te permite aprender el diseño del tablero y las fases de los turnos sin esperar a otros jugadores.
+  </Step>
+  <Step num="2" title="Selecciona tu ratón y atuendo">
+    Elige entre los clásicos ratones rojo, azul, amarillo o verde. Equipa cualquier atuendo inicial disponible; estos cosméticos no afectan las estadísticas de juego, pero personalizan tu apariencia.
+  </Step>
+  <Step num="3" title="Tira y navega por el tablero">
+    Toca la ruleta en pantalla para tirar. Tu ratón se moverá automáticamente por la pista. Presta mucha atención a la casilla en la que caes, ya que dicta la acción de tu turno.
+  </Step>
+  <Step num="4" title="Guarda tu queso tras la partida">
+    Cuando termine la partida, cualquier queso que quede en tu inventario se añadirá a tu reserva persistente de queso, que se utiliza para desbloquear artículos cosméticos premium.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo Profesional">
+Completa siempre tus partidas incluso si vas perdiendo. El queso que tengas al final del juego se guarda de forma permanente, lo que garantiza una progresión cosmética constante.
+</Callout>
+
+| Plataforma | Estado Actual | Tamaño de Descarga | Característica Clave |
+| --- | --- | --- | --- |
+| iOS | Disponible | 321.8 MB | Gráficos 3D de alta resolución, Controles táctiles |
+| Android | Disponible | Varía según el dispositivo | Integración con Google Play Pass, Juego offline |
+| Nintendo Switch | Disponible | 335 MB | Soporte para modo portátil y TV |
+| PlayStation 4 | Disponible | Lanzamiento digital | Compatible con versiones anteriores en PS5 |
+
+</Section>
+
+<Section icon={Shield} title="Reglas del juego de mesa digital y mecánicas de turno">
+
+La versión digital de Mouse Trap simplifica la experiencia tradicional de sobremesa al automatizar el complejo montaje de la trampa Rube Goldberg. El objetivo principal es recolectar, robar y proteger el queso. El juego concluye inmediatamente cuando la Máquina de Queso se queda sin suministros, y el jugador con más queso en su inventario gana.
+
+Cada turno consiste en girar la rueda, mover a tu ratón y resolver la indicación de la casilla de aterrizaje. El tablero cuenta con varias casillas especializadas que pueden cambiar por completo el impulso del juego.
+
+| Tipo de Casilla | Visual del Tablero | Acción de Turno Requerida | Impacto en el Queso |
+| --- | --- | --- | --- |
+| Casilla de Queso | Cuña Amarilla | Recolecta queso inmediatamente | +1 a +3 de Queso |
+| Casilla de Robo | Huella Roja | Elige a un rival para robarle | +2 Queso (Objetivo -2) |
+| Casilla de Trampa | Mecanismo Rojo | Activa el artefacto de acción | Interrumpe el turno del objetivo |
+| Casilla de Evento | Engranaje Animado | Participa en minijuegos | Alto riesgo, alta recompensa |
+
+<Callout type="warning" title="Advertencia de Juego">
+No te bases en las reglas del juego de mesa físico. La edición digital presenta mecánicas de puntuación únicas y no elimina a los jugadores cuando son atrapados en la trampa; en su lugar, penaliza sus totales de queso.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Gestión de queso y estrategias de robo">
+
+Ganar una partida requiere más que simplemente sacar números altos. Debes gestionar activamente tu inventario de queso e interrumpir el progreso de tus oponentes. Debido a que los robos transfieren activos directamente de un jugador a otro, representan un cambio de valor doble.
+
+Para maximizar tu eficiencia, evalúa el estado del tablero antes de tomar decisiones. El siguiente diseño de tarjetas destaca los pilares estratégicos centrales para gestionar tus recursos.
+
+<CardGrid cols={3}>
+  <Card title="Rastrear al líder">
+    Vigila siempre el marcador en el lado izquierdo de la pantalla. Dirige todos tus robos y activaciones de trampas ofensivas hacia el jugador que esté actualmente en primer lugar.
+  </Card>
+  <Card title="Tomar ganancias garantizadas">
+    Cuando se te presente la opción entre una casilla de recolección de queso garantizada y una casilla de evento de alto riesgo, prioriza las ganancias garantizadas, especialmente al final del juego.
+  </Card>
+  <Card title="Aprovechar cambios en la puntuación">
+    Robar queso no solo aumenta tu puntuación; reduce activamente el total de tu rival. Esto hace que las casillas de robo sean el doble de valiosas que las casillas de recolección estándar.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Éxito de la Estrategia">
+Apuntar al líder mantiene el equilibrio en la sala y evita que un solo jugador asegure una ventaja inalcanzable antes de que la Máquina de Queso se vacíe.
+</Callout>
+
+| Fase de la Partida | Objetivo Principal | Acción Recomendada | Nivel de Riesgo |
+| --- | --- | --- | --- |
+| Juego Temprano | Acumulación rápida | Caer en casillas generadoras de queso | Bajo |
+| Juego Medio | Disrupción | Apuntar al líder con robos | Medio |
+| Juego Tardío | Protección de puntuación | Evitar zonas de trampa y asegurar ventajas | Alto |
+
+</Section>
+
+<Section icon={Swords} title="El artefacto de acción y guía de reacción en cadena">
+
+El famoso artefacto de acción es la pieza central de Mouse Trap. En la versión digital, la trampa está totalmente animada y se puede activar cuando un jugador cae en una casilla de trampa designada. Activar la trampa inicia una secuencia de Rube Goldberg de varias etapas que termina con una jaula cayendo sobre un ratón expuesto.
+
+Comprender las etapas de esta secuencia te ayuda a anticipar el tiempo y planificar tus movimientos por el tablero para evitar ser atrapado.
+
+| Etapa de la Secuencia | Componente Activador | Detalle de la Animación | Resultado del Juego |
+| --- | --- | --- | --- |
+| Etapa 1 | La Bota | Se balancea y patea el cubo | Se inicia la secuencia |
+| Etapa 2 | La Bola | Rueda por el tobogán sinuoso | Fase de suspenso |
+| Etapa 3 | El Buzo | Se lanza desde el trampolín | Activador mecánico final |
+| Etapa 4 | La Jaula | Cae sobre la casilla objetivo | El objetivo pierde turno/queso |
+
+<Callout type="info" title="Información de Evento Especial">
+Estate atento al evento de Riggs el Gato. Este minijuego interactivo ofrece oportunidades únicas para asegurar queso de bonificación fuera del movimiento estándar del tablero.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Modos multijugador y configuración de plataforma">
+
+Mouse Trap se disfruta mejor con amigos y familiares. La edición digital ofrece sólidas opciones multijugador, que incluyen el modo local "Pass & Play" y el emparejamiento en línea. Dependiendo de tu plataforma, puedes conectarte con hasta cuatro jugadores a nivel mundial.
+
+Revisa las opciones de configuración a continuación para seleccionar la mejor configuración para tu sesión de juego.
+
+| Modo Multijugador | Cantidad de Jugadores | Requisito de Conexión | Mejor Caso de Uso |
+| --- | --- | --- | --- |
+| Online Privado | 2-4 Jugadores | Internet estable | Jugar con amigos remotos |
+| Emparejamiento Abierto | Hasta 4 Jugadores | Internet estable | Encontrar salas activas en línea |
+| Local en Consola | 1-4 Jugadores | Offline | Juego de sofá en pantalla única |
+| Pass & Play | 2-4 Jugadores | Offline | Viajes por carretera y viajes móviles |
+
+<Callout type="warning" title="Nota sobre Suscripción de Plataforma">
+Jugar multijugador en línea en Nintendo Switch requiere una suscripción activa a Nintendo Switch Online. Los jugadores de PlayStation 4 requieren una suscripción activa a PlayStation Plus. Los jugadores de móviles no requieren suscripciones de consola por separado.
+</Callout>
+
+<Checklist
+  id="multiplayer-prep"
+  title="Lista de verificación de preparación multijugador:"
+  items={[
+    "Verifica que tu dispositivo móvil ejecute iOS 11.0 o equivalente en Android",
+    "Conéctate a una red Wi-Fi de alta velocidad para evitar desconexiones en línea",
+    "Asegúrate de que todos los controladores locales estén cargados y sincronizados para el juego local en consola",
+    "Vincula tu cuenta de Marmalade Game Studio para habilitar las funciones de juego cruzado"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Desbloqueo de atuendos para ratones y personalización">
+
+Personalizar a tu ratón es un elemento de progresión importante en el juego digital. Si bien la versión móvil incluye 22 atuendos clásicos con la compra base, puedes desbloquear cosméticos premium adicionales gastando el queso que acumulas en todos los modos de juego.
+
+El sistema de personalización es totalmente cosmético, lo que garantiza que las partidas sigan siendo justas y equilibradas, independientemente de cuántos atuendos haya desbloqueado un jugador.
+
+<Callout type="success" title="Éxito en el Desbloqueo">
+Ahorra tus reservas de queso para atuendos de alto nivel. El juego actualiza frecuentemente su catálogo de cosméticos, ofreciendo atuendos de temporada que se pueden comprar directamente desde el armario del juego.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Se aplica esta guía de Mousetrap Mobile a las versiones de consola?",
+    answer: "Sí. El diseño básico del tablero, las reglas digitales, las estrategias de queso y las mecánicas de trampas cubiertas en esta guía son idénticas en iOS, Android, Nintendo Switch y PlayStation 4."
+  },
+  {
+    question: "¿Cómo gano queso para desbloquear nuevos atuendos?",
+    answer: "Cada trozo de queso que tengas al final de una partida completada se transfiere directamente a tu reserva persistente de queso. Puedes gastar esta reserva acumulada en el menú del armario."
+  },
+  {
+    question: "¿Hay un modo offline disponible en Mouse Trap mobile?",
+    answer: "Sí. Puedes jugar offline en el modo Single Player contra oponentes de la IA o usar el modo Pass & Play para jugar con amigos usando un solo dispositivo móvil sin conexión a Internet."
+  }
+]} />
+
+</Section>

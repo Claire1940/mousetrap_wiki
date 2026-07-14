@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mousetrap Game Online: Guía de Estrategia y Recorrido 2026",
+  description: "Domina el clásico juego de la ratonera online con nuestra guía de 2026. Aprende técnicas de trazado, sistemas de puntuación y consejos de supervivencia para todos los niveles de dificultad.",
+  category: "Digital",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Game+Guide",
+  date: "2026-07-14",
+  author: "Equipo de Wiki de Mousetrap",
+  keywords: "mousetrap game online, juego de la ratonera, guía de estrategia, recorrido 2026, consejos de supervivencia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Guiar al ratón hacia el queso siguiendo el cursor sin tocar las paredes del laberinto.
+- **Gestión de Salud**: Chocar con las paredes causa una **pérdida de salud permanente**; los alimentos otorgan puntos pero no restauran la salud.
+- **Sistema de Puntuación**: Los puntos se ganan recogiendo comida esparcida por el nivel, similar a los juegos arcade clásicos.
+- **Curva de Dificultad**: Los niveles se vuelven progresivamente más difíciles con pasillos más estrechos y obstáculos móviles como hachas oscilantes.
+- **Mecánica de Muerte Permanente**: Perder toda la salud resulta en el fin del juego, lo que requiere reiniciar completamente desde el primer nivel.
+</Callout>
+
+<Section icon={Map} title="Mecánicas Principales y Resumen del Juego">
+
+El **juego de la ratonera online** (mousetrap game online) es una experiencia arcade basada en la precisión que desafía a los jugadores a navegar por laberintos complejos usando solo el cursor del ratón. A diferencia de los juegos de plataformas tradicionales, la mecánica principal consiste en que el personaje del ratón sigue el cursor del usuario con un ligero retraso, creando un sistema de movimiento basado en la inercia. Los jugadores deben guiar al ratón hacia los trozos de queso mientras evitan los límites estáticos y dinámicos del nivel.
+
+**Puntos Destacados del Video:**
+- Se requiere un control preciso del ratón para guiarlo hacia el queso.
+- Tocar las paredes causa una pérdida de salud que no se puede recuperar.
+- Recoger comida otorga puntos de bonificación pero no cura.
+- Los niveles presentan una dificultad creciente con obstáculos móviles como hachas.
+- El sistema de muerte permanente obliga a reiniciar desde el nivel uno al morir.
+
+<YouTubeEmbed videoId="evBMjwE6zNs" title="Reseña del Juego Flash Gratuito Online Mouse Trap" />
+
+Comprender la relación entre la velocidad de tu cursor y el movimiento del ratón es el primer paso hacia la maestría. Si mueves el cursor demasiado rápido, el ratón puede quedarse atrás y golpear una pared durante un giro brusco. Por el contrario, moverlo demasiado lento podría dejarte vulnerable ante obstáculos móviles.
+
+| Característica | Descripción de la Mecánica | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Movimiento** | Lógica de seguimiento del cursor | Requiere una coordinación ojo-mano constante |
+| **Colisión** | Contacto con la pared (Sangrado) | Reduce la reserva total de salud permanentemente |
+| **Objetivo** | Llegar al queso | Activa la finalización del nivel y la progresión |
+| **Bonificación** | Recolección de comida | Aumenta la puntuación máxima para el ranking |
+| **Reinicio** | Restablecimiento total al morir | Aumenta la tensión en los niveles altos |
+
+<Callout type="tip" title="Consejo Profesional">
+Mantén siempre tu cursor ligeramente por delante del personaje del ratón. Esta técnica de "guía" te permite anticipar los giros antes de que el ratón llegue a la esquina, reduciendo el riesgo de colisiones con las paredes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sistema de Puntuación y Camino de Progresión">
+
+La progresión en el **juego de la ratonera online** es lineal pero castigadora. A medida que avanzas por las etapas, el entorno cambia de simples caminos rectangulares a intrincados laberintos. El sistema de puntuación está fuertemente inspirado en títulos clásicos como Pac-Man, donde el objetivo principal es limpiar el tablero de alimentos antes de alcanzar el objetivo final.
+
+<CardGrid cols={3}>
+  <Card title="Comida Estándar">
+    - **Valor de puntos**: Bajo
+    - Se encuentra en los caminos principales
+    - Esencial para la puntuación básica
+  </Card>
+  <Card title="Objetos Raros">
+    - **Valor de puntos**: Medio
+    - Ubicados en callejones sin salida
+    - Alto riesgo de contacto con la pared
+  </Card>
+  <Card title="Completar Nivel">
+    - **Valor de puntos**: Alto
+    - Se otorga al alcanzar el queso
+    - Escala con el número de nivel
+  </Card>
+</CardGrid>
+
+La curva de dificultad es pronunciada. Los niveles iniciales se centran en la navegación básica, mientras que los niveles intermedios y avanzados introducen "puntos de estrangulamiento" donde el ratón debe pasar por huecos apenas más anchos que el propio personaje.
+
+| Rango de Nivel | Descripción de Dificultad | Obstáculos Clave |
+| :--- | :--- | :--- |
+| **Niveles 1-3** | Fase Tutorial | Pasillos anchos, paredes estáticas |
+| **Niveles 4-7** | Intermedio | Caminos estrechos, giros de 90 grados |
+| **Niveles 8-10** | Avanzado | Hachas móviles, pasillos muy estrechos |
+| **Niveles 11+** | Experto | Patrones complejos, margen de salud mínimo |
+
+<Callout type="info" title="Nota del Sistema">
+La salud no se regenera entre niveles. La salud que pierdas en el Nivel 1 seguirá perdida en el Nivel 10. Esto hace que la precisión al principio del juego sea vital para la supervivencia al final.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Supervivencia y Evitación de Obstáculos">
+
+La supervivencia en el **juego de la ratonera online** depende enteramente de tu habilidad para gestionar la mecánica de "Sangrado". Cuando el ratón toca una pared, comienza a sangrar y la barra de salud en la parte inferior de la pantalla se agota. Una vez que la barra llega a cero, la partida termina inmediatamente.
+
+Para sobrevivir a las etapas más difíciles, los jugadores deben dominar las siguientes tácticas:
+
+1.  **La Regla del Camino Central**: Intenta siempre mantener al ratón exactamente en el centro de cualquier pasillo. Esto proporciona el máximo margen de error si tu mano resbala.
+2.  **Frenado por Inercia**: Si el ratón se mueve demasiado rápido hacia una pared, mueve el cursor hacia atrás, hacia el ratón, para frenarlo.
+3.  **Sincronización de Obstáculos**: Los obstáculos móviles como las hachas siguen un patrón rítmico fijo. Observa la oscilación durante dos ciclos antes de intentar pasar.
+
+| Tipo de Obstáculo | Nivel de Peligro | Estrategia de Supervivencia |
+| :--- | :--- | :--- |
+| **Paredes Estáticas** | Moderado | Mantener alineación central |
+| **Esquinas Cerradas** | Alto | Reducir la velocidad del cursor antes del giro |
+| **Hachas Oscilantes** | Extremo | Esperar al ciclo completo de oscilación |
+| **Huecos Estrechos** | Alto | Usar micro-movimientos con el ratón |
+
+<Callout type="warning" title="Advertencia Crítica">
+No seas codicioso con los alimentos ubicados cerca de las hachas móviles. La bonificación de puntos rara vez vale el riesgo de una pérdida de salud que termine el juego, especialmente en los niveles más profundos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Navegación de Niveles Paso a Paso">
+
+Navegar por las complejas etapas del **juego de la ratonera online** requiere un enfoque metódico. Sigue estos pasos para mejorar tu consistencia y alcanzar los niveles más altos.
+
+<Steps>
+  <Step num="1" title="Evaluación del Entorno">
+    Antes de mover el ratón, escanea todo el nivel. Identifica dónde se encuentra el queso y busca el camino más seguro que evite esquinas cerradas innecesarias.
+  </Step>
+  <Step num="2" title="Recoger Comida Inicial">
+    Recoge los alimentos en las zonas más anchas primero. Esto aumenta tu puntuación temprano y te permite familiarizarte con el tiempo de respuesta del ratón en esa sesión específica.
+  </Step>
+  <Step num="3" title="Navegar Puntos de Estrangulamiento">
+    Al acercarte a un pasillo estrecho, reduce la velocidad de movimiento del cursor. Usa pequeños "toques" incrementales del cursor para guiar al personaje a través del hueco.
+  </Step>
+  <Step num="4" title="Sincronizar los Peligros">
+    Para niveles con hachas o trampas móviles, detén al ratón en una zona segura. Cuenta los segundos entre oscilaciones y muévete solo cuando el camino esté completamente despejado.
+  </Step>
+  <Step num="5" title="El Enfoque Final">
+    Una vez cerca del queso, no te apresures. Muchos jugadores pierden su último aliento de salud justo al final debido al exceso de entusiasmo. Mantén la disciplina del camino central hasta que se active la transición de nivel.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo Técnico">
+Revisa los ajustes de sensibilidad del ratón en tu sistema operativo. Un ajuste de DPI (puntos por pulgada) más bajo a menudo proporciona un mejor control para los ajustes minuciosos necesarios en este juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación de Versiones del Juego">
+
+Aunque la versión original en Flash del **juego de la ratonera online** es la más conocida, existen varias iteraciones modernas. Comprender las diferencias puede ayudarte a elegir la versión que mejor se adapte a tu estilo de juego.
+
+| Característica | Versión Clásica Flash | Puerto Moderno HTML5 | Versión App Móvil |
+| :--- | :--- | :--- | :--- |
+| **Método de Entrada** | Cursor del Ratón | Ratón / Touchpad | Pantalla Táctil |
+| **Física** | Alta Inercia | Ágil / Baja Inercia | Variable |
+| **Gráficos** | Retro / Pixelados | Limpios / Vectoriales | Alta Definición |
+| **Dificultad** | Alta (Original) | Equilibrada | Ajustada para Táctil |
+| **Disponibilidad** | Requiere Emulador | Listo para Navegador | Tiendas de Apps |
+
+La versión clásica suele citarse como la más "adictiva" debido a su dificultad implacable. Los puertos modernos suelen incluir mejoras de calidad de vida como guardados a mitad de partida o potenciadores de salud, lo que cambia el desafío central de la experiencia.
+
+<Callout type="success" title="Recomendación">
+Para la experiencia auténtica, juega la versión alojada en sitios de arcade clásicos como Fupa.com. El motor de física en estas versiones está específicamente ajustado para la mecánica de "sangrado" de alta dificultad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de Verificación Esencial para la Maestría">
+
+Usa esta lista para seguir tu progreso y asegurarte de que estás utilizando todas las estrategias profesionales mencionadas en esta guía.
+
+<Checklist
+  id="mousetrap-mastery"
+  title="Hitos de Habilidad del Jugador:"
+  items={[
+    "Dominada la técnica de 'Guiar el Cursor' para los giros",
+    "Capaz de completar el Nivel 5 sin perder nada de salud",
+    "Sincronizado con éxito el paso a través de las hachas oscilantes",
+    "Alcanzada una puntuación de más de 10,000 puntos en una sola partida",
+    "Completado el juego desde el Nivel 1 hasta el final sin reiniciar"
+  ]}
+/>
+
+<Callout type="info" title="Nota Final">
+El **juego de la ratonera online** es tanto una prueba de paciencia como de habilidad. Los speedrunners a menudo fallan porque priorizan el tiempo sobre la precisión. En este juego, la constancia y la calma realmente ganan la carrera.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo restauro la salud en el juego de la ratonera online?",
+    answer: "No puedes restaurar la salud. En la versión estándar del juego, los alimentos solo otorgan puntos de bonificación, y las colisiones con las paredes causan daños permanentes durante toda la partida."
+  },
+  {
+    question: "¿Qué pasa si choco con una pared en el juego?",
+    answer: "El ratón comienza a 'sangrar', lo cual se representa con una barra de salud que disminuye. Si te mantienes en contacto con la pared, tu salud se agotará rápidamente hasta que termine el juego."
+  },
+  {
+    question: "¿Por qué el ratón se mueve más lento que mi cursor?",
+    answer: "Esta es una mecánica de juego deliberada diseñada para crear inercia. El retraso requiere que planifiques tus movimientos y guíes al ratón en lugar de simplemente arrastrarlo."
+  },
+  {
+    question: "¿Puedo empezar desde el nivel donde morí?",
+    answer: "No, la versión clásica del juego cuenta con un sistema de muerte permanente. Si pierdes toda tu salud, debes reiniciar desde el Nivel 1, independientemente de cuánto hayas progresado."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mousetrap Videospiel: Klassischer Arcade-Strategieführer von 1981",
+  description: "Meistern Sie das klassische Mousetrap-Videospiel von 1981. Lernen Sie die Labyrinth-Navigation, die Funktionsweise der farbigen Türen, Highscore-Strategien und Heimkonsolen-Portierungen kennen.",
+  category: "Digital",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Arcade+Guide",
+  date: "2026-07-14",
+  author: "mousetrap Wiki-Team",
+  keywords: "Mousetrap, Videospiel, Arcade, Exidy, Retro-Gaming, Strategie, ColecoVision"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Das **Mousetrap-Videospiel** ist ein klassischer Labyrinth-Verfolgungs-Arcade-Automat von 1981, der von Exidy entwickelt wurde.
+- **Farbcodierte Türen** können durch Drücken der entsprechenden Tasten umgestellt werden, um verfolgende Katzen zu blockieren.
+- **Hundeknochen** verwandeln den Spieler in einen Hund, sodass er Katzen vorübergehend besiegen kann.
+- **Falken-Gefahren** tauchen in späteren Phasen auf, ignorieren Türen und erfordern schnelle Bewegungen.
+- **Heimportierungen** wie die für das ColecoVision bieten die originalgetreueste Umsetzung dieses Retro-Titels.
+</Callout>
+
+<Section icon={Map} title="Das historische Erbe des Mousetrap-Videospiels">
+
+Das **Mousetrap-Videospiel**, das 1981 von Exidy entwickelt wurde, bleibt eines der innovativsten Labyrinth-Verfolgungsspiele aus der goldenen Ära der Arcade-Spiele. In einer Zeit, die von Pac-Man-Klonen dominiert wurde, hob sich dieser Titel durch die Einführung interaktiver Labyrinthelemente ab. Anstatt durch ein statisches Labyrinth zu navigieren, interagieren die Spieler mit einer dynamischen Umgebung, in der Wände in Echtzeit verschoben werden können, um Feinde einzusperren oder Fluchtwege zu schaffen.
+
+**Video-Highlights:**
+- Klassische 8-Bit-Soundeffekte und Gameplay-Präsentation am Retro-Automaten.
+- Demonstration der Labyrinth-Navigation und der Nutzung von Farbtüren zum Fangen von Katzen.
+- Verwandlung in einen Hund, um das Spielfeld von Feinden zu befreien.
+
+<YouTubeEmbed videoId="pZ5y3JvOMDo" title="Arcade Game: Mouse Trap (1981 Exidy)" />
+
+Exidy entwarf das Gehäuse des Automaten mit einem einzigartigen Bedienfeld, das mit einem Joystick und drei farbigen Tasten ausgestattet war: Rot, Gelb und Blau. Diese Tasten steuern die entsprechenden Tore im Labyrinth. Diese mechanische Tiefe fügte eine strategische Ebene hinzu, die das Spiel von seinen Zeitgenossen abhob und Spieler ansprach, die taktische Planung reinen Reflexen vorzogen.
+
+| Feature | Spezifikation |
+|---|---|
+| Entwickler | Exidy |
+| Erscheinungsjahr | 1981 |
+| Genre | Labyrinth, Action |
+| Haupt-Hardware | MOS Technology 6502 |
+| Audio | Eigenes Exidy-Audio-Board |
+
+<Callout type="tip" title="Tipp zum Layout des Bedienfelds">
+Wenn Sie auf Original-Hardware oder speziellen Emulations-Setups spielen, machen Sie sich mit der physischen Anordnung der Farbtasten vertraut, um bei intensiven Verfolgungsjagden schnelle Reaktionszeiten zu gewährleisten.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Spielmechanik und das Farbtür-System">
+
+Im Kern geht es im Spiel darum, eine Maus durch ein Labyrinth zu steuern, um alle auf dem Bildschirm verstreuten Käsekrümel zu fressen. Mehrere Katzen patrouillieren jedoch in den Gängen und versuchen, den Spieler in die Enge zu treiben und zu besiegen. Um sich zu verteidigen, müssen die Spieler Hundeknochen einsammeln, die in den Ecken des Labyrinths verteilt sind, und die farbcodierten Türen nutzen.
+
+Die farbigen Türen sind das prägende Merkmal des Spiels. Rote, gelbe und blaue Türen sind im gesamten Labyrinth verteilt. Durch Drücken der entsprechenden Taste auf dem Bedienfeld werden alle Türen dieser Farbe umgeschaltet, indem sie sich um 90 Grad drehen. Diese Aktion blockiert sofort die Wege für verfolgende Katzen oder öffnet dem Spieler neue Fluchtwege.
+
+| Ziel | Punktebelohnung |
+|---|---|
+| Käse | 90 Punkte |
+| Hundeknochen | 100 Punkte |
+| Erste Katze | 100 Punkte |
+| Zweite Katze | 300 Punkte |
+| Dritte Katze | 500 Punkte |
+| Vierte Katze | 900 Punkte |
+
+<CardGrid cols={4}>
+  <Card title="Maus">
+    - **Spielercharakter**
+    - Hohe Beweglichkeit
+    - Anfällig für Katzen
+  </Card>
+  <Card title="Katzen">
+    - **Standardgegner**
+    - Patrouillieren in Gängen
+    - Blockieren Wege
+  </Card>
+  <Card title="Hund">
+    - **Power-Up-Zustand**
+    - Frisst Katzen
+    - Begrenzte Dauer
+  </Card>
+  <Card title="Falke">
+    - **Spezielle Gefahr**
+    - Ignoriert Wände
+    - Hohe Geschwindigkeit
+  </Card>
+</CardGrid>
+
+Das Sammeln von Hundeknochen ermöglicht es dem Spieler, eine vorübergehende Verwandlung in einen Hund auszulösen. In der Hundeform kann der Spieler den Spieß umdrehen und die Katzen jagen, um erhebliche Bonuspunkte zu erzielen. Dieses Power-Up ist jedoch zeitlich begrenzt, und die Spieler müssen ihren Knochenvorrat sorgfältig verwalten, um in höheren Levels zu überleben.
+
+<Callout type="warning" title="Limit für den Knochenvorrat">
+Sie können zu jedem Zeitpunkt maximal vier Hundeknochen tragen. Das Einsammeln weiterer Knochen bei vollem Inventar bringt zwar Punkte, erhöht aber nicht Ihre Lagerkapazität.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Strategien für Highscores">
+
+Das Erreichen eines Highscores erfordert eine ausgewogene Kombination aus räumlichem Vorstellungsvermögen, Ressourcenschonung und schnellen Tasteneingaben. Die Spieler müssen lernen, die KI der Gegner zu manipulieren und ihre Wege durch das Labyrinth zu optimieren.
+
+<Steps>
+  <Step num="1" title="Labyrinth-Säuberung">
+    Beginnen Sie jede Runde, indem Sie die Außenbereiche des Labyrinths freimachen. Diese Bereiche sind am gefährlichsten, da sie weniger Fluchtwege bieten. Heben Sie sich die zentralen Gänge für später auf, wenn die Präsenz der Katzen zunimmt.
+  </Step>
+  <Step num="2" title="Labyrinth-Aufteilung">
+    Nutzen Sie die Farbtasten, um das Labyrinth aufzuteilen. Indem Sie bestimmte Türen schließen, können Sie die Katzen in einer Hälfte des Bildschirms einsperren, während Sie in aller Ruhe den Käse in der anderen Hälfte einsammeln.
+  </Step>
+  <Step num="3" title="Knochenschonung">
+    Lösen Sie Ihre Hundeverwandlung nicht wegen einer einzelnen Katze aus, es sei denn, Sie sind in die Enge getrieben. Warten Sie, bis sich mehrere Katzen in der Nähe Ihrer Position sammeln, um Ihr Punktepotenzial zu maximieren.
+  </Step>
+  <Step num="4" title="Falken-Ausweichmanöver">
+    Wenn der Falke erscheint, begeben Sie sich sofort zum zentralen Warp-Tunnel. Der Falke ignoriert Wände und visiert Sie direkt an, was die normale Labyrinth-Navigation nutzlos macht.
+  </Step>
+</Steps>
+
+Mit fortschreitenden Levels erhöht sich die Geschwindigkeit der Gegner und ihre KI wird aggressiver. Auch der Falke erscheint häufiger, was Sie dazu zwingt, in Sekundenschnelle Entscheidungen bezüglich der Türsteuerung und der Warp-Nutzung zu treffen.
+
+| Level-Bereich | Katzenanzahl | Falkenhäufigkeit | Allgemeine Geschwindigkeit |
+|---|---|---|---|
+| Level 1-3 | 3 Katzen | Niedrig | Moderat |
+| Level 4-6 | 4 Katzen | Mittel | Schnell |
+| Level 7-9 | 5 Katzen | Hoch | Sehr schnell |
+| Level 10+ | 6 Katzen | Konstant | Extrem |
+
+<Callout type="success" title="Tipp zum Abschließen von Levels">
+Das schnelle Abschließen eines Levels bringt einen Zeitbonus. Finden Sie die richtige Balance zwischen Punktesammeln und Schnelligkeit, um Ihren Gesamt-Highscore zu optimieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defensive Manöver und Warp-Taktiken">
+
+Das Überleben in den späteren Phasen des Spiels hängt stark von der defensiven Positionierung ab. Spieler sollten es vermeiden, in den Ecken des Labyrinths gefangen zu werden, da diese Zonen nur begrenzte Fluchtwege bieten, wenn die Katzen ihre Verfolgungswege koordinieren. Wenn Sie sich in die Enge getrieben fühlen, ist Ihr primärer Fluchtmechanismus die zentrale Warp-Zone.
+
+Die zentrale Warp-Zone ist mit einem „In“-Schild gekennzeichnet. Das Betreten dieses Feldes teleportiert die Maus in eine der vier Ecken des Bildschirms, die als „Out“-Zonen markiert sind. Diese Teleportation erfolgt jedoch zufällig, was bedeutet, dass Sie möglicherweise direkt neben einer patrouillierenden Katze landen. Nutzen Sie diesen Mechanismus daher hauptsächlich als letzten Ausweg, wenn Sie vom Falken oder mehreren Katzen eingekesselt sind.
+
+<Checklist
+  id="survival-checklist"
+  title="Highscore-Checkliste:"
+  items={[
+    "Überprüfen Sie die Positionen aller aktiven Katzen, bevor Sie den Zustand der Türen ändern",
+    "Halten Sie mindestens zwei Hundeknochen für Notsituationen in Reserve",
+    "Räumen Sie die Ecken des Labyrinths früh in jeder Runde frei",
+    "Achten Sie auf das Warnsignal für das Erscheinen des Falken, um Ihren Fluchtweg vorzubereiten",
+    "Nutzen Sie die Warp-Zone nur, wenn Sie ohne Türoptionen in die Enge getrieben sind"
+  ]}
+/>
+
+Eine weitere wichtige Taktik ist das Ködern. Sie können Katzen in einen bestimmten Gang locken, schnell durch ein farbiges Tor schlüpfen und die entsprechende Taste drücken, um sie darin einzusperren. Dies setzt sie für kurze Zeit effektiv außer Gefecht, sodass Sie den Rest des Labyrinths ungestört säubern können.
+
+<Callout type="warning" title="Warp-Gefahr">
+Überprüfen Sie vor dem Betreten der Warp-Zone immer die Ziel-Ecken. Wenn Sie direkt in eine Katze hineinteleportiert werden, führt dies zum sofortigen Verlust eines Lebens.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Analyse der Heimkonsolen-Portierungen">
+
+Nach dem Erfolg in den Spielhallen wurde das Spiel in den frühen 1980er Jahren auf mehrere Heimkonsolen portiert. Die Qualität und Genauigkeit dieser Portierungen variierte je nach den Hardware-Fähigkeiten der einzelnen Systeme stark. Die ColecoVision-Version gilt weithin als die originalgetreueste Portierung, da sie sowohl den Grafikstil als auch die komplexe Steuerung des Arcade-Originals einfängt.
+
+Auf dem ColecoVision wurde die Tastatur des Controllers verwendet, um die roten, gelben und blauen Türen zu steuern, indem sie bestimmten Tasten zugewiesen wurden. Andere Systeme wie das Atari 2600 mussten erhebliche Kompromisse eingehen. Die Version für das Atari 2600 vereinfachte die Grafik und änderte das Steuerungsschema, um dem Ein-Tasten-Joystick des Systems gerecht zu werden, welcher die Türen automatisch basierend auf den Bewegungen des Spielers oder durch vereinfachte Umschaltfunktionen steuerte.
+
+| Plattform | Grafiktreue | Steuerungsgenauigkeit | Gesamtbewertung |
+|---|---|---|---|
+| ColecoVision | Hoch | Gut | 4.5 / 5 |
+| Atari 2600 | Niedrig | Mittelmäßig | 2.5 / 5 |
+| Intellivision | Mittel | Akzeptabel | 3.0 / 5 |
+| Atari 8-Bit | Hoch | Gut | 4.0 / 5 |
+
+Während die Versionen für Heimkonsolen es den Spielern ermöglichten, das Spiel zu genießen, ohne Münzen einzuwerfen, bleibt die Arcade-Version aufgrund ihrer präzisen Steuerung und des ausgewogenen Schwierigkeitsgrads das ultimative Erlebnis.
+
+<Callout type="tip" title="Emulations-Empfehlung">
+Wenn Sie diesen Klassiker heute erleben möchten, ist die ColecoVision-Portierung die beste Option für Heimkonsolen, da sie eine äußerst präzise Nachbildung der Arcade-Mechanik bietet.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortgeschrittene Fehlerbehebung und FAQ">
+
+Um Spielern zu helfen, das Spiel zu meistern, haben wir Antworten auf die häufigsten Fragen zu Mechaniken, Portierungen und Highscore-Strategien zusammengestellt.
+
+<FAQ items={[
+  {
+    question: "Wie löst man die Hundeverwandlung im Mousetrap-Videospiel aus?",
+    answer: "Um die Verwandlung auszulösen, drücken Sie die Hundetaste auf dem Bedienfeld. Dazu müssen Sie mindestens einen Hundeknochen im Inventar haben. Die Verwandlung ist temporär, setzen Sie sie also klug ein."
+  },
+  {
+    question: "Kann man den Falken im Spiel besiegen?",
+    answer: "Nein, der Falke ist völlig unverwundbar. Sie können ihn selbst dann nicht besiegen, wenn Sie in einen Hund verwandelt sind. Ihre einzige Möglichkeit besteht darin, ihm auszuweichen oder die zentrale Warp-Zone zur Flucht zu nutzen."
+  },
+  {
+    question: "Wie viele Hundeknochen kann man maximal tragen?",
+    answer: "Sie können zu jedem Zeitpunkt maximal vier Hundeknochen tragen. Alle darüber hinaus gesammelten Knochen bringen zwar Punkte, werden aber nicht Ihrem Inventar hinzugefügt."
+  },
+  {
+    question: "Wie funktionieren die farbigen Türen während des Gameplays?",
+    answer: "Das Drücken der roten, gelben oder blauen Tasten dreht alle Türen dieser Farbe um 90 Grad. Dies öffnet neue Wege und schließt andere, sodass Sie Katzen fangen oder Gefahren entkommen können."
+  }
+]} />
+
+<Callout type="info" title="Abschließender Strategiehinweis">
+Übung macht den Meister. Nehmen Sie sich Zeit, um die Anordnung der Türen und das Timing der Katzenbewegungen zu lernen, um sowohl auf Arcade-Automaten als auch auf Heimkonsolen konstant hohe Punktzahlen zu erzielen.
+</Callout>
+
+</Section>

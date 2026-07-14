@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Condiciones de Victoria de Mousetrap: Guía de Reglas y Configuración",
+  description: "Aprende las condiciones oficiales de victoria de Mousetrap, las reglas del juego de mesa, los pasos de configuración y las estrategias ganadoras para derrotar a tus oponentes.",
+  category: "Reglas",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Victory+Conditions",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Mousetrap",
+  keywords: "mousetrap, reglas, condiciones de victoria, guía de juego, configuración"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Lograr las **condiciones de victoria de Mousetrap** oficiales siendo el último jugador no atrapado en el tablero.
+- **Ensamblaje de la Trampa**: Colabora con los jugadores al principio de la partida para construir el complejo artefacto 3D paso a paso.
+- **Economía del Queso**: Recolecta y gasta fichas de queso estratégicamente para forzar el movimiento de los oponentes o activar la trampa.
+- **Estrategia Ganadora**: Posiciona tu ficha de ratón con cuidado, acumulando queso mientras evitas el peligroso bucle de la trampa.
+</Callout>
+
+<Section icon={Target} title="El Objetivo Central y las Condiciones de Victoria de Mousetrap">
+
+Para entender las **condiciones de victoria de Mousetrap**, los jugadores primero deben comprender el flujo fundamental de este clásico juego de mesa. Publicado originalmente por Milton Bradley en 1963, el juego combina mecánicas tradicionales de lanzar y mover con un artefacto físico interactivo en 3D. El objetivo principal es navegar con tu ficha de ratón de plástico por el tablero, recogiendo trozos de queso mientras evitas la elaborada trampa construida por los jugadores.
+
+A diferencia de los juegos modernos que dependen de puntuaciones altas o de llegar a una línea de meta, este juego es una batalla de desgaste. El juego termina cuando solo queda un jugador sin ser atrapado, lo que convierte a la supervivencia en el objetivo final. Entender cómo activar la trampa y cómo proteger a tu ratón de ser el blanco es crucial para asegurar la victoria.
+
+| Tipo de Condición | Evento Desencadenante | Resultado del Juego |
+| :--- | :--- | :--- |
+| **Último Ratón en Pie** | Todos los ratones oponentes son capturados en la jaula | El jugador restante gana el juego inmediatamente |
+| **Dominio del Queso** | Un jugador recoge un número determinado de trozos de queso | Se usa como desempate o regla casera alternativa |
+| **Finalización de la Trampa** | La trampa física está totalmente construida en el tablero | Los jugadores pasan de la fase de construcción a la fase de captura |
+
+<Callout type="info" title="Diferencias entre Versiones del Juego">
+En las versiones más antiguas del juego, el diseño del tablero y el número exacto de trozos de queso necesarios para activar ciertas acciones pueden variar. Sin embargo, la regla principal de que el último ratón restante gana se mantiene constante en todas las ediciones.
+</Callout>
+
+Durante la primera fase del juego, los jugadores se centran en construir la trampa. Cada vez que un jugador cae en una casilla de "Construcción" (Build), añade una pieza al artefacto y recibe una ficha de queso. Una vez que la trampa está completamente ensamblada, el juego pasa a la fase de captura, donde los jugadores intentan activamente atrapar a sus oponentes.
+
+</Section>
+
+<Section icon={Map} title="Configuración y Ensamblaje del Tablero Paso a Paso">
+
+Ensamblar la máquina de Rube Goldberg es uno de los aspectos más famosos del juego. El montaje correcto es esencial porque una desalineación física puede evitar que la trampa funcione correctamente, lo que daría lugar a disputas sobre la victoria. Sigue estos pasos para asegurar que el mecanismo funcione sin problemas durante la partida.
+
+<Steps>
+  <Step num="1" title="Configuración de la Base">
+    Coloca el tablero de juego plano sobre una mesa resistente. Inserta las piezas principales de la base de plástico en sus ranuras designadas en el tablero, asegurándote de que estén firmemente asentadas.
+  </Step>
+  <Step num="2" title="Engranajes y Manivela">
+    Coloca la estructura de soporte de los engranajes y luego sitúa los engranajes entrelazados sobre los pivotes. Conecta la manivela al engranaje principal, asegurándote de que los dientes encajen perfectamente.
+  </Step>
+  <Step num="3" title="Escaleras y Conducto">
+    Encaja la escalera de plástico en su lugar, seguida del conducto vertical. Coloca el soporte del cubo en la parte superior de las escaleras, listo para sostener la canica de metal.
+  </Step>
+  <Step num="4" title="Bañera y Desviador">
+    Monta la bañera y el mecanismo desviador. Asegúrate de que el desviador pueda oscilar libremente, ya que este controla la trayectoria de la canica durante la activación de la trampa.
+  </Step>
+  <Step num="5" title="Jaula y Ayudante">
+    Posiciona la figura del ayudante junto a la bañera. Cuelga la jaula roja del gancho en el brazo de la grúa, alineándola directamente sobre el espacio de la trampa.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de Ensamblaje">
+No fuerces las piezas de plástico en las ranuras del tablero. Si una pieza no encaja fácilmente, comprueba si hay restos de plástico o problemas de alineación. Forzar las piezas puede deformar el plástico y hacer que la trampa falle.
+</Callout>
+
+| Componente | Problema Común | Solución Rápida |
+| :--- | :--- | :--- |
+| **Engranajes y Manivela** | Los engranajes resbalan o no giran la señal de stop | Realinea los pivotes de la base y aprieta las conexiones |
+| **Canica y Cubo** | La canica no cae en el cubo o se detiene en el conducto | Ajusta el ángulo del conducto y limpia cualquier residuo del camino |
+| **Desviador y Bañera** | La canica no cae a través de la bañera | Asegúrate de que el desviador esté configurado en el canal activo correcto |
+| **Liberación de la Jaula** | La jaula no cae cuando se golpea al ayudante | Comprueba el equilibrio del gancho y asegúrate de que la jaula cuelgue libremente |
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas Detalladas del Juego y Estructura de Turnos">
+
+Comprender el ciclo turno a turno es clave para posicionar a tu ratón hacia la victoria. Los jugadores se turnan para lanzar un dado estándar y mover sus fichas en el sentido de las agujas del reloj por el tablero. Dependiendo de dónde caigas, realizarás diferentes acciones que te acercarán a cumplir las condiciones de victoria.
+
+<CardGrid cols={3}>
+  <Card title="Fase de Construcción">
+    - **Ensamblar la Trampa**
+    - Ganar fichas de queso
+    - Zonas de movimiento seguro
+  </Card>
+  <Card title="Economía del Queso">
+    - **Recolectar trozos de queso**
+    - Intercambiar fichas con jugadores
+    - Usar queso para forzar movimientos
+  </Card>
+  <Card title="La Fase de Captura">
+    - **Activar la manivela**
+    - Atrapar ratones oponentes
+    - Asegurar la victoria
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Posicionamiento Estratégico">
+Lleva siempre la cuenta de cuántos trozos de queso tienen tus oponentes. Si un oponente tiene una gran reserva de queso, evita caer en la casilla de la rueda de queso, ya que puede usar sus fichas para forzarte a entrar en la zona de la trampa.
+</Callout>
+
+| Nombre de la Casilla | Acción Requerida | Valor Estratégico |
+| :--- | :--- | :--- |
+| **Casilla de Construcción** | Añadir una pieza a la trampa si no está completa | Otorga fichas de queso y construye la infraestructura de la trampa |
+| **Casilla de Queso** | Recoger fichas de queso de la pila central | Recurso crítico usado para forzar el movimiento del oponente |
+| **Girar Manivela** | Gastar queso para activar el mecanismo de la trampa | El método principal para capturar oponentes y asegurar la victoria |
+| **Zona Segura** | No se realizan acciones, a salvo de la activación de la trampa | Proporciona refugio temporal durante las fases agresivas |
+
+</Section>
+
+<Section icon={Shield} title="Estrategias Avanzadas para Lograr la Victoria">
+
+Ganar el juego requiere una mezcla de suerte y planificación táctica. Aunque el movimiento se determina mediante tiradas de dados, la forma en que gestiones tus fichas de queso y cuándo elijas activar la trampa decidirá el resultado de la partida.
+
+<Checklist
+  id="victory-checklist"
+  title="Lista de Verificación Pre-Victoria:"
+  items={[
+    "Acumular al menos 5 fichas de queso antes de entrar en el bucle",
+    "Asegurarse de que la trampa esté totalmente construida y funcione correctamente",
+    "Esperar a que los oponentes caigan en la casilla de la rueda de queso",
+    "Prepararse para activar la manivela cuando los márgenes de seguridad sean bajos"
+  ]}
+/>
+
+<Callout type="success" title="Manual de Estrategia Ganadora">
+Si caes en la casilla de Girar Manivela pero no tienes suficiente queso para forzar a un oponente a entrar en la trampa, guarda tus fichas. Generalmente es mejor esperar a una captura garantizada que desperdiciar recursos en un movimiento de baja probabilidad.
+</Callout>
+
+| Estilo de Juego | Objetivo Principal | Riesgo Clave | Efectividad |
+| :--- | :--- | :--- | :--- |
+| **Acaparador de Queso** | Centrarse en reunir fichas de queso rápidamente | Vulnerable a activaciones tempranas de la trampa por oponentes | Alta en partidas largas |
+| **Constructor Agresivo** | Apresurar el montaje de la trampa para empezar a atrapar | Puede quedarse sin queso para activar la manivela | Media-Alta |
+| **Defensor Táctico** | Permanecer en zonas seguras y tentar a los oponentes | Progreso lento, depende de los errores del oponente | Media |
+
+</Section>
+
+<Section icon={Swords} title="Variaciones de Reglas y Preguntas Frecuentes">
+
+En diferentes hogares se suele jugar con reglas ligeramente modificadas. Aunque las reglas oficiales están diseñadas para un juego equilibrado, ajustar las condiciones de victoria o la economía del queso puede acelerar el juego o añadir una capa extra de dificultad.
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las condiciones oficiales de victoria de Mousetrap?",
+    answer: "La condición de victoria oficial es ser el último jugador restante con un ratón no atrapado en el tablero. Una vez que todos los demás jugadores han sido capturados por la trampa, el superviviente es declarado ganador."
+  },
+  {
+    question: "¿Puedes mover el ratón de otro jugador a la casilla de la trampa?",
+    answer: "Sí. Si caes en la casilla de Girar Manivela, puedes devolver trozos de queso al banco para forzar al ratón de un oponente a moverse a la casilla de la rueda de queso, donde la trampa puede capturarlo."
+  },
+  {
+    question: "¿Qué pasa si la trampa no se activa durante un turno?",
+    answer: "Si la trampa se activa pero no deja caer la jaula debido a un error mecánico, el ratón objetivo no es capturado. El turno termina y el juego continúa. Es importante resetear la trampa con cuidado después de un fallo."
+  },
+  {
+    question: "¿Cómo se ganan trozos de queso de otros jugadores?",
+    answer: "Puedes obtener trozos de queso cayendo en casillas de queso designadas, construyendo partes de la trampa o cayendo en la misma casilla que un oponente y desafiándolo a un intercambio."
+  }
+]} />
+
+<Callout type="info" title="Aclaración de la Regla Oficial">
+Según el reglamento oficial, si la jaula cae pero no cubre completamente la ficha del ratón, se considera que el jugador está atrapado siempre que la jaula haya hecho contacto y haya desplazado la posición de la ficha.
+</Callout>
+
+</Section>

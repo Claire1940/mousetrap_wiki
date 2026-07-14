@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jeu vidéo Mousetrap : Guide de stratégie d'arcade classique de 1981",
+  description: "Maîtrisez le jeu d'arcade classique Mousetrap de 1981. Apprenez la navigation dans les labyrinthes, les mécanismes des portes colorées, les stratégies de score élevé et explorez les versions consoles.",
+  category: "Digital",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Arcade+Guide",
+  date: "2026-07-14",
+  author: "Équipe du Wiki Mousetrap"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Mousetrap** est un jeu d'arcade classique de 1981 de type labyrinthe développé par Exidy.
+- **Les portes codées par couleur** peuvent être actionnées en appuyant sur les boutons correspondants pour bloquer les chats à vos trousses.
+- **Les os de chien** transforment le joueur en chien, permettant de vaincre temporairement les chats.
+- **Les dangers des faucons** apparaissent dans les niveaux avancés, ignorant les portes et exigeant des déplacements rapides.
+- **Les versions consoles** comme la ColecoVision offrent la conversion la plus fidèle à l'arcade de ce titre rétro.
+</Callout>
+
+<Section icon={Map} title="Héritage historique du jeu vidéo Mousetrap">
+
+Le **jeu vidéo Mousetrap**, développé par Exidy en 1981, demeure l'un des jeux de labyrinthe les plus innovants de l'âge d'or de l'arcade. Sorti à une époque dominée par les clones de Pac-Man, ce titre s'est distingué en introduisant des éléments de labyrinthe interactifs. Au lieu de naviguer dans un dédale statique, les joueurs interagissent avec un environnement dynamique où les murs peuvent être déplacés en temps réel pour piéger les ennemis ou créer des voies d'évacuation.
+
+**Points forts de la vidéo :**
+- Effets sonores 8-bits classiques et présentation du gameplay sur borne rétro.
+- Démonstration de la navigation dans le labyrinthe et utilisation des portes colorées pour piéger les chats.
+- Transformation en chien pour nettoyer le plateau des ennemis.
+
+<YouTubeEmbed videoId="pZ5y3JvOMDo" title="Arcade Game: Mouse Trap (1981 Exidy)" />
+
+Exidy a conçu la borne d'arcade avec un panneau de contrôle unique doté d'un joystick et de trois boutons colorés : rouge, jaune et bleu. Ces boutons contrôlent les portes correspondantes dans le labyrinthe. Cette profondeur mécanique ajoutait une couche de stratégie qui distinguait le jeu de ses contemporains, séduisant les joueurs préférant la planification tactique aux réflexes purs.
+
+| Caractéristique | Spécification |
+|---|---|
+| Développeur | Exidy |
+| Année de sortie | 1981 |
+| Genre | Labyrinthe, Action |
+| Matériel principal | MOS Technology 6502 |
+| Audio | Carte audio personnalisée Exidy |
+
+<Callout type="tip" title="Conseil sur la disposition de la borne">
+Lorsque vous jouez sur le matériel d'origine ou via des configurations d'émulation dédiées, familiarisez-vous avec la disposition physique des boutons colorés pour garantir des temps de réponse rapides lors des poursuites intenses.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de jeu et systèmes de portes colorées">
+
+Au cœur du jeu, les joueurs doivent guider une souris à travers un labyrinthe pour consommer toutes les miettes de fromage dispersées sur l'écran. Cependant, plusieurs chats patrouillent dans les couloirs, tentant d'acculer et d'éliminer le joueur. Pour se défendre, les joueurs doivent collecter des os de chien dispersés aux coins du labyrinthe et utiliser les portes codées par couleur.
+
+Les portes colorées sont la caractéristique déterminante du jeu. Des portes rouges, jaunes et bleues sont placées dans tout le labyrinthe. Appuyer sur le bouton correspondant sur le panneau de contrôle fait basculer toutes les portes de cette couleur en les faisant pivoter de 90 degrés. Cette action bloque instantanément le chemin des chats poursuivants ou ouvre de nouveaux itinéraires d'évacuation pour le joueur.
+
+| Cible | Récompense de score |
+|---|---|
+| Fromage | 90 Points |
+| Os de chien | 100 Points |
+| Premier chat | 100 Points |
+| Deuxième chat | 300 Points |
+| Troisième chat | 500 Points |
+| Quatrième chat | 900 Points |
+
+<CardGrid cols={4}>
+  <Card title="Souris">
+    - **Personnage joueur**
+    - Grande agilité
+    - Vulnérable aux chats
+  </Card>
+  <Card title="Chats">
+    - **Ennemis standards**
+    - Patrouillent les couloirs
+    - Bloquent les chemins
+  </Card>
+  <Card title="Chien">
+    - **État puissant**
+    - Mange les chats
+    - Durée limitée
+  </Card>
+  <Card title="Faucon">
+    - **Danger spécial**
+    - Ignore les murs
+    - Grande vitesse
+  </Card>
+</CardGrid>
+
+Accumuler des os de chien permet au joueur de déclencher une transformation temporaire en chien. Sous forme de chien, le joueur peut renverser la situation face aux chats, les chassant pour obtenir d'importants points bonus. Cependant, ce bonus est limité, et les joueurs doivent gérer soigneusement leur inventaire d'os pour survivre aux niveaux supérieurs.
+
+<Callout type="warning" title="Limite d'inventaire d'os">
+Vous ne pouvez détenir qu'un maximum de quatre os de chien à la fois. Collecter des os supplémentaires lorsque votre inventaire est plein rapportera des points mais n'augmentera pas votre capacité de stockage.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Stratégies étape par étape pour un score élevé">
+
+Atteindre un score élevé exige un équilibre entre conscience spatiale, conservation des ressources et entrées rapides sur les boutons. Les joueurs doivent apprendre à manipuler l'IA ennemie et à optimiser leur cheminement dans le labyrinthe.
+
+<Steps>
+  <Step num="1" title="Nettoyage du labyrinthe">
+    Commencez chaque tour en nettoyant les bords extérieurs du labyrinthe. Ces zones sont les plus dangereuses car elles offrent moins de voies d'évacuation. Gardez les couloirs centraux pour plus tard, lorsque la présence des chats augmente.
+  </Step>
+  <Step num="2" title="Partitionnement par les portes">
+    Utilisez les boutons de couleur pour partitionner le labyrinthe. En fermant des portes spécifiques, vous pouvez piéger les chats dans une moitié de l'écran pendant que vous nettoyez le fromage de l'autre côté en toute sécurité.
+  </Step>
+  <Step num="3" title="Conservation des os">
+    Ne déclenchez pas votre transformation en chien pour un seul chat à moins d'être acculé. Attendez que plusieurs chats soient regroupés près de vous pour maximiser votre potentiel de score.
+  </Step>
+  <Step num="4" title="Évasion du faucon">
+    Lorsque le faucon apparaît, dirigez-vous immédiatement vers le tunnel de téléportation central. Le faucon ignore les murs et vous ciblera directement, rendant la navigation classique inutile.
+  </Step>
+</Steps>
+
+À mesure que vous progressez dans les niveaux, la vitesse des ennemis augmente et leur IA devient plus agressive. Le faucon apparaît également plus fréquemment, vous forçant à prendre des décisions en une fraction de seconde concernant la manipulation des portes et l'utilisation des téléporteurs.
+
+| Gamme de niveaux | Nombre de chats | Fréquence du faucon | Vitesse générale |
+|---|---|---|---|
+| Niveaux 1-3 | 3 chats | Faible | Modérée |
+| Niveaux 4-6 | 4 chats | Moyenne | Rapide |
+| Niveaux 7-9 | 5 chats | Élevée | Très rapide |
+| Niveaux 10+ | 6 chats | Constante | Extrême |
+
+<Callout type="success" title="Astuce de fin de niveau">
+Terminer un niveau rapidement octroie un bonus de temps. Équilibrez vos phases de récolte de points avec la vitesse pour optimiser votre progression globale.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Manœuvres défensives et tactiques de téléportation">
+
+La survie dans les niveaux avancés dépend fortement du positionnement défensif. Les joueurs doivent éviter de se faire piéger dans les coins du labyrinthe, car ces zones offrent des itinéraires de sortie limités si les chats coordonnent leurs chemins de poursuite. Si vous vous retrouvez acculé, votre mécanisme d'évasion principal est la zone de téléportation centrale.
+
+La zone de téléportation centrale est marquée d'un panneau "In". Entrer dans cet espace téléporte la souris vers l'un des quatre coins de l'écran, marqués comme zones "Out". Cependant, cette téléportation est aléatoire, ce qui signifie que vous pourriez potentiellement atterrir près d'un chat en patrouille. Utilisez ce mécanisme principalement comme dernier recours lorsque vous êtes piégé par le faucon ou plusieurs chats.
+
+<Checklist
+  id="survival-checklist"
+  title="Liste de contrôle pour un score élevé :"
+  items={[
+    "Suivez l'emplacement de tous les chats actifs avant de changer l'état des portes",
+    "Gardez au moins deux os de chien en réserve pour les situations d'urgence",
+    "Nettoyez les coins du labyrinthe tôt dans chaque tour",
+    "Surveillez le son d'avertissement d'entrée du faucon pour préparer votre itinéraire d'évasion",
+    "N'utilisez la zone de téléportation que lorsque vous êtes acculé sans option de porte"
+  ]}
+/>
+
+Une autre tactique clé est l'appâtage. Vous pouvez attirer les chats dans un couloir spécifique, passer rapidement par une porte colorée et appuyer sur le bouton correspondant pour les enfermer à l'intérieur. Cela les neutralise efficacement pendant une courte durée, vous permettant de nettoyer le reste du labyrinthe sans être dérangé.
+
+<Callout type="warning" title="Danger de la téléportation">
+Vérifiez toujours les coins de destination avant d'entrer dans la zone de téléportation. Se téléporter directement sur un chat entraînera une perte de vie immédiate.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Analyse des versions consoles">
+
+Suite à son succès en arcade, le jeu a été porté sur plusieurs consoles domestiques au début des années 1980. La qualité et la précision de ces portages variaient considérablement selon les capacités matérielles de chaque système. La version ColecoVision est largement considérée comme le portage le plus fidèle, capturant à la fois le style graphique et la complexité de contrôle de l'original d'arcade.
+
+Sur la ColecoVision, le pavé numérique de la manette était utilisé pour gérer les portes rouges, jaunes et bleues, en les associant à des touches spécifiques. D'autres systèmes, comme l'Atari 2600, ont dû faire des compromis importants. La version Atari 2600 a simplifié les graphismes et modifié le schéma de contrôle pour s'adapter au joystick à bouton unique du système, qui déplaçait automatiquement les portes en fonction des mouvements du joueur ou via des basculements simplifiés.
+
+| Plateforme | Fidélité graphique | Précision des contrôles | Note globale |
+|---|---|---|---|
+| ColecoVision | Élevée | Bonne | 4.5 / 5 |
+| Atari 2600 | Faible | Moyenne | 2.5 / 5 |
+| Intellivision | Moyenne | Passable | 3.0 / 5 |
+| Atari 8-bit | Élevée | Bonne | 4.0 / 5 |
+
+Bien que les versions console aient permis aux joueurs de profiter du jeu sans dépenser de pièces, la version arcade reste l'expérience définitive grâce à ses contrôles précis et à sa difficulté équilibrée.
+
+<Callout type="tip" title="Recommandation d'émulation">
+Si vous cherchez à découvrir ce classique aujourd'hui, le portage ColecoVision est la meilleure option sur console à rechercher, offrant une recréation très fidèle des mécaniques d'arcade.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dépannage avancé et FAQ">
+
+Pour aider les joueurs à maîtriser le jeu, nous avons compilé les réponses aux questions les plus fréquentes concernant les mécaniques, les portages et les stratégies de score.
+
+<FAQ items={[
+  {
+    question: "Comment déclencher la transformation en chien dans Mousetrap ?",
+    answer: "Pour déclencher la transformation, appuyez sur le bouton Chien sur le panneau de contrôle. Cela nécessite d'avoir au moins un os de chien dans votre inventaire. La transformation est temporaire, utilisez-la donc judicieusement."
+  },
+  {
+    question: "Peut-on vaincre le faucon dans le jeu ?",
+    answer: "Non, le faucon est totalement invulnérable. Vous ne pouvez pas le vaincre, même en étant transformé en chien. Votre seule option est de l'éviter ou d'utiliser la téléportation centrale pour vous échapper."
+  },
+  {
+    question: "Quel est le nombre maximum d'os de chien que l'on peut porter ?",
+    answer: "Vous pouvez transporter un maximum de quatre os de chien à tout moment. Tout os collecté au-delà de cette limite rapportera des points mais ne sera pas ajouté à votre inventaire."
+  },
+  {
+    question: "Comment fonctionnent les portes colorées pendant le jeu ?",
+    answer: "Appuyer sur les boutons rouge, jaune ou bleu fait pivoter toutes les portes de cette couleur de 90 degrés. Cela ouvre de nouveaux chemins et en ferme d'autres, vous permettant de piéger les chats ou d'échapper au danger."
+  }
+]} />
+
+<Callout type="info" title="Note de stratégie finale">
+La pratique est la clé. Prenez le temps d'apprendre la disposition des portes et le timing des mouvements des chats pour obtenir régulièrement des scores élevés, aussi bien sur les bornes d'arcade que sur les consoles.
+</Callout>
+
+</Section>

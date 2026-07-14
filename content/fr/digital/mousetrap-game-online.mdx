@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mousetrap Game Online : Guide de stratégie et solution 2026",
+  description: "Maîtrisez le jeu classique Mousetrap en ligne avec notre guide 2026. Apprenez les techniques de déplacement, les systèmes de score et les conseils de survie pour tous les niveaux.",
+  category: "Digital",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Game+Guide",
+  date: "2026-07-14",
+  author: "L'équipe Wiki mousetrap",
+  keywords: "mousetrap game, jeu de souris, stratégie, guide arcade, solution 2026"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal** : Guider la souris vers le fromage en suivant le curseur sans toucher les murs du labyrinthe.
+- **Gestion de la santé** : Heurter les murs provoque une **perte de santé permanente** ; les aliments rapportent des points mais ne restaurent pas la santé.
+- **Système de score** : Les points sont gagnés en collectant de la nourriture dispersée dans le niveau, comme dans les jeux d'arcade classiques.
+- **Courbe de difficulté** : Les niveaux deviennent progressivement plus difficiles avec des couloirs plus étroits et des obstacles mobiles comme des haches oscillantes.
+- **Mécanique de mort permanente** : Perdre toute sa santé entraîne un game over, nécessitant un redémarrage complet depuis le premier niveau.
+</Callout>
+
+<Section icon={Map} title="Mécaniques de base et aperçu du gameplay">
+
+Le **jeu mousetrap en ligne** est une expérience d'arcade basée sur la précision qui met les joueurs au défi de naviguer dans des labyrinthes complexes en utilisant uniquement le curseur de leur souris. Contrairement aux jeux de plateforme traditionnels, la mécanique principale implique que le personnage de la souris suive le curseur de l'utilisateur avec un léger retard, créant un système de mouvement basé sur l'élan. Les joueurs doivent diriger la souris vers les morceaux de fromage tout en évitant les limites statiques et dynamiques du niveau.
+
+**Points forts de la vidéo :**
+- Un contrôle précis de la souris est requis pour guider la souris vers le fromage.
+- Toucher les murs provoque une perte de santé qui ne peut être récupérée.
+- Collecter de la nourriture donne des points bonus mais ne soigne pas.
+- Les niveaux présentent une difficulté croissante avec des obstacles mobiles comme des haches.
+- Le système de mort permanente force un redémarrage au niveau un en cas de défaite.
+
+<YouTubeEmbed videoId="evBMjwE6zNs" title="Critique du jeu Flash gratuit en ligne Mouse Trap" />
+
+Comprendre la relation entre la vitesse de votre curseur et le mouvement de la souris est la première étape vers la maîtrise. Si vous déplacez le curseur trop rapidement, la souris peut prendre du retard et heurter un mur lors d'un virage serré. À l'inverse, un déplacement trop lent peut vous rendre vulnérable aux obstacles mobiles.
+
+| Caractéristique | Description de la mécanique | Impact sur le gameplay |
+| :--- | :--- | :--- |
+| **Mouvement** | Logique de suivi du curseur | Nécessite une coordination œil-main constante |
+| **Collision** | "Saignement" au contact des murs | Réduit définitivement la réserve totale de santé |
+| **Objectif** | Atteindre le fromage | Déclenche la fin du niveau et la progression |
+| **Bonus** | Collecte de nourriture | Augmente le score pour le classement général |
+| **Redémarrage** | Réinitialisation complète à la mort | Augmente les enjeux pour le jeu de haut niveau |
+
+<Callout type="tip" title="Conseil de pro">
+Gardez toujours votre curseur légèrement devant le personnage de la souris. Cette technique de "guidage" vous permet d'anticiper les virages avant que la souris n'atteigne le coin, réduisant ainsi le risque de collision avec les murs.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Système de score et progression">
+
+La progression dans le **jeu mousetrap en ligne** est linéaire mais punitive. À mesure que vous avancez dans les étapes, l'environnement passe de simples chemins rectangulaires à des labyrinthes complexes. Le système de score est fortement inspiré de titres classiques comme Pac-Man, où l'objectif principal est de vider le plateau des éléments comestibles avant d'atteindre l'objectif final.
+
+<CardGrid cols={3}>
+  <Card title="Nourriture standard">
+    - **Valeur en points** : Faible
+    - Présente sur les chemins principaux
+    - Essentielle pour le score de base
+  </Card>
+  <Card title="Objets rares">
+    - **Valeur en points** : Moyenne
+    - Situés dans les impasses
+    - Risque élevé de contact avec les murs
+  </Card>
+  <Card title="Fin de niveau">
+    - **Valeur en points** : Élevée
+    - Accordée en atteignant le fromage
+    - Augmente avec le numéro du niveau
+  </Card>
+</CardGrid>
+
+La courbe de difficulté est abrupte. Les premiers niveaux se concentrent sur la navigation de base, tandis que les niveaux intermédiaires et avancés introduisent des "points d'étranglement" où la souris doit passer par des ouvertures à peine plus larges que le personnage lui-même.
+
+| Niveau | Description de la difficulté | Obstacles clés |
+| :--- | :--- | :--- |
+| **Niveaux 1-3** | Phase de tutoriel | Couloirs larges, murs statiques |
+| **Niveaux 4-7** | Intermédiaire | Chemins étroits, virages à 90 degrés |
+| **Niveaux 8-10** | Avancé | Haches mobiles, couloirs étroits |
+| **Niveaux 11+** | Expert | Motifs complexes, marge de santé minimale |
+
+<Callout type="info" title="Note du système">
+La santé ne se régénère pas entre les niveaux. La santé que vous perdez au niveau 1 reste perdue au niveau 10. Cela rend la précision en début de partie vitale pour la survie en fin de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tactiques de survie et évitement d'obstacles">
+
+La survie dans le **jeu mousetrap en ligne** dépend entièrement de votre capacité à gérer la mécanique de "Saignement". Lorsque la souris touche un mur, elle commence à saigner et la barre de santé en bas de l'écran diminue. Une fois que la barre atteint zéro, la partie s'arrête immédiatement.
+
+Pour survivre aux étapes les plus difficiles, les joueurs doivent maîtriser les tactiques suivantes :
+
+1.  **La règle du chemin central** : Essayez toujours de maintenir la souris exactement au centre de chaque couloir. Cela offre la marge d'erreur maximale si votre main glisse.
+2.  **Freinage par élan** : Si la souris se déplace trop vite vers un mur, ramenez votre curseur vers la souris pour la ralentir.
+3.  **Synchronisation des obstacles** : Les obstacles mobiles comme les haches suivent un motif rythmique fixe. Observez le balancement pendant deux cycles avant de tenter de passer.
+
+| Type d'obstacle | Niveau de danger | Stratégie de survie |
+| :--- | :--- | :--- |
+| **Murs statiques** | Modéré | Maintenir l'alignement central |
+| **Virages serrés** | Élevé | Ralentir la vitesse du curseur avant le virage |
+| **Haches oscillantes** | Extrême | Attendre le cycle complet de balancement |
+| **Passages étroits** | Élevé | Utiliser des micro-mouvements avec la souris |
+
+<Callout type="warning" title="Avertissement critique">
+Ne soyez pas trop gourmand pour les aliments situés près des haches mobiles. Le bonus de points vaut rarement le risque d'une perte de santé fatale, surtout dans les niveaux avancés.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de navigation pas à pas">
+
+Naviguer dans les étapes complexes du **jeu mousetrap en ligne** nécessite une approche méthodique. Suivez ces étapes pour améliorer votre régularité et atteindre les niveaux supérieurs.
+
+<Steps>
+  <Step num="1" title="Évaluation de l'environnement">
+    Avant de déplacer la souris, scannez tout le niveau. Identifiez où se trouve le fromage et cherchez le chemin le plus sûr qui évite les virages serrés inutiles.
+  </Step>
+  <Step num="2" title="Collecte de la nourriture initiale">
+    Collectez d'abord les aliments dans les zones les plus larges. Cela permet d'augmenter votre score tôt et de vous habituer au temps de réponse de la souris pour cette session spécifique.
+  </Step>
+  <Step num="3" title="Navigation dans les points d'étranglement">
+    En approchant d'un couloir étroit, réduisez la vitesse de déplacement de votre curseur. Utilisez de petits "coups" incrémentiels du curseur pour guider le personnage à travers l'ouverture.
+  </Step>
+  <Step num="4" title="Chronométrage des dangers">
+    Pour les niveaux avec des haches ou des pièges mobiles, arrêtez la souris dans une zone sûre. Comptez les secondes entre les balancements et ne bougez que lorsque le chemin est complètement dégagé.
+  </Step>
+  <Step num="5" title="L'approche finale">
+    Une fois près du fromage, ne vous précipitez pas. Beaucoup de joueurs perdent leur dernier morceau de santé juste à la fin par excès d'enthousiasme. Maintenez votre discipline de chemin central jusqu'à ce que la transition de niveau se déclenche.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Conseil technique">
+Vérifiez les paramètres de sensibilité de votre souris dans votre système d'exploitation. Un réglage DPI (Points Par Pouce) plus bas offre souvent un meilleur contrôle pour les ajustements minutieux nécessaires dans ce jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparaison des versions du jeu">
+
+Bien que la version Flash originale du **jeu mousetrap en ligne** soit la plus connue, plusieurs itérations modernes existent. Comprendre les différences peut vous aider à choisir la version qui correspond le mieux à votre style de jeu.
+
+| Caractéristique | Version Flash classique | Portage HTML5 moderne | Version application mobile |
+| :--- | :--- | :--- | :--- |
+| **Méthode de saisie** | Curseur de souris | Souris / Pavé tactile | Écran tactile |
+| **Physique** | Élan élevé | Réactif / Faible élan | Variable |
+| **Graphismes** | Rétro / Pixelisé | Propre / Vectoriel | Haute définition |
+| **Difficulté** | Élevée (Originale) | Équilibrée | Ajustée pour le tactile |
+| **Disponibilité** | Nécessite un émulateur | Prêt pour le navigateur | Boutiques d'applications |
+
+La version classique est souvent citée comme la plus "addictive" en raison de sa difficulté impitoyable. Les portages modernes incluent souvent des améliorations de confort comme des sauvegardes en milieu de partie ou des bonus de santé, ce qui modifie le défi principal de l'expérience.
+
+<Callout type="success" title="Recommandation">
+Pour une expérience authentique, jouez à la version hébergée sur les sites d'arcade classiques comme Fupa.com. Le moteur physique de ces versions est spécifiquement réglé pour la mécanique de "saignement" à haute difficulté.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Liste de contrôle de maîtrise essentielle">
+
+Utilisez cette liste pour suivre vos progrès et vous assurer que vous utilisez toutes les stratégies professionnelles mentionnées dans ce guide.
+
+<Checklist
+  id="mousetrap-mastery"
+  title="Jalons de compétence du joueur :"
+  items={[
+    "Maîtrise de la technique du 'curseur d'avance' pour les virages",
+    "Capacité à terminer le niveau 5 sans perdre de santé",
+    "Réussite du passage synchronisé à travers les haches oscillantes",
+    "Atteinte d'un score de plus de 10 000 points en une seule partie",
+    "Terminer le jeu du niveau 1 à la fin sans redémarrage"
+  ]}
+/>
+
+<Callout type="info" title="Note finale">
+Le **jeu mousetrap en ligne** est autant un test de patience qu'un test de compétence. Les speedrunners échouent souvent parce qu'ils privilégient le temps au détriment de la précision. Dans ce jeu, la lenteur et la régularité gagnent vraiment la course.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment restaurer la santé dans le jeu mousetrap en ligne ?",
+    answer: "Vous ne pouvez pas restaurer la santé. Dans la version standard du jeu, les aliments ne fournissent que des points bonus, et les collisions avec les murs causent des dommages permanents pour toute la durée de votre partie."
+  },
+  {
+    question: "Que se passe-t-il si je touche un mur dans le jeu ?",
+    answer: "La souris commence à 'saigner', ce qui est représenté par une barre de santé qui diminue. Si vous restez en contact avec le mur, votre santé se videra rapidement jusqu'au game over."
+  },
+  {
+    question: "Pourquoi la souris bouge-t-elle plus lentement que mon curseur ?",
+    answer: "C'est une mécanique de jeu délibérée conçue pour créer de l'élan (momentum). Le retard vous oblige à planifier vos mouvements et à guider la souris plutôt qu'à simplement la faire glisser."
+  },
+  {
+    question: "Puis-je recommencer au niveau où je suis mort ?",
+    answer: "Non, la version classique du jeu dispose d'un système de mort permanente. Si vous perdez toute votre santé, vous devez recommencer au niveau 1, peu importe votre progression."
+  }
+]} />
+
+</Section>

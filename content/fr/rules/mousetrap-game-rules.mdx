@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Règles du jeu Attrap'Souris : Installation étape par étape et comment jouer",
+  description: "Apprenez les règles officielles du jeu Attrap'Souris, l'installation du plateau, les actions des cases et les stratégies gagnantes pour collecter du fromage et piéger vos adversaires.",
+  category: "Règles",
+  image: "https://placehold.co/800x400/0284c7/fff?text=Mousetrap+Rules",
+  date: "2026-07-14",
+  author: "L'équipe Wiki Attrap'Souris",
+  keywords: "Attrap'Souris, règles du jeu, comment jouer, installation, stratégie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Les règles du jeu Attrap'Souris** exigent que les joueurs collectent **six parts de fromage** pour former un cercle complet et gagner la partie.
+- **Le mouvement sur le plateau** est déterminé par le lancer d'un seul dé et un déplacement dans le sens des aiguilles d'une montre.
+- **Les cases d'arrivée** déclenchent des actions spécifiques comme voler du fromage, en perdre ou lancer le piège.
+- **Le mécanisme du piège** peut être déclenché en tombant sur la case de lancement bleue pour capturer des adversaires et prendre leur fromage.
+</Callout>
+
+<Section icon={Map} title="Règles du jeu Attrap'Souris : Installation et composants du plateau">
+
+Installer le plateau correctement est essentiel pour que les composants mécaniques fonctionnent bien pendant la partie. Avant de commencer, placez le plateau de jeu au centre de la zone de jeu pour que tous les joueurs puissent facilement atteindre le mécanisme du piège. Chaque joueur choisit un pion souris de couleur et le place sur la case Départ.
+
+**Points forts de la vidéo :**
+- **Aperçu de l'objectif** : Comprendre le but principal de collecter six parts de fromage.
+- **Installation du plateau** : Apprendre à assembler les pièces physiques du piège sur le plateau.
+- **Ressources de départ** : Voir combien de parts de fromage chaque joueur reçoit au début.
+
+<YouTubeEmbed videoId="RJPOHG6ing8" title="Comment jouer à Attrap'Souris" />
+
+Donnez à chaque joueur une part de fromage pour commencer la partie. Placez deux parts de fromage bonus directement sur la case Départ. Les parts de fromage restantes doivent être placées à côté du plateau pour former la pile de fromage principale. Choisissez un joueur pour commencer, et le jeu se poursuivra dans le sens des aiguilles d'une montre.
+
+| Composant | Quantité | Objectif |
+| :--- | :--- | :--- |
+| **Pions Souris** | 4 | Représentent les joueurs sur le plateau |
+| **Parts de Fromage** | Plusieurs | Collectées pour gagner (besoin de **six parts** pour gagner) |
+| **Dé de Jeu** | 1 | Détermine la distance de déplacement |
+| **Pièces du Piège** | 1 Ensemble | Mécanisme assemblé pour capturer les souris adverses |
+
+<Callout type="warning" title="Conseil d'installation important">
+Assurez-vous que le mécanisme physique du piège est entièrement assemblé et testé avant de commencer la partie pour éviter les défaillances mécaniques en cours de jeu.
+</Callout>
+
+Tous les joueurs doivent commencer sur la case Départ désignée. Lorsqu'un joueur termine son premier tour de plateau et passe par la case Départ, il collecte immédiatement les deux parts de fromage bonus qui y ont été placées au début de l'installation.
+
+| Case | Action | Résultat |
+| :--- | :--- | :--- |
+| **Départ** | Position de départ | **Deux parts de fromage bonus** pour le premier joueur à terminer un tour |
+| **Jaune** | Case Fromage | Collectez **une part de fromage** dans la pile principale |
+| **Vert** | Case Vol | Prenez **une part de fromage** à n'importe quel adversaire |
+| **Rouge** | Case Perte | Rendez **une part de fromage** à la pile centrale |
+| **Bleu** | Case Lancement | Tentez de piéger un adversaire sur la **case piège** |
+| **Violet** | Case Vide | Aucune action ne se produit ; le tour se termine |
+| **Tunnel** | Case Souricière | **Déplacement optionnel** directement à l'autre extrémité du tunnel |
+
+</Section>
+
+<Section icon={Target} title="Règles de mouvement et des cases">
+
+À votre tour, lancez le dé et déplacez votre pion exactement de ce nombre de cases dans le sens des aiguilles d'une montre. Selon la case sur laquelle vous tombez, vous devez résoudre immédiatement des actions spécifiques. Le plateau comporte plusieurs types de cases qui peuvent vous aider à accumuler du fromage ou vous faire perdre votre progression.
+
+<Callout type="tip" title="Mouvement Stratégique">
+Utilisez le tunnel de la souricière de manière stratégique pour vous positionner plus près des cases de fromage ou pour éviter les adversaires qui sont prêts à vous piéger.
+</Callout>
+
+Si vous tombez sur une case fromage jaune, collectez une part de fromage dans la pile principale. Tomber sur une case vol verte vous permet de prendre une part de fromage à n'importe quel autre joueur de votre choix. Si vous tombez sur une case perte rouge, vous devez rendre l'une de vos parts de fromage collectées à la pile principale. Tomber sur une case violette n'entraîne aucune action et votre tour se termine immédiatement.
+
+<CardGrid cols={3}>
+  <Card title="Accumulation de Fromage">
+    - Concentrez-vous sur les **cases jaunes** pour bâtir votre collection.
+    - Collectez **six parts de fromage** pour compléter le cercle.
+    - Surveillez les piles de fromage des adversaires pour cibler les meneurs.
+  </Card>
+  <Card title="Tactiques de Vol">
+    - Utilisez les **cases vertes** pour voler le joueur en tête.
+    - Réduit la progression de l'adversaire tout en augmentant la vôtre.
+    - Essentiel pour rattraper son retard en fin de partie.
+  </Card>
+  <Card title="Gestion du Piège">
+    - Positionnez vos adversaires sur la **case piège** en tombant sur le bleu.
+    - Assurez-vous que le piège est réinitialisé correctement après chaque tentative.
+    - Les pièges réussis rapportent du fromage de tous les joueurs capturés.
+  </Card>
+</CardGrid>
+
+La case du tunnel de la souricière offre une option de mouvement unique. Si vous tombez sur une case tunnel, vous pouvez choisir de voyager à travers le tunnel jusqu'à la case située à l'autre extrémité. Ce mouvement est entièrement facultatif, vous permettant de contourner certains dangers ou de vous positionner plus près de cases de grande valeur selon votre stratégie actuelle.
+
+</Section>
+
+<Section icon={Swords} title="Comment lancer le piège et attraper des souris">
+
+La mécanique interactive centrale du jeu consiste à déclencher le piège physique pour capturer les souris adverses. Cette action est déclenchée lorsqu'un joueur tombe sur la case de lancement bleue. Déclencher le piège nécessite une exécution soignée et un alignement des composants mécaniques.
+
+<Steps>
+  <Step num="1" title="Sélectionner la Cible">
+    Choisissez un joueur et déplacez son pion directement sur la case piège désignée.
+  </Step>
+  <Step num="2" title="Déclencher le Mécanisme">
+    Tirez sur le composant du panneau stop et relâchez-le pour démarrer la réaction en chaîne.
+  </Step>
+  <Step num="3" title="Résoudre le Résultat">
+    Si le piège capture avec succès le joueur, celui-ci doit vous donner l'une de ses parts de fromage.
+  </Step>
+  <Step num="4" title="Réinitialiser le Piège">
+    Remettez la bille, le plongeur, la cage et le balai dans leurs positions de départ d'origine.
+  </Step>
+</Steps>
+
+Si le piège ne parvient pas à capturer la souris cible pour une raison quelconque, le joueur ne vous donne pas de fromage. S'il y a déjà une souris sur la case piège lorsque vous tombez sur la case de lancement bleue, vous pouvez tout de même y envoyer une autre souris. Si le piège réussit dans ce scénario, vous collectez une part de fromage de tous les joueurs piégés simultanément.
+
+| Scénario | État du Piège | Résultat |
+| :--- | :--- | :--- |
+| **Une seule souris capturée** | Succès | Le joueur ciblé vous donne **une part de fromage** |
+| **Plusieurs souris capturées** | Succès | Tous les joueurs piégés vous donnent **une part de fromage** chacun |
+| **Le piège échoue/rate** | Échec | Aucun fromage n'est échangé ; réinitialisez le piège |
+| **Aucun adversaire envoyé** | N/A | Impossible de déclencher le piège sans cible |
+
+<Callout type="success" title="Conseil pour réussir le piège">
+Assurez-vous toujours que le balai est tourné vers le haut et que la bille repose solidement dans le seau du plongeur avant de lancer pour maximiser la fiabilité du piège.
+</Callout>
+
+Une fois l'action du piège résolue, le joueur actif doit réinitialiser tous les composants. Cela inclut le retour de la bille, du plongeur et de la cage à leurs positions d'origine, garantissant que le plateau est prêt pour le tour du joueur suivant.
+
+</Section>
+
+<Section icon={Trophy} title="Stratégies gagnantes et liste de contrôle">
+
+Gagner la partie nécessite un équilibre entre le piégeage agressif et la collecte régulière de fromage. Bien que déclencher le piège soit un moyen puissant de voler du fromage, compter uniquement sur les cases de lancement peut être risqué si les composants mécaniques ne se déclenchent pas correctement.
+
+<Callout type="info" title="Note stratégique">
+Bien que le piégeage soit excitant, tomber sur les cases vertes et jaunes est souvent le moyen le plus constant de sécuriser des parts de fromage.
+</Callout>
+
+| Style de jeu | Priorité | Avantage principal | Niveau de risque |
+| :--- | :--- | :--- | :--- |
+| **Piégeur Agressif** | Cases bleues et piégeage | Récompense élevée contre plusieurs adversaires | **Élevé** (dépend de la mécanique du piège) |
+| **Collecteur Passif** | Cases jaunes et vertes | Revenu de fromage régulier et fiable | **Faible** (moins dépendant du succès physique du piège) |
+
+Les joueurs doivent surveiller de près le nombre de fromages de leurs adversaires. Si un adversaire est sur le point de collecter six parts, ciblez-le exclusivement avec des cases de vol vertes ou envoyez-le sur la case piège pour retarder sa victoire.
+
+<Checklist
+  id="mousetrap-victory-steps"
+  title="Liste de contrôle vers la victoire :"
+  items={[
+    "Sécurisez les parts de fromage bonus au départ lors de votre premier tour",
+    "Ciblez le joueur en tête lorsque vous tombez sur des cases de vol vertes",
+    "Vérifiez que l'installation du piège est alignée avant le lancement",
+    "Collectez six parts de fromage pour former un cercle complet",
+    "Réinitialisez le piège immédiatement après une tentative de lancement"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+Cette section répond aux questions courantes concernant les règles officielles et la mécanique du jeu.
+
+<Callout type="tip" title="Conseil d'entretien">
+Gardez un œil attentif sur les composants physiques ; si des pièces se déforment avec le temps, ajustez l'alignement pour garantir l'équité du jeu.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quel est l'objectif principal selon les règles du jeu Attrap'Souris ?",
+    answer: "L'objectif principal est d'être le premier joueur à collecter six parts de fromage et à compléter un cercle de fromage entier."
+  },
+  {
+    question: "Que se passe-t-il si le piège ne parvient pas à attraper la souris ?",
+    answer: "Si le piège échoue pour une raison quelconque, le joueur ciblé ne vous donne pas de fromage. Vous devez réinitialiser les composants du piège pour le tour suivant."
+  },
+  {
+    question: "Plusieurs joueurs peuvent-ils être capturés dans le piège en même temps ?",
+    answer: "Oui. S'il y a déjà une souris sur la case piège, vous pouvez y envoyer une autre souris. Si le piège réussit, vous collectez du fromage de tous les joueurs piégés."
+  },
+  {
+    question: "Est-on obligé d'utiliser le tunnel de la souricière ?",
+    answer: "Non, voyager à travers le tunnel jusqu'à la case située à l'autre extrémité est entièrement optionnel lorsque vous tombez sur la case souricière."
+  }
+]} />
+
+</Section>

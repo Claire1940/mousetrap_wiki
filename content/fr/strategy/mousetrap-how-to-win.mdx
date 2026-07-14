@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Comment gagner à Attrape-Souris : Stratégies et Conseils de Jeu",
+  description: "Maîtrisez le jeu de société classique grâce à notre guide sur comment gagner à Attrape-Souris. Apprenez les stratégies de collecte de fromage, la mécanique des pièges et la navigation sur le plateau.",
+  category: "Stratégie",
+  image: "https://placehold.co/800x400/1e293b/fff?text=How+to+Win+Mouse+Trap",
+  date: "2026-07-14",
+  author: "Équipe du Wiki Attrape-Souris",
+  keywords: "Attrape-Souris, stratégie, comment gagner, règles du jeu, conseils de jeu"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Comment gagner à Attrape-Souris** : L'objectif principal est d'être le premier joueur à collecter **six parts de fromage** pour compléter son cercle de fromage.
+- **Vol Agressif** : Donnez la priorité aux **cases vertes** pour voler du fromage directement aux adversaires qui approchent de la victoire.
+- **Maîtrise du Piège** : La réussite sur la **case bleue** nécessite un mécanisme fonctionnel ; assurez-vous toujours que le plongeur et la cage sont correctement réinitialisés.
+- **Fromage Bonus** : Essayez de terminer le premier tour complet du plateau pour obtenir les **deux morceaux de fromage bonus** sur la case départ.
+</Callout>
+
+<Section icon={Trophy} title="Objectifs de Victoire et Principes Fondamentaux">
+
+Comprendre **comment gagner à Attrape-Souris** commence par la maîtrise de l'objectif principal : collecter six parts de fromage. Contrairement à de nombreux jeux de société modernes qui se concentrent sur le franchissement d'une ligne d'arrivée, Attrape-Souris est un jeu d'accumulation de ressources et d'interférence tactique. Vous gagnez dès que vous assemblez un cercle complet de six parts de fromage.
+
+**Points Forts de la Vidéo :**
+- **Objectif** : Être le premier joueur à collecter six parts de fromage.
+- **Mouvement** : Lancez le dé et déplacez-vous dans le sens des aiguilles d'une montre ; s'arrêter sur des couleurs spécifiques déclenche différentes actions.
+- **Le Piège** : Utilisez la case bleue pour envoyer des adversaires au piège et voler leur fromage.
+- **Bonus** : Le premier joueur à terminer un tour complet récupère deux parts de fromage bonus sur la case départ.
+
+<YouTubeEmbed videoId="RJPOHG6ing8" title="Comment jouer à Attrape-Souris" />
+
+Le jeu commence avec chaque joueur recevant une part de fromage. Deux parts supplémentaires sont placées sur la case "Départ" comme récompense pour le joueur le plus rapide. Au fur et à mesure que vous déplacez votre pion sur le plateau, votre stratégie doit alterner entre la collecte défensive et le piégeage offensif.
+
+| Type d'Action | Objectif Principal | Impact sur la Victoire |
+|---------------|-------------------|------------------------|
+| **Collecte** | Rassembler des parts de la pile | Élevé : Essentiel en début de partie |
+| **Vol** | Prendre des parts aux adversaires | Critique : Empêche les autres de gagner |
+| **Piégeage** | Attraper les adversaires dans la cage | Élevé : Potentiel de plusieurs parts |
+| **Navigation** | Utiliser les tunnels pour le positionnement | Modéré : Mouvement tactique |
+
+<Callout type="info" title="Gestion des Ressources">
+Gardez toujours une trace du nombre de parts de vos adversaires. Si quelqu'un a cinq parts, votre priorité doit passer de la collecte de votre propre fromage à l'atterrissage sur des cases vertes ou bleues pour perturber son avance.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigation sur le Plateau et Stratégies de Cases">
+
+Le plateau est une boucle remplie de cases colorées, chacune dictant une action spécifique. Pour comprendre **comment gagner à Attrape-Souris**, vous devez connaître la probabilité et l'impact de chaque emplacement d'atterrissage. Les joueurs qui réussissent ne se contentent pas de lancer le dé ; ils planifient leur mouvement autour des zones les plus bénéfiques.
+
+<CardGrid cols={3}>
+  <Card title="La Pile de Fromage">
+    - **Cases Jaunes** : Collectez une part de la pile.
+    - **Fréquence** : Elles sont courantes et assurent une croissance régulière.
+    - **Priorité** : Élevée en début de partie.
+  </Card>
+  <Card title="La Mécanique du Voleur">
+    - **Cases Vertes** : Volez une part à n'importe quel adversaire.
+    - **Impact** : Un basculement de deux parts en votre faveur.
+    - **Priorité** : Extrême en fin de partie.
+  </Card>
+  <Card title="La Zone de Piège">
+    - **Cases Bleues** : La mécanique la plus complexe du jeu.
+    - **Risque** : Nécessite un déclenchement réussi du piège.
+    - **Priorité** : À utiliser lorsque plusieurs adversaires sont vulnérables.
+  </Card>
+</CardGrid>
+
+La disposition du plateau comporte également des tunnels "Trou de Souris". Ceux-ci vous permettent de sauter de larges sections du plateau. Bien que sauter puisse sembler contre-intuitif si vous voulez atterrir sur des cases de fromage, c'est un mouvement défensif vital pour échapper à une zone de "Case Piège" si un adversaire s'approche d'une case bleue.
+
+| Couleur de Case | Action Requise | Stratégie Optimale |
+|-----------------|----------------|--------------------|
+| **Jaune** | Prendre 1 de la pile | Utiliser pour construire votre base tôt |
+| **Vert** | Voler 1 à un joueur | Cibler le joueur qui a le plus de fromage |
+| **Rouge** | Rendre 1 à la pile | Éviter à tout prix |
+| **Bleu** | Lancer le Piège | Déplacer d'abord un adversaire vers la case piège |
+| **Violet** | Aucune action | Une zone sûre quand vous menez |
+
+<Callout type="tip" title="Tactiques de Tunnel">
+Si vous êtes en tête, utilisez les tunnels pour contourner les cases rouges. Si vous êtes en retard, évitez les tunnels pour maximiser vos chances d'atterrir sur des cases jaunes ou vertes pour rattraper votre retard.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Acquisition Stratégique de Fromage">
+
+Gagner nécessite un mélange de chance et d'agression calculée. Bien que le lancer de dé soit aléatoire, la façon dont vous interagissez avec les autres joueurs ne l'est pas. Pour maximiser vos chances de **gagner à Attrape-Souris**, vous devez comprendre l'efficacité de chaque méthode d'acquisition.
+
+<Steps>
+  <Step num="1" title="Le Sprint Initial">
+    Concentrez-vous sur un déplacement aussi rapide que possible pour terminer le premier tour. Les deux parts de fromage bonus sur la case Départ sont les ressources "gratuites" les plus faciles à obtenir.
+  </Step>
+  <Step num="2" title="Épuisement de la Pile">
+    Collectez depuis la pile centrale en utilisant les cases jaunes. Une fois la pile vide, le jeu devient beaucoup plus agressif, car le vol devient le seul moyen de gagner du fromage.
+  </Step>
+  <Step num="3" title="Identification de la Cible">
+    Identifiez le "Leader". Si un joueur possède quatre ou cinq parts, chaque case verte sur laquelle vous atterrissez doit être utilisée pour lui prendre du fromage, quelles que soient vos relations personnelles.
+  </Step>
+  <Step num="4" title="Positionnement du Piège">
+    Positionnez-vous de manière à pouvoir déclencher le piège lorsque plusieurs adversaires sont sur la case piège. Cela vous permet de collecter une part de *chaque* joueur piégé simultanément.
+  </Step>
+</Steps>
+
+| Méthode | Fromage Gagné | Source | Difficulté |
+|---------|---------------|--------|------------|
+| **Bonus de Départ** | 2 Parts | Plateau | Facile (Basé sur la vitesse) |
+| **Case Jaune** | 1 Part | Pile | Facile (Basé sur la chance) |
+| **Case Verte** | 1 Part | Adversaire | Modéré (Ciblage) |
+| **Case Bleue** | 1+ Part | Adversaire(s) | Difficile (Mécanique) |
+
+<Callout type="success" title="Piégeage Multiple">
+Les règles permettent à plusieurs souris d'être sur la case piège en même temps. Si vous atterrissez sur une case bleue et que deux adversaires sont actuellement sur la case piège, un lancement réussi vous rapporte deux parts de fromage en un seul tour.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maîtriser la Mécanique du Piège">
+
+Le mécanisme mécanique est le cœur du jeu. Cependant, c'est aussi un point de défaillance. Si le piège ne se déclenche pas ou si la cage ne tombe pas correctement, vous ne gagnez pas de fromage. Maîtriser l'aspect physique du jeu est tout aussi important que la stratégie.
+
+Lorsque vous atterrissez sur la **case bleue "Lancer le Piège"**, vous suivez ces étapes :
+1. Choisissez un adversaire.
+2. Déplacez son pion vers la Case Piège désignée.
+3. Tirez le panneau stop et relâchez.
+4. Observez la séquence Rube Goldberg : la bille roule, le plongeur saute et la cage tombe.
+
+Si la cage capture avec succès la souris, vous prenez une part de fromage à ce joueur. Si elle échoue — même si la bille reste simplement coincée — le joueur est en sécurité et vous ne recevez rien.
+
+| Composant | Problème Courant | Solution |
+|-----------|------------------|----------|
+| **Plongeur à Bille** | Ne déclenche pas la bille | S'assurer que le plongeur est bien enclenché |
+| **Balai** | Se coince | Faire pivoter le balai vers le haut avant chaque lancer |
+| **Cage** | Sort du rail | Vérifier l'alignement du poteau vertical |
+| **Panneau Stop** | Trop de friction | Tirer et relâcher brusquement, ne pas le "guider" |
+
+<Callout type="warning" title="Entretien du Piège">
+Réinitialisez toujours les composants du piège immédiatement après un lancer. Si vous oubliez de remettre la bille ou de réinitialiser la cage, vous pourriez perdre l'avantage de votre tour lorsque vous atterrirez à nouveau sur une case bleue.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Installation et Entretien pour la Réussite">
+
+Un piège défectueux est le moyen le plus rapide de perdre. Avant de commencer votre quête pour **gagner à Attrape-Souris**, assurez-vous que le plateau est parfaitement installé. Un jeu bien entretenu garantit que vos coups tactiques se traduisent réellement par une collecte de fromage.
+
+<Checklist
+  id="setup-checklist"
+  title="Étapes d'installation d'avant-match :"
+  items={[
+    "Vérifier que les 24 parts de fromage sont présentes dans la boîte",
+    "S'assurer que le mécanisme en plastique est fermement enclenché sur le plateau",
+    "Tester le piège une fois avant que les joueurs ne placent leurs pions",
+    "Distribuer la part de départ à chaque joueur",
+    "Placer les 2 parts bonus sur la case 'Départ'"
+  ]}
+/>
+
+Au-delà de l'installation physique, envisagez des "Règles Maison" pour accélérer ou équilibrer le jeu. Certains joueurs préfèrent une règle de "Pas de vol" pour les jeunes enfants, mais pour une victoire compétitive, les règles standard concernant les cases vertes et bleues sont essentielles.
+
+| Groupe de Composants | Éléments Inclus | Conseil d'Entretien |
+|----------------------|-----------------|---------------------|
+| **La Manivelle** | Engrenage, Manivelle, Levier | Garder les engrenages sans poussière |
+| **Le Toboggan** | Bille, Bac, Escaliers | Vérifier que les escaliers sont de niveau |
+| **Le Piège** | Poteau, Balai, Cage | Ne pas tordre la cage en plastique |
+
+<Callout type="info" title="Soin des Composants">
+Si la cage est déformée, elle risque de ne pas tomber droite. Rangez la cage à plat dans la boîte pour éviter qu'elle ne se courbe avec le temps, garantissant un taux de capture de 100 % lors de vos parties en 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Quel est le moyen le plus rapide pour gagner à Attrape-Souris ?",
+    answer: "Le moyen le plus rapide est de terminer le premier tour pour obtenir les 2 parts bonus, puis de se concentrer sur l'atterrissage sur les cases vertes pour voler les autres pendant que la pile est encore pleine."
+  },
+  {
+    question: "Que se passe-t-il si le piège échoue lors d'un lancer ?",
+    answer: "Si le piège échoue pour une raison mécanique, le joueur ciblé ne vous donne aucun fromage. Vous devez réinitialiser le piège et attendre votre prochain tour ou un autre atterrissage sur une case bleue."
+  },
+  {
+    question: "Puis-je déplacer ma propre souris vers la case piège ?",
+    answer: "Non, la case bleue vous permet de déplacer la souris d'un *adversaire* vers la case piège. Vous voulez rester aussi loin que possible de la case piège pendant les tours des autres joueurs."
+  },
+  {
+    question: "Y a-t-il une limite au fromage que je peux perdre ?",
+    answer: "Vous ne pouvez jamais avoir moins de zéro fromage. Si vous atterrissez sur une case rouge ou si quelqu'un vous vole alors que vous n'avez pas de fromage, rien ne se passe pour votre total."
+  }
+]} />
+
+<Callout type="tip" title="Stratégie Finale">
+N'oubliez pas qu'Attrape-Souris est un marathon, pas un sprint. Même si vous perdez tout votre fromage en milieu de partie, un seul lancer réussi avec un multi-piège peut vous remettre directement en tête. Restez concentré sur l'objectif des six parts !
+</Callout>
+
+</Section>

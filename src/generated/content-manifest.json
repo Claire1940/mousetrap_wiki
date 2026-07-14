@@ -1,1 +1,706 @@
-{}
+{
+  "de": {
+    "digital": [
+      {
+        "slug": "mousetrap-game-online",
+        "file": "mousetrap-game-online"
+      },
+      {
+        "slug": "mousetrap-mobile-game",
+        "file": "mousetrap-mobile-game"
+      },
+      {
+        "slug": "mousetrap-mobile-walkthrough",
+        "file": "mousetrap-mobile-walkthrough"
+      },
+      {
+        "slug": "mousetrap-nintendo-switch",
+        "file": "mousetrap-nintendo-switch"
+      },
+      {
+        "slug": "mousetrap-video-game",
+        "file": "mousetrap-video-game"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mousetrap-beginner-guide",
+        "file": "mousetrap-beginner-guide"
+      },
+      {
+        "slug": "mousetrap-game-instructions",
+        "file": "mousetrap-game-instructions"
+      },
+      {
+        "slug": "mousetrap-game-objective",
+        "file": "mousetrap-game-objective"
+      },
+      {
+        "slug": "mousetrap-how-to-play",
+        "file": "mousetrap-how-to-play"
+      },
+      {
+        "slug": "mousetrap-quick-start-guide",
+        "file": "mousetrap-quick-start-guide"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "mousetrap-board-game-review",
+        "file": "mousetrap-board-game-review"
+      },
+      {
+        "slug": "mousetrap-nintendo-switch-review",
+        "file": "mousetrap-nintendo-switch-review"
+      },
+      {
+        "slug": "mousetrap-retro-game-review",
+        "file": "mousetrap-retro-game-review"
+      },
+      {
+        "slug": "mousetrap-reviews",
+        "file": "mousetrap-reviews"
+      }
+    ],
+    "rules": [
+      {
+        "slug": "mousetrap-age-rating",
+        "file": "mousetrap-age-rating"
+      },
+      {
+        "slug": "mousetrap-cheese-rules",
+        "file": "mousetrap-cheese-rules"
+      },
+      {
+        "slug": "mousetrap-game-rules",
+        "file": "mousetrap-game-rules"
+      },
+      {
+        "slug": "mousetrap-player-count",
+        "file": "mousetrap-player-count"
+      },
+      {
+        "slug": "mousetrap-trap-activation-rules",
+        "file": "mousetrap-trap-activation-rules"
+      },
+      {
+        "slug": "mousetrap-victory-conditions",
+        "file": "mousetrap-victory-conditions"
+      }
+    ],
+    "setup": [
+      {
+        "slug": "mousetrap-board-setup",
+        "file": "mousetrap-board-setup"
+      },
+      {
+        "slug": "mousetrap-chain-reaction-setup",
+        "file": "mousetrap-chain-reaction-setup"
+      },
+      {
+        "slug": "mousetrap-game-setup",
+        "file": "mousetrap-game-setup"
+      },
+      {
+        "slug": "mousetrap-how-to-build-the-trap",
+        "file": "mousetrap-how-to-build-the-trap"
+      },
+      {
+        "slug": "mousetrap-pieces-setup",
+        "file": "mousetrap-pieces-setup"
+      },
+      {
+        "slug": "mousetrap-trap-setup",
+        "file": "mousetrap-trap-setup"
+      }
+    ],
+    "strategy": [
+      {
+        "slug": "mousetrap-cheese-stealing-strategy",
+        "file": "mousetrap-cheese-stealing-strategy"
+      },
+      {
+        "slug": "mousetrap-comeback-strategy",
+        "file": "mousetrap-comeback-strategy"
+      },
+      {
+        "slug": "mousetrap-family-game-tips",
+        "file": "mousetrap-family-game-tips"
+      },
+      {
+        "slug": "mousetrap-how-to-win",
+        "file": "mousetrap-how-to-win"
+      },
+      {
+        "slug": "mousetrap-strategy",
+        "file": "mousetrap-strategy"
+      },
+      {
+        "slug": "mousetrap-trap-timing",
+        "file": "mousetrap-trap-timing"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "mousetrap-1963-game",
+        "file": "mousetrap-1963-game"
+      },
+      {
+        "slug": "mousetrap-1970-game",
+        "file": "mousetrap-1970-game"
+      },
+      {
+        "slug": "mousetrap-1999-game",
+        "file": "mousetrap-1999-game"
+      },
+      {
+        "slug": "mousetrap-2014-game",
+        "file": "mousetrap-2014-game"
+      },
+      {
+        "slug": "mousetrap-2016-game",
+        "file": "mousetrap-2016-game"
+      },
+      {
+        "slug": "mousetrap-hasbro-game",
+        "file": "mousetrap-hasbro-game"
+      },
+      {
+        "slug": "mousetrap-original-game",
+        "file": "mousetrap-original-game"
+      },
+      {
+        "slug": "mousetrap-vintage-game",
+        "file": "mousetrap-vintage-game"
+      }
+    ]
+  },
+  "en": {
+    "digital": [
+      {
+        "slug": "mousetrap-game-online",
+        "file": "mousetrap-game-online"
+      },
+      {
+        "slug": "mousetrap-mobile-game",
+        "file": "mousetrap-mobile-game"
+      },
+      {
+        "slug": "mousetrap-mobile-walkthrough",
+        "file": "mousetrap-mobile-walkthrough"
+      },
+      {
+        "slug": "mousetrap-nintendo-switch",
+        "file": "mousetrap-nintendo-switch"
+      },
+      {
+        "slug": "mousetrap-video-game",
+        "file": "mousetrap-video-game"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mousetrap-beginner-guide",
+        "file": "mousetrap-beginner-guide"
+      },
+      {
+        "slug": "mousetrap-game-instructions",
+        "file": "mousetrap-game-instructions"
+      },
+      {
+        "slug": "mousetrap-game-objective",
+        "file": "mousetrap-game-objective"
+      },
+      {
+        "slug": "mousetrap-how-to-play",
+        "file": "mousetrap-how-to-play"
+      },
+      {
+        "slug": "mousetrap-quick-start-guide",
+        "file": "mousetrap-quick-start-guide"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "mousetrap-board-game-review",
+        "file": "mousetrap-board-game-review"
+      },
+      {
+        "slug": "mousetrap-nintendo-switch-review",
+        "file": "mousetrap-nintendo-switch-review"
+      },
+      {
+        "slug": "mousetrap-retro-game-review",
+        "file": "mousetrap-retro-game-review"
+      },
+      {
+        "slug": "mousetrap-reviews",
+        "file": "mousetrap-reviews"
+      }
+    ],
+    "rules": [
+      {
+        "slug": "mousetrap-age-rating",
+        "file": "mousetrap-age-rating"
+      },
+      {
+        "slug": "mousetrap-cheese-rules",
+        "file": "mousetrap-cheese-rules"
+      },
+      {
+        "slug": "mousetrap-game-rules",
+        "file": "mousetrap-game-rules"
+      },
+      {
+        "slug": "mousetrap-player-count",
+        "file": "mousetrap-player-count"
+      },
+      {
+        "slug": "mousetrap-trap-activation-rules",
+        "file": "mousetrap-trap-activation-rules"
+      },
+      {
+        "slug": "mousetrap-victory-conditions",
+        "file": "mousetrap-victory-conditions"
+      }
+    ],
+    "setup": [
+      {
+        "slug": "mousetrap-board-setup",
+        "file": "mousetrap-board-setup"
+      },
+      {
+        "slug": "mousetrap-chain-reaction-setup",
+        "file": "mousetrap-chain-reaction-setup"
+      },
+      {
+        "slug": "mousetrap-game-setup",
+        "file": "mousetrap-game-setup"
+      },
+      {
+        "slug": "mousetrap-how-to-build-the-trap",
+        "file": "mousetrap-how-to-build-the-trap"
+      },
+      {
+        "slug": "mousetrap-pieces-setup",
+        "file": "mousetrap-pieces-setup"
+      },
+      {
+        "slug": "mousetrap-trap-setup",
+        "file": "mousetrap-trap-setup"
+      }
+    ],
+    "strategy": [
+      {
+        "slug": "mousetrap-cheese-stealing-strategy",
+        "file": "mousetrap-cheese-stealing-strategy"
+      },
+      {
+        "slug": "mousetrap-comeback-strategy",
+        "file": "mousetrap-comeback-strategy"
+      },
+      {
+        "slug": "mousetrap-family-game-tips",
+        "file": "mousetrap-family-game-tips"
+      },
+      {
+        "slug": "mousetrap-how-to-win",
+        "file": "mousetrap-how-to-win"
+      },
+      {
+        "slug": "mousetrap-strategy",
+        "file": "mousetrap-strategy"
+      },
+      {
+        "slug": "mousetrap-trap-timing",
+        "file": "mousetrap-trap-timing"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "mousetrap-1963-game",
+        "file": "mousetrap-1963-game"
+      },
+      {
+        "slug": "mousetrap-1970-game",
+        "file": "mousetrap-1970-game"
+      },
+      {
+        "slug": "mousetrap-1999-game",
+        "file": "mousetrap-1999-game"
+      },
+      {
+        "slug": "mousetrap-2014-game",
+        "file": "mousetrap-2014-game"
+      },
+      {
+        "slug": "mousetrap-2016-game",
+        "file": "mousetrap-2016-game"
+      },
+      {
+        "slug": "mousetrap-hasbro-game",
+        "file": "mousetrap-hasbro-game"
+      },
+      {
+        "slug": "mousetrap-original-game",
+        "file": "mousetrap-original-game"
+      },
+      {
+        "slug": "mousetrap-vintage-game",
+        "file": "mousetrap-vintage-game"
+      }
+    ]
+  },
+  "es": {
+    "digital": [
+      {
+        "slug": "mousetrap-game-online",
+        "file": "mousetrap-game-online"
+      },
+      {
+        "slug": "mousetrap-mobile-game",
+        "file": "mousetrap-mobile-game"
+      },
+      {
+        "slug": "mousetrap-mobile-walkthrough",
+        "file": "mousetrap-mobile-walkthrough"
+      },
+      {
+        "slug": "mousetrap-nintendo-switch",
+        "file": "mousetrap-nintendo-switch"
+      },
+      {
+        "slug": "mousetrap-video-game",
+        "file": "mousetrap-video-game"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mousetrap-beginner-guide",
+        "file": "mousetrap-beginner-guide"
+      },
+      {
+        "slug": "mousetrap-game-instructions",
+        "file": "mousetrap-game-instructions"
+      },
+      {
+        "slug": "mousetrap-game-objective",
+        "file": "mousetrap-game-objective"
+      },
+      {
+        "slug": "mousetrap-how-to-play",
+        "file": "mousetrap-how-to-play"
+      },
+      {
+        "slug": "mousetrap-quick-start-guide",
+        "file": "mousetrap-quick-start-guide"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "mousetrap-board-game-review",
+        "file": "mousetrap-board-game-review"
+      },
+      {
+        "slug": "mousetrap-nintendo-switch-review",
+        "file": "mousetrap-nintendo-switch-review"
+      },
+      {
+        "slug": "mousetrap-retro-game-review",
+        "file": "mousetrap-retro-game-review"
+      },
+      {
+        "slug": "mousetrap-reviews",
+        "file": "mousetrap-reviews"
+      }
+    ],
+    "rules": [
+      {
+        "slug": "mousetrap-age-rating",
+        "file": "mousetrap-age-rating"
+      },
+      {
+        "slug": "mousetrap-cheese-rules",
+        "file": "mousetrap-cheese-rules"
+      },
+      {
+        "slug": "mousetrap-game-rules",
+        "file": "mousetrap-game-rules"
+      },
+      {
+        "slug": "mousetrap-player-count",
+        "file": "mousetrap-player-count"
+      },
+      {
+        "slug": "mousetrap-trap-activation-rules",
+        "file": "mousetrap-trap-activation-rules"
+      },
+      {
+        "slug": "mousetrap-victory-conditions",
+        "file": "mousetrap-victory-conditions"
+      }
+    ],
+    "setup": [
+      {
+        "slug": "mousetrap-board-setup",
+        "file": "mousetrap-board-setup"
+      },
+      {
+        "slug": "mousetrap-chain-reaction-setup",
+        "file": "mousetrap-chain-reaction-setup"
+      },
+      {
+        "slug": "mousetrap-game-setup",
+        "file": "mousetrap-game-setup"
+      },
+      {
+        "slug": "mousetrap-how-to-build-the-trap",
+        "file": "mousetrap-how-to-build-the-trap"
+      },
+      {
+        "slug": "mousetrap-pieces-setup",
+        "file": "mousetrap-pieces-setup"
+      },
+      {
+        "slug": "mousetrap-trap-setup",
+        "file": "mousetrap-trap-setup"
+      }
+    ],
+    "strategy": [
+      {
+        "slug": "mousetrap-cheese-stealing-strategy",
+        "file": "mousetrap-cheese-stealing-strategy"
+      },
+      {
+        "slug": "mousetrap-comeback-strategy",
+        "file": "mousetrap-comeback-strategy"
+      },
+      {
+        "slug": "mousetrap-family-game-tips",
+        "file": "mousetrap-family-game-tips"
+      },
+      {
+        "slug": "mousetrap-how-to-win",
+        "file": "mousetrap-how-to-win"
+      },
+      {
+        "slug": "mousetrap-strategy",
+        "file": "mousetrap-strategy"
+      },
+      {
+        "slug": "mousetrap-trap-timing",
+        "file": "mousetrap-trap-timing"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "mousetrap-1963-game",
+        "file": "mousetrap-1963-game"
+      },
+      {
+        "slug": "mousetrap-1970-game",
+        "file": "mousetrap-1970-game"
+      },
+      {
+        "slug": "mousetrap-1999-game",
+        "file": "mousetrap-1999-game"
+      },
+      {
+        "slug": "mousetrap-2014-game",
+        "file": "mousetrap-2014-game"
+      },
+      {
+        "slug": "mousetrap-2016-game",
+        "file": "mousetrap-2016-game"
+      },
+      {
+        "slug": "mousetrap-hasbro-game",
+        "file": "mousetrap-hasbro-game"
+      },
+      {
+        "slug": "mousetrap-original-game",
+        "file": "mousetrap-original-game"
+      },
+      {
+        "slug": "mousetrap-vintage-game",
+        "file": "mousetrap-vintage-game"
+      }
+    ]
+  },
+  "fr": {
+    "digital": [
+      {
+        "slug": "mousetrap-game-online",
+        "file": "mousetrap-game-online"
+      },
+      {
+        "slug": "mousetrap-mobile-game",
+        "file": "mousetrap-mobile-game"
+      },
+      {
+        "slug": "mousetrap-mobile-walkthrough",
+        "file": "mousetrap-mobile-walkthrough"
+      },
+      {
+        "slug": "mousetrap-nintendo-switch",
+        "file": "mousetrap-nintendo-switch"
+      },
+      {
+        "slug": "mousetrap-video-game",
+        "file": "mousetrap-video-game"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mousetrap-beginner-guide",
+        "file": "mousetrap-beginner-guide"
+      },
+      {
+        "slug": "mousetrap-game-instructions",
+        "file": "mousetrap-game-instructions"
+      },
+      {
+        "slug": "mousetrap-game-objective",
+        "file": "mousetrap-game-objective"
+      },
+      {
+        "slug": "mousetrap-how-to-play",
+        "file": "mousetrap-how-to-play"
+      },
+      {
+        "slug": "mousetrap-quick-start-guide",
+        "file": "mousetrap-quick-start-guide"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "mousetrap-board-game-review",
+        "file": "mousetrap-board-game-review"
+      },
+      {
+        "slug": "mousetrap-nintendo-switch-review",
+        "file": "mousetrap-nintendo-switch-review"
+      },
+      {
+        "slug": "mousetrap-retro-game-review",
+        "file": "mousetrap-retro-game-review"
+      },
+      {
+        "slug": "mousetrap-reviews",
+        "file": "mousetrap-reviews"
+      }
+    ],
+    "rules": [
+      {
+        "slug": "mousetrap-age-rating",
+        "file": "mousetrap-age-rating"
+      },
+      {
+        "slug": "mousetrap-cheese-rules",
+        "file": "mousetrap-cheese-rules"
+      },
+      {
+        "slug": "mousetrap-game-rules",
+        "file": "mousetrap-game-rules"
+      },
+      {
+        "slug": "mousetrap-player-count",
+        "file": "mousetrap-player-count"
+      },
+      {
+        "slug": "mousetrap-trap-activation-rules",
+        "file": "mousetrap-trap-activation-rules"
+      },
+      {
+        "slug": "mousetrap-victory-conditions",
+        "file": "mousetrap-victory-conditions"
+      }
+    ],
+    "setup": [
+      {
+        "slug": "mousetrap-board-setup",
+        "file": "mousetrap-board-setup"
+      },
+      {
+        "slug": "mousetrap-chain-reaction-setup",
+        "file": "mousetrap-chain-reaction-setup"
+      },
+      {
+        "slug": "mousetrap-game-setup",
+        "file": "mousetrap-game-setup"
+      },
+      {
+        "slug": "mousetrap-how-to-build-the-trap",
+        "file": "mousetrap-how-to-build-the-trap"
+      },
+      {
+        "slug": "mousetrap-pieces-setup",
+        "file": "mousetrap-pieces-setup"
+      },
+      {
+        "slug": "mousetrap-trap-setup",
+        "file": "mousetrap-trap-setup"
+      }
+    ],
+    "strategy": [
+      {
+        "slug": "mousetrap-cheese-stealing-strategy",
+        "file": "mousetrap-cheese-stealing-strategy"
+      },
+      {
+        "slug": "mousetrap-comeback-strategy",
+        "file": "mousetrap-comeback-strategy"
+      },
+      {
+        "slug": "mousetrap-family-game-tips",
+        "file": "mousetrap-family-game-tips"
+      },
+      {
+        "slug": "mousetrap-how-to-win",
+        "file": "mousetrap-how-to-win"
+      },
+      {
+        "slug": "mousetrap-strategy",
+        "file": "mousetrap-strategy"
+      },
+      {
+        "slug": "mousetrap-trap-timing",
+        "file": "mousetrap-trap-timing"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "mousetrap-1963-game",
+        "file": "mousetrap-1963-game"
+      },
+      {
+        "slug": "mousetrap-1970-game",
+        "file": "mousetrap-1970-game"
+      },
+      {
+        "slug": "mousetrap-1999-game",
+        "file": "mousetrap-1999-game"
+      },
+      {
+        "slug": "mousetrap-2014-game",
+        "file": "mousetrap-2014-game"
+      },
+      {
+        "slug": "mousetrap-2016-game",
+        "file": "mousetrap-2016-game"
+      },
+      {
+        "slug": "mousetrap-hasbro-game",
+        "file": "mousetrap-hasbro-game"
+      },
+      {
+        "slug": "mousetrap-original-game",
+        "file": "mousetrap-original-game"
+      },
+      {
+        "slug": "mousetrap-vintage-game",
+        "file": "mousetrap-vintage-game"
+      }
+    ]
+  }
+}

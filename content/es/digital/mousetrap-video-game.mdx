@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Videojuego Mousetrap: Guía de Estrategia del Clásico Arcade de 1981",
+  description: "Domina el clásico videojuego Mousetrap de 1981. Aprende navegación por laberintos, mecánica de puertas de colores, estrategias de puntuación alta y explora las adaptaciones para consolas domésticas.",
+  category: "Digital",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Arcade+Guide",
+  date: "2026-07-14",
+  author: "Equipo de Wiki de mousetrap",
+  keywords: "mousetrap, arcade, estrategia, guía de juego, retro"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **videojuego Mousetrap** es una cabina arcade clásica de persecución en laberintos de 1981 desarrollada por Exidy.
+- Las **puertas codificadas por colores** se pueden cambiar presionando los botones correspondientes para bloquear a los gatos que te persiguen.
+- Los **huesos de perro** transforman al jugador en un perro, lo que le permite derrotar temporalmente a los gatos.
+- Los **peligros del halcón** aparecen en etapas posteriores, ignorando las puertas y requiriendo un movimiento rápido.
+- Las **versiones domésticas** como ColecoVision ofrecen la conversión más fiel al arcade de este título retro.
+</Callout>
+
+<Section icon={Map} title="Legado Histórico del Videojuego Mousetrap">
+
+El **videojuego mousetrap**, desarrollado por Exidy en 1981, sigue siendo uno de los juegos de persecución en laberintos más innovadores de la edad de oro de los videojuegos arcade. Lanzado durante una era dominada por clones de Pac-Man, este título se distinguió al introducir elementos de laberinto interactivos. En lugar de navegar por un laberinto estático, los jugadores interactúan con un entorno dinámico donde las paredes se pueden mover en tiempo real para atrapar enemigos o crear rutas de escape.
+
+**Puntos Destacados del Video:**
+- Efectos de sonido clásicos de 8 bits y presentación de jugabilidad en cabina retro.
+- Demostración de navegación por el laberinto y uso de puertas de colores para atrapar gatos.
+- Transformación en perro para limpiar el tablero de enemigos.
+
+<YouTubeEmbed videoId="pZ5y3JvOMDo" title="Juego Arcade: Mouse Trap (1981 Exidy)" />
+
+Exidy diseñó la cabina del juego con un panel de control único que incluía una palanca de mando y tres botones de colores: rojo, amarillo y azul. Estos botones controlan las compuertas correspondientes dentro del laberinto. Esta profundidad mecánica añadió una capa de estrategia que diferenció al juego de sus contemporáneos, atrayendo a jugadores que preferían la planificación táctica sobre los puros reflejos.
+
+| Característica | Especificación |
+|---|---|
+| Desarrollador | Exidy |
+| Año de Lanzamiento | 1981 |
+| Género | Laberinto, Acción |
+| Hardware Principal | MOS Technology 6502 |
+| Audio | Placa de audio personalizada de Exidy |
+
+<Callout type="tip" title="Consejo sobre el Diseño de la Cabina">
+Al jugar en hardware original o en configuraciones de emulación dedicadas, familiarízate con la disposición física de los botones de colores para asegurar tiempos de respuesta rápidos durante persecuciones intensas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Juego y Sistemas de Puertas de Colores">
+
+En su esencia, el juego encomienda a los jugadores la tarea de guiar a un ratón a través de un laberinto para consumir todas las migas de queso esparcidas por la pantalla. Sin embargo, varios gatos patrullan los pasillos, intentando acorralar y derrotar al jugador. Para defenderse, los jugadores deben recolectar huesos de perro esparcidos en las esquinas del laberinto y utilizar las puertas codificadas por colores.
+
+Las puertas de colores son la característica definitoria del juego. Las puertas rojas, amarillas y azules están colocadas por todo el laberinto. Al presionar el botón correspondiente en el panel de control, se activan todas las puertas de ese color girándolas 90 grados. Esta acción bloquea instantáneamente los caminos para los gatos perseguidores o abre nuevas rutas de escape para el jugador.
+
+| Objetivo | Recompensa de Puntos |
+|---|---|
+| Queso | 90 Puntos |
+| Hueso de Perro | 100 Puntos |
+| Primer Gato | 100 Puntos |
+| Segundo Gato | 300 Puntos |
+| Tercer Gato | 500 Puntos |
+| Cuarto Gato | 900 Puntos |
+
+<CardGrid cols={4}>
+  <Card title="Ratón">
+    - **Personaje del Jugador**
+    - Alta agilidad
+    - Vulnerable a los gatos
+  </Card>
+  <Card title="Gatos">
+    - **Enemigos Estándar**
+    - Patrullan pasillos
+    - Bloquean caminos
+  </Card>
+  <Card title="Perro">
+    - **Estado Potenciado**
+    - Consume gatos
+    - Duración limitada
+  </Card>
+  <Card title="Halcón">
+    - **Peligro Especial**
+    - Ignora las paredes
+    - Alta velocidad
+  </Card>
+</CardGrid>
+
+Acumular huesos de perro permite al jugador activar una transformación temporal en perro. Mientras está en forma de perro, el jugador puede cambiar las tornas contra los gatos, persiguiéndolos para obtener puntos de bonificación significativos. Sin embargo, este potenciador es finito, y los jugadores deben gestionar su inventario de huesos cuidadosamente para sobrevivir en niveles superiores.
+
+<Callout type="warning" title="Límite de Inventario de Huesos">
+Solo puedes llevar un máximo de cuatro huesos de perro en cualquier momento. Recolectar huesos adicionales cuando tu inventario está lleno otorgará puntos pero no aumentará tu capacidad de almacenamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategias Paso a Paso para Puntuaciones Altas">
+
+Lograr una puntuación alta requiere un equilibrio entre conciencia espacial, conservación de recursos y entradas rápidas de botones. Los jugadores deben aprender a manipular la IA enemiga y optimizar su recorrido por el laberinto.
+
+<Steps>
+  <Step num="1" title="Limpieza del Laberinto">
+    Comienza cada ronda despejando los bordes exteriores del laberinto. Estas áreas son las más peligrosas porque ofrecen menos rutas de escape. Reserva los pasillos centrales para más tarde, cuando la presencia de gatos aumente.
+  </Step>
+  <Step num="2" title="Partición por Puertas">
+    Usa los botones de colores para dividir el laberinto. Al cerrar puertas específicas, puedes atrapar a los gatos en una mitad de la pantalla mientras despejas de forma segura el queso de la otra mitad.
+  </Step>
+  <Step num="3" title="Conservación de Huesos">
+    No actives tu transformación en perro por un solo gato a menos que estés acorralado. Espera hasta que varios gatos estén agrupados cerca de tu posición para maximizar tu potencial de puntuación.
+  </Step>
+  <Step num="4" title="Evasión del Halcón">
+    Cuando aparezca el halcón, dirígete inmediatamente hacia el túnel de salto (warp) central. El halcón ignora las paredes y te apuntará directamente, haciendo que la navegación estándar por el laberinto sea inútil.
+  </Step>
+</Steps>
+
+A medida que avanzas por las etapas, la velocidad de los enemigos aumenta y su IA se vuelve más agresiva. El halcón también aparece con más frecuencia, obligándote a tomar decisiones en fracciones de segundo con respecto a la manipulación de puertas y el uso del salto central.
+
+| Rango de Etapa | Cantidad de Gatos | Frecuencia del Halcón | Velocidad General |
+|---|---|---|---|
+| Etapas 1-3 | 3 Gatos | Baja | Moderada |
+| Etapas 4-6 | 4 Gatos | Media | Rápida |
+| Etapas 7-9 | 5 Gatos | Alta | Muy Rápida |
+| Etapas 10+ | 6 Gatos | Constante | Extrema |
+
+<Callout type="success" title="Consejo para Completar Etapas">
+Completar una etapa rápidamente otorga una bonificación de tiempo. Equilibra tus carreras para recolectar puntos con la velocidad para optimizar tu progresión de puntuación total.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maniobras Defensivas y Tácticas de Salto (Warp)">
+
+La supervivencia en las etapas avanzadas del juego depende en gran medida del posicionamiento defensivo. Los jugadores deben evitar quedar atrapados en las esquinas del laberinto, ya que estas zonas ofrecen rutas de escape limitadas si los gatos coordinan sus rutas de persecución. Si te encuentras acorralado, tu principal mecanismo de escape es la zona de salto central.
+
+La zona de salto central está marcada con un cartel de "In" (Entrada). Entrar en este espacio teletransporta al ratón a una de las cuatro esquinas de la pantalla, que están marcadas como zonas "Out" (Salida). Sin embargo, este teletransporte es aleatorio, lo que significa que podrías aterrizar cerca de un gato que patrulla. Usa esta mecánica principalmente como último recurso cuando estés atrapado por el halcón o por varios gatos.
+
+<Checklist
+  id="survival-checklist"
+  title="Lista de Verificación para Puntuaciones Altas:"
+  items={[
+    "Rastrea la ubicación de todos los gatos activos antes de cambiar el estado de las puertas",
+    "Mantén al menos dos huesos de perro en reserva para situaciones de emergencia",
+    "Despeja las esquinas del laberinto al principio de cada ronda",
+    "Monitorea el sonido de advertencia de entrada del halcón para preparar tu ruta de escape",
+    "Utiliza la zona de salto solo cuando estés acorralado y sin opciones de puertas"
+  ]}
+/>
+
+Otra táctica clave es el señuelo. Puedes atraer a los gatos a un pasillo específico, deslizarte rápidamente a través de una compuerta de color y presionar el botón correspondiente para encerrarlos. Esto los neutraliza eficazmente durante un corto periodo, permitiéndote limpiar el resto del laberinto sin interrupciones.
+
+<Callout type="warning" title="Peligro del Salto">
+Comprueba siempre las esquinas de destino antes de entrar en la zona de salto. Teletransportarse directamente sobre un gato resultará en una pérdida inmediata de vida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Análisis de las Versiones para Consolas Domésticas">
+
+Tras su éxito en los arcades, el juego fue adaptado a varias consolas domésticas a principios de la década de 1980. La calidad y precisión de estas versiones variaron enormemente dependiendo de las capacidades de hardware de cada sistema. La versión de ColecoVision es ampliamente considerada la adaptación más fiel, capturando tanto el estilo gráfico como la complejidad de control del arcade original.
+
+En la ColecoVision, se utilizaba el teclado numérico del controlador para gestionar las puertas rojas, amarillas y azules, asignándolas a teclas específicas. Otros sistemas, como el Atari 2600, tuvieron que hacer concesiones significativas. La versión de Atari 2600 simplificó los gráficos y alteró el esquema de control para adaptarse al joystick de un solo botón del sistema, que cambiaba automáticamente las puertas según el movimiento del jugador o mediante alternancias simplificadas.
+
+| Plataforma | Fidelidad Gráfica | Precisión de Control | Calificación General |
+|---|---|---|---|
+| ColecoVision | Alta | Buena | 4.5 / 5 |
+| Atari 2600 | Baja | Promedio | 2.5 / 5 |
+| Intellivision | Media | Regular | 3.0 / 5 |
+| Atari 8-bit | Alta | Buena | 4.0 / 5 |
+
+Aunque las versiones para consolas domésticas permitían a los jugadores disfrutar del juego sin gastar monedas, la versión arcade sigue siendo la experiencia definitiva debido a sus controles precisos y su escalado de dificultad equilibrado.
+
+<Callout type="tip" title="Recomendación de Emulación">
+Si buscas experimentar este clásico hoy en día, la versión de ColecoVision es la mejor opción de consola doméstica para buscar, ya que ofrece una recreación muy precisa de las mecánicas del arcade.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Resolución de Problemas Avanzada y Preguntas Frecuentes">
+
+Para ayudar a los jugadores a dominar el juego, hemos recopilado respuestas a las preguntas más comunes sobre mecánicas, versiones y estrategias de puntuación.
+
+<FAQ items={[
+  {
+    question: "¿Cómo se activa la transformación en perro en el videojuego mousetrap?",
+    answer: "Para activar la transformación, presiona el botón de Perro en el panel de control. Esto requiere que tengas al menos un hueso de perro en tu inventario. La transformación es temporal, así que úsala sabiamente."
+  },
+  {
+    question: "¿Se puede derrotar al Halcón en el juego?",
+    answer: "No, el Halcón es completamente invulnerable. No puedes derrotarlo ni siquiera cuando estás transformado en perro. Tu única opción es evitarlo o usar el salto central para escapar."
+  },
+  {
+    question: "¿Cuál es el número máximo de huesos de perro que puedes llevar?",
+    answer: "Puedes llevar un máximo de cuatro huesos de perro en cualquier momento. Cualquier hueso recolectado más allá de este límite otorgará puntos pero no se añadirá a tu inventario."
+  },
+  {
+    question: "¿Cómo funcionan las puertas de colores durante el juego?",
+    answer: "Presionar los botones Rojo, Amarillo o Azul gira todas las puertas de ese color 90 grados. Esto abre nuevos caminos y cierra otros, permitiéndote atrapar gatos o escapar del peligro."
+  }
+]} />
+
+<Callout type="info" title="Nota Final de Estrategia">
+La práctica hace al maestro. Dedica tiempo a aprender la disposición de las puertas y el tiempo de los movimientos de los gatos para lograr consistentemente puntuaciones altas tanto en formatos arcade como en consolas domésticas.
+</Callout>
+
+</Section>

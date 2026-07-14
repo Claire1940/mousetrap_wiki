@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Règles du fromage Attrape-Souris : Guide d'installation et de jeu étape par étape",
+  description: "Maîtrisez les règles du fromage Attrape-Souris avec notre guide 2026. Apprenez l'assemblage du piège, les stratégies de collecte de fromage et les tactiques gagnantes pour ce jeu de société classique.",
+  category: "Règles",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=Mouse+Trap+Rules+Guide",
+  date: "2026-07-14",
+  author: "Équipe Wiki mousetrap"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Les règles du fromage Attrape-Souris** se concentrent sur la collecte de morceaux de fromage tout en évitant le piège central de type Rube Goldberg.
+- **L'objectif du jeu** est d'être la dernière souris restante sur le plateau après que tous les autres joueurs ont été piégés.
+- **La construction du piège** se fait progressivement lorsque les joueurs s'arrêtent sur des cases « Construction » spécifiques tout au long de la partie.
+- **Les morceaux de fromage** font office de monnaie, permettant aux joueurs de déplacer leurs adversaires vers la zone du piège.
+- **La victoire** nécessite une combinaison de déplacements stratégiques et de chance lors des lancers de dé.
+</Callout>
+
+<Section icon={Map} title="Configuration initiale du jeu et composants">
+
+Avant de vous plonger dans les règles complexes du **fromage Attrape-Souris**, les joueurs doivent s'assurer que le plateau est correctement configuré. Attrape-Souris est conçu pour 2 à 4 joueurs, chacun contrôlant un pion de souris en plastique. La phase d'installation est cruciale car les composants physiques du piège doivent être placés dans leurs positions de départ désignées avant le premier lancer de dé.
+
+**Points forts de la vidéo :**
+- Présentation détaillée de la disposition du plateau et du placement des composants.
+- Explication des pions de souris et des positions de départ.
+- Aperçu de la pioche de cartes Fromage et de la distribution des morceaux initiaux.
+- Démonstration des mécanismes de base du déplacement.
+
+<YouTubeEmbed videoId="q6N1rQY1vGE" title="Catching the Cheese A Detailed Guide to the Rules and Fun of Mouse Trap" />
+
+Le plateau se compose d'un parcours sinueux avec différentes cases colorées. Chaque couleur ou icône représente une action spécifique, allant de la construction du piège à la collecte de fromage. Une bonne organisation des 24 pièces du piège est essentielle pour que le jeu fonctionne correctement pendant la phase « Tourner la manivelle ».
+
+| Composant | Quantité | Objectif |
+| :--- | :--- | :--- |
+| Pions Souris | 4 | Avatars des joueurs (Rouge, Bleu, Jaune, Vert) |
+| Morceaux de fromage | Multiples | Monnaie utilisée pour appâter ou déplacer les adversaires |
+| Pièces du piège | 24 | Pièces individuelles utilisées pour construire le mécanisme |
+| Cartes Fromage | 1 paquet | Instructions spéciales ou récompenses en fromage |
+| Dé | 1 | Dé standard à six faces pour le déplacement |
+
+<Callout type="tip" title="Conseil d'installation">
+Placez toujours le plateau de jeu sur une surface parfaitement plane. Comme le piège repose sur la gravité et la physique, la moindre inclinaison de la table peut faire dérailler la bille métallique, entraînant l'échec du déclenchement du piège.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Les règles fondamentales du fromage Attrape-Souris pour le déplacement">
+
+Le déplacement dans Attrape-Souris est régi par le lancer d'un seul dé. Les joueurs commencent sur la case « Départ » désignée et se déplacent dans le sens des aiguilles d'une montre autour du plateau. Cependant, contrairement à de nombreux jeux de société linéaires, Attrape-Souris dispose d'un système de boucle où les joueurs peuvent se retrouver à tourner autour de la zone de la « Roue de fromage » plusieurs fois pendant la phase finale.
+
+| Type de case | Action requise |
+| :--- | :--- |
+| Cases Construction | Ajouter la pièce séquentielle suivante à l'assemblage du piège |
+| Cases Fromage | Piocher une carte Fromage ou prendre un morceau de fromage à la banque |
+| Zones sûres | Aucune action requise ; la souris reste en sécurité |
+| Tourner la manivelle | Déclencher le piège si un adversaire se trouve dans la zone de danger |
+
+Lorsque vous atterrissez sur une case, vous devez suivre immédiatement les instructions. Si vous atterrissez sur une case « Construction » et que le piège n'est pas encore terminé, vous prenez la pièce suivante de la pile et la fixez au plateau. Si le piège est déjà terminé, atterrir sur une case « Construction » permet souvent au joueur d'obtenir un morceau de fromage à la place.
+
+<Callout type="warning" title="Restriction de déplacement">
+Les joueurs ne peuvent pas occuper la même case. Si votre déplacement se termine sur une case occupée par une autre souris, avancez jusqu'à la prochaine case libre disponible.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Stratégie de début de partie">
+    Concentrez-vous sur l'atterrissage sur les cases **Construction**. Terminer le piège rapidement augmente la pression sur les adversaires et vous permet de commencer à collecter des récompenses en fromage plus tôt.
+  </Card>
+  <Card title="Stratégie de fin de partie">
+    Donnez la priorité à l'évitement de la zone de la **Roue de fromage**. Utilisez vos morceaux de fromage pour forcer vos adversaires à entrer dans la zone du piège pendant que vous restez dans des zones sûres.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Construction du piège : Assemblage séquentiel">
+
+Le cœur mécanique du jeu est le piège lui-même. Selon les **règles du fromage Attrape-Souris**, le piège doit être construit dans un ordre précis. Vous ne pouvez pas sauter d'étapes ni ajouter la cage avant que les structures de support ne soient en place. Cette construction séquentielle ajoute une couche d'anticipation car la « menace » sur le plateau grandit à chaque tour.
+
+<Steps>
+  <Step num="1" title="La base et le support d'engrenage">
+    Placez la base en plastique sur le plateau et fixez le premier support d'engrenage. Cela fournit la fondation pour le mécanisme de manivelle.
+  </Step>
+  <Step num="2" title="Les escaliers et le tuyau">
+    Installez l'escalier et le tuyau vertical. Ces composants guident la bille vers le déclencheur du panneau stop.
+  </Step>
+  <Step num="3" title="La main secourable et la baignoire">
+    Fixez la main mécanique et la baignoire. La main finira par faire tomber la bille dans la baignoire pour lancer la réaction en chaîne.
+  </Step>
+  <Step num="4" title="Le plongeur et la cage">
+    Les dernières pièces comprennent le plongeur sur le plongeoir et la cage en plastique suspendue au-dessus de la roue de fromage. Une fois la cage suspendue, le piège est actif.
+  </Step>
+</Steps>
+
+| Phase d'assemblage | Pièces clés incluses | Fonction |
+| :--- | :--- | :--- |
+| Fondation | Base, manivelle, engrenages | Fournit la force mécanique |
+| Chemin cinétique | Escaliers, bille, tuyau | Transporte l'énergie |
+| Déclencheur | Panneau stop, lampadaire | Libère le piège final |
+| Capture | Plongeur, baignoire, cage | Sécurise la souris adverse |
+
+<Callout type="success" title="Bonus d'assemblage">
+Dans l'édition 2026, les joueurs qui atterrissent sur une case « Construction 2 » peuvent choisir de prendre deux morceaux de fromage au lieu d'ajouter des pièces si le piège est terminé à plus de 50 %.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Collecte de fromage et mécanique des cartes">
+
+Les morceaux de fromage sont la ressource principale dans Attrape-Souris. Comprendre les **règles du fromage Attrape-Souris** concernant ces jetons fait toute la différence entre la victoire et la défaite. Le fromage n'est pas seulement un score ; c'est un outil tactique utilisé pour manipuler la position des autres joueurs.
+
+Les joueurs collectent du fromage en :
+- Atterrissant sur les cases « Prendre Fromage ».
+- Piochant des cartes Fromage spécifiques qui accordent des récompenses.
+- Atterrissant sur les cases « Construction » une fois le piège entièrement assemblé.
+
+<Checklist
+  id="cheese-management"
+  title="Liste de contrôle pour l'utilisation du fromage :"
+  items={[
+    "Gardez au moins 2 morceaux de fromage pour les déplacements d'urgence",
+    "Utilisez le fromage pour appâter vos adversaires dans la Roue de fromage",
+    "Échangez 3 morceaux de fromage pour passer une pénalité de 'Tour perdu'",
+    "Surveillez le nombre de fromages de vos adversaires pour prédire leurs mouvements"
+  ]}
+/>
+
+| Action | Coût en fromage | Résultat |
+| :--- | :--- | :--- |
+| Déplacer un adversaire | 1 morceau | Déplace un adversaire d'une case vers l'avant ou l'arrière |
+| Passage sécurisé | 2 morceaux | Évite d'être déplacé par le tour d'un adversaire |
+| Lancer supplémentaire | 3 morceaux | Lance à nouveau le dé immédiatement |
+
+<Callout type="info" title="Règles des cartes">
+Les cartes Fromage doivent être gardées face cachée. Certaines cartes vous permettent de « Voler » du fromage à un adversaire, tandis que d'autres offrent une « Protection » contre le piège pour un seul tour.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Déclenchement du piège et victoire">
+
+Le point culminant du jeu se produit lorsqu'un joueur atterrit sur la case « Tourner la manivelle ». C'est là que les **règles du fromage Attrape-Souris** deviennent les plus intenses. Pour piéger un adversaire avec succès, deux conditions doivent être remplies :
+1. Le piège doit être entièrement assemblé et fonctionnel.
+2. Au moins une souris adverse doit être positionnée sur la case de la « Roue de fromage ».
+
+Si vous atterrissez sur la case « Tourner la manivelle » et qu'un adversaire se trouve dans la zone de danger, vous tournez la manivelle pour lancer la séquence de Rube Goldberg. Si la cage tombe et capture la souris, ce joueur est éliminé de la partie.
+
+**La condition de victoire :**
+Le jeu se poursuit jusqu'à ce qu'il ne reste plus qu'une seule souris sur le plateau. Le dernier joueur à ne pas avoir été piégé est déclaré vainqueur.
+
+| Scénario | Résultat |
+| :--- | :--- |
+| Échec mécanique du piège | L'adversaire reste en jeu ; le tour se termine |
+| Souris piégée | Le joueur est éliminé ; son pion est retiré |
+| Pas de souris dans la zone du piège | Aucune action entreprise ; le tour se termine |
+| Tous les adversaires sont piégés | Vous gagnez la partie |
+
+<Callout type="warning" title="La zone 'Sûre'">
+La Roue de fromage est le seul endroit où une souris peut être piégée. Si vous êtes sur une autre case, l'action « Tourner la manivelle » n'a aucun effet sur vous, même si le piège est déclenché.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="La stratégie de la manivelle">
+    Ne visez la case Manivelle que si vous avez du fromage pour forcer d'abord un adversaire à aller sur la roue.
+  </Card>
+  <Card title="La stratégie de l'appât">
+    Atterrissez délibérément près de la roue pour attirer les autres, puis utilisez des cartes pour sauter par-dessus la zone de danger.
+  </Card>
+  <Card title="La stratégie du bâtisseur">
+    Concentrez-vous sur la finition rapide du piège pour limiter les tours « Sûrs » disponibles pour vos adversaires.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="FAQ : règles du fromage Attrape-Souris">
+
+<FAQ items={[
+  {
+    question: "Que se passe-t-il si le piège ne parvient pas à faire tomber la cage pendant un tour ?",
+    answer: "Si le piège est déclenché mais qu'une défaillance mécanique survient (par exemple, la bille se coince), les règles stipulent que la souris est sauve. Vous pouvez réinitialiser le piège, mais l'adversaire reste en jeu."
+  },
+  {
+    question: "Puis-je utiliser des morceaux de fromage pour déplacer ma propre souris ?",
+    answer: "Non, selon les règles standard du fromage Attrape-Souris, les morceaux de fromage sont utilisés pour déplacer les souris adverses ou activer des capacités de cartes spéciales, et non pour votre propre déplacement de base."
+  },
+  {
+    question: "Combien de morceaux de fromage un joueur peut-il détenir à la fois ?",
+    answer: "Il n'y a pas de limite officielle à la quantité de fromage qu'un joueur peut collecter. Cependant, en détenir trop fait de vous une cible privilégiée pour les cartes 'Vol de fromage'."
+  },
+  {
+    question: "Que se passe-t-il si le lancer de dé me fait dépasser la Roue de fromage ?",
+    answer: "Vous continuez simplement votre chemin sur le parcours. Vous n'êtes en danger que si votre déplacement se termine exactement sur la case de la Roue de fromage ou si un adversaire utilise du fromage pour vous y déplacer."
+  }
+]} />
+
+</Section>

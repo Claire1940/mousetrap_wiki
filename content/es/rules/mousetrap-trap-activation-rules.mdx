@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Reglas de Activación de la Trampa de Mouse Trap: Guía de Configuración y Espacios del Tablero",
+  description: "Domina las reglas de activación de la trampa de Mouse Trap. Aprende cómo activar el mecanismo, resolver los espacios de trampa y conseguir queso para ganar.",
+  category: "Reglas",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Trap+Activation+Rules",
+  date: "2026-07-14",
+  author: "Equipo de Wiki de Mousetrap",
+  keywords: "mousetrap, reglas de trampa, activación, guía de juego, configuración de tablero"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Activación de la Trampa**: Activa el mecanismo principal al caer en el espacio azul de lanzamiento para capturar a los ratones oponentes.
+- **Condición de Victoria**: Reúne seis porciones de queso para formar una rueda completa y asegurar la victoria.
+- **Reinicio del Mecanismo**: Devuelve la bola, el buzo, la jaula y la escoba a sus posiciones iniciales después de cada intento.
+- **Robo de Queso**: Cae en los espacios verdes para robar queso directamente de las reservas de tus oponentes.
+</Callout>
+
+<Section icon={Map} title="Configuración del Tablero y Flujo Básico del Juego">
+
+Configurar el tablero correctamente es esencial para asegurar que los componentes físicos funcionen según lo previsto durante el juego. Antes de lanzar el dado, los jugadores deben ensamblar el complejo mecanismo, que incluye la manivela, los engranajes, la señal de pare, el zapato, el cubo, las escaleras, el tobogán, la bañera, el buzo, el balancín y la jaula. Cada jugador recibe una porción de queso inicial para comenzar su viaje, y se colocan dos porciones adicionales de bonificación directamente en el espacio de Salida (Start). El primer jugador en completar una vuelta completa al tablero recoge estas dos porciones de bonificación, lo que le otorga una ventaja temprana.
+
+**Puntos Destacados del Video:**
+- Aprende la configuración física completa del tablero y el mecanismo.
+- Comprende cómo distribuir las porciones de queso iniciales a los jugadores.
+- Descubre las mecánicas de movimiento y las reglas de navegación en sentido horario.
+- Mira cómo resolver el aterrizaje en los diferentes espacios de colores del tablero.
+
+<YouTubeEmbed videoId="RJPOHG6ing8" title="Cómo jugar Mouse Trap" />
+
+El movimiento avanza en sentido horario alrededor del tablero según el resultado de un solo dado. Los jugadores deben mover su ficha el número exacto de espacios indicados. Caer en diferentes espacios activa acciones específicas, que van desde recolectar queso hasta iniciar la secuencia de la trampa.
+
+| Color del Espacio | Nombre del Espacio | Acción Requerida |
+|-|-|-|
+| Azul | Lanzar la Trampa | Mueve al oponente a la trampa y activa el mecanismo |
+| Amarillo | Espacio de Queso | Recoge una porción de queso de la pila principal |
+| Verde | Espacio de Robo | Toma una porción de queso de cualquier oponente |
+| Rojo | Perder un Queso | Devuelve una porción de queso a la pila de suministro |
+| Púrpura | Espacio Seguro | No se requiere ninguna acción en este espacio |
+
+<Callout type="success" title="Configuración Exitosa">
+Asegúrate de que todos los engranajes de plástico y las piezas estructurales estén firmemente encajados durante la configuración. Las piezas sueltas pueden causar que la trampa falle mecánicamente, afectando el resultado de tus turnos de activación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Reglas de Activación de la Trampa de Mouse Trap">
+
+La mecánica central del juego gira en torno a las reglas de activación de la trampa de Mouse Trap. Cuando un jugador cae en el espacio azul de "Lanzar la Trampa", obtiene la oportunidad de capturar la ficha de ratón de un oponente. Este proceso requiere reubicar el ratón objetivo en el espacio de trampa designado antes de activar el mecanismo físico. Si la trampa cae con éxito sobre el ratón objetivo, el jugador que la activó reclama una porción de queso de la víctima.
+
+<Steps>
+  <Step num="1" title="Selección del Objetivo">
+    Identifica a un oponente y mueve su ficha de ratón directamente al espacio rojo de la trampa en el tablero.
+  </Step>
+  <Step num="2" title="Activar el Mecanismo">
+    Tira hacia atrás del componente de la señal de pare y suéltalo para iniciar la reacción en cadena.
+  </Step>
+  <Step num="3" title="Observar la Resolución de la Trampa">
+    Observa cómo desciende la jaula. Si la jaula atrapa con éxito al ratón objetivo, la activación es exitosa.
+  </Step>
+  <Step num="4" title="Recoger la Recompensa">
+    Reclama una porción de queso del jugador atrapado. Si hay varios ratones en el espacio, reclama queso de todos ellos.
+  </Step>
+</Steps>
+
+Si la trampa no logra capturar al ratón objetivo por cualquier motivo mecánico, el turno termina inmediatamente y no se intercambia queso. El jugador que inició la trampa debe entonces reiniciar el mecanismo para el siguiente turno.
+
+| Escenario | Ubicación del Objetivo | Condición de Éxito | Recompensa |
+|-|-|-|-|
+| Objetivo Único | Espacio de Trampa | La jaula cae totalmente sobre el ratón | 1 Queso del objetivo |
+| Varios Objetivos | Espacio de Trampa | La jaula cae sobre todos los ratones | 1 Queso de cada uno |
+| Fallo Mecánico | Espacio de Trampa | La jaula no cae o no se alinea | 0 Quesos intercambiados |
+| Espacio de Trampa Vacío | Espacio Seguro | No se puede activar la secuencia | Ninguna acción |
+
+<Callout type="warning" title="Fallos de la Trampa">
+Si la jaula no cae completamente debido a una desalineación en la configuración, la trampa se considera un fallo. El jugador objetivo no entrega ningún queso y el jugador activo debe reiniciar el tablero.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategias de Recolección de Queso">
+
+Para ganar el juego, los jugadores deben concentrarse en la acumulación de queso. El primer jugador en recolectar seis porciones de queso para formar una rueda circular completa gana. Debido a que el queso se puede perder en los espacios rojos o ser robado en los espacios verdes, los jugadores deben adaptar sus estrategias de movimiento dependiendo de su conteo actual de queso y su posición en el tablero.
+
+<CardGrid cols={3}>
+  <Card title="Ladrón Agresivo">
+    - Apunta a jugadores con grandes reservas
+    - Prioriza caer en espacios verdes
+    - Enfoque en robar queso para frenar a los líderes
+  </Card>
+  <Card title="Especialista en Trampas">
+    - Mantén a los oponentes posicionados cerca del espacio de la trampa
+    - Busca los espacios azules de lanzamiento cuando los oponentes sean vulnerables
+    - Domina el mecanismo de liberación física para mayor fiabilidad
+  </Card>
+  <Card title="Navegante Seguro">
+    - Utiliza el túnel de la madriguera para evitar zonas peligrosas
+    - Concéntrate en los espacios amarillos de queso para una acumulación constante
+    - Minimiza los riesgos cerca de los espacios rojos de pérdida de queso
+  </Card>
+</CardGrid>
+
+Gestionar tus recursos es fundamental. Saber cuándo jugar a la defensiva y cuándo atacar a los oponentes puede marcar la diferencia entre perder tu queso ganado con esfuerzo o asegurar la porción final.
+
+| Tipo de Estrategia | Nivel de Riesgo | Enfoque Principal | Mejor Uso Cuando |
+|-|-|-|-|
+| Agresiva | Alto | Robar a los líderes | Los oponentes están cerca de ganar |
+| Defensiva | Bajo | Evitar zonas de peligro | Tienes cinco porciones de queso |
+| Oportunista | Medio | Activar la trampa | Los oponentes se agrupan cerca de la trampa |
+
+<Callout type="tip" title="Estrategia Pro">
+Si caes en un espacio azul y otro ratón ya está en el espacio de la trampa, aún puedes enviar un ratón adicional allí. Una caída exitosa de la trampa te otorgará queso de todos los jugadores atrapados dentro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Reinicio del Mecanismo y Mecánicas del Túnel">
+
+Después de cada intento de activación de la trampa, ya sea exitoso o no, la trampa debe reiniciarse. Esto asegura que el tablero esté listo para el próximo jugador que caiga en un espacio de lanzamiento. El reinicio implica devolver la bola, el buzo, la jaula y la escoba a sus posiciones iniciales originales.
+
+Además, los jugadores pueden navegar por el tablero de manera eficiente utilizando el espacio del túnel de la madriguera. Caer en este espacio permite a un jugador viajar a través del túnel hasta el espacio en el extremo opuesto, ofreciendo un atajo táctico para evitar peligros o llegar más rápido a los espacios de queso.
+
+| Componente | Acción de Reinicio | Estado Correcto |
+|-|-|-|
+| Bola | Colocar de nuevo en el soporte superior | Asegurada en su lugar |
+| Buzo | Regresar a la plataforma superior | De pie en posición vertical |
+| Jaula | Elevar a la parte superior del poste | Suspendida en lo alto |
+| Escoba | Girar de nuevo a la posición vertical | Lista para balancearse |
+
+<Checklist
+  id="end-of-turn-checklist"
+  title="Lista de Verificación de Fin de Turno:"
+  items={[
+    "Verifica que la jaula de la trampa esté suspendida y segura",
+    "Asegúrate de que el buzo esté posicionado en la plataforma",
+    "Confirma que la bola haya regresado a su carril inicial",
+    "Comprueba que todos los jugadores hayan resuelto sus transacciones de queso"
+  ]}
+/>
+
+<Callout type="info" title="Navegación por el Túnel">
+El uso del túnel de la madriguera es totalmente opcional. Evalúa el espacio de destino antes de decidir viajar a través de él, ya que podría dejarte más cerca de un espacio rojo peligroso.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las reglas básicas de activación de la trampa de Mouse Trap al caer en un espacio azul?",
+    answer: "Cuando caes en un espacio azul, seleccionas el ratón de un oponente, lo mueves al espacio de la trampa y activas el mecanismo. Si es atrapado, debe darte una porción de queso."
+  },
+  {
+    question: "¿Puedo activar la trampa si no hay oponentes cerca del espacio de la trampa?",
+    answer: "Sí. Cuando caes en el espacio azul de lanzamiento, puedes mover el ratón de cualquier oponente desde su posición actual en cualquier parte del tablero directamente al espacio de la trampa antes de activar el mecanismo."
+  },
+  {
+    question: "¿Qué sucede si la trampa no logra atrapar al ratón durante la activación?",
+    answer: "Si la trampa no se activa correctamente o la jaula no atrapa al ratón, el jugador objetivo no te entrega ningún queso. Debes reiniciar la trampa y tu turno termina."
+  },
+  {
+    question: "¿Cómo se gana el juego en Mouse Trap?",
+    answer: "Gana el primer jugador que recolecte seis porciones de queso y las ensamble en un círculo de queso completo."
+  }
+]} />
+
+<Callout type="tip" title="Nota Final">
+Mantén el tablero de juego sobre una superficie plana y estable. Las vibraciones pueden causar que la trampa se active prematuramente, interrumpiendo las reglas de activación y el flujo del juego.
+</Callout>
+
+</Section>

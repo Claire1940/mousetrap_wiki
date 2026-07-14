@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Mouse Trap para Principiantes: Configuración, Reglas y Estrategias",
+  description: "Aprende a configurar y jugar al clásico juego de mesa Mouse Trap con esta guía para principiantes que cubre reglas, casillas del tablero y consejos para ganar.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Beginner+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Mouse Trap",
+  keywords: "mouse trap, guía para principiantes, reglas de juego, configuración de tablero, estrategias para ganar"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **guía de mouse trap para principiantes**: Domina rápidamente las reglas básicas, los procedimientos de configuración y la mecánica de las casillas.
+- **Condición de Victoria**: Sé el primer jugador en recolectar seis porciones de queso para formar un círculo completo.
+- **Configuración del Mecanismo**: Construye la trampa de varias piezas con cuidado para asegurar que el mecanismo se active correctamente.
+- **Mecánica de la Trampa**: Cae en las casillas azules de lanzamiento para activar la jaula y robar queso a los oponentes.
+- **Casillas del Tablero**: Navega por las casillas amarillas, verdes, rojas y moradas para gestionar tu inventario de queso.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Juego y Video Guía">
+
+Mouse Trap es un clásico juego de mesa que combina construcción espacial, movimiento básico y gestión de recursos. Los jugadores navegan por un tablero colorido, recolectando porciones de queso mientras evitan el elaborado mecanismo de la trampa situado en el centro del área de juego. Comprender las reglas fundamentales y los componentes físicos es esencial para una partida fluida.
+
+**Puntos Destacados del Video:**
+- Aprende el objetivo principal de recolectar seis porciones de queso.
+- Demostración visual de la configuración del tablero y la colocación de los componentes.
+- Guía paso a paso para lanzar el dado y moverse en sentido horario.
+- Cómo activar el mecanismo de la trampa y resolver el éxito o fracaso.
+
+<YouTubeEmbed videoId="RJPOHG6ing8" title="Cómo jugar Mouse Trap" />
+
+Para comenzar, los jugadores deben familiarizarse con el contenido de la caja del juego. La siguiente tabla detalla los componentes esenciales necesarios para la configuración.
+
+| Componente | Cantidad | Propósito |
+| :--- | :--- | :--- |
+| Fichas de Ratón | 4 | Representan a los jugadores en el recorrido |
+| Porciones de Queso | 24 | Recursos necesarios para ganar el juego |
+| Dado | 1 | Controla la distancia de movimiento del jugador |
+| Mecanismo de la Trampa | 1 set | Mecanismo interactivo para atrapar ratones |
+| Tablero de Juego | 1 | El camino por el que navegan los jugadores |
+
+<Callout type="info" title="Verificación de Componentes">
+Verifica siempre que todas las piezas de plástico de la trampa estén presentes antes de comenzar la construcción. Las piezas faltantes pueden evitar que el mecanismo de la trampa funcione correctamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Configuración del Tablero para Principiantes">
+
+Configurar el tablero de juego requiere atención al detalle, especialmente al ensamblar el mecanismo de plástico. Sigue estos pasos estructurados para preparar el tablero para tu primera partida.
+
+<Steps>
+  <Step num="1" title="Distribuir Queso Inicial">
+    Entrega a cada jugador una porción de queso para comenzar su inventario. Coloca dos porciones adicionales de queso directamente en la casilla de salida del tablero.
+  </Step>
+  <Step num="2" title="Ensamblar el Mecanismo">
+    Construye el mecanismo de la trampa en las ubicaciones designadas del tablero. Conecta la base, la rampa, la señal de stop, la bota, el cubo y el conjunto de la jaula.
+  </Step>
+  <Step num="3" title="Preparar la Pila de Queso">
+    Coloca todas las porciones de queso restantes en una pila junto al tablero. Esta pila sirve como el banco principal del cual los jugadores toman queso durante el juego.
+  </Step>
+  <Step num="4" title="Posicionar Fichas">
+    Cada jugador selecciona una ficha de ratón de color y la coloca en la casilla de salida. Elige a un jugador para que empiece, y el juego procederá en sentido horario.
+  </Step>
+</Steps>
+
+Comprender las casillas del tablero es crucial para planificar tu movimiento. La siguiente tabla detalla qué sucede cuando caes en cada casilla de color.
+
+| Color de Casilla | Tipo de Casilla | Acción Requerida |
+| :--- | :--- | :--- |
+| Amarillo | Casilla de Queso | Recoge una porción de queso de la pila principal |
+| Verde | Casilla de Robo | Quita una porción de queso a cualquier oponente |
+| Rojo | Casilla de Pérdida | Devuelve una de tus porciones de queso a la pila |
+| Azul | Casilla de Lanzamiento | Envía a un rival a la trampa y activa el mecanismo |
+| Morado | Casilla Neutral | No ocurre ninguna acción; el turno termina inmediatamente |
+| Túnel | Casilla de Atajo | Elige viajar directamente al extremo opuesto |
+
+<Callout type="warning" title="Advertencia de Configuración">
+Asegúrate de que la escoba, el desviador de bolas y la jaula se restablezcan a sus posiciones iniciales antes de comenzar el juego para evitar activaciones accidentales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Jugabilidad Principal y Mecánica de la Trampa">
+
+En tu turno, lanza el dado y mueve tu ficha en sentido horario por el tablero. Si eres el primer jugador en completar una vuelta completa al tablero, recolectas inmediatamente las dos porciones de queso de bonificación colocadas en la casilla de salida durante la configuración.
+
+Cuando un jugador cae en la casilla azul de lanzamiento, puede iniciar la secuencia de captura. Esta es la principal mecánica interactiva del juego y requiere pasos específicos para resolverse.
+
+<CardGrid cols={3}>
+  <Card title="Iniciar la Trampa">
+    Selecciona un oponente objetivo y mueve su ficha a la casilla de trampa designada en el tablero.
+  </Card>
+  <Card title="Activar Mecanismo">
+    Tira hacia atrás la señal de stop de plástico y suéltala para iniciar la reacción en cadena.
+  </Card>
+  <Card title="Resolver Resultado">
+    Si la jaula cae con éxito y atrapa al ratón rival, recolecta un queso de ese jugador.
+  </Card>
+</CardGrid>
+
+Si la trampa no cae o falla el objetivo por cualquier motivo, el jugador objetivo no pierde queso. Si ya hay una ficha de ratón en la casilla de la trampa cuando se activa una nueva trampa, puedes apuntar a múltiples jugadores. Una ejecución exitosa de la trampa te permite recolectar queso de todos los jugadores que se encuentren actualmente en la casilla de la trampa.
+
+| Estado de la Trampa | Resultado | Transferencia de Queso |
+| :--- | :--- | :--- |
+| Éxito | La jaula cae sobre el ratón objetivo | El objetivo entrega 1 queso al lanzador |
+| Fracaso | La trampa no se activa o falla | No se transfiere queso |
+| Éxito Múltiple | La jaula atrapa a varios ratones | Todos los jugadores atrapados entregan 1 queso |
+
+Después de que se resuelva la secuencia de la trampa, el jugador que la activó debe restablecer el mecanismo. Regresa la bola, el desviador y la jaula a sus posiciones originales, y gira la escoba hacia arriba.
+
+<Callout type="success" title="Recordatorio de Restablecimiento">
+Siempre verifica dos veces que la trampa esté completamente restablecida. Dejar componentes parcialmente colocados puede causar que el mecanismo se atasque en turnos posteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategia Ganadora y Lista de Verificación">
+
+Para ganar Mouse Trap, debes concentrarte en la acumulación de queso y el posicionamiento en el tablero. El juego termina inmediatamente cuando un jugador recolecta seis porciones de queso, formando un círculo completo.
+
+Usar la casilla del túnel de la madriguera es una decisión estratégica. Al caer en esta casilla, puedes elegir saltarte una parte del tablero, lo que puede ayudarte a llegar más rápido a las casillas ricas en queso o evitar zonas de trampa potenciales.
+
+<Checklist
+  id="victory-milestones"
+  title="Camino a la Victoria:"
+  items={[
+    "Asegura las dos porciones de queso de bonificación en la casilla de salida durante la primera vuelta.",
+    "Apunta a los jugadores con más queso cuando caigas en casillas verdes de robo.",
+    "Utiliza el túnel de la madriguera para escapar de las peligrosas casillas rojas.",
+    "Asegúrate de que la trampa esté totalmente restablecida para capitalizar las casillas azules de lanzamiento."
+  ]}
+/>
+
+Lleva la cuenta del queso de tus oponentes. Si un oponente está cerca de alcanzar las seis porciones, prioriza caer en casillas verdes para robar sus recursos o casillas azules para atraparlo.
+
+| Tipo de Estrategia | Área de Enfoque | Acción Recomendada |
+| :--- | :--- | :--- |
+| Defensiva | Preservación de Queso | Evita terminar turnos cerca de la casilla de trampa |
+| Ofensiva | Denegación de Recursos | Apunta al jugador líder en las casillas verdes |
+| Táctica | Navegación del Tablero | Usa los túneles para saltar zonas de baja recompensa |
+
+<Callout type="tip" title="Consejo Profesional">
+Si un oponente no tiene queso, atraparlo con una trampa es menos efectivo. Concentra tus esfuerzos de captura en los jugadores que tengan porciones de queso para entregar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+Revisa estas preguntas comunes para aclarar reglas específicas y escenarios durante el juego.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal de esta guía de mouse trap para principiantes?",
+    answer: "Esta guía ayuda a los nuevos jugadores a comprender la configuración, las casillas del tablero, la mecánica de la trampa y las estrategias necesarias para recolectar seis porciones de queso y ganar el juego."
+  },
+  {
+    question: "¿Qué sucede si la trampa no logra atrapar al ratón objetivo?",
+    answer: "Si la trampa falla por cualquier motivo, el jugador objetivo no entrega ningún queso al jugador que activó la trampa. El mecanismo debe restablecerse de todos modos."
+  },
+  {
+    question: "¿Pueden ser atrapados varios ratones en la trampa al mismo tiempo?",
+    answer: "Sí. Si hay varias fichas de ratón en la casilla de la trampa y la trampa tiene éxito, el jugador que la activó recibe una porción de queso de cada jugador atrapado."
+  },
+  {
+    question: "¿Es obligatorio usar el túnel de la madriguera?",
+    answer: "No. Viajar a través del túnel hacia la casilla del otro extremo es opcional. Los jugadores pueden elegir quedarse en el camino estándar si les resulta más ventajoso."
+  }
+]} />
+
+<Callout type="info" title="Aclaración de Reglas">
+Si un jugador cae en una casilla roja pero no tiene queso, no enfrenta ninguna penalización adicional. Simplemente permanece con cero quesos.
+</Callout>
+
+</Section>

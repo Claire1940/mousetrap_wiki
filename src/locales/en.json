@@ -10,7 +10,15 @@
       "twitterDescription": "Master Mouse Trap with clear rules, cheese strategies, trap mechanics, multiplayer guides, and platform details."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "rules": "Rules",
+    "setup": "Setup",
+    "strategy": "Strategy",
+    "versions": "Versions",
+    "digital": "Digital",
+    "reviews": "Reviews"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -530,5 +538,146 @@
     "copyright": "© 2026 Mouse Trap Wiki. Not affiliated with Marmalade Game Studio or Hasbro.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "Mousetrap Guides",
+      "description": "Step-by-step Mousetrap guides covering board setup, rules, trap mechanics, and winning strategies for every edition.",
+      "metaTitle": "Mousetrap Guides - Setup, Rules & Strategy Walkthroughs",
+      "metaDescription": "Browse every Mousetrap guide: how to play, board setup, chain-reaction traps, cheese rules, and strategies to win.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What Are Mousetrap Guides?",
+      "whatIsDescription": "Our Mousetrap guides walk you through every part of the game, from your first board setup to advanced trap-timing tactics. Each guide breaks the rules into clear steps so new players can start playing in minutes and veterans can sharpen their strategy.",
+      "why": "Why Read Our Guides?",
+      "whySteps": {
+        "step1Title": "Learn the Full Game Loop",
+        "step1Description": "Understand turns, moves, cheese collection, and how the trap activates so you always know what to do next.",
+        "step2Title": "Set Up Without Mistakes",
+        "step2Description": "Follow illustrated setup steps that get the board and chain-reaction contraption ready the right way, every time.",
+        "step3Title": "Build a Winning Strategy",
+        "step3Description": "Apply proven tactics for trap timing and cheese stealing that work across the original and modern editions."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "rules": {
+      "title": "Mousetrap Rules",
+      "description": "Official Mousetrap rules explained clearly: turn order, cheese, trap activation, player count, and win conditions.",
+      "metaTitle": "Mousetrap Rules - How to Play & Win Conditions",
+      "metaDescription": "Master the official Mousetrap rules: turns, cheese collection, trap activation, player count, age rating, and victory.",
+      "categoryLabel": "RULES",
+      "whatIs": "What Are the Mousetrap Rules?",
+      "whatIsDescription": "The rules define how Mousetrap is played: how mice move around the board, how cheese is collected and stolen, when the famous chain-reaction trap fires, and how a player wins. We explain every rule in plain language so nothing slows down your game night.",
+      "why": "Why Learn the Rules?",
+      "whySteps": {
+        "step1Title": "Play Correctly From Turn One",
+        "step1Description": "Know exactly how turns, moves, and cheese work so there are no arguments or confusion mid-game.",
+        "step2Title": "Trigger the Trap the Right Way",
+        "step2Description": "Understand the exact conditions that launch the chain reaction so the trap fires fairly every time.",
+        "step3Title": "Win With Confidence",
+        "step3Description": "Learn the victory conditions and player-count rules so everyone knows how the game is won."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Rules"
+    },
+    "setup": {
+      "title": "Mousetrap Setup",
+      "description": "Complete Mousetrap setup guides: board assembly, trap construction, piece placement, and chain-reaction build order.",
+      "metaTitle": "Mousetrap Setup - Board, Trap & Pieces Assembly",
+      "metaDescription": "Set up Mousetrap correctly: build the board, assemble the chain-reaction trap, place the pieces, and start playing fast.",
+      "categoryLabel": "SETUP",
+      "whatIs": "What Is Mousetrap Setup?",
+      "whatIsDescription": "Setup is everything you do before the first turn: building the board, constructing the chain-reaction trap contraption piece by piece, and placing the mice and cheese. A correct setup makes the game run smoothly and the trap fire without jamming.",
+      "why": "Why Setup Matters",
+      "whySteps": {
+        "step1Title": "Build the Trap Correctly",
+        "step1Description": "Assemble the chain-reaction contraption in the right order so every gear, staircase, and cage works as intended.",
+        "step2Title": "Place the Board and Pieces",
+        "step2Description": "Lay out the board, position the mice, and stage the cheese so the game is ready to start.",
+        "step3Title": "Avoid Common Build Errors",
+        "step3Description": "Sidestep the frequent assembly mistakes that make the trap jam or misfire during play."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Setup Guides"
+    },
+    "strategy": {
+      "title": "Mousetrap Strategy",
+      "description": "Winning Mousetrap strategy: cheese stealing, trap timing, comeback tactics, and family-friendly tips for every match.",
+      "metaTitle": "Mousetrap Strategy - Win Tips & Cheese Tactics",
+      "metaDescription": "Dominate Mousetrap with proven strategy: when to steal cheese, perfect trap timing, comeback plans, and family tips.",
+      "categoryLabel": "STRATEGY",
+      "whatIs": "What Is Mousetrap Strategy?",
+      "whatIsDescription": "Strategy is how you turn the rules into wins: deciding when to race for cheese, when to bait opponents into the trap, and how to recover when you fall behind. Good strategy keeps every game close, exciting, and winnable.",
+      "why": "Why Use Strategy?",
+      "whySteps": {
+        "step1Title": "Time the Trap Perfectly",
+        "step1Description": "Learn when to lure rivals onto the trap space so the chain reaction catches them at the worst moment.",
+        "step2Title": "Steal Cheese Wisely",
+        "step2Description": "Pick the right moments to steal cheese and protect your stash so you stay ahead on the scoreboard.",
+        "step3Title": "Plan Your Comeback",
+        "step3Description": "Use proven comeback tactics to climb back into the game even when you are trailing early."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Strategies"
+    },
+    "versions": {
+      "title": "Mousetrap Versions",
+      "description": "Every Mousetrap version compared: 1963 original, vintage editions, Hasbro reprints, and modern 2014/2016 releases.",
+      "metaTitle": "Mousetrap Versions - 1963, Vintage & Modern Editions",
+      "metaDescription": "Compare every Mousetrap edition: the 1963 original, vintage and Hasbro releases, and the 2014/2016 modern versions.",
+      "categoryLabel": "VERSIONS",
+      "whatIs": "What Are Mousetrap Versions?",
+      "whatIsDescription": "Mousetrap has been published in many editions since 1963, from the original Ideal release to vintage collectibles, Hasbro reprints, and the modern 2014 and 2016 versions. Each edition keeps the famous chain-reaction trap while updating the board, artwork, and pieces.",
+      "why": "Why Compare Versions?",
+      "whySteps": {
+        "step1Title": "Find the Right Edition",
+        "step1Description": "Discover which Mousetrap version matches how you want to play, from retro charm to modern components.",
+        "step2Title": "Spot Vintage Value",
+        "step2Description": "Identify collectible vintage editions and see what makes certain years sought after by collectors.",
+        "step3Title": "See How the Game Evolved",
+        "step3Description": "Trace how the board, trap contraption, and rules changed across six decades of releases."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Versions"
+    },
+    "digital": {
+      "title": "Mousetrap Digital",
+      "description": "Mousetrap digital editions: the video game, mobile app, online play, Nintendo Switch, and full mobile walkthroughs.",
+      "metaTitle": "Mousetrap Digital - Video Game, Mobile & Switch",
+      "metaDescription": "Play Mousetrap anywhere: the video game, mobile app, online versions, Nintendo Switch release, and mobile walkthroughs.",
+      "categoryLabel": "DIGITAL",
+      "whatIs": "What Is Mousetrap Digital?",
+      "whatIsDescription": "The digital editions bring Mousetrap to screens: a video game, a mobile app, an online playable version, and a Nintendo Switch release. You get the same cheese-collecting, trap-triggering fun with animated 3D boards and online multiplayer.",
+      "why": "Why Play the Digital Edition?",
+      "whySteps": {
+        "step1Title": "Play Anywhere, Anytime",
+        "step1Description": "Enjoy Mousetrap on your phone, tablet, or console without setting up the physical board.",
+        "step2Title": "Challenge Players Online",
+        "step2Description": "Match up with friends or players worldwide through online and mobile multiplayer modes.",
+        "step3Title": "Master the Digital Version",
+        "step3Description": "Use our mobile walkthroughs to learn the digital controls, menus, and online features in minutes."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Digital Guides"
+    },
+    "reviews": {
+      "title": "Mousetrap Reviews",
+      "description": "In-depth Mousetrap reviews: board game ratings, retro edition verdicts, and Nintendo Switch digital reviews.",
+      "metaTitle": "Mousetrap Reviews - Board Game, Retro & Switch",
+      "metaDescription": "Read detailed Mousetrap reviews covering the board game, retro editions, and the Nintendo Switch digital release.",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "What Are Mousetrap Reviews?",
+      "whatIsDescription": "Our reviews evaluate Mousetrap across its many forms: the classic board game, retro and vintage editions, and the Nintendo Switch digital version. We cover gameplay, components, value, and who each edition suits best.",
+      "why": "Why Read Our Reviews?",
+      "whySteps": {
+        "step1Title": "Decide Before You Buy",
+        "step1Description": "Get clear verdicts on each Mousetrap edition so you spend on the version you will actually enjoy.",
+        "step2Title": "Compare Board and Digital",
+        "step2Description": "See how the tabletop game stacks up against the digital and Switch releases before choosing how to play.",
+        "step3Title": "Find the Right Fit",
+        "step3Description": "Match the right Mousetrap edition to your group, whether it is family game night or solo play."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Reviews"
+    }
+  }
 }

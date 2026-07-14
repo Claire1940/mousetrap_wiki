@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mousetrap Video Game: Classic 1981 Arcade Strategy Guide",
+  description: "Master the classic 1981 Mousetrap video game. Learn maze navigation, color-door mechanics, high-score strategies, and explore home console ports.",
+  category: "Digital",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Arcade+Guide",
+  date: "2026-07-14",
+  author: "mousetrap Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mousetrap video game** is a classic 1981 maze-chase arcade cabinet developed by Exidy.
+- **Color-coded doors** can be shifted by pressing corresponding buttons to block pursuing cats.
+- **Dog bones** transform the player into a dog, allowing them to temporarily defeat cats.
+- **Hawk hazards** appear in later stages, ignoring doors and requiring fast movement.
+- **Home ports** like ColecoVision offer the most arcade-accurate conversion of this retro title.
+</Callout>
+
+<Section icon={Map} title="Historical Legacy of the Mousetrap Video Game">
+
+The **mousetrap video game**, developed by Exidy in 1981, remains one of the most innovative maze-chase games of the golden age of arcade gaming. Released during an era dominated by Pac-Man clones, this title distinguished itself by introducing interactive maze elements. Instead of navigating a static labyrinth, players interact with a dynamic environment where walls can be shifted in real-time to trap enemies or create escape routes.
+
+**Video Highlights:**
+- Classic 8-bit sound effects and retro cabinet gameplay presentation.
+- Demonstrating maze navigation and using color doors to trap cats.
+- Transforming into a dog to clear the board of enemies.
+
+<YouTubeEmbed videoId="pZ5y3JvOMDo" title="Arcade Game: Mouse Trap (1981 Exidy)" />
+
+Exidy designed the game cabinet with a unique control panel featuring a joystick and three colored buttons: red, yellow, and blue. These buttons control corresponding gates within the maze. This mechanical depth added a layer of strategy that set the game apart from its contemporaries, appealing to players who preferred tactical planning over pure reflexes.
+
+| Feature | Specification |
+|---|---|
+| Developer | Exidy |
+| Release Year | 1981 |
+| Genre | Maze, Action |
+| Main Hardware | MOS Technology 6502 |
+| Audio | Custom Exidy audio board |
+
+<Callout type="tip" title="Cabinet Layout Tip">
+When playing on original hardware or dedicated emulation setups, familiarize yourself with the physical layout of the color buttons to ensure quick response times during intense chases.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gameplay Mechanics and Color Door Systems">
+
+At its core, the game tasks players with guiding a mouse through a maze to consume all the cheese crumbs scattered across the screen. However, several cats patrol the corridors, attempting to corner and defeat the player. To defend themselves, players must collect dog bones scattered in the corners of the maze and utilize the color-coded doors.
+
+The color doors are the defining feature of the game. Red, yellow, and blue doors are placed throughout the maze. Pressing the corresponding button on the control panel toggles all doors of that color by rotating them 90 degrees. This action instantly blocks paths for pursuing cats or opens up new escape routes for the player.
+
+| Target | Score Reward |
+|---|---|
+| Cheese | 90 Points |
+| Dog Bone | 100 Points |
+| First Cat | 100 Points |
+| Second Cat | 300 Points |
+| Third Cat | 500 Points |
+| Fourth Cat | 900 Points |
+
+<CardGrid cols={4}>
+  <Card title="Mouse">
+    - **Player Character**
+    - High agility
+    - Vulnerable to cats
+  </Card>
+  <Card title="Cats">
+    - **Standard Enemies**
+    - Patrol corridors
+    - Block pathways
+  </Card>
+  <Card title="Dog">
+    - **Powered State**
+    - Consumes cats
+    - Limited duration
+  </Card>
+  <Card title="Hawk">
+    - **Special Hazard**
+    - Bypasses walls
+    - High speed
+  </Card>
+</CardGrid>
+
+Accumulating dog bones allows the player to trigger a temporary transformation into a dog. While in dog form, the player can turn the tables on the cats, chasing them down for significant bonus points. However, this power-up is finite, and players must manage their bone inventory carefully to survive higher levels.
+
+<Callout type="warning" title="Bone Inventory Limit">
+You can only hold a maximum of four dog bones at any given time. Collecting additional bones when your inventory is full will award points but will not increase your storage capacity.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step High Score Strategies">
+
+Achieving a high score requires a balance of spatial awareness, resource conservation, and quick button inputs. Players must learn to manipulate the enemy AI and optimize their pathing through the maze.
+
+<Steps>
+  <Step num="1" title="Maze Cleansing">
+    Begin each round by clearing the outer edges of the maze. These areas are the most dangerous because they offer fewer escape routes. Save the central corridors for later when the cat presence increases.
+  </Step>
+  <Step num="2" title="Door Partitioning">
+    Use the color buttons to partition the maze. By closing specific doors, you can trap the cats in one half of the screen while you safely clear the cheese from the other half.
+  </Step>
+  <Step num="3" title="Bone Conservation">
+    Do not trigger your dog transformation for a single cat unless you are cornered. Wait until multiple cats are clustered together near your position to maximize your scoring potential.
+  </Step>
+  <Step num="4" title="Hawk Evasion">
+    When the hawk appears, immediately head toward the center warp tunnel. The hawk ignores walls and will target you directly, making standard maze navigation useless.
+  </Step>
+</Steps>
+
+As you progress through the stages, the speed of the enemies increases, and their AI becomes more aggressive. The hawk also appears more frequently, forcing you to make split-second decisions regarding door manipulation and warp usage.
+
+| Stage Range | Cat Count | Hawk Frequency | General Speed |
+|---|---|---|---|
+| Stages 1-3 | 3 Cats | Low | Moderate |
+| Stages 4-6 | 4 Cats | Medium | Fast |
+| Stages 7-9 | 5 Cats | High | Very Fast |
+| Stages 10+ | 6 Cats | Constant | Extreme |
+
+<Callout type="success" title="Stage Completion Tip">
+Clearing a stage quickly awards a time bonus. Balance your points-gathering runs with speed to optimize your overall score progression.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defensive Maneuvers and Warp Tactics">
+
+Survival in the later stages of the game depends heavily on defensive positioning. Players should avoid getting trapped in the corners of the maze, as these zones offer limited escape routes if the cats coordinate their chase paths. If you find yourself cornered, your primary escape mechanism is the center warp zone.
+
+The center warp zone is marked with an "In" sign. Entering this space teleports the mouse to one of the four corners of the screen, which are marked as "Out" zones. However, this teleportation is randomized, meaning you could potentially land near a patrolling cat. Use this mechanic primarily as a last resort when trapped by the hawk or multiple cats.
+
+<Checklist
+  id="survival-checklist"
+  title="High-Score Checklist:"
+  items={[
+    "Track the locations of all active cats before changing door states",
+    "Keep at least two dog bones in reserve for emergency situations",
+    "Clear the corners of the maze early in each round",
+    "Monitor the hawk entry warning sound to prepare your escape route",
+    "Utilize the warp zone only when cornered with no door options"
+  ]}
+/>
+
+Another key tactic is baiting. You can lure cats into a specific corridor, quickly slip through a colored gate, and press the corresponding button to lock them inside. This effectively neutralizes them for a short duration, allowing you to clean up the rest of the maze undisturbed.
+
+<Callout type="warning" title="Warp Danger">
+Always check the destination corners before entering the warp zone. Teleporting directly into a cat will result in an immediate loss of life.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Analysis of Home Console Ports">
+
+Following its success in arcades, the game was ported to several home consoles in the early 1980s. The quality and accuracy of these ports varied wildly depending on the hardware capabilities of each system. The ColecoVision version is widely considered the most faithful port, capturing both the graphical style and the control complexity of the arcade original.
+
+On the ColecoVision, the controller keypad was utilized to manage the red, yellow, and blue doors, mapping them to specific keys. Other systems, like the Atari 2600, had to make significant compromises. The Atari 2600 version simplified the graphics and altered the control scheme to accommodate the system's single-button joystick, which automatically shifted doors based on player movement or simplified toggles.
+
+| Platform | Graphic Fidelity | Control Accuracy | Overall Rating |
+|---|---|---|---|
+| ColecoVision | High | Good | 4.5 / 5 |
+| Atari 2600 | Low | Average | 2.5 / 5 |
+| Intellivision | Medium | Fair | 3.0 / 5 |
+| Atari 8-bit | High | Good | 4.0 / 5 |
+
+While the home console versions allowed players to enjoy the game without spending quarters, the arcade version remains the definitive experience due to its precise controls and balanced difficulty scaling.
+
+<Callout type="tip" title="Emulation Recommendation">
+If you are looking to experience this classic today, the ColecoVision port is the best home console option to seek out, offering a highly accurate recreation of the arcade mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Troubleshooting and FAQ">
+
+To help players master the game, we have compiled answers to the most common questions regarding mechanics, ports, and scoring strategies.
+
+<FAQ items={[
+  {
+    question: "How do you trigger the dog transformation in the mousetrap video game?",
+    answer: "To trigger the transformation, press the Dog button on the control panel. This requires you to have at least one dog bone in your inventory. The transformation is temporary, so use it wisely."
+  },
+  {
+    question: "Can you defeat the Hawk in the game?",
+    answer: "No, the Hawk is completely invulnerable. You cannot defeat it even when transformed into a dog. Your only option is to avoid it or use the center warp to escape."
+  },
+  {
+    question: "What is the maximum number of dog bones you can carry?",
+    answer: "You can carry a maximum of four dog bones at any given time. Any bones collected beyond this limit will award points but will not add to your inventory."
+  },
+  {
+    question: "How do the color doors function during gameplay?",
+    answer: "Pressing the Red, Yellow, or Blue buttons rotates all doors of that color by 90 degrees. This opens new paths and closes off others, allowing you to trap cats or escape danger."
+  }
+]} />
+
+<Callout type="info" title="Final Strategy Note">
+Practice makes perfect. Spend time learning the layout of the doors and the timing of the cat movements to consistently achieve high scores on both arcade and home console formats.
+</Callout>
+
+</Section>

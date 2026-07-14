@@ -1,0 +1,161 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mausefalle-Strategie: Käsesammlung & Fallenmechanik meistern",
+  description: "Optimiere deine Mausefalle-Strategie im digitalen Brettspiel. Erfahre, wie du den meisten Käse sicherst, perfekte Diebstähle ausführst und die Falle auslöst.",
+  category: "Strategie",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Mousetrap+Strategy+Guide",
+  date: "2026-07-14",
+  author: "mousetrap Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Mausefalle-Strategie**: Priorisiere die sofortige Käsesammlung gegenüber unvorhersehbaren Fallenaktivierungen, um einen zuverlässigen Vorsprung aufzubauen.
+- **Priorität beim Stehlen**: Ziele auf den Spieler mit dem größten Käsehaufen ab, um die Punktedifferenz zu maximieren und Führende auszubremsen.
+- **Timing der Falle**: Löse die Aktions-Apparatur aus, wenn ein wohlhabender Rivale im Gefahrenbereich exponiert ist.
+- **Match-Timer**: Übervache den verbleibenden Vorrat der Käsemaschine, um in den späten Spielzügen von Störung auf direktes Punkten umzuschalten.
+- **Outfit-Fortschritt**: Speichere deinen restlichen Käse nach den Matches, um kosmetische Outfits in deinem dauerhaften Archiv freizuschalten.
+</Callout>
+
+<Section icon={Map} title="Mausefalle-Strategie: Kernmechaniken des Bretts">
+
+Die Entwicklung einer gewinnbringenden **Mausefalle-Strategie** in der digitalen Version von Mouse Trap von Marmalade Game Studio erfordert ein klares Verständnis des interaktiven Spielbrett-Layouts. Im Gegensatz zum physischen Brettspiel, bei dem der Aufbau im Vordergrund steht, bietet die digitale Edition eine dynamische 3D-Umgebung, in der die Spieler um den größten Käsevorrat wetteifern. 
+
+Das Match endet sofort, wenn die Käsemaschine leer ist. Daher muss sich jeder einzelne Zug darauf konzentrieren, entweder die eigene Punktzahl zu erhöhen oder die Punktzahl des engsten Rivalen aktiv zu verringern.
+
+| Brettelement | Primäre Funktion | Strategischer Wert |
+|---|---|---|
+| **Käsemaschine** | Fungiert als Match-Timer und primäre Käsequelle | **Hoch** (Steuert die Spiellänge) |
+| **Fallenbereich** | Bereich, in dem Spieler der Apparatur ausgesetzt sind | **Mittel** (Hohes Risiko, hohe Belohnung) |
+| **Diebstahl-Felder** | Ermöglicht den direkten Diebstahl von gegnerischem Käse | **Maximum** (Erzeugt doppelte Punktewert-Schwankungen) |
+
+<Callout type="tip" title="Profi-Tipp">
+Berechne immer den potenziellen Wert eines Feldes, bevor du dich festlegst. Ein garantierter einzelner Käse ist oft sicherer als ein riskantes Wagnis auf einem Fallenfeld, wenn du bereits einen knappen Vorsprung hältst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Käsesammlung und Hortungsstrategie">
+
+Der Spieler, der den meisten Käse besitzt, wenn die Maschine leer ist, wird zum Sieger erklärt. Um einen unschlagbaren Vorrat aufzubauen, musst du passives Sammeln mit aggressivem Punktediebstahl ausbalancieren.
+
+<CardGrid cols={3}>
+  <Card title="Garantierte Gewinne">
+    - **Sofortige Aufnahmen priorisieren**
+    - Käse aus der Maschine sichern
+    - Risikoreiche Wetten vermeiden
+  </Card>
+  <Card title="Aggressive Diebstähle">
+    - **Den aktuellen Führenden anvisieren**
+    - Massive Punkteschwankungen erzeugen
+    - Das Momentum der Rivalen schnell bremsen
+  </Card>
+  <Card title="Defensives Horten">
+    - **Deinen knappen Vorsprung schützen**
+    - Ständig Käse hinzufügen
+    - Angriffsfenster für Gegner begrenzen
+  </Card>
+</CardGrid>
+
+Denke bei der Ausführung deiner **Mausefalle-Strategie** daran, dass Stehlen doppelt so wertvoll ist wie einfaches Sammeln. Wenn du dem Führenden zwei Stücke Käse stiehlst, verringert das seine Punktzahl um zwei und erhöht deine um zwei, was zu einer Differenz von vier Punkten in der Rangliste führt.
+
+| Sammlungsmethode | Durchschnittlicher Ertrag | Risikostufe | Beste Verwendung wenn |
+|---|---|---|---|
+| **Käsemaschine** | Beständig | **Niedrig** | Fortschritt im frühen bis mittleren Spiel |
+| **Direktes Stehlen** | Hoch | **Mittel** | Ein Gegner einen deutlichen Vorsprung aufbaut |
+| **Fallenaktivierung** | Variabel | **Hoch** | Aufholjagden im späten Spiel nötig sind |
+
+<Callout type="warning" title="Warnung">
+Verteile deine Diebstähle nicht gleichmäßig auf alle Spieler. Konzentriere deine Offensivbemühungen fast ausschließlich auf den erstplatzierten Spieler, um das Match kompetitiv zu halten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Auslösen der Kettenreaktions-Apparatur">
+
+Die berühmte Aktions-Apparatur im Rube-Goldberg-Stil ist das spannendste Element auf dem Brett. Sie im perfekten Moment auszulösen, kann einen Gegner komplett ausschalten und deinen Weg zum Sieg sichern.
+
+<Steps>
+  <Step num="1" title="Den Fallenbereich überwachen">
+    Verfolge, welche Gegner den Gefahrenbereich unter der Falle betreten, und bewerte deren aktuelle Käse-Gesamtzahl.
+  </Step>
+  <Step num="2" title="Das Ziel bestätigen">
+    Wähle den Gegner aus, der die größte Bedrohung für deinen Vorsprung darstellt. Verschwende keine Angriffe auf Spieler, die bereits weit zurückliegen.
+  </Step>
+  <Step num="3" title="Den Stiefeltritt einleiten">
+    Aktiviere den Mechanismus. Der Stiefel tritt gegen die Murmel und startet die automatisierte 3D-Kettenreaktionssequenz.
+  </Step>
+  <Step num="4" title="Den Fall auflösen">
+    Beobachte, wie der Käfig fällt. Bei Erfolg wird der gefangene Gegner vorübergehend außer Gefecht gesetzt, sodass du die Kontrolle über das Brett übernehmen kannst.
+  </Step>
+</Steps>
+
+| Apparatur-Stufe | Interaktives Element | Spieleraktion | Strategische Auswirkung |
+|---|---|---|---|
+| **Stufe 1: Tritt** | Der schwingende Stiefel | Automatischer Start | Leitet die Störung des Zugs ein |
+| **Stufe 2: Abstieg** | Die rollende Murmel | Visuelle Spannung | Gibt Spielern Zeit für die nächsten Züge |
+| **Stufe 3: Start** | Der Turmspringer | Interaktiver Auslöser | Finalisiert die Erfolgsrate der Falle |
+| **Stufe 4: Fang** | Der fallende Käfig | Ergebnisauflösung | Fangt das Ziel und setzt den Bereich zurück |
+
+<Callout type="info" title="Hinweis">
+Die digitale Falle ist aufwendig animiert, kann aber gelegentlich scheitern, das Ziel zu fangen. Verlasse dich niemals allein auf die Falle, um zu gewinnen; betrachte sie als Werkzeug zur Störung, nicht als primäre Punktemethode.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endspiel-Prioritäten und Outfit-Fortschritt">
+
+Wenn die Käsemaschine leer wird, musst du deine **Mausefalle-Strategie** von langfristiger Störung auf sofortige Punktsicherung umstellen. Jedes Stück Käse, das du am Ende eines Matches besitzt, wird direkt deinem dauerhaften Käsevorrat hinzugefügt.
+
+<Checklist
+  id="endgame-goals"
+  title="Checkliste zum Match-Abschluss:"
+  items={[
+    "Überwache den verbleibenden Vorrat der Käsemaschine genau",
+    "Verlagere den Fokus vom Angreifen auf das Sichern letzter Käsestücke",
+    "Vermeide es, in den letzten Zügen den Fallenbereich zu betreten",
+    "Speichere deinen restlichen Käse, um deinen dauerhaften Vorrat zu vergrößern",
+    "Gib deinen angesammelten Vorrat aus, um neue kosmetische Outfits freizuschalten"
+  ]}
+/>
+
+| Plattform-Edition | Enthaltene Outfits | Freischaltmethode | Anpassungsoptionen |
+|---|---|---|---|
+| **Mobil (iOS/Android)** | **22 Outfits** | Käsevorrat / Käufe | Klassische Farben und Starter-Hüte |
+| **Nintendo Switch** | **34 Outfits** | Spielfortschritt | Erweiterte Farbpaletten und Felle |
+| **PlayStation 4** | **Basis-Outfits** | Match-Abschluss | Standard-Konsolen-Kosmetikset |
+
+<Callout type="success" title="Fortschritts-Tipp">
+Auch wenn du ein Match nicht gewinnen kannst, sammle bis zum allerletzten Zug weiter Käse. Jedes einzelne Stück Käse, das du bei Spielende besitzt, hilft dir, schneller neue Outfits freizuschalten.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mausefalle-Strategie FAQ">
+
+<FAQ items={[
+  {
+    question: "Was ist die effektivste Mausefalle-Strategie, um Matches zu gewinnen?",
+    answer: "Die effektivste Strategie besteht darin, die stetige Käsesammlung aus der Käsemaschine zu priorisieren, den Führenden mit direkten Diebstählen anzuvisieren, um Punkteschwankungen zu erzeugen, und Fallenaktivierungen für wertvolle Ziele aufzusparen."
+  },
+  {
+    question: "Wie beeinflusst das Stehlen von Käse die Rangliste?",
+    answer: "Stehlen ist hocheffizient, da es gleichzeitig die Punktzahl eines Rivalen verringert und die eigene erhöht, was zu einer doppelten Wertverschiebung führt, die den Führenden schnell entthronen kann."
+  },
+  {
+    question: "Was passiert mit meinem Käse, wenn ein Match endet?",
+    answer: "Sämtlicher Käse, den du am Ende eines abgeschlossenen Matches besitzt, wird in deinen dauerhaften Käsevorrat übertragen, mit dem du neue kosmetische Outfits für deine Mäuse freischalten kannst."
+  },
+  {
+    question: "Ist garantiert, dass die Aktions-Apparatur Spieler fängt?",
+    answer: "Nein, die digitale Aktions-Apparatur kann gelegentlich scheitern, das Ziel zu fangen. Sie sollte eher als störendes Werkzeug und nicht als primäre Methode zum Sieg eingesetzt werden."
+  }
+]} />
+
+</Section>

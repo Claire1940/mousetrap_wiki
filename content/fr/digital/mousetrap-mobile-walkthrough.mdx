@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide complet de Mousetrap Mobile : Règles, Configuration et Stratégies",
+  description: "Maîtrisez le jeu de société numérique avec notre guide Mousetrap mobile. Apprenez les règles, les stratégies pour le fromage, la mécanique des pièges et la configuration multijoueur sur iOS et Android.",
+  category: "Digital",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mousetrap+Mobile+Walkthrough",
+  date: "2026-07-14",
+  author: "Équipe du Wiki Mousetrap",
+  keywords: "mousetrap, guide mobile, règles, stratégies, attrape-souris"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif principal** : Suivez ce **guide Mousetrap mobile** pour amasser la plus grande réserve de fromage.
+- **Mécanique clé** : Déplacez-vous sur le plateau animé en 3D, collectez du fromage et évitez le mécanisme infernal.
+- **Meilleure stratégie** : Concentrez-vous sur les vols directs auprès du joueur de tête pour créer des revirements de score massifs.
+- **Conseil critique** : Épargnez votre fromage après les matchs pour débloquer plus de 22 tenues cosmétiques uniques.
+- **Meilleur choix** : Utilisez le mode Solo pour vous entraîner aux mécaniques du plateau avant de passer au matchmaking en ligne.
+</Callout>
+
+<Section icon={Map} title="Premiers pas avec Mouse Trap Mobile">
+
+Bienvenue dans l'adaptation numérique du jeu de société classique de Hasbro, développée par Marmalade Game Studio. Ce guide complet couvre tout ce que vous devez savoir pour maîtriser le plateau animé en 3D sur iOS et Android. Contrairement à la version physique, l'édition mobile gère automatiquement toute la physique, l'installation et l'application des règles, vous permettant de vous concentrer entièrement sur la stratégie.
+
+Pour commencer votre aventure, vous devez comprendre la configuration de base d'un match et le déroulement de la première partie. Suivez ces étapes pour lancer votre premier jeu et établir des bases solides.
+
+<Steps>
+  <Step num="1" title="Choisissez votre mode de jeu">
+    Sélectionnez "Single Player" (Solo) dans le menu principal pour vous entraîner contre des adversaires IA. Cela vous permet d'apprendre la disposition du plateau et les phases de tour sans attendre les autres joueurs.
+  </Step>
+  <Step num="2" title="Sélectionnez votre souris et votre tenue">
+    Choisissez parmi les souris classiques rouge, bleue, jaune ou verte. Équipez les tenues de départ disponibles ; ces cosmétiques n'affectent pas les statistiques de jeu mais personnalisent votre apparence.
+  </Step>
+  <Step num="3" title="Lancez le dé et naviguez sur le plateau">
+    Appuyez sur la roue à l'écran pour lancer le dé. Votre souris se déplace automatiquement le long du parcours. Prêtez une attention particulière à la case sur laquelle vous atterrissez, car elle dicte l'action de votre tour.
+  </Step>
+  <Step num="4" title="Enregistrez votre fromage après le match">
+    À la fin du match, tout le fromage restant dans votre inventaire est ajouté à votre réserve persistante, qui sert à débloquer des objets cosmétiques premium.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Conseil de Pro">
+Terminez toujours vos matchs, même si vous perdez. Le fromage que vous détenez à la fin de la partie est définitivement mis en banque, assurant une progression cosmétique régulière.
+</Callout>
+
+| Plateforme | Statut Actuel | Taille du Téléchargement | Caractéristique Clé |
+| --- | --- | --- | --- |
+| iOS | Disponible | 321.8 Mo | Graphismes 3D haute résolution, Commandes tactiles |
+| Android | Disponible | Varie selon l'appareil | Intégration Google Play Pass, Jeu hors ligne |
+| Nintendo Switch | Disponible | 335 Mo | Support des modes portable et TV |
+| PlayStation 4 | Disponible | Sortie numérique | Rétrocompatible sur PS5 |
+
+</Section>
+
+<Section icon={Shield} title="Règles du jeu numérique et mécaniques de tour">
+
+La version numérique de Mouse Trap simplifie l'expérience traditionnelle sur table en automatisant l'assemblage complexe du piège de Rube Goldberg. L'objectif principal est de collecter, voler et protéger le fromage. Le jeu se termine immédiatement lorsque la Machine à Fromage épuise ses réserves, et le joueur ayant le plus de fromage dans son inventaire gagne.
+
+Chaque tour consiste à faire tourner la roue, déplacer votre souris et résoudre l'action de la case d'arrivée. Le plateau comporte plusieurs cases spécialisées qui peuvent complètement changer la dynamique de la partie.
+
+| Type de Case | Visuel du Plateau | Action de Tour Requise | Impact sur le Fromage |
+| --- | --- | --- | --- |
+| Case Fromage | Quartier jaune | Collecter le fromage immédiatement | +1 à +3 Fromages |
+| Case Vol | Empreinte rouge | Choisir un rival à voler | +2 Fromages (Cible -2) |
+| Case Piège | Mécanisme rouge | Déclencher le mécanisme infernal | Interrompt le tour de la cible |
+| Case Événement | Engrenage animé | Participer à des mini-jeux | Risque élevé, récompense élevée |
+
+<Callout type="warning" title="Avertissement de Jeu">
+Ne vous fiez pas aux règles du jeu de société physique. L'édition numérique présente des mécaniques de score uniques et n'élimine pas les joueurs lorsqu'ils sont pris au piège ; au lieu de cela, elle pénalise leur total de fromage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Gestion du fromage et stratégies de vol">
+
+Gagner un match nécessite plus que de simples bons lancers de dés. Vous devez gérer activement votre inventaire de fromage et perturber la progression de vos adversaires. Étant donné que les vols transfèrent directement les ressources d'un joueur à un autre, ils représentent un gain de valeur double.
+
+Pour maximiser votre efficacité, évaluez l'état du plateau avant de prendre des décisions. La disposition des cartes suivante souligne les piliers stratégiques fondamentaux pour la gestion de vos ressources.
+
+<CardGrid cols={3}>
+  <Card title="Suivre le meneur">
+    Surveillez toujours le tableau des scores sur le côté gauche de l'écran. Dirigez tous vos vols et activations offensives de pièges vers le joueur actuellement à la première place.
+  </Card>
+  <Card title="Prendre les gains garantis">
+    Face au choix entre une case de collecte de fromage garantie et une case d'événement à haut risque, privilégiez les gains garantis, surtout en fin de partie.
+  </Card>
+  <Card title="Exploiter les variations de score">
+    Voler du fromage n'augmente pas seulement votre score ; cela réduit activement le total de votre rival. Cela rend les cases de vol deux fois plus précieuses que les cases de collecte standard.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Succès Stratégique">
+Cibler le meneur permet de maintenir l'équilibre dans la partie et empêche un seul joueur de s'assurer une avance irrattrapable avant que la Machine à Fromage ne soit vide.
+</Callout>
+
+| Phase de Match | Objectif Principal | Action Recommandée | Niveau de Risque |
+| --- | --- | --- | --- |
+| Début de partie | Accumulation rapide | Atterrir sur les cases générant du fromage | Faible |
+| Milieu de partie | Perturbation | Cibler le meneur avec des vols | Moyen |
+| Fin de partie | Protection du score | Éviter les zones de piège et sécuriser l'avance | Élevé |
+
+</Section>
+
+<Section icon={Swords} title="Le mécanisme infernal et guide de réaction en chaîne">
+
+Le célèbre mécanisme infernal est la pièce maîtresse de Mouse Trap. Dans la version numérique, le piège est entièrement animé et peut être déclenché lorsqu'un joueur atterrit sur une case de piège désignée. L'activation du piège lance une séquence de Rube Goldberg en plusieurs étapes qui se termine par une cage tombant sur une souris exposée.
+
+Comprendre les étapes de cette séquence vous aide à anticiper le timing et à planifier vos mouvements sur le plateau pour éviter d'être capturé.
+
+| Étape de la Séquence | Composant Déclencheur | Détail de l'Animation | Résultat de Jeu |
+| --- | --- | --- | --- |
+| Étape 1 | La Botte | Balancier et coup dans le seau | La séquence commence |
+| Étape 2 | La Bille | Roule dans la goulotte sinueuse | Phase de suspense |
+| Étape 3 | Le Plongeur | Lancé depuis le tremplin | Déclencheur mécanique final |
+| Étape 4 | La Cage | Tombe sur la case ciblée | La cible perd son tour/fromage |
+
+<Callout type="info" title="Info Événement Spécial">
+Gardez un œil sur l'événement Riggs le Chat. Ce mini-jeu interactif offre des opportunités uniques de gagner des bonus de fromage en dehors des déplacements standards sur le plateau.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Modes multijoueurs et configuration de la plateforme">
+
+Mouse Trap est encore plus amusant entre amis ou en famille. L'édition numérique propose des options multijoueurs robustes, notamment le "Pass & Play" local et le matchmaking en ligne. Selon votre plateforme, vous pouvez vous connecter avec jusqu'à quatre joueurs dans le monde entier.
+
+Consultez les options de configuration ci-dessous pour sélectionner la meilleure installation pour votre session de jeu.
+
+| Mode Multijoueur | Nombre de Joueurs | Exigence de Connexion | Meilleur Cas d'Utilisation |
+| --- | --- | --- | --- |
+| En ligne privé | 2-4 Joueurs | Internet stable | Jouer avec des amis à distance |
+| Matchmaking public | Jusqu'à 4 Joueurs | Internet stable | Trouver des parties en ligne actives |
+| Console local | 1-4 Joueurs | Hors ligne | Jeu sur canapé sur un seul écran |
+| Pass & Play | 2-4 Joueurs | Hors ligne | Voyages et trajets mobiles |
+
+<Callout type="warning" title="Note sur les Abonnements Plateforme">
+Jouer en multijoueur en ligne sur Nintendo Switch nécessite un abonnement Nintendo Switch Online actif. Les joueurs sur PlayStation 4 ont besoin d'un abonnement PlayStation Plus. Les joueurs mobiles n'ont pas besoin d'abonnements de console séparés.
+</Callout>
+
+<Checklist
+  id="multiplayer-prep"
+  title="Liste de préparation multijoueur :"
+  items={[
+    "Vérifiez que votre appareil mobile fonctionne sous iOS 11.0 ou l'équivalent Android",
+    "Connectez-vous à un réseau Wi-Fi haut débit pour éviter les déconnexions en ligne",
+    "Assurez-vous que toutes les manettes locales sont chargées et synchronisées pour le jeu sur console",
+    "Liez votre compte Marmalade Game Studio pour activer les fonctionnalités de cross-play"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Débloquer des tenues de souris et personnalisation">
+
+La personnalisation de votre souris est un élément majeur de progression dans le jeu numérique. Bien que la version mobile inclue 22 tenues classiques avec l'achat de base, vous pouvez débloquer des cosmétiques premium supplémentaires en dépensant le fromage que vous accumulez dans tous les modes de jeu.
+
+Le système de personnalisation est entièrement cosmétique, garantissant que les matchs restent équitables et équilibrés, quel que soit le nombre de tenues débloquées par un joueur.
+
+<Callout type="success" title="Succès du Déblocage">
+Économisez vos réserves de fromage pour les tenues de haut niveau. Le jeu met fréquemment à jour son catalogue cosmétique, proposant des tenues saisonnières qui peuvent être achetées directement dans la garde-robe du jeu.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Ce guide Mousetrap mobile s'applique-t-il aux versions consoles ?",
+    answer: "Oui. La disposition de base du plateau, les règles numériques, les stratégies pour le fromage et les mécaniques de piège abordées dans ce guide sont identiques sur iOS, Android, Nintendo Switch et PlayStation 4."
+  },
+  {
+    question: "Comment gagner du fromage pour débloquer de nouvelles tenues ?",
+    answer: "Chaque morceau de fromage que vous possédez à la fin d'un match terminé est transféré directement dans votre réserve persistante. Vous pouvez dépenser cette réserve accumulée dans le menu de la garde-robe."
+  },
+  {
+    question: "Existe-t-il un mode hors ligne dans Mouse Trap mobile ?",
+    answer: "Oui. Vous pouvez jouer hors ligne en mode Solo contre des adversaires IA ou utiliser le mode Pass & Play pour jouer avec des amis sur un seul appareil mobile sans connexion Internet."
+  }
+]} />
+
+</Section>

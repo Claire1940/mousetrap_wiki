@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "rules": "Règles",
+    "setup": "Configuration",
+    "strategy": "Stratégie",
+    "versions": "Versions",
+    "digital": "Digital",
+    "reviews": "Avis"
+  }
+}

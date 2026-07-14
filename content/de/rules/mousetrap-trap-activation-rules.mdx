@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mausefalle Regeln zur Fallenaktivierung: Aufbau & Spielfeld-Guide",
+  description: "Meistere die Regeln zur Fallenaktivierung bei Mausefalle. Lerne, wie du die Vorrichtung auslöst, Fallenfelder auflöst und Käse sammelst, um zu gewinnen.",
+  category: "Regeln",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Trap+Activation+Rules",
+  date: "2026-07-14",
+  author: "mousetrap Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Fallenaktivierung**: Löse die Hauptvorrichtung aus, indem du auf dem blauen Startfeld landest, um gegnerische Mäuse zu fangen.
+- **Siegbedingung**: Sammle sechs Käsestücke, um ein komplettes Rad zu bilden und den Sieg zu erringen.
+- **Zurücksetzen der Vorrichtung**: Bringe Kugel, Taucher, Käfig und Besen nach jedem Versuch wieder in ihre Startpositionen.
+- **Käsediebstahl**: Lande auf grünen Feldern, um Käse direkt aus den Vorräten deiner Mitspieler zu stehlen.
+</Callout>
+
+<Section icon={Map} title="Spielbrett-Aufbau & grundlegender Spielablauf">
+
+Der korrekte Aufbau des Spielbretts ist entscheidend dafür, dass die physischen Komponenten während des Spiels wie vorgesehen funktionieren. Bevor die Spieler würfeln, müssen sie die komplexe Vorrichtung zusammenbauen, zu der Kurbel, Zahnräder, Stoppschild, Schuh, Eimer, Treppe, Rutsche, Badewanne, Taucher, Wippe und der Käfig gehören. Jeder Spieler erhält zu Beginn seiner Reise ein Käsestück als Startkapital, und zwei zusätzliche Bonusstücke werden direkt auf das Startfeld gelegt. Der erste Spieler, der eine vollständige Runde um das Brett dreht, sammelt diese beiden Bonus-Käsestücke ein, was ihm einen frühen Vorteil verschafft.
+
+**Video-Highlights:**
+- Lerne den kompletten physischen Aufbau des Bretts und der Vorrichtung.
+- Verstehe, wie die Start-Käsestücke an die Spieler verteilt werden.
+- Entdecke die Bewegungsmechaniken und die Regeln für die Bewegung im Uhrzeigersinn.
+- Sieh dir an, was passiert, wenn man auf verschiedenfarbigen Feldern landet.
+
+<YouTubeEmbed videoId="RJPOHG6ing8" title="Wie man Mausefalle spielt" />
+
+Die Bewegung erfolgt im Uhrzeigersinn um das Brett herum, basierend auf dem Wurf eines einzelnen Würfels. Die Spieler müssen ihre Spielfigur genau um die gewürfelte Anzahl an Feldern bewegen. Das Landen auf verschiedenen Feldern löst bestimmte Aktionen aus, die vom Sammeln von Käse bis zum Initiieren der Fallensequenz reichen.
+
+| Feldfarbe | Feldname | Erforderliche Aktion |
+|-|-|-|
+| Blau | Falle auslösen | Bewege den Gegner zur Falle und löse die Vorrichtung aus |
+| Gelb | Käsefeld | Nimm ein Käsestück vom Hauptstapel |
+| Grün | Diebstahlfeld | Nimm ein Käsestück von einem beliebigen Gegner |
+| Rot | Käse verlieren | Gib ein Käsestück zurück auf den Vorratsstapel |
+| Lila | Sicheres Feld | Auf diesem Feld ist keine Aktion erforderlich |
+
+<Callout type="success" title="Aufbau erfolgreich">
+Stelle sicher, dass alle Kunststoffzahnräder und Strukturteile beim Aufbau fest eingerastet sind. Lose Teile können dazu führen, dass die Falle mechanisch versagt, was sich auf das Ergebnis deiner Aktivierungszüge auswirkt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mausefalle Regeln zur Fallenaktivierung">
+
+Die Kernmechanik des Spiels dreht sich um die Regeln zur Aktivierung der Mausefalle. Wenn ein Spieler auf dem blauen Feld „Falle auslösen“ landet, erhält er die Möglichkeit, die Mausspielfigur eines Gegners zu fangen. Dieser Vorgang erfordert das Versetzen der Zielmaus auf das dafür vorgesehene Fallenfeld, bevor die physische Vorrichtung ausgelöst wird. Wenn die Falle erfolgreich über der Zielmaus landet, fordert der fangende Spieler ein Käsestück vom Opfer ein.
+
+<Steps>
+  <Step num="1" title="Zielauswahl">
+    Bestimme einen Gegner und bewege seine Mausspielfigur direkt auf das rote Fallenfeld auf dem Spielbrett.
+  </Step>
+  <Step num="2" title="Vorrichtung auslösen">
+    Ziehe das Stoppschild-Bauteil nach hinten und lasse es los, um die Kettenreaktion zu starten.
+  </Step>
+  <Step num="3" title="Fallenauflösung beobachten">
+    Beobachte, wie der Käfig herabfällt. Wenn der Käfig die Zielmaus erfolgreich einfängt, war die Aktivierung erfolgreich.
+  </Step>
+  <Step num="4" title="Belohnung einsammeln">
+    Fordere ein Käsestück vom gefangenen Spieler ein. Wenn sich mehrere Mäuse auf dem Feld befinden, fordere Käse von allen ein.
+  </Step>
+</Steps>
+
+Wenn die Falle die Zielmaus aus einem mechanischen Grund nicht fängt, endet der Zug sofort und es wird kein Käse ausgetauscht. Der Spieler, der die Falle ausgelöst hat, muss den Mechanismus dann für den nächsten Zug zurücksetzen.
+
+| Szenario | Zielort | Erfolgsbedingung | Belohnung |
+|-|-|-|-|
+| Einzelnes Ziel | Fallenfeld | Käfig landet vollständig über der Maus | 1 Käse vom Ziel |
+| Mehrere Ziele | Fallenfeld | Käfig landet über allen Mäusen | 1 Käse von jedem |
+| Mechanischer Fehler | Fallenfeld | Käfig fällt nicht oder richtet sich nicht aus | 0 Käse ausgetauscht |
+| Leeres Fallenfeld | Sicheres Feld | Aktivierungssequenz kann nicht ausgelöst werden | Keine Aktion ausgeführt |
+
+<Callout type="warning" title="Fehlgeschlagene Fallen">
+Wenn der Käfig aufgrund einer Fehlausrichtung beim Aufbau nicht vollständig herunterfällt, gilt die Falle als fehlgeschlagen. Der Zielspieler muss keinen Käse abgeben, und der aktive Spieler muss das Brett zurücksetzen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Strategien zum Käsesammeln">
+
+Um das Spiel zu gewinnen, müssen sich die Spieler auf das Ansammeln von Käse konzentrieren. Der erste Spieler, der sechs Käsestücke sammelt, um ein komplettes kreisförmiges Rad zu bilden, gewinnt. Da Käse auf roten Feldern verloren gehen oder auf grünen Feldern gestohlen werden kann, müssen die Spieler ihre Bewegungsstrategien an ihren aktuellen Käsestand und ihre Position auf dem Brett anpassen.
+
+<CardGrid cols={3}>
+  <Card title="Aggressiver Dieb">
+    - Nimm Spieler mit großen Vorräten ins Visier
+    - Priorisiere das Landen auf grünen Feldern
+    - Konzentriere dich auf das Stehlen von Käse, um Führende auszubremsen
+  </Card>
+  <Card title="Fallenspezialist">
+    - Halte Gegner in der Nähe des Fallenfeldes
+    - Zielen auf blaue Startfelder, wenn Gegner verwundbar sind
+    - Meistere den physischen Auslösemechanismus für Zuverlässigkeit
+  </Card>
+  <Card title="Sicherer Navigator">
+    - Nutze den Mauslochtunnel, um gefährliche Zonen zu umgehen
+    - Konzentriere dich auf gelbe Käsefelder für ein stetiges Ansammeln
+    - Minimiere Risiken in der Nähe von roten Feldern mit Käseverlust
+  </Card>
+</CardGrid>
+
+Die Verwaltung deiner Ressourcen ist entscheidend. Zu wissen, wann man defensiv spielen und wann man Gegner ins Visier nehmen sollte, kann den Unterschied ausmachen, ob man seinen hart verdienten Käse verliert oder sich das letzte Stück sichert.
+
+| Strategietyp | Risiko-Stufe | Hauptfokus | Am besten verwendet, wenn |
+|-|-|-|-|
+| Aggressiv | Hoch | Stehlen von den Führenden | Gegner kurz vor dem Sieg stehen |
+| Defensiv | Niedrig | Gefahrenzonen umgehen | Du fünf Käsestücke besitzt |
+| Opportunistisch | Mittel | Die Falle aktivieren | Gegner sich in der Nähe der Falle drängen |
+
+<Callout type="tip" title="Profi-Strategie">
+Wenn du auf einem blauen Feld landest und eine andere Maus bereits auf dem Fallenfeld sitzt, kannst du trotzdem eine weitere Maus dorthin schicken. Ein erfolgreicher Fallenabsturz bringt dir Käse von allen darin gefangenen Spielern ein.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Zurücksetzen der Vorrichtung & Tunnel-Mechaniken">
+
+Nach jedem Versuch der Fallenaktivierung, ob erfolgreich oder nicht, muss die Falle zurückgesetzt werden. Dies stellt sicher, dass das Spielbrett für den nächsten Spieler bereit ist, der auf einem Startfeld landet. Das Zurücksetzen umfasst das Zurückbringen der Kugel, des Tauchers, des Käfigs und des Besens in ihre ursprünglichen Startpositionen.
+
+Zusätzlich können sich die Spieler effizient auf dem Brett bewegen, indem sie das Mauslochtunnel-Feld nutzen. Das Landen auf diesem Feld ermöglicht es einem Spieler, durch den Tunnel zum Feld am anderen Ende zu reisen, was eine taktische Abkürzung bietet, um Gefahren zu vermeiden oder Käsefelder schneller zu erreichen.
+
+| Komponente | Aktion zum Zurücksetzen | Korrekter Zustand |
+|-|-|-|
+| Kugel | Wieder in die obere Halterung legen | Sicher an Ort und Stelle |
+| Taucher | Zurück auf die obere Plattform bringen | Aufrecht stehend |
+| Käfig | Bis an die Spitze des Pfostens anheben | Hoch oben aufgehängt |
+| Besen | Zurück in die aufrechte Position drehen | Bereit zum Schwingen |
+
+<Checklist
+  id="end-of-turn-checklist"
+  title="Checkliste für das Rundenende:"
+  items={[
+    "Überprüfe, ob der Fallenkäfig aufgehängt und gesichert ist",
+    "Stelle sicher, dass der Taucher auf der Plattform positioniert ist",
+    "Bestätige, dass die Kugel auf ihre Startbahn zurückgebracht wurde",
+    "Überprüfe, ob alle Spieler ihre Käsetransaktionen abgewickelt haben"
+  ]}
+/>
+
+<Callout type="info" title="Tunnel-Navigation">
+Die Nutzung des Mauslochtunnels ist völlig optional. Bewerte das Zielfeld, bevor du dich für die Durchquerung entscheidest, da es dich näher an ein gefährliches rotes Feld bringen könnte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Was sind die wichtigsten Regeln zur Aktivierung der Mausefalle, wenn man auf einem blauen Feld landet?",
+    answer: "Wenn du auf einem blauen Feld landest, wählst du die Maus eines Gegners aus, bewegst sie auf das Fallenfeld und löst die Vorrichtung aus. Wenn sie gefangen wird, muss der Gegner dir ein Käsestück geben."
+  },
+  {
+    question: "Kann ich die Falle aktivieren, wenn sich keine Gegner in der Nähe des Fallenfeldes befinden?",
+    answer: "Ja. Wenn du auf dem blauen Startfeld landest, kannst du die Maus eines beliebigen Gegners von ihrer aktuellen Position auf dem Brett direkt auf das Fallenfeld bewegen, bevor du den Mechanismus auslöst."
+  },
+  {
+    question: "Was passiert, wenn die Falle die Maus während der Aktivierung nicht fängt?",
+    answer: "Wenn die Falle nicht richtig auslöst oder der Käfig die Maus verfehlt, gibt dir der Zielspieler keinen Käse. Du musst die Falle zurücksetzen und dein Zug endet."
+  },
+  {
+    question: "Wie gewinnt man das Spiel Mausefalle?",
+    answer: "Das Spiel wird von dem Spieler gewonnen, der als Erster sechs Käsestücke sammelt und sie zu einem vollständigen Käsekreis zusammensetzt."
+  }
+]} />
+
+<Callout type="tip" title="Schlussbemerkung">
+Halte das Spielbrett auf einer flachen, stabilen Oberfläche. Vibrationen können dazu führen, dass die Falle vorzeitig auslöst, was die Aktivierungsregeln und den Spielfluss stört.
+</Callout>
+
+</Section>

@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Reglas de Mouse Trap Cheese: Guía de Configuración y Juego Paso a Paso",
+  description: "Domina las reglas de Mouse Trap Cheese con nuestra guía de 2026. Aprende el montaje de la trampa, estrategias de recolección de queso y tácticas ganadoras para este clásico juego de mesa.",
+  category: "Reglas",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=Mouse+Trap+Rules+Guide",
+  date: "2026-07-14",
+  author: "Equipo de Wiki de mousetrap",
+  keywords: "reglas de mouse trap, reglas del queso, cómo jugar mouse trap, juego de mesa"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las reglas de Mouse Trap Cheese** se centran en recolectar piezas de queso mientras se evita la trampa central estilo Rube Goldberg.
+- **El objetivo del juego** es ser el último ratón que quede en el tablero después de que todos los demás jugadores hayan sido atrapados.
+- **La construcción de la trampa** se realiza de forma incremental a medida que los jugadores caen en casillas específicas de \"Construcción\" a lo largo del juego.
+- **Las piezas de queso** actúan como una moneda de cambio, permitiendo a los jugadores mover a sus oponentes hacia la zona de la trampa.
+- **Ganar** requiere una combinación de movimiento estratégico y suerte con las tiradas del dado.
+</Callout>
+
+<Section icon={Map} title="Configuración Inicial del Juego y Componentes">
+
+Antes de sumergirse en las complejas **reglas de Mouse Trap Cheese**, los jugadores deben asegurarse de que el tablero esté configurado correctamente. Mouse Trap está diseñado para 2 a 4 jugadores, cada uno controlando una ficha de ratón de plástico. La fase de preparación es fundamental porque los componentes físicos de la trampa deben colocarse en sus posiciones iniciales designadas antes de lanzar el primer dado.
+
+**Puntos Destacados del Video:**
+- Recorrido detallado del diseño del tablero y la colocación de los componentes.
+- Explicación de las fichas de ratón y las posiciones iniciales.
+- Descripción general del mazo de cartas de queso y cómo distribuir las piezas iniciales.
+- Demostración de las mecánicas básicas de movimiento.
+
+<YouTubeEmbed videoId="q6N1rQY1vGE" title="Catching the Cheese A Detailed Guide to the Rules and Fun of Mouse Trap" />
+
+El tablero consta de un camino sinuoso con varias casillas de colores. Cada color o icono representa una acción específica, que va desde construir la trampa hasta recolectar queso. La organización adecuada de las 24 piezas de la trampa es esencial para que el juego funcione correctamente durante la fase de \"Girar la Manivela\".
+
+| Componente | Cantidad | Propósito |
+| :--- | :--- | :--- |
+| Fichas de Ratón | 4 | Avatares de jugador (Rojo, Azul, Amarillo, Verde) |
+| Piezas de Queso | Múltiples | Moneda utilizada para atraer o mover a los oponentes |
+| Piezas de la Trampa | 24 | Piezas individuales utilizadas para construir el artilugio |
+| Cartas de Queso | 1 mazo | Instrucciones especiales o recompensas de queso |
+| Dado | 1 | Dado estándar de seis caras para el movimiento |
+
+<Callout type="tip" title="Consejo de Configuración">
+Coloca siempre el tablero de juego sobre una superficie completamente plana. Dado que la trampa depende de la gravedad y la física, cualquier ligera inclinación de la mesa puede hacer que la canica de metal se desvíe, provocando un fallo en la activación de la trampa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reglas Básicas de Movimiento en Mouse Trap Cheese">
+
+El movimiento en Mouse Trap se rige por el lanzamiento de un solo dado. Los jugadores comienzan en la casilla designada como \"Salida\" y se mueven en el sentido de las agujas del reloj alrededor del tablero. Sin embargo, a diferencia de muchos juegos de mesa lineales, Mouse Trap cuenta con un sistema de bucle donde los jugadores pueden encontrarse dando vueltas en el área de la \"Rueda de Queso\" varias veces durante el final de la partida.
+
+| Tipo de Casilla | Acción Requerida |
+| :--- | :--- |
+| Casillas de Construcción | Añadir la siguiente pieza secuencial al ensamblaje de la trampa |
+| Casillas de Queso | Robar una carta de queso o tomar una pieza de queso del banco |
+| Zonas Seguras | No se requiere acción; el ratón permanece a salvo |
+| Girar la Manivela | Activar la trampa si un oponente está en la zona de peligro |
+
+Al caer en una casilla, debes seguir las instrucciones de inmediato. Si caes en una casilla de \"Construcción\" y la trampa aún no está completa, tomas la siguiente pieza de la pila y la unes al tablero. Si la trampa ya está terminada, caer en una casilla de \"Construcción\" a menudo le otorga al jugador una pieza de queso en su lugar.
+
+<Callout type="warning" title="Restricción de Movimiento">
+Los jugadores no pueden ocupar la misma casilla. Si tu movimiento termina en una casilla ocupada por otro ratón, avanza hasta la siguiente casilla libre disponible.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Estrategia para el Inicio del Juego">
+    Concéntrate en caer en las casillas de **Construcción**. Completar la trampa rápidamente aumenta la presión sobre los oponentes y te permite comenzar a recolectar recompensas de queso antes.
+  </Card>
+  <Card title="Estrategia para el Final del Juego">
+    Prioriza mantenerte alejado del área de la **Rueda de Queso**. Usa tus piezas de queso para obligar a los oponentes a entrar en la zona de la trampa mientras tú permaneces en zonas seguras.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Construcción de la Trampa: Ensamblaje Secuencial">
+
+El corazón mecánico del juego es la trampa misma. De acuerdo con las **reglas de Mouse Trap Cheese**, la trampa debe construirse en un orden específico. No puedes saltarte pasos ni añadir la jaula antes de que las estructuras de soporte estén en su lugar. Esta construcción secuencial añade una capa de anticipación a medida que la \"amenaza\" en el tablero crece con cada turno.
+
+<Steps>
+  <Step num="1" title="La Base y el Soporte del Engranaje">
+    Coloca la base de plástico en el tablero y acopla el primer soporte del engranaje. Esto proporciona la base para el mecanismo de la manivela.
+  </Step>
+  <Step num="2" title="Las Escaleras y el Tubo">
+    Instala la escalera y el tubo vertical. Estos componentes guían la canica hacia el activador de la señal de stop.
+  </Step>
+  <Step num="3" title="La Mano Amiga y la Bañera">
+    Coloca la mano mecánica y la bañera. La mano eventualmente golpeará la canica para que caiga en la bañera y comience la reacción en cadena.
+  </Step>
+  <Step num="4" title="El Buzo y la Jaula">
+    Las piezas finales incluyen al buzo en el trampolín y la jaula de plástico suspendida sobre la rueda de queso. Una vez colgada la jaula, la trampa queda activa.
+  </Step>
+</Steps>
+
+| Fase de Ensamblaje | Piezas Clave Incluidas | Función |
+| :--- | :--- | :--- |
+| Cimiento | Base, Manivela, Engranajes | Proporciona energía mecánica |
+| Camino Cinético | Escaleras, Canica, Tubo | Transporta la energía |
+| Activador | Señal de Stop, Farola | Libera la trampa final |
+| Captura | Buzo, Bañera, Jaula | Asegura al ratón oponente |
+
+<Callout type="success" title="Bonificación de Ensamblaje">
+En la edición de 2026, los jugadores que caigan en una casilla de \"Construir 2\" pueden optar por tomar dos piezas de queso en lugar de añadir piezas si la trampa está completada a más del 50%.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Recolección de Queso y Mecánicas de Cartas">
+
+Las piezas de queso son el recurso principal en Mouse Trap. Comprender las **reglas de Mouse Trap Cheese** con respecto a estas fichas marca la diferencia entre ganar y perder. El queso no es solo una puntuación; es una herramienta táctica utilizada para manipular la posición de otros jugadores.
+
+Los jugadores recolectan queso al:
+- Caer en casillas de \"Tomar Queso\".
+- Robar cartas de queso específicas que otorgan recompensas.
+- Caer en casillas de \"Construcción\" después de que la trampa esté completamente ensamblada.
+
+<Checklist
+  id="cheese-management"
+  title="Lista de Control de Uso del Queso:"
+  items={[
+    "Conserva al menos 2 piezas de queso para movimientos de emergencia",
+    "Usa el queso para atraer a los oponentes hacia la Rueda de Queso",
+    "Cambia 3 piezas de queso para saltarte una penalización de 'Perder Turno'",
+    "Monitorea el conteo de queso de tus oponentes para predecir sus movimientos"
+  ]}
+/>
+
+| Acción | Costo de Queso | Resultado |
+| :--- | :--- | :--- |
+| Mover Oponente | 1 Pieza | Mueve a un oponente 1 casilla hacia adelante o hacia atrás |
+| Paso Seguro | 2 Piezas | Evita ser movido por el turno de un oponente |
+| Tirada Extra | 3 Piezas | Lanza el dado de nuevo inmediatamente |
+
+<Callout type="info" title="Reglas de las Cartas">
+Las cartas de queso deben mantenerse boca abajo. Algunas cartas te permiten \"Robar\" queso de un oponente, mientras que otras proporcionan \"Protección\" contra la trampa durante un solo turno.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Activación de la Trampa y Cómo Ganar">
+
+El clímax del juego ocurre cuando un jugador cae en la casilla de \"Girar la Manivela\". Aquí es donde las **reglas de Mouse Trap Cheese** se vuelven más intensas. Para atrapar con éxito a un oponente, se deben cumplir dos condiciones:
+1. La trampa debe estar completamente ensamblada y ser funcional.
+2. Al menos un ratón oponente debe estar situado en la casilla de la \"Rueda de Queso\".
+
+Si caes en la casilla de \"Girar la Manivela\" y un oponente está en la zona de peligro, giras la manivela para iniciar la secuencia estilo Rube Goldberg. Si la jaula cae y captura al ratón, ese jugador queda eliminado del juego.
+
+**La Condición de Victoria:**
+El juego continúa hasta que solo quede un ratón en el tablero. El último jugador que no haya sido atrapado es declarado ganador.
+
+| Escenario | Resultado |
+| :--- | :--- |
+| La Trampa Falla Mecánicamente | El oponente sigue en juego; termina el turno |
+| El Ratón es Atrapado | El jugador es eliminado; se retira su ficha |
+| No hay Ratones en la Zona de la Trampa | No se realiza ninguna acción; termina el turno |
+| Todos los Oponentes Atrapados | Ganas el juego |
+
+<Callout type="warning" title="La Zona 'Segura'">
+La Rueda de Queso es el único lugar donde un ratón puede ser atrapado. Si estás en cualquier otra casilla, la acción de \"Girar la Manivela\" no tiene efecto sobre ti, incluso si la trampa se activa.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="La Estrategia de la Manivela">
+    Solo busca la casilla de la Manivela si tienes queso para obligar a un oponente a entrar primero en la rueda.
+  </Card>
+  <Card title="La Estrategia del Cebo">
+    Cae deliberadamente cerca de la rueda para atraer a otros, luego usa cartas para saltar sobre la zona de peligro.
+  </Card>
+  <Card title="La Estrategia del Constructor">
+    Concéntrate en terminar la trampa temprano para limitar los turnos \"Seguros\" disponibles para tus oponentes.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes: Reglas de Mouse Trap Cheese">
+
+<FAQ items={[
+  {
+    question: "¿Qué pasa si la trampa no deja caer la jaula durante un turno?",
+    answer: "Si la trampa se activa pero ocurre una falla mecánica (por ejemplo, la canica se atasca), las reglas establecen que el ratón está a salvo. Puedes reajustar la trampa, pero el oponente permanece en el juego."
+  },
+  {
+    question: "¿Puedo usar piezas de queso para mover mi propio ratón?",
+    answer: "No, de acuerdo con las reglas estándar de Mouse Trap Cheese, las piezas de queso se usan para mover a los ratones oponentes o activar habilidades especiales de las cartas, no para tu propio movimiento básico."
+  },
+  {
+    question: "¿Cuántas piezas de queso puede tener un jugador a la vez?",
+    answer: "No hay un límite oficial para la cantidad de queso que un jugador puede recolectar. Sin embargo, tener demasiado te convierte en blanco de las cartas de 'Robar Queso'."
+  },
+  {
+    question: "¿Qué pasa si la tirada del dado me hace pasar de largo la Rueda de Queso?",
+    answer: "Simplemente continúas por el camino. Solo estás en peligro si tu movimiento termina exactamente en la casilla de la Rueda de Queso o si un oponente usa queso para moverte allí."
+  }
+]} />
+
+</Section>

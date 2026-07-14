@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mousetrap Trap Activation Rules: Setup & Board Space Guide",
+  description: "Master the mousetrap trap activation rules. Learn how to trigger the contraption, resolve trap spaces, and claim cheese to win.",
+  category: "Rules",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Trap+Activation+Rules",
+  date: "2026-07-14",
+  author: "mousetrap Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Trap Activation**: Trigger the main contraption by landing on the blue launch space to capture opposing mice.
+- **Winning Condition**: Collect six cheese slices to form a complete wheel and secure victory.
+- **Contraption Reset**: Return the ball, diver, cage, and broom to their starting positions after every attempt.
+- **Cheese Theft**: Land on green spaces to steal cheese directly from your opponents' stockpiles.
+</Callout>
+
+<Section icon={Map} title="Board Setup & Basic Game Flow">
+
+Setting up the board correctly is essential for ensuring that the physical components function as intended during gameplay. Before rolling the die, players must assemble the complex contraption, which includes the crank, gears, stop sign, shoe, bucket, stairs, slide, tub, diver, see-saw, and the cage. Each player receives one starting slice of cheese to begin their journey, and two additional bonus slices are placed directly on the Start space. The first player to complete a full lap around the board collects these two bonus cheese pieces, providing an early advantage.
+
+**Video Highlights:**
+- Learn the complete physical setup of the board and contraption.
+- Understand how to distribute starting cheese slices to players.
+- Discover the movement mechanics and clockwise navigation rules.
+- See how to resolve landing on different colored board spaces.
+
+<YouTubeEmbed videoId="RJPOHG6ing8" title="How to play Mouse Trap" />
+
+Movement proceeds clockwise around the board based on the roll of a single die. Players must move their token the exact number of spaces rolled. Landing on different spaces triggers specific actions, ranging from collecting cheese to initiating the trap sequence.
+
+| Space Color | Space Name | Action Required |
+|-|-|-|
+| Blue | Launch the Trap | Move opponent to trap and trigger contraption |
+| Yellow | Cheese Space | Collect one cheese slice from the main pile |
+| Green | Steal Space | Take one cheese slice from any opponent |
+| Red | Lose a Cheese | Return one cheese slice to the supply pile |
+| Purple | Safe Space | No action is required on this space |
+
+<Callout type="success" title="Setup Success">
+Ensure all plastic gears and structural pieces are firmly snapped into place during setup. Loose parts can cause the trap to fail mechanically, affecting the outcome of your activation turns.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mousetrap Trap Activation Rules">
+
+The core mechanic of the game revolves around the mousetrap trap activation rules. When a player lands on the blue "Launch the Trap" space, they gain the opportunity to capture an opponent's mouse token. This process requires relocating the target mouse to the designated trap space before triggering the physical contraption. If the trap successfully lands over the target mouse, the capturing player claims a cheese slice from the victim.
+
+<Steps>
+  <Step num="1" title="Target Selection">
+    Identify an opponent and move their mouse token directly onto the red trap space on the board.
+  </Step>
+  <Step num="2" title="Trigger the Contraption">
+    Pull back on the stop sign component and release it to start the chain reaction.
+  </Step>
+  <Step num="3" title="Observe the Trap Resolution">
+    Watch the cage descend. If the cage successfully traps the target mouse, the activation is successful.
+  </Step>
+  <Step num="4" title="Collect the Reward">
+    Claim one cheese slice from the trapped player. If multiple mice are on the space, claim cheese from all of them.
+  </Step>
+</Steps>
+
+If the trap fails to capture the target mouse for any mechanical reason, the turn ends immediately, and no cheese is exchanged. The player who initiated the trap must then reset the mechanism for the next turn.
+
+| Scenario | Target Location | Success Condition | Reward |
+|-|-|-|-|
+| Single Target | Trap Space | Cage lands fully over the mouse | 1 Cheese from target |
+| Multiple Targets | Trap Space | Cage lands over all mice | 1 Cheese from each |
+| Mechanical Failure | Trap Space | Cage fails to drop or align | 0 Cheese exchanged |
+| Empty Trap Space | Safe Space | Cannot trigger activation sequence | No action taken |
+
+<Callout type="warning" title="Trap Failures">
+If the cage does not fall completely due to a setup misalignment, the trap is ruled a failure. The target player does not surrender any cheese, and the active player must reset the board.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cheese Collection Strategies">
+
+To win the game, players must focus on cheese accumulation. The first player to collect six cheese slices to form a complete circular wheel wins. Because cheese can be lost on red spaces or stolen on green spaces, players must adapt their movement strategies depending on their current cheese count and board positioning.
+
+<CardGrid cols={3}>
+  <Card title="Aggressive Stealer">
+    - Target players with large stockpiles
+    - Prioritize landing on green spaces
+    - Focus on stealing cheese to slow down leaders
+  </Card>
+  <Card title="Trap Specialist">
+    - Keep opponents positioned near the trap space
+    - Aim for blue launch spaces when opponents are vulnerable
+    - Master the physical release mechanism for reliability
+  </Card>
+  <Card title="Safe Navigator">
+    - Utilize the mouse hole tunnel to bypass dangerous zones
+    - Focus on yellow cheese spaces for steady accumulation
+    - Minimize risks near red cheese-loss spaces
+  </Card>
+</CardGrid>
+
+Managing your resources is critical. Knowing when to play defensively and when to target opponents can make the difference between losing your hard-earned cheese and securing the final slice.
+
+| Strategy Type | Risk Level | Primary Focus | Best Used When |
+|-|-|-|-|
+| Aggressive | High | Stealing from leaders | Opponents are near victory |
+| Defensive | Low | Bypassing danger zones | You hold five cheese slices |
+| Opportunistic | Medium | Activating the trap | Opponents cluster near the trap |
+
+<Callout type="tip" title="Pro Strategy">
+If you land on a blue space and another mouse is already sitting on the trap space, you can still send an additional mouse there. A successful trap drop will net you cheese from all players caught inside.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Resetting the Contraption & Tunnel Mechanics">
+
+After every trap activation attempt, whether successful or not, the trap must be reset. This ensures the board remains ready for the next player who lands on a launch space. Resetting involves returning the ball, the diver, the cage, and the broom to their original starting positions.
+
+Additionally, players can navigate the board efficiently by using the mouse hole tunnel space. Landing on this space allows a player to travel through the tunnel to the space on the opposite end, offering a tactical shortcut to avoid hazards or reach cheese spaces faster.
+
+| Component | Reset Action | Correct State |
+|-|-|-|
+| Ball | Place back in the top holder | Secured in place |
+| Diver | Return to the top platform | Standing upright |
+| Cage | Lift to the top of the post | Suspended high |
+| Broom | Rotate back to the upright position | Ready to swing |
+
+<Checklist
+  id="end-of-turn-checklist"
+  title="End of Turn Checklist:"
+  items={[
+    "Verify the trap cage is suspended and secure",
+    "Ensure the diver is positioned on the platform",
+    "Confirm the ball is returned to its starting track",
+    "Check that all players have resolved their cheese transactions"
+  ]}
+/>
+
+<Callout type="info" title="Tunnel Navigation">
+Using the mouse hole tunnel is entirely optional. Evaluate the destination space before deciding to travel through, as it might place you closer to a hazardous red space.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What are the core mousetrap trap activation rules when landing on a blue space?",
+    answer: "When you land on a blue space, you select an opponent's mouse, move it to the trap space, and trigger the contraption. If caught, they must give you one cheese slice."
+  },
+  {
+    question: "Can I activate the trap if there are no opponents near the trap space?",
+    answer: "Yes. When you land on the blue launch space, you can move any opponent's mouse from their current position anywhere on the board directly to the trap space before triggering the mechanism."
+  },
+  {
+    question: "What happens if the trap fails to catch the mouse during activation?",
+    answer: "If the trap fails to trigger properly or the cage misses the mouse, the target player does not give you any cheese. You must reset the trap, and your turn ends."
+  },
+  {
+    question: "How do you win the game in Mouse Trap?",
+    answer: "The game is won by the first player to collect six cheese slices and assemble them into a complete cheese circle."
+  }
+]} />
+
+<Callout type="tip" title="Final Note">
+Keep the game board on a flat, stable surface. Vibrations can cause the trap to trigger prematurely, disrupting the activation rules and gameplay flow.
+</Callout>
+
+</Section>

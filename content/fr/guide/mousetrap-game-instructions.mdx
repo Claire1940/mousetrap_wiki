@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Instructions du jeu Attrape-Souris : Guide d'installation et règles 2026",
+  description: "Maîtrisez le jeu de société classique Attrape-Souris avec nos instructions 2026. Apprenez l'installation, les règles, les stratégies de collecte de fromage et comment déclencher le piège.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Mousetrap+Game+Instructions",
+  date: "2026-07-14",
+  author: "Équipe Wiki Attrape-Souris",
+  keywords: "attrape-souris, instructions, règles du jeu, installation, stratégie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Instructions du jeu Attrape-Souris** : L'objectif principal est d'être le premier joueur à collecter **six parts de fromage** pour former un cercle complet.
+- **Mécanique centrale** : Les joueurs parcourent un plateau, collectent du fromage et tentent de piéger leurs adversaires à l'aide d'un mécanisme complexe de type Rube Goldberg.
+- **Meilleure stratégie** : Concentrez-vous sur l'atterrissage sur les **cases Fromage Jaunes** dès le début, tout en vous positionnant pour déclencher le piège lorsque vos adversaires sont vulnérables.
+- **Conseil critique** : Si le piège ne parvient pas à capturer une souris pour une raison quelconque, le joueur ciblé n'a **pas** à rendre de fromage.
+- **Meilleur choix** : Utilisez toujours les **tunnels Trou de Souris** pour traverser le plateau plus rapidement et atteindre les cases de grande valeur.
+</Callout>
+
+<Section icon={Map} title="Installation initiale et objectif du jeu">
+
+Avant de plonger dans le chaos mécanique du jeu, les joueurs doivent comprendre les **instructions du jeu Attrape-Souris** fondamentales concernant la préparation du plateau. Le jeu est conçu pour 2 à 4 joueurs, chacun représenté par un pion souris de couleur. Contrairement à de nombreux jeux de société modernes, Attrape-Souris nécessite un assemblage physique important avant le premier lancer de dé.
+
+**Points forts de la vidéo :**
+- **Objectif** : Collecter six parts de fromage pour gagner.
+- **Installation** : Distribuer le fromage initial et placer les pièces bonus sur la case départ.
+- **Déplacement** : Lancer le dé pour se déplacer dans le sens des aiguilles d'une montre.
+- **Mécanique du piège** : Utiliser les cases bleues pour initier la séquence du piège.
+
+<YouTubeEmbed videoId="RJPOHG6ing8" title="Comment jouer à Attrape-Souris" />
+
+Pour commencer, chaque joueur choisit un pion souris et le place sur la case "Départ". La pile de fromage est placée à côté du plateau, faisant office de "Banque". Chaque joueur reçoit une part de fromage initiale pour commencer sa collection. De plus, placez deux parts de fromage bonus directement sur la case "Départ" ; le premier joueur à effectuer un tour complet du plateau et à revenir au départ récupère ces pièces bonus.
+
+| Composant | Quantité | Usage |
+| :--- | :--- | :--- |
+| **Pions Souris** | 4 | Représentation des joueurs sur le plateau |
+| **Parts de Fromage** | 24 | La monnaie principale et condition de victoire |
+| **Dé** | 1 | Détermine la distance de déplacement |
+| **Pièces du Piège** | 24 | Éléments du mécanisme Rube Goldberg |
+| **Plateau de Jeu** | 1 | Le chemin sur lequel les souris voyagent |
+
+<Callout type="warning" title="Assemblage Requis">
+Le mécanisme Attrape-Souris se compose de nombreuses petites pièces en plastique, notamment des engrenages, une bille, un plongeur et une cage. Assurez-vous que toutes les pièces sont solidement connectées selon le schéma, sinon le piège pourrait échouer pendant la partie.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Naviguer sur les cases du plateau">
+
+Comprendre les **instructions du jeu Attrape-Souris** pour les cases du plateau est essentiel pour élaborer une stratégie gagnante. Chaque case colorée déclenche une action spécifique qui peut soit faire progresser votre avance, soit entraver vos adversaires. Le mouvement se fait strictement dans le sens des aiguilles d'une montre, et les joueurs doivent avancer du nombre exact de cases indiqué par le dé.
+
+| Couleur de Case | Nom | Action Requise |
+| :--- | :--- | :--- |
+| **Jaune** | Case Fromage | Collecter **une part de fromage** dans la pile |
+| **Vert** | Case Vol | Prendre **une part de fromage** à n'importe quel adversaire |
+| **Rouge** | Perte de Fromage | Rendre **une part de fromage** à la pile |
+| **Bleu** | Lancer le Piège | Tenter de capturer un adversaire dans le piège |
+| **Violet** | Neutre | Aucune action ne se produit sur cette case |
+| **Marron** | Trou de Souris | Voyage optionnel à travers le tunnel vers la sortie |
+
+Le tunnel Trou de Souris est un élément stratégique souvent négligé par les débutants. En atterrissant sur une entrée de tunnel, vous pouvez choisir de déplacer immédiatement votre pion vers la sortie du tunnel de l'autre côté du plateau. Cela peut être utilisé pour contourner les cases "Perte de Fromage" ou pour vous positionner plus près des zones "Lancer le Piège".
+
+<Callout type="tip" title="Positionnement Stratégique">
+Si vous atterrissez sur une case "Vol" verte, ciblez toujours le joueur qui mène actuellement avec le plus de parts de fromage pour l'empêcher de compléter son cercle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comment déclencher le piège">
+
+Le cœur du jeu est le mécanisme du piège. Déclencher le piège est le principal moyen de retarder vos adversaires tout en gagnant potentiellement du fromage pour vous-même. Selon les **instructions du jeu Attrape-Souris**, le piège ne peut être activé que lorsqu'un joueur atterrit sur une case bleue "Lancer le Piège".
+
+<Steps>
+  <Step num="1" title="Identifier la cible">
+    Lorsque vous atterrissez sur une case bleue, choisissez un adversaire à déplacer sur la case "Piège" du plateau.
+  </Step>
+  <Step num="2" title="Initier la séquence">
+    Tirez sur la gâchette du panneau stop et relâchez-la. Cela lance la réaction en chaîne mécanique.
+  </Step>
+  <Step num="3" title="Observer le résultat">
+    Regardez la bille rouler, le plongeur sauter et la cage tomber. Si la cage atterrit avec succès sur la souris de l'adversaire, le piège est réussi.
+  </Step>
+  <Step num="4" title="Collecter la récompense">
+    Un joueur piégé doit vous donner **une part de fromage**. Si plusieurs souris se trouvaient sur la case du piège, vous collectez du fromage de chacune d'elles.
+  </Step>
+  <Step num="5" title="Réinitialiser le piège">
+    Remettez la bille, le plongeur et la cage dans leurs positions d'origine et relevez le balai pour le tour suivant.
+  </Step>
+</Steps>
+
+Si le piège échoue pour une raison quelconque (comme une pièce coincée ou la cage qui tombe à côté), le joueur cible reste en sécurité et ne perd aucun fromage. Cette imprévisibilité mécanique est une caractéristique centrale de l'expérience Attrape-Souris.
+
+<Callout type="success" title="Capture de plusieurs souris">
+Il est possible que plus d'une souris se trouve sur la case du piège en même temps. Si le piège réussit, le joueur qui l'a déclenché reçoit du fromage de chaque souris capturée sous la cage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Stratégies de victoire et gestion du fromage">
+
+Pour gagner à Attrape-Souris, vous devez être efficace dans votre collecte de fromage. Bien que le piège soit spectaculaire, le jeu est avant tout une course pour construire un cercle complet de six parts. Les joueurs doivent équilibrer le piégeage agressif avec une progression régulière sur le plateau.
+
+<CardGrid cols={3}>
+  <Card title="L'Agresseur">
+    - **Focus** : Atterrir sur les cases Bleues et Vertes.
+    - **Objectif** : Épuiser les ressources des adversaires.
+    - **Idéal pour** : Les joueurs en retard sur le nombre de fromages.
+  </Card>
+  <Card title="Le Rapide">
+    - **Focus** : Utiliser les Trous de Souris et les cases Jaunes.
+    - **Objectif** : Collecter rapidement les 6 pièces requises.
+    - **Idéal pour** : Prendre l'avantage en début de partie.
+  </Card>
+  <Card title="Le Tacticien">
+    - **Focus** : Équilibrer les mouvements pour éviter les cases Rouges.
+    - **Objectif** : Croissance constante sans perdre de fromage.
+    - **Idéal pour** : Les parties longues à 3 ou 4 joueurs.
+  </Card>
+</CardGrid>
+
+Gérer votre fromage est tout aussi important que de le collecter. Comme vous pouvez perdre du fromage sur les cases Rouges ou vous le faire voler sur les cases Vertes, maintenir une avance nécessite des déplacements prudents.
+
+| Phase de Stratégie | Priorité | Action Clé |
+| :--- | :--- | :--- |
+| **Début de partie** | Collection | Prioriser les cases Jaunes et le bonus de Départ |
+| **Milieu de partie** | Interférence | Utiliser les cases Bleues pour ralentir le meneur |
+| **Fin de partie** | Protection | Utiliser les Tunnels pour éviter les zones rouges "Perte de Fromage" |
+
+<Callout type="info" title="Le Cercle de Fromage">
+Les six parts de fromage ont la forme de quartiers. Lorsque vous avez les six, elles s'emboîtent pour former un cercle parfait. Dès que ce cercle est complété, la partie se termine immédiatement.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Liste de vérification finale pour les joueurs">
+
+Avant de commencer votre prochaine session, passez en revue ces **instructions du jeu Attrape-Souris** pour garantir une partie équitable et amusante pour tous. La plupart des litiges dans Attrape-Souris proviennent de dysfonctionnements du piège ou d'erreurs de mouvement.
+
+<Checklist
+  id="mousetrap-rules-check"
+  title="Révision des règles avant la partie :"
+  items={[
+    "Confirmer que les 24 pièces du piège sont présentes et fonctionnelles",
+    "S'assurer que chaque joueur commence avec exactement une part de fromage",
+    "Vérifier que les deux parts de fromage bonus sont sur la case Départ",
+    "Se mettre d'accord sur la règle de 'l'échec du piège' (aucun fromage donné si le piège échoue)",
+    "Rappeler aux joueurs que le mouvement se fait toujours dans le sens des aiguilles d'une montre"
+  ]}
+/>
+
+<Callout type="warning" title="Conseil d'entretien">
+Avec le temps, les engrenages en plastique et le rail de la bille peuvent devenir poussiéreux, provoquant des échecs plus fréquents du piège. Un coup de chiffon sec avant l'installation peut considérablement améliorer la fiabilité du piège.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Que se passe-t-il si j'atterris sur une case bleue mais qu'aucune souris n'est près du piège ?",
+    answer: "Selon les instructions du jeu Attrape-Souris, vous choisissez tout de même un joueur et déplacez son pion directement sur la case du piège avant de déclencher le mécanisme."
+  },
+  {
+    question: "Puis-je choisir de ne pas utiliser le tunnel Trou de Souris ?",
+    answer: "Oui, le tunnel est facultatif. Si vous atterrissez sur l'entrée, vous pouvez choisir d'y rester ou de vous rendre à la case de sortie."
+  },
+  {
+    question: "Que se passe-t-il si le piège capture ma propre souris ?",
+    answer: "Le joueur qui déclenche le piège est celui qui collecte le fromage. En général, vous ne déclencheriez pas le piège sur vous-même, mais si une variante de règle provoque cela, le fromage retournerait à la pile."
+  },
+  {
+    question: "Comment gagner si la pile de fromage est vide ?",
+    answer: "Si la pile de fromage principale est vide, vous devez utiliser les cases Vertes 'Vol' ou les cases Bleues 'Piège' pour prendre le fromage des autres joueurs afin de compléter votre cercle."
+  }
+]} />
+
+</Section>

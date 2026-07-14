@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Règles d'activation du piège Mouse Trap : Guide de configuration et des cases",
+  description: "Maîtrisez les règles d'activation du piège Mouse Trap. Apprenez à déclencher le mécanisme, à résoudre les cases de piège et à collecter du fromage pour gagner.",
+  category: "Règles",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Trap+Activation+Rules",
+  date: "2026-07-14",
+  author: "Équipe Wiki Mouse Trap",
+  keywords: "Mouse Trap, règles du jeu, activation du piège, guide de jeu, fromage"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Activation du Piège** : Déclenchez le mécanisme principal en atterrissant sur la case de lancement bleue pour capturer les souris adverses.
+- **Condition de Victoire** : Collectez six parts de fromage pour former une meule complète et remporter la victoire.
+- **Réinitialisation du Mécanisme** : Replacez la bille, le plongeur, la cage et le balai dans leurs positions de départ après chaque tentative.
+- **Vol de Fromage** : Atterrissez sur les cases vertes pour voler du fromage directement dans les réserves de vos adversaires.
+</Callout>
+
+<Section icon={Map} title="Configuration du Plateau et Flux de Jeu de Base">
+
+Configurer correctement le plateau est essentiel pour s'assurer que les composants physiques fonctionnent comme prévu pendant la partie. Avant de lancer le dé, les joueurs doivent assembler le mécanisme complexe, qui comprend la manivelle, les engrenages, le panneau stop, la chaussure, le seau, l'escalier, le toboggan, la baignoire, le plongeur, la balançoire et la cage. Chaque joueur reçoit une part de fromage au début de son aventure, et deux parts bonus supplémentaires sont placées directement sur la case Départ. Le premier joueur à effectuer un tour complet du plateau récupère ces deux parts de fromage bonus, ce qui lui donne un avantage précoce.
+
+**Points Forts de la Vidéo :**
+- Apprenez la configuration physique complète du plateau et du mécanisme.
+- Comprenez comment distribuer les parts de fromage de départ aux joueurs.
+- Découvrez les mécaniques de mouvement et les règles de navigation dans le sens des aiguilles d'une montre.
+- Apprenez à résoudre les actions en atterrissant sur les différentes cases colorées.
+
+<YouTubeEmbed videoId="RJPOHG6ing8" title="Comment jouer à Mouse Trap" />
+
+Le mouvement s'effectue dans le sens des aiguilles d'une montre autour du plateau en fonction du résultat d'un seul dé. Les joueurs doivent déplacer leur pion du nombre exact de cases indiqué par le dé. Atterrir sur différentes cases déclenche des actions spécifiques, allant de la collecte de fromage au déclenchement de la séquence du piège.
+
+| Couleur de Case | Nom de la Case | Action Requise |
+|-|-|-|
+| Bleue | Lancer le Piège | Déplacer l'adversaire vers le piège et déclencher le mécanisme |
+| Jaune | Case Fromage | Collecter une part de fromage dans la pile principale |
+| Verte | Case Vol | Prendre une part de fromage à n'importe quel adversaire |
+| Rouge | Perdre un Fromage | Rendre une part de fromage à la pile de réserve |
+| Violette | Case Sécurisée | Aucune action n'est requise sur cette case |
+
+<Callout type="success" title="Succès de la Configuration">
+Assurez-vous que tous les engrenages en plastique et les pièces structurelles sont fermement emboîtés lors de l'installation. Des pièces mal fixées peuvent provoquer une défaillance mécanique du piège, affectant l'issue de vos tours d'activation.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Règles d'Activation du Piège Mouse Trap">
+
+La mécanique centrale du jeu repose sur les règles d'activation du piège Mouse Trap. Lorsqu'un joueur atterrit sur la case bleue "Lancer le Piège", il a l'opportunité de capturer le pion souris d'un adversaire. Ce processus nécessite de déplacer la souris cible vers la case de piège désignée avant de déclencher le mécanisme physique. Si le piège tombe avec succès sur la souris cible, le joueur qui a activé le piège récupère une part de fromage de la victime.
+
+<Steps>
+  <Step num="1" title="Sélection de la Cible">
+    Identifiez un adversaire et déplacez son pion souris directement sur la case de piège rouge du plateau.
+  </Step>
+  <Step num="2" title="Déclencher le Mécanisme">
+    Tirez sur le composant du panneau stop et relâchez-le pour démarrer la réaction en chaîne.
+  </Step>
+  <Step num="3" title="Observer la Résolution du Piège">
+    Regardez la cage descendre. Si la cage piège avec succès la souris cible, l'activation est réussie.
+  </Step>
+  <Step num="4" title="Récupérer la Récompense">
+    Réclamez une part de fromage au joueur piégé. Si plusieurs souris se trouvent sur la case, récupérez du fromage de chacune d'elles.
+  </Step>
+</Steps>
+
+Si le piège ne parvient pas à capturer la souris cible pour une raison mécanique quelconque, le tour se termine immédiatement et aucun fromage n'est échangé. Le joueur qui a initié le piège doit alors réinitialiser le mécanisme pour le tour suivant.
+
+| Scénario | Emplacement Cible | Condition de Réussite | Récompense |
+|-|-|-|-|
+| Cible Unique | Case de Piège | La cage tombe entièrement sur la souris | 1 Fromage de la cible |
+| Cibles Multiples | Case de Piège | La cage tombe sur toutes les souris | 1 Fromage de chaque |
+| Échec Mécanique | Case de Piège | La cage ne tombe pas ou est mal alignée | 0 Fromage échangé |
+| Case de Piège Vide | Case Sécurisée | Impossible de déclencher la séquence | Aucune action |
+
+<Callout type="warning" title="Échecs du Piège">
+Si la cage ne tombe pas complètement à cause d'un mauvais alignement lors de l'installation, le piège est considéré comme un échec. Le joueur ciblé ne donne pas de fromage, et le joueur actif doit réinitialiser le plateau.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Stratégies de Collecte de Fromage">
+
+Pour gagner la partie, les joueurs doivent se concentrer sur l'accumulation de fromage. Le premier joueur à collecter six parts de fromage pour former une meule circulaire complète gagne. Comme le fromage peut être perdu sur les cases rouges ou volé sur les cases vertes, les joueurs doivent adapter leurs stratégies de mouvement en fonction de leur nombre de fromages actuel et de leur position sur le plateau.
+
+<CardGrid cols={3}>
+  <Card title="Voleur Agressif">
+    - Cible les joueurs ayant de grandes réserves
+    - Donne la priorité aux cases vertes
+    - Se concentre sur le vol pour ralentir les meneurs
+  </Card>
+  <Card title="Spécialiste du Piège">
+    - Garde les adversaires positionnés près de la case de piège
+    - Vise les cases bleues quand les adversaires sont vulnérables
+    - Maîtrise le mécanisme de déclenchement pour plus de fiabilité
+  </Card>
+  <Card title="Navigateur Prudent">
+    - Utilise le tunnel du trou de souris pour contourner les zones dangereuses
+    - Se concentre sur les cases jaunes pour une accumulation régulière
+    - Minimise les risques près des cases rouges de perte de fromage
+  </Card>
+</CardGrid>
+
+La gestion de vos ressources est cruciale. Savoir quand jouer défensivement et quand cibler vos adversaires peut faire la différence entre perdre votre fromage durement gagné et obtenir la dernière part.
+
+| Type de Stratégie | Niveau de Risque | Objectif Principal | Idéal Quand |
+|-|-|-|-|
+| Agressive | Élevé | Voler aux meneurs | Les adversaires approchent de la victoire |
+| Défensive | Faible | Contourner les zones de danger | Vous possédez cinq parts de fromage |
+| Opportuniste | Moyen | Activer le piège | Les adversaires sont groupés près du piège |
+
+<Callout type="tip" title="Stratégie Pro">
+Si vous atterrissez sur une case bleue et qu'une autre souris se trouve déjà sur la case de piège, vous pouvez tout de même y envoyer une souris supplémentaire. Une chute de piège réussie vous rapportera du fromage de tous les joueurs capturés à l'intérieur.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Réinitialisation du Mécanisme et Mécanique du Tunnel">
+
+Après chaque tentative d'activation du piège, qu'elle soit réussie ou non, le piège doit être réinitialisé. Cela garantit que le plateau reste prêt pour le prochain joueur qui atterrira sur une case de lancement. La réinitialisation consiste à remettre la bille, le plongeur, la cage et le balai dans leurs positions de départ d'origine.
+
+De plus, les joueurs peuvent naviguer efficacement sur le plateau en utilisant la case du tunnel du trou de souris. Atterrir sur cette case permet à un joueur de traverser le tunnel jusqu'à la case située à l'extrémité opposée, offrant un raccourci tactique pour éviter les dangers ou atteindre les cases de fromage plus rapidement.
+
+| Composant | Action de Réinitialisation | État Correct |
+|-|-|-|
+| Bille | Replacer dans le support supérieur | Fixée en place |
+| Plongeur | Remettre sur la plateforme supérieure | Debout |
+| Cage | Soulever jusqu'au sommet du poteau | Suspendue en hauteur |
+| Balai | Faire pivoter en position verticale | Prêt à basculer |
+
+<Checklist
+  id="end-of-turn-checklist"
+  title="Liste de vérification de fin de tour :"
+  items={[
+    "Vérifier que la cage du piège est suspendue et sécurisée",
+    "S'assurer que le plongeur est positionné sur la plateforme",
+    "Confirmer que la bille est revenue sur sa piste de départ",
+    "Vérifier que tous les joueurs ont résolu leurs transactions de fromage"
+  ]}
+/>
+
+<Callout type="info" title="Navigation dans le Tunnel">
+L'utilisation du tunnel du trou de souris est entièrement optionnelle. Évaluez la case de destination avant de décider de l'emprunter, car cela pourrait vous rapprocher d'une case rouge dangereuse.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quelles sont les règles de base d'activation du piège Mouse Trap en atterrissant sur une case bleue ?",
+    answer: "Lorsque vous atterrissez sur une case bleue, vous sélectionnez la souris d'un adversaire, la déplacez sur la case de piège et déclenchez le mécanisme. S'il est capturé, l'adversaire doit vous donner une part de fromage."
+  },
+  {
+    question: "Puis-je activer le piège s'il n'y a pas d'adversaires près de la case de piège ?",
+    answer: "Oui. Lorsque vous atterrissez sur la case de lancement bleue, vous pouvez déplacer n'importe quelle souris adverse depuis sa position actuelle n'importe où sur le plateau directement vers la case de piège avant de déclencher le mécanisme."
+  },
+  {
+    question: "Que se passe-t-il si le piège ne parvient pas à attraper la souris lors de l'activation ?",
+    answer: "Si le piège ne se déclenche pas correctement ou si la cage manque la souris, le joueur ciblé ne vous donne pas de fromage. Vous devez réinitialiser le piège et votre tour s'achève."
+  },
+  {
+    question: "Comment gagne-t-on la partie de Mouse Trap ?",
+    answer: "La partie est remportée par le premier joueur à collecter six parts de fromage et à les assembler pour former un cercle complet de fromage."
+  }
+]} />
+
+<Callout type="tip" title="Note Finale">
+Gardez le plateau de jeu sur une surface plane et stable. Les vibrations peuvent provoquer le déclenchement prématuré du piège, perturbant les règles d'activation et le flux du jeu.
+</Callout>
+
+</Section>

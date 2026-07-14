@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mausefalle Spielanleitung: 2026 Setup & Regel-Guide",
+  description: "Meistern Sie das klassische Mausefalle-Brettspiel mit unserer Anleitung für 2026. Lernen Sie Aufbau, Regeln, Strategien zum Käsesammeln und wie man die Falle auslöst.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Mousetrap+Game+Instructions",
+  date: "2026-07-14",
+  author: "mousetrap Wiki-Team",
+  keywords: "Mausefalle Spielregeln, Mausefalle Aufbau, Brettspiel Anleitung, Käse sammeln, Rube Goldberg Falle"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Mausefalle Spielanleitung**: Das Hauptziel ist es, als erster Spieler **sechs Käsestücke** zu sammeln, um einen vollständigen Kreis zu bilden.
+- **Kernmechanik**: Die Spieler bewegen sich über ein Spielfeld, sammeln Käse und versuchen, ihre Gegner mithilfe einer komplexen Rube-Goldberg-Maschine zu fangen.
+- **Beste Strategie**: Konzentrieren Sie sich frühzeitig darauf, auf **gelben Käsefeldern** zu landen, während Sie sich in Position bringen, um die Falle auszulösen, wenn die Gegner verwundbar sind.
+- **Wichtiger Tipp**: Wenn die Falle eine Maus aus irgendeinem Grund nicht fängt, muss der Zielspieler **keinen** Käse abgeben.
+- **Top-Wahl**: Nutzen Sie immer die **Mauseloch-Tunnel**, um Abkürzungen über das Spielfeld zu nehmen und wertvolle Felder schneller zu erreichen.
+</Callout>
+
+<Section icon={Map} title="Erstmaliger Aufbau und Spielziel">
+
+Bevor man in das mechanische Chaos des Spiels eintaucht, müssen die Spieler die grundlegende **Mausefalle Spielanleitung** bezüglich der Spielbrettvorbereitung verstehen. Das Spiel ist für 2 bis 4 Spieler konzipiert, die jeweils durch eine farbige Mäuse-Spielfigur repräsentiert werden. Im Gegensatz zu vielen modernen Brettspielen erfordert Mausefalle einen erheblichen physischen Aufbau, bevor der erste Würfel rollt.
+
+**Video-Highlights:**
+- **Ziel**: Sammeln Sie sechs Käsestücke, um zu gewinnen.
+- **Setup**: Verteilen Sie den Startkäse und platzieren Sie Bonusstücke auf dem Startfeld.
+- **Bewegung**: Würfeln Sie, um sich im Uhrzeigersinn über das Brett zu bewegen.
+- **Fallen-Mechanik**: Nutzen Sie die blauen Felder, um die Fallensequenz zu starten.
+
+<YouTubeEmbed videoId="RJPOHG6ing8" title="Wie man Mausefalle spielt" />
+
+Zu Beginn wählt jeder Spieler eine Mausfigur und platziert sie auf dem "Start"-Feld. Der Käsevorrat wird neben dem Brett platziert und fungiert als "Bank". Jeder Spieler erhält zu Beginn ein Käsestück für seine Sammlung. Legen Sie zusätzlich zwei Bonus-Käsestücke direkt auf das "Start"-Feld; der erste Spieler, der eine vollständige Runde um das Brett macht und zum Start zurückkehrt, erhält diese Bonusstücke.
+
+| Komponente | Menge | Zweck |
+| :--- | :--- | :--- |
+| **Mäuse-Spielfiguren** | 4 | Repräsentation der Spieler auf dem Brett |
+| **Käsestücke** | 24 | Die Primärwährung und Siegbedingung |
+| **Würfel** | 1 | Bestimmt die Zugweite |
+| **Fallenteile** | 24 | Die Teile der Rube-Goldberg-Maschine |
+| **Spielfeld** | 1 | Der Pfad, auf dem sich die Mäuse bewegen |
+
+<Callout type="warning" title="Zusammenbau erforderlich">
+Die Mausefalle-Konstruktion besteht aus zahlreichen kleinen Plastikteilen, darunter Zahnräder, eine Murmel, ein Taucher und ein Käfig. Stellen Sie sicher, dass alle Teile gemäß dem Diagramm sicher verbunden sind, da die Falle sonst während des Spiels versagen könnte.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navigieren auf den Spielfeldern">
+
+Das Verständnis der **Mausefalle Spielanleitung** für die verschiedenen Spielfelder ist entscheidend für die Entwicklung einer Gewinnstrategie. Jedes farbcodierte Feld löst eine bestimmte Aktion aus, die entweder Ihren Fortschritt vorantreibt oder Ihre Gegner behindert. Die Bewegung erfolgt strikt im Uhrzeigersinn, und die Spieler müssen genau die Anzahl an Feldern ziehen, die der Würfel anzeigt.
+
+| Feldarbe | Name | Erforderliche Aktion |
+| :--- | :--- | :--- |
+| **Gelb** | Käsefeld | Nehmen Sie **ein Käsestück** aus dem Vorrat |
+| **Grün** | Stehlfeld | Nehmen Sie **ein Käsestück** von einem beliebigen Gegner |
+| **Rot** | Käse verlieren | Geben Sie **ein Käsestück** zurück in den Vorrat |
+| **Blau** | Falle auslösen | Versuchen Sie, einen Gegner in der Falle zu fangen |
+| **Lila** | Neutral | Auf diesem Feld geschieht keine Aktion |
+| **Braun** | Mauseloch | Optionale Reise durch den Tunnel zum Ausgang |
+
+Der Mauseloch-Tunnel ist ein strategisches Element, das von Anfängern oft übersehen wird. Wenn Sie auf einem Tunneleingang landen, können Sie wählen, Ihre Figur sofort zum Tunnelausgang auf der gegenüberliegenden Seite des Bretts zu bewegen. Dies kann genutzt werden, um "Käse verlieren"-Felder zu umgehen oder sich näher an die "Falle auslösen"-Zonen zu positionieren.
+
+<Callout type="tip" title="Strategische Positionierung">
+Wenn Sie auf einem grünen "Stehlen"-Feld landen, zielen Sie immer auf den Spieler ab, der aktuell mit den meisten Käsestücken führt, um zu verhindern, dass er seinen Kreis vervollständigt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="So lösen Sie die Falle aus">
+
+Das Herzstück des Spiels ist der Fallenmechanismus. Das Auslösen der Falle ist der primäre Weg, um Ihre Gegner zurückzuwerfen und potenziell Käse für sich selbst zu gewinnen. Gemäß der **Mausefalle Spielanleitung** kann die Falle nur aktiviert werden, wenn ein Spieler auf einem blauen "Falle auslösen"-Feld landet.
+
+<Steps>
+  <Step num="1" title="Ziel identifizieren">
+    Wenn Sie auf einem blauen Feld landen, wählen Sie einen Gegner aus, der auf das "Fallen"-Feld auf dem Spielbrett bewegt wird.
+  </Step>
+  <Step num="2" title="Sequenz starten">
+    Ziehen Sie den Stoppschild-Auslöser zurück und lassen Sie ihn los. Dies startet die mechanische Kettenreaktion.
+  </Step>
+  <Step num="3" title="Ergebnis beobachten">
+    Beobachten Sie, wie die Murmel rollt, der Taucher springt und der Käfig fällt. Wenn der Käfig erfolgreich über der Maus des Gegners landet, war die Falle erfolgreich.
+  </Step>
+  <Step num="4" title="Belohnung einsammeln">
+    Ein gefangener Spieler muss Ihnen **ein Käsestück** geben. Befanden sich mehrere Mäuse auf dem Fallenfeld, erhalten Sie von allen Käse.
+  </Step>
+  <Step num="5" title="Falle zurücksetzen">
+    Bringen Sie Kugel, Taucher und Käfig in ihre Ausgangspositionen zurück und drehen Sie den Besen für den nächsten Zug wieder nach oben.
+  </Step>
+</Steps>
+
+Falls die Falle aus irgendeinem Grund versagt – etwa weil ein Teil klemmt oder der Käfig schief fällt – bleibt der Zielspieler sicher und verliert keinen Käse. Diese mechanische Unvorhersehbarkeit ist ein Kernmerkmal des Mausefalle-Erlebnisses.
+
+<Callout type="success" title="Mehrfach-Fang">
+Es ist möglich, dass sich mehr als eine Maus gleichzeitig auf dem Fallenfeld befindet. Wenn die Falle gelingt, erhält der Spieler, der sie ausgelöst hat, Käse von jeder einzelnen Maus, die unter dem Käfig gefangen wurde.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Gewinnstrategien und Käse-Management">
+
+Um bei Mausefalle zu gewinnen, müssen Sie beim Käsesammeln effizient sein. Während die Falle spektakulär ist, ist das Spiel letztlich ein Wettrennen darum, einen vollständigen Kreis aus sechs Ecken zu bauen. Spieler sollten aggressives Fallenstellen mit stetigem Fortschritt auf dem Brett ausbalancieren.
+
+<CardGrid cols={3}>
+  <Card title="Der Angreifer">
+    - **Fokus**: Landen auf blauen und grünen Feldern.
+    - **Ziel**: Ressourcen der Gegner erschöpfen.
+    - **Bestens für**: Spieler, die beim Käsevorrat zurückliegen.
+  </Card>
+  <Card title="Der Flitzer">
+    - **Fokus**: Nutzung von Mauselöchern und gelben Feldern.
+    - **Ziel**: Schnelles Sammeln der 6 benötigten Teile.
+    - **Bestens für**: Frühe Führung im Spiel.
+  </Card>
+  <Card title="Der Taktiker">
+    - **Fokus**: Ausbalancieren der Züge, um rote Felder zu vermeiden.
+    - **Ziel**: Beständiges Wachstum ohne Käseverlust.
+    - **Bestens für**: Lange Partien mit 3-4 Spielern.
+  </Card>
+</CardGrid>
+
+Die Verwaltung Ihres Käses ist genauso wichtig wie das Sammeln. Da Sie auf roten Feldern Käse verlieren oder auf grünen Feldern bestohlen werden können, erfordert die Aufrechterhaltung einer Führung vorsichtige Spielzüge.
+
+| Strategiephase | Priorität | Schlüsselaktion |
+| :--- | :--- | :--- |
+| **Frühes Spiel** | Sammeln | Priorisieren Sie gelbe Felder und den Start-Bonus |
+| **Mittleres Spiel** | Störung | Nutzen Sie blaue Felder, um den Führenden zu bremsen |
+| **Spätes Spiel** | Schutz | Nutzen Sie Tunnel, um rote "Käse verlieren"-Zonen zu meiden |
+
+<Callout type="info" title="Der Käsekreis">
+Die sechs Käsestücke sind wie Tortenstücke geformt. Wenn Sie alle sechs haben, passen sie zusammen und bilden einen perfekten Kreis. In dem Moment, in dem dieser Kreis vervollständigt ist, endet das Spiel sofort.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Abschließende Checkliste für Spieler">
+
+Bevor Sie Ihre nächste Runde starten, gehen Sie diese **Mausefalle Spielanleitung** durch, um ein faires und unterhaltsames Spiel für alle zu gewährleisten. Die meisten Streitigkeiten bei Mausefalle entstehen durch Fehlfunktionen der Falle oder Bewegungsfehler.
+
+<Checklist
+  id="mousetrap-rules-check"
+  title="Regel-Check vor dem Spiel:"
+  items={[
+    "Bestätigen Sie, dass alle 24 Fallenteile vorhanden und funktionsfähig sind",
+    "Stellen Sie sicher, dass jeder Spieler mit genau einem Käsestück beginnt",
+    "Überprüfen Sie, ob die zwei Bonus-Käsestücke auf dem Startfeld liegen",
+    "Einigen Sie sich auf die 'Fallen-Fehlschlag'-Regel (kein Käse bei Versagen)",
+    "Erinnern Sie alle daran, dass die Bewegung immer im Uhrzeigersinn erfolgt"
+  ]}
+/>
+
+<Callout type="warning" title="Wartungstipp">
+Mit der Zeit können die Plastikzahnräder und die Murmelbahn staubig werden, was dazu führt, dass die Falle häufiger versagt. Ein kurzes Abwischen mit einem trockenen Tuch vor dem Aufbau kann die Zuverlässigkeit der Falle erheblich verbessern.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was passiert, wenn ich auf einem blauen Feld lande, aber keine Maus in der Nähe der Falle ist?",
+    answer: "Gemäß der Mausefalle Spielanleitung wählen Sie dennoch einen Spieler aus und bewegen dessen Figur direkt auf das Fallenfeld, bevor Sie den Mechanismus auslösen."
+  },
+  {
+    question: "Kann ich mich entscheiden, den Mauseloch-Tunnel nicht zu benutzen?",
+    answer: "Ja, der Tunnel ist optional. Wenn Sie auf dem Eingang landen, können Sie wählen, dort zu bleiben oder zum Ausgangsfeld zu reisen."
+  },
+  {
+    question: "Was ist, wenn die Falle meine eigene Maus fängt?",
+    answer: "Der Spieler, der die Falle auslöst, ist derjenige, der den Käse sammelt. Normalerweise würden Sie die Falle nicht gegen sich selbst auslösen, aber falls eine Regelvariante dazu führt, würde der Käse in den Vorrat zurückkehren."
+  },
+  {
+    question: "Wie gewinne ich, wenn der Käsevorrat leer ist?",
+    answer: "Wenn der Hauptkäsevorrat leer ist, müssen Sie die grünen 'Stehlen'-Felder oder die blauen 'Falle'-Felder nutzen, um Käse von anderen Spielern zu nehmen und Ihren Kreis zu vervollständigen."
+  }
+]} />
+
+</Section>
