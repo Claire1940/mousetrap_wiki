@@ -69,22 +69,22 @@
     "subtitle": "Tout ce dont vous avez besoin pour jouer, gagner et personnaliser Mouse Trap - le jeu de société numérique à réaction en chaîne",
     "cards": [
       {
-        "icon": "Livre ouvert",
+        "icon": "BookOpen",
         "title": "Guide du débutant Mouse Trap",
         "description": "Première partie, déroulement des tours, fromage et le mécanisme"
       },
       {
-        "icon": "Dés",
+        "icon": "Dices",
         "title": "Comment jouer à Mouse Trap",
         "description": "Règles numériques complètes, tours, vol et victoire"
       },
       {
-        "icon": "Fromage",
+        "icon": "Target",
         "title": "Stratégie fromage Mouse Trap",
         "description": "Collectez, protégez, volez et mettez en banque le plus de fromage"
       },
       {
-        "icon": "Utilisateurs",
+        "icon": "Users",
         "title": "Guide multijoueur de Mouse Trap",
         "description": "En ligne, privé, local et Pass and Play pour 1-4"
       },
@@ -94,17 +94,17 @@
         "description": "Déclenchez le mécanisme et synchronisez le piège."
       },
       {
-        "icon": "T-shirt",
+        "icon": "Shirt",
         "title": "Souris et tenues Mouse Trap",
         "description": "Couleurs, fourrures, tenues et déblocages de réserve de fromage"
       },
       {
-        "icon": "Couches",
+        "icon": "Layers",
         "title": "Modes de jeu Mouse Trap",
         "description": "Façons de jouer en solo, en ligne et en local"
       },
       {
-        "icon": "Calendrier",
+        "icon": "Calendar",
         "title": "Plateformes et dates de sortie de Mouse Trap",
         "description": "Éditions iOS, Android, Nintendo Switch, PlayStation et Steam de Mouse Trap"
       }

@@ -30,7 +30,6 @@ export const iconRegistry: Record<string, LucideIcon> = {
 
   // Mouse Trap 主题图标（桌游 / 奶酪 / 机关 / 装扮 / 平台）
   Dices: LucideIcons.Dices,
-  Cheese: LucideIcons.Cheese,
   Zap: LucideIcons.Zap,
   Shirt: LucideIcons.Shirt,
   Layers: LucideIcons.Layers,

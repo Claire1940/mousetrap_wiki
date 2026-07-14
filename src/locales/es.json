@@ -69,22 +69,22 @@
     "subtitle": "Todo lo que necesitas para jugar, ganar y personalizar Mouse Trap: el juego de tablero digital de reacción en cadena.",
     "cards": [
       {
-        "icon": "Libro abierto",
+        "icon": "BookOpen",
         "title": "Guía para principiantes de Mouse Trap",
         "description": "Primera partida, flujo del turno, el queso y el artilugio."
       },
       {
-        "icon": "Dados",
+        "icon": "Dices",
         "title": "Cómo jugar a Mouse Trap",
         "description": "Reglas digitales completas, turnos, robos y victoria."
       },
       {
-        "icon": "Queso",
+        "icon": "Target",
         "title": "Estrategia de queso en Mouse Trap",
         "description": "Recoge, protege, roba y asegura la mayor cantidad de queso."
       },
       {
-        "icon": "Usuarios",
+        "icon": "Users",
         "title": "Guía multijugador de Mouse Trap",
         "description": "Online, privado, local y Pass and Play para 1-4."
       },
@@ -94,17 +94,17 @@
         "description": "Activa el artilugio y sincroniza la trampa."
       },
       {
-        "icon": "Camiseta",
+        "icon": "Shirt",
         "title": "Ratones y atuendos de Mouse Trap",
         "description": "Colores, pelajes, atuendos y desbloqueos de la reserva de queso."
       },
       {
-        "icon": "Capas",
+        "icon": "Layers",
         "title": "Modos de juego de Mouse Trap",
         "description": "Un jugador, online y formas locales de jugar."
       },
       {
-        "icon": "Calendario",
+        "icon": "Calendar",
         "title": "Plataformas y fechas de lanzamiento de Mouse Trap",
         "description": "Ediciones de iOS, Android, Switch, PS4 y Steam."
       }
