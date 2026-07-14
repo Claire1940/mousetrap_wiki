@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // 启用静态渲染：必须在调用 next-intl 服务端函数前设置请求 locale
   setRequestLocale(locale);
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.mousetrap.wiki";
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");
@@ -60,15 +60,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
+      siteName: "Mouse Trap Wiki",
       title: t("ogTitle"),
       description: t("ogDescription"),
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
-          height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          height: 640,
+          alt: "Mouse Trap - Chaotic Chain-Reaction Board Game",
         },
       ],
     },
@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t("twitterTitle"),
       description: t("twitterDescription"),
       images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
+      creator: "@marmaladegames",
     },
     icons: {
       icon: [

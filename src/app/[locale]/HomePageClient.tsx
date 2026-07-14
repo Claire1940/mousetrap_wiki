@@ -85,7 +85,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.mousetrap.wiki";
 
   // Structured data
   const structuredData = {
@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Mouse Trap Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Complete Mouse Trap Wiki covering rules, cheese strategies, trap mechanics, multiplayer guides, mouse outfits, and platform details for the digital board game.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          height: 640,
+          caption: "Mouse Trap - Chaotic Chain-Reaction Board Game",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Mouse Trap Wiki",
+        alternateName: "Mouse Trap",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Complete Mouse Trap Wiki resource hub for rules, cheese strategies, trap mechanics, multiplayer guides, and mouse outfits",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -129,42 +129,42 @@ export default function HomePageClient({
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          height: 640,
+          caption: "Mouse Trap Wiki - Chaotic Chain-Reaction Board Game",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://www.marmaladegamestudio.com/games/mousetrap",
+          "https://store.steampowered.com/app/2280420/Mouse_Trap/",
+          "https://discord.gg/J58mUwTehc",
+          "https://www.youtube.com/channel/UCumvfXfBRw_KhfKgAREpgnw",
+          "https://www.instagram.com/marmaladegames",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Mouse Trap",
+        gamePlatform: ["iOS", "Android", "Nintendo Switch", "PlayStation 4"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Board Game", "Family", "Party", "Multiplayer"],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 1,
+          maxValue: 4,
         },
         offers: {
           "@type": "Offer",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://apps.apple.com/us/app/mouse-trap-the-board-game/id1643532048",
         },
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "MOUSE TRAP | OUT NOW",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Official Mouse Trap launch trailer from Marmalade Game Studio featuring the chain-reaction board game gameplay.",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/gnyn6hjRx4w",
+        url: "https://www.youtube.com/watch?v=gnyn6hjRx4w",
       },
     ],
   };
@@ -247,7 +247,7 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://store.steampowered.com/app/2280420/Mouse_Trap/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
@@ -267,24 +267,24 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* Video Section - 紧跟 Hero 区域之后 */}
+      <section className="px-4 py-10 md:py-12">
+        <div className="scroll-reveal container mx-auto max-w-5xl">
+          <div className="relative overflow-hidden rounded-2xl">
+            <VideoFeature
+              videoId="gnyn6hjRx4w"
+              title="MOUSE TRAP | OUT NOW"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Latest Updates Section */}
       <LatestGuidesAccordion
         articles={latestArticles}
         locale={locale}
         max={12}
       />
-
-      {/* Video Section */}
-      <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
-          <div className="relative overflow-hidden rounded-2xl">
-            <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">

@@ -1,12 +1,14 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Mouse Trap Wiki - Rules, Multiplayer & Outfits",
+  "short_name": "Mouse Trap",
+  "description": "Mouse Trap Wiki covers rules, cheese strategies, trap mechanics, multiplayer guides, mouse outfits, and platform details for the digital board game by Marmalade Game Studio.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#20aac5",
+  "background_color": "#f2fafb",
+  "categories": ["games", "entertainment"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
