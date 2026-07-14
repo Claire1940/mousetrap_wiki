@@ -1,11 +1,683 @@
 {
+  "seo": {
+    "home": {
+      "title": "Mouse Trap Wiki - Règles, multijoueur & tenues",
+      "description": "Maîtrisez Mouse Trap grâce à des règles claires, des stratégies pour le fromage, des mécaniques de piège, des guides multijoueur, des tenues à débloquer, des détails sur les plateformes, des mises à jour et du dépannage.",
+      "keywords": "Mouse Trap, jeu de société, règles, multijoueur, tenues, fromage, piège, Nintendo Switch, mobile",
+      "ogTitle": "Wiki Mouse Trap - Règles, multijoueur et tenues",
+      "ogDescription": "Maîtrisez Mouse Trap avec des règles claires, des stratégies pour le fromage, les mécaniques du piège, des guides multijoueurs, des déblocages de tenues, des détails sur les plateformes, des mises à jour et du dépannage.",
+      "twitterTitle": "Mouse Trap Wiki - Règles, multijoueur & tenues",
+      "twitterDescription": "Maîtrisez Mouse Trap avec des règles claires, des stratégies pour le fromage, les mécaniques de piège, des guides multijoueur et des détails sur les plateformes."
+    }
+  },
   "nav": {
     "guide": "Guide",
     "rules": "Règles",
     "setup": "Configuration",
     "strategy": "Stratégie",
     "versions": "Versions",
-    "digital": "Digital",
+    "digital": "Numérique",
     "reviews": "Avis"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer maintenant",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page introuvable",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles associés",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles bientôt disponibles"
+  },
+  "hero": {
+    "badge": "Jeu de société chaotique à réaction en chaîne",
+    "title": "Wiki Mouse Trap",
+    "description": "Faites la course au fromage, déclenchez le célèbre piège à réaction en chaîne, défiez jusqu'à quatre joueurs en ligne ou hors ligne et débloquez des tenues de souris colorées.",
+    "getFreeCodesCTA": "Consulter le guide du jeu",
+    "playOnRobloxCTA": "Jouer sur mobile et console",
+    "stats": {
+      "stat1": {
+        "value": "100K+",
+        "label": "Téléchargements Android"
+      },
+      "stat2": {
+        "value": "4,7",
+        "label": "Évaluation App Store"
+      },
+      "stat3": {
+        "value": "1-4",
+        "label": "Joueurs pris en charge"
+      },
+      "stat4": {
+        "value": "22",
+        "label": "Tenues incluses"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Mouse Trap",
+    "description": "Collectionnez, volez et protégez du fromage sur un plateau 3D entièrement animé, déclenchez le célèbre mécanisme à réaction en chaîne et obtenez un meilleur score que jusqu'à trois souris rivales."
+  },
+  "tools": {
+    "title": "Mouse Trap",
+    "titleHighlight": "Ressources",
+    "subtitle": "Tout ce dont vous avez besoin pour jouer, gagner et personnaliser Mouse Trap - le jeu de société numérique à réaction en chaîne",
+    "cards": [
+      {
+        "icon": "Livre ouvert",
+        "title": "Guide du débutant Mouse Trap",
+        "description": "Première partie, déroulement des tours, fromage et le mécanisme"
+      },
+      {
+        "icon": "Dés",
+        "title": "Comment jouer à Mouse Trap",
+        "description": "Règles numériques complètes, tours, vol et victoire"
+      },
+      {
+        "icon": "Fromage",
+        "title": "Stratégie fromage Mouse Trap",
+        "description": "Collectez, protégez, volez et mettez en banque le plus de fromage"
+      },
+      {
+        "icon": "Utilisateurs",
+        "title": "Guide multijoueur de Mouse Trap",
+        "description": "En ligne, privé, local et Pass and Play pour 1-4"
+      },
+      {
+        "icon": "Zap",
+        "title": "Réaction en chaîne Mouse Trap",
+        "description": "Déclenchez le mécanisme et synchronisez le piège."
+      },
+      {
+        "icon": "T-shirt",
+        "title": "Souris et tenues Mouse Trap",
+        "description": "Couleurs, fourrures, tenues et déblocages de réserve de fromage"
+      },
+      {
+        "icon": "Couches",
+        "title": "Modes de jeu Mouse Trap",
+        "description": "Façons de jouer en solo, en ligne et en local"
+      },
+      {
+        "icon": "Calendrier",
+        "title": "Plateformes et dates de sortie de Mouse Trap",
+        "description": "Éditions iOS, Android, Nintendo Switch, PlayStation et Steam de Mouse Trap"
+      }
+    ]
+  },
+  "modules": {
+    "mouseTrapBeginnerGuide": {
+      "eyebrow": "Premiers pas",
+      "title": "Guide du débutant Mouse Trap",
+      "intro": "Mouse Trap est un jeu de société numérique au tour par tour pour jusqu'à quatre joueurs. Chaque partie est une course pour récupérer, voler et protéger du fromage avant que la Cheese Machine ne se vide.",
+      "steps": [
+        {
+          "title": "Choisissez un mode de jeu",
+          "description": "Commencez par le mode Solo hors ligne pour apprendre face à des adversaires IA, ou choisissez le Pass and Play, le jeu en local sur console, le multijoueur en ligne privé ou le multijoueur en ligne public.",
+          "tip": "Le mode Solo est l'endroit le plus simple pour apprendre les instructions du plateau sans attendre les autres joueurs."
+        },
+        {
+          "title": "Choisissez votre souris",
+          "description": "Sélectionnez une couleur ou un pelage de souris et équipez une tenue disponible. Les souris classiques rouge, bleue, jaune et verte sont disponibles sur les versions prises en charge.",
+          "tip": "L'apparence de la souris est cosmétique et ne change pas votre objectif de partie."
+        },
+        {
+          "title": "Suivez les instructions de tour",
+          "description": "Les joueurs jouent à tour de rôle pour se déplacer sur le plateau animé. Effectuez l'action indiquée après le déplacement, comme collecter du fromage, en produire, en voler à une autre souris ou déclencher un événement spécial.",
+          "tip": "Vérifiez chaque choix à l'écran avant de confirmer, car certains tours peuvent affecter le total de fromage d'un autre joueur."
+        },
+        {
+          "title": "Collectez et amassez du fromage",
+          "description": "Augmentez votre total de la partie chaque fois que du fromage devient disponible. Le vainqueur est déterminé par la quantité de fromage en sa possession à la fin de la partie.",
+          "tip": "Une légère avance peut disparaître après un vol réussi, alors continuez à collecter même lorsque vous êtes en tête."
+        },
+        {
+          "title": "Volez aux souris rivales",
+          "description": "Utilisez les occasions de vol pour prendre du fromage à vos adversaires et augmenter votre total. Cibler le leader actuel crée le plus grand basculement de score possible.",
+          "tip": "Évitez de répartir les vols équitablement lorsqu'un joueur a une nette avance."
+        },
+        {
+          "title": "Utilisez le mécanisme d'action",
+          "description": "Déclenchez le célèbre Mouse Trap à réaction en chaîne lorsque le jeu en présente l'opportunité. La séquence animée peut perturber un adversaire et modifier l'équilibre de la course.",
+          "tip": "Le mécanisme peut réussir ou échouer, alors continuez à collecter du fromage au lieu de ne compter que sur le piège."
+        },
+        {
+          "title": "Terminez avec le plus de fromage",
+          "description": "La partie se termine lorsque la Cheese Machine est vide. La souris qui possède le plus de fromage à ce moment-là gagne la partie.",
+          "tip": "Surveillez la réserve de fromage restante et privilégiez les gains immédiats à l'approche de la fin."
+        },
+        {
+          "title": "Dépensez votre réserve de fromage",
+          "description": "Une fois la partie terminée, votre fromage restant est ajouté à votre réserve de fromage persistante. Cette réserve peut être utilisée pour déverrouiller des tenues supplémentaires pour votre souris.",
+          "tip": "Terminer des parties aide à débloquer des cosmétiques, même si vous ne gagnez pas."
+        }
+      ]
+    },
+    "mouseTrapHowToPlay": {
+      "eyebrow": "Règles du jeu",
+      "title": "Comment jouer à Mouse Trap",
+      "intro": "Le jeu numérique Mouse Trap remplace l'installation physique par un plateau 3D entièrement animé. Jusqu'à quatre souris s'affrontent pour obtenir le plus de fromage tout en utilisant des vols et le mécanisme de réaction en chaîne contre leurs rivaux.",
+      "faqs": [
+        {
+          "question": "Quel est l'objectif principal dans Mouse Trap ?",
+          "answer": "Collectez, volez et conservez plus de fromage que tous les autres joueurs. Lorsque la Cheese Machine est vide, la souris ayant le plus grand total de fromages remporte la partie."
+        },
+        {
+          "question": "Combien de personnes peuvent jouer à Mouse Trap ?",
+          "answer": "Mouse Trap prend en charge de un à quatre joueurs. Les options incluent le mode Solo hors ligne contre l'IA, le Pass and Play hors ligne, le multijoueur local sur console pris en charge, les parties en ligne privées et le multijoueur en ligne ouvert."
+        },
+        {
+          "question": "Comment commence une partie de Mouse Trap ?",
+          "answer": "Sélectionnez un mode de jeu, choisissez votre souris et équipez une tenue. Les joueurs entrent ensuite sur le plateau animé et suivent à tour de rôle les instructions de mouvement et d'action affichées par le jeu."
+        },
+        {
+          "question": "Comment fonctionnent les tours dans Mouse Trap ?",
+          "answer": "Chaque souris joue à son tour et se déplace sur le plateau. Après le déplacement, le jeu résout ou présente une action qui peut produire du fromage, attribuer du fromage, voler du fromage, activer le mécanisme ou déclencher un autre événement de plateau."
+        },
+        {
+          "question": "Comment récupère-t-on le fromage dans Mouse Trap ?",
+          "answer": "Le fromage s'obtient via des actions sur le plateau et des opportunités Cheese Machine. Votre total actuel pour la partie est affiché tout au long du jeu et détermine votre position dans la course."
+        },
+        {
+          "question": "Comment fonctionne le vol dans Mouse Trap ?",
+          "answer": "Certaines actions permettent à un joueur de prendre du fromage à un rival. Un vol réussi réduit le total de l'adversaire tout en augmentant celui du joueur, ce qui est particulièrement utile contre le leader actuel."
+        },
+        {
+          "question": "Que fait le mécanisme Mouse Trap ?",
+          "answer": "Le mécanisme d'action déclenche la célèbre réaction en chaîne animée du jeu. Il est utilisé pour gêner une autre souris, bien que la séquence puisse réussir ou échouer avant d'atteindre son étape finale."
+        },
+        {
+          "question": "Qu'est-ce que l'événement Riggs le chat dans Mouse Trap ?",
+          "answer": "Le chat Riggs apparaît dans un jeu bonus inclus dans l'édition numérique. Suivez les instructions à l'écran lorsque l'événement commence et terminez sa séquence interactive avant de retourner sur le plateau principal."
+        },
+        {
+          "question": "Quand se termine une partie de Mouse Trap ?",
+          "answer": "La course continue jusqu'à ce que the Cheese Machine soit vide. Les totaux finaux de fromage sont ensuite comparés, et le joueur qui possède le plus de fromage est déclaré vainqueur."
+        },
+        {
+          "question": "Que devient le fromage après une partie de Mouse Trap ?",
+          "answer": "Le fromage en votre possession à la fin d'une partie terminée est ajouté à votre réserve permanente de fromage. Le fromage accumulé peut être dépensé pour débloquer des tenues cosmétiques supplémentaires."
+        }
+      ]
+    },
+    "mouseTrapCheeseStrategy": {
+      "eyebrow": "Stratégies gagnantes",
+      "title": "Guide de stratégie du fromage Mouse Trap",
+      "intro": "Gagner à Mouse Trap nécessite plus que de collecter chaque morceau de fromage visible. Les joueurs expérimentés surveillent le classement, réduisent le total de la souris en tête et modifient leurs priorités à mesure que la Cheese Machine se vide.",
+      "strategies": [
+        {
+          "priority": "Essentiel",
+          "title": "Suivre le leader actuel",
+          "description": "Vérifiez le total de fromages de chaque joueur avant de choisir une cible. Dirigez les vols directs et les actions perturbatrices vers la souris qui possède la plus grande pile.",
+          "bestWhen": "Un adversaire commence à prendre une nette avance.",
+          "result": "Le leader perd son élan tandis que vous réalisez un gain relatif plus important."
+        },
+        {
+          "priority": "Essentiel",
+          "title": "Prendre du fromage garanti",
+          "description": "Priorisez les gains immédiats de fromage lorsque l'alternative dépend du résultat incertain d'un mécanisme. Une collecte régulière permet à votre score de progresser à chaque tour.",
+          "bestWhen": "The Cheese Machine est presque vide ou vous êtes déjà proche de la première place.",
+          "result": "Vous évitez de terminer la partie avec une occasion de marquer inutilisée."
+        },
+        {
+          "priority": "Élevé",
+          "title": "Utilisez les vols pour faire basculer le score",
+          "description": "Un vol augmente à la fois votre total et réduit celui d'un adversaire. Cela le rend plus précieux qu'une collecte de même taille lorsqu'il est pris au joueur que vous devez dépasser.",
+          "bestWhen": "Vous pouvez voler le premier ou un rival proche.",
+          "result": "L'écart entre vous et la cible change dans les deux sens."
+        },
+        {
+          "priority": "Élevé",
+          "title": "Mettre la pression sur le leader avec le piège",
+          "description": "Utilisez les occasions d'activer le mécanisme contre la souris dont le total de fromages représente la plus grande menace. Évitez de cibler à plusieurs reprises un joueur qui est déjà loin derrière.",
+          "bestWhen": "Un adversaire a assez de fromage pour rester en tête après un tour de collecte normal.",
+          "result": "L'adversaire le plus fort fait face à la plus grande perturbation."
+        },
+        {
+          "priority": "Élevé",
+          "title": "Regardez la Cheese Machine",
+          "description": "La réserve restante de la Cheese Machine sert de minuteur pour la partie. Passez d'une stratégie de perturbation à long terme à un marquage de points direct à mesure que le fromage disponible s'épuise.",
+          "bestWhen": "La partie entre dans ses derniers tours.",
+          "result": "Vous terminez avec des points en main au lieu d'attendre une occasion ultérieure."
+        },
+        {
+          "priority": "Moyen",
+          "title": "Protéger une courte avance",
+          "description": "Lorsque vous prenez la première place, continuez à ajouter du fromage plutôt que de considérer que votre avance est à l'abri. Les adversaires peuvent encore réduire votre total par des vols et des actions de piège.",
+          "bestWhen": "Vous ne menez que de peu.",
+          "result": "Votre avantage devient plus difficile à effacer en une seule action d'un rival."
+        },
+        {
+          "priority": "Moyen",
+          "title": "Éviter de gaspiller les attaques",
+          "description": "Le choix de la cible est plus important que d'attaquer aussi souvent que possible. Gêner le dernier joueur est généralement moins avantageux que de réduire le total d'un joueur en lice pour la victoire.",
+          "bestWhen": "Plusieurs adversaires sont disponibles comme cibles.",
+          "result": "Chaque action offensive a un effet plus important sur le classement final."
+        },
+        {
+          "priority": "Progression",
+          "title": "Terminer des parties pour obtenir des tenues",
+          "description": "Le fromage restant à la fin d'une partie contribue à votre réserve de fromage persistante, qui débloque des tenues cosmétiques. Terminer des parties fait progresser votre collection, même sans victoire.",
+          "bestWhen": "Vous constituez votre collection de tenues.",
+          "result": "Jouer régulièrement permet une progression cosmétique à long terme."
+        }
+      ]
+    },
+    "mouseTrapMultiplayerGuide": {
+      "eyebrow": "Jouer ensemble",
+      "title": "Guide multijoueur de Mouse Trap",
+      "intro": "Mouse Trap propose des options en ligne et hors ligne pour les familles, les amis et les joueurs solo. Les exigences exactes en matière de matériel local et d'abonnement en ligne dépendent de la plateforme utilisée.",
+      "modes": [
+        {
+          "mode": "Multijoueur en ligne privé",
+          "players": "2-4 joueurs",
+          "connection": "Connexion Internet requise",
+          "hardware": "Chaque joueur utilise un appareil ou une console compatible avec le jeu.",
+          "subscription": "Nintendo Switch Online sur Switch ; PlayStation Plus sur PS4 ; pas d'abonnement console sur mobile",
+          "bestFor": "Jouer à distance avec des amis et de la famille invités"
+        },
+        {
+          "mode": "Ouvrir le multijoueur en ligne",
+          "players": "Jusqu'à 4 joueurs",
+          "connection": "Connexion Internet requise",
+          "hardware": "Chaque joueur utilise un appareil ou une console compatible avec le jeu",
+          "subscription": "Nintendo Switch Online sur Switch ; PlayStation Plus sur PS4 ; pas d'abonnement console sur mobile",
+          "bestFor": "Rejoindre d'autres joueurs de Mouse Trap quand vos amis sont indisponibles"
+        },
+        {
+          "mode": "Multijoueur local sur console",
+          "players": "1-4 joueurs",
+          "connection": "Connexion Internet non requise pour le jeu en local",
+          "hardware": "Une console compatible et des manettes prises en charge ; une manette est requise par joueur",
+          "subscription": "Aucun abonnement en ligne n'est requis pour le jeu local hors ligne.",
+          "bestFor": "Jouer ensemble sur une seule télévision ou console"
+        },
+        {
+          "mode": "Pass and Play",
+          "players": "2 à 4 joueurs",
+          "connection": "Hors ligne",
+          "hardware": "Un appareil mobile ou un système pris en charge partagé entre les joueurs",
+          "subscription": "Aucun abonnement en ligne requis",
+          "bestFor": "Voyages, sessions sur appareil partagé et jeu sans manettes supplémentaires"
+        },
+        {
+          "mode": "Solo",
+          "players": "1 joueur avec des adversaires IA",
+          "connection": "Hors ligne",
+          "hardware": "Un appareil ou une console compatible",
+          "subscription": "Aucun abonnement en ligne requis",
+          "bestFor": "Apprendre les règles, s'exercer à la stratégie ou jouer sans personne d'autre"
+        }
+      ]
+    },
+    "mouseTrapTrapChainReaction": {
+      "eyebrow": "Mécanisme en action",
+      "title": "Guide de la réaction en chaîne Mouse Trap",
+      "intro": "Les plus grosses piles de fromage peuvent apparaître sous le piège, rendant cette zone à la fois gratifiante et dangereuse. Lorsqu'un rival se déplace dans la zone du piège ou commence à prendre une large avance, l'activation du mécanisme déclenche une longue réaction en chaîne animée qui peut attraper la souris exposée.",
+      "stages": [
+        {
+          "title": "Regardez la zone du piège",
+          "description": "De grandes récompenses en fromage attirent les joueurs sous le piège. Surveillez quel adversaire pénètre dans la zone de danger et la quantité de fromage qu'il détient actuellement.",
+          "strategy": "Priorisez les adversaires qui mènent la partie ou qui transportent une grande quantité de fromage."
+        },
+        {
+          "title": "Choisissez le bon moment",
+          "description": "Activez le piège lorsqu'une autre souris est exposée et que ralentir ce joueur modifierait sensiblement le classement.",
+          "strategy": "Gardez l'activation pour un leader incontesté, un rival direct ou une remontée en fin de partie avant que la Cheese Machine ne soit épuisée."
+        },
+        {
+          "title": "Balancer la botte",
+          "description": "La réaction en chaîne commence quand la botte se balance et frappe la bille pour la mettre en mouvement.",
+          "strategy": "Une fois activé, le mécanisme s'exécute automatiquement et les joueurs doivent attendre la fin de la séquence complète."
+        },
+        {
+          "title": "Suivez la bille",
+          "description": "La bille roule à travers les obstacles de la machine, traverse les airs et atterrit dans la section baignoire du mécanisme.",
+          "strategy": "La longue animation crée du suspense car le résultat du piège n'est pas déterminé immédiatement."
+        },
+        {
+          "title": "Lancer le plongeur",
+          "description": "Le mécanisme en mouvement atteint le tremplin et lance le plongeur, complétant la dernière partie de la séquence de style Rube Goldberg.",
+          "strategy": "Utilisez ce moment pour vérifier les totaux de fromages restants et planifier votre prochain coup de collecte ou de vol."
+        },
+        {
+          "title": "Résoudre le piège",
+          "description": "La cage tombe à la fin de la réaction en chaîne et détermine si la souris ciblée est attrapée.",
+          "strategy": "Après une perturbation réussie, déplacez-vous rapidement vers du fromage de valeur pendant que l'adversaire affecté récupère."
+        }
+      ]
+    },
+    "mouseTrapMiceOutfits": {
+      "eyebrow": "Personnalisation des souris",
+      "title": "Guide des souris et tenues de Mouse Trap",
+      "intro": "Mouse Trap permet à chaque joueur de choisir une souris et d'ajouter une tenue avant une partie. Le fromage restant à la fin d'une partie est transféré dans la réserve de fromage du joueur, où il peut être dépensé pour déverrouiller des objets cosmétiques supplémentaires.",
+      "items": [
+        {
+          "title": "Couleurs de souris classiques",
+          "category": "Couleur de la souris",
+          "platform": "Mobile, Nintendo Switch, PlayStation et Steam",
+          "availability": "Inclus",
+          "description": "Le jeu numérique comprend les quatre couleurs classiques des joueurs - rouge, bleu, jaune et vert - utilisées pour distinguer les souris lors d'une partie."
+        },
+        {
+          "title": "Sélection du pelage",
+          "category": "Apparence de la souris",
+          "platform": "Nintendo Switch",
+          "availability": "Inclus",
+          "description": "L'édition Nintendo Switch permet aux joueurs de choisir parmi un éventail de couleurs de souris et d'apparences de pelage avant de sélectionner une tenue."
+        },
+        {
+          "title": "Garde-robe de départ mobile",
+          "category": "Tenues incluses",
+          "platform": "iOS",
+          "availability": "22 tenues incluses",
+          "description": "L'édition iOS inclut 22 tenues avec le jeu de base. Des objets cosmétiques supplémentaires peuvent être débloqués avec du fromage ou obtenus via des achats optionnels."
+        },
+        {
+          "title": "Garde-robe Nintendo Switch",
+          "category": "Tenues incluses",
+          "platform": "Nintendo Switch",
+          "availability": "34 tenues incluses",
+          "description": "L'édition Nintendo Switch répertorie 34 tenues incluses dans le jeu, offrant une garde-robe de départ plus importante que la version mobile."
+        },
+        {
+          "title": "Déblocages de la réserve de fromage",
+          "category": "Système de déblocage",
+          "platform": "Toutes les éditions actuelles",
+          "availability": "Gagné en jouant",
+          "description": "À la fin de chaque partie, le fromage détenu par le joueur est ajouté à la réserve de fromage et peut être utilisé pour débloquer de nouvelles tenues."
+        },
+        {
+          "title": "Cosmétiques mobiles optionnels",
+          "category": "Tenues supplémentaires",
+          "platform": "Mobile",
+          "availability": "Achats intégrés facultatifs",
+          "description": "Le jeu mobile premium est sans publicité, mais propose des objets cosmétiques optionnels qui peuvent être achetés avec de l'argent réel."
+        }
+      ]
+    },
+    "mouseTrapGameModes": {
+      "eyebrow": "Façons de jouer",
+      "title": "Guide des modes de jeu Mouse Trap",
+      "intro": "Le jeu numérique propose quatre modes de jeu principaux. Les modes hors ligne sont adaptés aux voyages et à l'entraînement en solo, tandis que les modes en ligne permettent de connecter des amis ou de mettre en relation des joueurs avec des fans de Mouse Trap du monde entier.",
+      "modes": [
+        {
+          "name": "Solo",
+          "connection": "Hors ligne",
+          "players": "1 joueur humain",
+          "opponents": "Souris contrôlées par l'IA",
+          "bestFor": "Apprendre le plateau, tester des stratégies et jouer en déplacement"
+        },
+        {
+          "name": "Multijoueur en ligne privé",
+          "connection": "En ligne",
+          "players": "Jusqu'à 4 joueurs",
+          "opponents": "Amis et famille invités",
+          "bestFor": "Soirées jeux en famille à distance et parties organisées avec des amis"
+        },
+        {
+          "name": "Ouvrir le multijoueur en ligne",
+          "connection": "En ligne",
+          "players": "Jusqu'à 4 joueurs",
+          "opponents": "Joueurs de la communauté en ligne",
+          "bestFor": "Trouver des adversaires quand vos amis sont indisponibles"
+        },
+        {
+          "name": "Pass and Play",
+          "connection": "Offline",
+          "players": "Jusqu'à 4 joueurs en local",
+          "opponents": "Amis et famille dans la même pièce",
+          "bestFor": "Trajets en voiture, réunions de famille et jeu local sans appareils séparés"
+        }
+      ]
+    },
+    "mouseTrapPlatformsReleaseDates": {
+      "eyebrow": "Comparaison des plateformes",
+      "title": "Plateformes et dates de sortie de Mouse Trap",
+      "intro": "Mouse Trap est d'abord sorti sur mobile en 2023 avant d'arriver sur Nintendo Switch et PlayStation 4. Une version Windows est répertoriée sur Steam avec les modes solo, PvP en ligne, multijoueur en écran partagé et la prise en charge de Remote Play Together.",
+      "platforms": [
+        {
+          "platform": "iOS",
+          "release": "29 mars 2023",
+          "status": "Available",
+          "players": "Jusqu'à 4 joueurs",
+          "playModes": "Solo hors ligne, multijoueur en ligne et Pass and Play hors ligne",
+          "languages": "English, French, German, Italian, and Spanish"
+        },
+        {
+          "platform": "Android",
+          "release": "27 avril 2023",
+          "status": "Available",
+          "players": "Jusqu'à 4 joueurs",
+          "playModes": "Solo hors ligne, multijoueur en ligne et Pass and Play hors ligne",
+          "languages": "Versions localisées du jeu de base"
+        },
+        {
+          "platform": "Nintendo Switch",
+          "release": "7 août 2023",
+          "status": "Available",
+          "players": "Jusqu'à 4 joueurs",
+          "playModes": "Solo hors ligne, multijoueur en ligne et jeu en local hors ligne",
+          "languages": "English, Spanish, French, German, and Italian"
+        },
+        {
+          "platform": "PlayStation 4",
+          "release": "24 octobre 2023",
+          "status": "Available",
+          "players": "1-4 en local et jusqu'à 4 en ligne",
+          "playModes": "Solo, local, en ligne privé et en ligne public",
+          "languages": "English, French, German, Italian, and Spanish"
+        },
+        {
+          "platform": "Windows PC via Steam",
+          "release": "Coming soon",
+          "status": "Liste de souhaits disponible",
+          "players": "Solo et multijoueur",
+          "playModes": "Solo, PvP en ligne, PvP sur écran partagé et Remote Play Together",
+          "languages": "English, French, Italian, German, and Spanish"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "titleHighlight": "Questions",
+    "subtitle": "Tout ce que vous devez savoir sur Mouse Trap - le jeu de plateau numérique à réaction en chaîne",
+    "questions": [
+      {
+        "question": "Qu'est-ce que Mouse Trap ?",
+        "answer": "Mouse Trap est un jeu de société numérique au tour par tour pour un à quatre joueurs. Vous collectez, volez et protégez du fromage sur un plateau 3D animé, et le joueur qui a le plus de fromage lorsque la Machine à fromage est vide gagne."
+      },
+      {
+        "question": "Combien de joueurs Mouse Trap prend-il en charge ?",
+        "answer": "Mouse Trap prend en charge de un à quatre joueurs via le mode Solo contre l'IA, les parties en ligne privées et publiques, le multijoueur local sur console et le Pass and Play hors ligne."
+      },
+      {
+        "question": "Que fait le mécanisme de Mouse Trap ?",
+        "answer": "Le mécanisme déclenche la célèbre réaction en chaîne animée de Mouse Trap. Déclenchez-le au bon moment pour entraver une souris adverse, bien que la séquence puisse réussir ou échouer avant que la cage ne tombe."
+      },
+      {
+        "question": "Sur quelles plateformes Mouse Trap est-il disponible ?",
+        "answer": "Mouse Trap est disponible sur iOS, Android, Nintendo Switch et PlayStation 4. Une version Windows PC est répertoriée sur Steam comme arrivant bientôt avec la prise en charge de Remote Play Together."
+      },
+      {
+        "question": "Comment débloquer les tenues dans Mouse Trap ?",
+        "answer": "Le fromage détenu à la fin d'une partie de Mouse Trap terminée est ajouté à votre réserve de fromage persistante. Dépensez le fromage accumulé pour débloquer des tenues cosmétiques supplémentaires pour votre souris."
+      },
+      {
+        "question": "Est-ce que Mouse Trap a besoin d'une connexion Internet ?",
+        "answer": "Seuls les modes multijoueurs en ligne nécessitent une connexion Internet et, sur console, l'abonnement en ligne de la plateforme. Les modes Solo et Pass and Play dans Mouse Trap fonctionnent entièrement hors ligne."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à jouer à Mouse Trap ?",
+    "description": "Téléchargez Mouse Trap sur mobile et console, déclenchez le piège à réaction en chaîne avec jusqu'à quatre joueurs et rejoignez la communauté officielle pour obtenir des conseils et des mises à jour.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Jouez sur mobile et console"
+  },
+  "footer": {
+    "title": "Mouse Trap Wiki",
+    "description": "Votre hub de ressources complet pour les règles de Mouse Trap, les stratégies pour le fromage, les mécaniques du piège, les guides multijoueur, les tenues de souris et les détails sur les plateformes.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "discord": "Discord",
+    "youtube": "YouTube",
+    "twitter": "X / Twitter",
+    "steamStore": "Steam",
+    "about": "About",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Mouse Trap Wiki. Non affilié à Marmalade Game Studio ou Hasbro.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guides de Mouse Trap",
+      "description": "Guides Mouse Trap étape par étape couvrant la mise en place du plateau, les règles, la mécanique du piège et les stratégies de victoire pour chaque édition.",
+      "metaTitle": "Guides Mouse Trap - Préparation, règles et guides de stratégie",
+      "metaDescription": "Parcourez tous les guides Mouse Trap : comment jouer, mise en place du plateau, pièges à réaction en chaîne, règles du fromage et stratégies pour gagner.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "Que sont les guides Mouse Trap ?",
+      "whatIsDescription": "Nos guides Mouse Trap vous accompagnent dans chaque aspect du jeu, de votre première mise en place du plateau aux tactiques avancées de synchronisation du piège. Chaque guide décompose les règles en étapes claires afin que les nouveaux joueurs puissent commencer à jouer en quelques minutes et que les vétérans puissent affiner leur stratégie.",
+      "why": "Pourquoi lire nos guides ?",
+      "whySteps": {
+        "step1Title": "Apprenez le cycle complet du jeu",
+        "step1Description": "Comprenez les tours, les déplacements, la collecte de fromage et comment le piège s'active pour toujours savoir quoi faire ensuite.",
+        "step2Title": "Mise en place sans erreur",
+        "step2Description": "Suivez les étapes de préparation illustrées pour installer correctement le plateau et le mécanisme à réaction en chaîne, à chaque fois.",
+        "step3Title": "Élaborez une stratégie gagnante",
+        "step3Description": "Appliquez des tactiques éprouvées pour le timing du piège et le vol de fromage qui fonctionnent dans les éditions originale et moderne."
+      },
+      "featured": "À la une et essentiels",
+      "all": "All Guides"
+    },
+    "rules": {
+      "title": "Règles de Mouse Trap",
+      "description": "Les règles officielles de Mouse Trap expliquées clairement : ordre des tours, fromage, activation du piège, nombre de joueurs et conditions de victoire.",
+      "metaTitle": "Règles de Mouse Trap - Comment jouer & conditions de victoire",
+      "metaDescription": "Maîtrisez les règles officielles de Mouse Trap : les tours, la collecte de fromage, l'activation du piège, le nombre de joueurs, la classification par âge et la victoire.",
+      "categoryLabel": "RÈGLES",
+      "whatIs": "Quelles sont les règles de Mouse Trap ?",
+      "whatIsDescription": "Les règles définissent comment se joue Mouse Trap : comment les souris se déplacent sur le plateau, comment le fromage est collecté et volé, quand le célèbre piège à réaction en chaîne se déclenche, et comment un joueur gagne. Nous expliquons chaque règle dans un langage simple pour que rien ne vienne ralentir votre soirée jeux.",
+      "why": "Pourquoi apprendre les règles ?",
+      "whySteps": {
+        "step1Title": "Jouez correctement dès le premier tour",
+        "step1Description": "Sachez exactement comment fonctionnent les tours, les déplacements et le fromage afin d'éviter toute dispute ou confusion en cours de partie.",
+        "step2Title": "Déclencher le piège de la bonne façon",
+        "step2Description": "Comprenez les conditions exactes qui déclenchent la réaction en chaîne pour que le piège se déclenche équitablement à chaque fois.",
+        "step3Title": "Gagnez en toute confiance",
+        "step3Description": "Apprenez les conditions de victoire et les règles relatives au nombre de joueurs pour que tout le monde sache comment gagner la partie."
+      },
+      "featured": "À la une & essentiels",
+      "all": "Toutes les règles"
+    },
+    "setup": {
+      "title": "Configuration de Mouse Trap",
+      "description": "Guides complets de mise en place de Mouse Trap : assemblage du plateau, construction du piège, placement des pièces et ordre d'assemblage de la réaction en chaîne.",
+      "metaTitle": "Configuration de Mouse Trap - Assemblage du plateau, du piège et des pièces",
+      "metaDescription": "Installez Mouse Trap correctement : construisez le plateau, assemblez le piège à réaction en chaîne, placez les pièces et commencez à jouer rapidement.",
+      "categoryLabel": "PRÉPARATION",
+      "whatIs": "Qu'est-ce que la configuration de Mouse Trap ?",
+      "whatIsDescription": "La mise en place correspond à tout ce que vous faites avant le premier tour : construire le plateau, assembler le mécanisme du piège à réaction en chaîne pièce par pièce et placer les souris et le fromage. Une mise en place correcte permet au jeu de se dérouler sans accroc et au piège de se déclencher sans s'enrayer.",
+      "why": "Pourquoi la mise en place est importante",
+      "whySteps": {
+        "step1Title": "Construisez le piège correctement",
+        "step1Description": "Assemblez le mécanisme à réaction en chaîne dans le bon ordre pour que chaque engrenage, escalier et cage fonctionne comme prévu.",
+        "step2Title": "Placez le plateau et les pièces",
+        "step2Description": "Installez le plateau, positionnez les souris et disposez le fromage pour que la partie soit prête à commencer.",
+        "step3Title": "Éviter les erreurs de construction courantes",
+        "step3Description": "Évitez les erreurs de montage fréquentes qui bloquent le piège ou provoquent des ratés pendant la partie."
+      },
+      "featured": "Mis en avant et indispensables",
+      "all": "Tous les guides d'installation"
+    },
+    "strategy": {
+      "title": "Stratégie Mouse Trap",
+      "description": "Stratégie gagnante pour Mouse Trap : vol de fromage, timing du piège, tactiques de remontée et astuces familiales pour chaque partie.",
+      "metaTitle": "Stratégie Mouse Trap - Astuces pour gagner & tactiques pour le fromage",
+      "metaDescription": "Dominez Mouse Trap avec une stratégie éprouvée : quand voler du fromage, le timing parfait pour le piège, des plans de remontée et des conseils pour la famille.",
+      "categoryLabel": "STRATÉGIE",
+      "whatIs": "Qu'est-ce que la stratégie de Mouse Trap ?",
+      "whatIsDescription": "La stratégie est la façon dont vous transformez les règles en victoires : décider quand foncer vers le fromage, quand attirer vos adversaires dans le piège et comment rattraper votre retard. Une bonne stratégie rend chaque partie serrée, passionnante et gagnable.",
+      "why": "Pourquoi utiliser une stratégie ?",
+      "whySteps": {
+        "step1Title": "Déclenchez le piège au moment parfait.",
+        "step1Description": "Apprenez à quel moment attirer vos rivaux sur la case piège pour que la réaction en chaîne les capture au pire moment.",
+        "step2Title": "Volez le fromage judicieusement",
+        "step2Description": "Choisissez les bons moments pour voler du fromage et protéger votre butin afin de rester en tête du tableau des scores.",
+        "step3Title": "Préparez votre retour",
+        "step3Description": "Utilisez des tactiques de remontée éprouvées pour revenir dans la partie, même si vous êtes distancé dès le début."
+      },
+      "featured": "À la une & Indispensables",
+      "all": "Toutes les stratégies"
+    },
+    "versions": {
+      "title": "Versions de Mouse Trap",
+      "description": "Toutes les versions de Mouse Trap comparées : l'originale de 1963, les éditions vintage, les rééditions Hasbro et les versions modernes de 2014/2016.",
+      "metaTitle": "Versions de Mouse Trap - Éditions 1963, Vintage & Moderne",
+      "metaDescription": "Comparez chaque édition de Mouse Trap : l'originale de 1963, les versions vintage et Hasbro, et les versions modernes de 2014/2016.",
+      "categoryLabel": "VERSIONS",
+      "whatIs": "Quelles sont les versions de Mouse Trap ?",
+      "whatIsDescription": "Mouse Trap a connu de nombreuses éditions depuis 1963, de la version originale d'Ideal aux objets de collection vintage, en passant par les rééditions de Hasbro et les versions modernes de 2014 et 2016. Chaque édition conserve le célèbre piège à réaction en chaîne tout en mettant à jour le plateau, les illustrations et les pièces.",
+      "why": "Pourquoi comparer les versions ?",
+      "whySteps": {
+        "step1Title": "Trouvez la bonne édition",
+        "step1Description": "Découvrez quelle version de Mouse Trap correspond à votre façon de jouer, du charme rétro aux composants modernes.",
+        "step2Title": "Repérer la valeur vintage",
+        "step2Description": "Identifiez les éditions vintage de collection et découvrez ce qui rend certaines années recherchées par les collectionneurs.",
+        "step3Title": "Découvrez comment le jeu a évolué.",
+        "step3Description": "Retracez l'évolution du plateau, du mécanisme du piège et des règles à travers six décennies de versions."
+      },
+      "featured": "À la une & Indispensables",
+      "all": "Toutes les versions"
+    },
+    "digital": {
+      "title": "Mouse Trap Numérique",
+      "description": "Éditions numériques de Mouse Trap : le jeu vidéo, l'application mobile, le jeu en ligne, Nintendo Switch et les guides complets sur mobile.",
+      "metaTitle": "Mouse Trap Digital - Jeu vidéo, Mobile & Switch",
+      "metaDescription": "Jouez à Mouse Trap partout : le jeu vidéo, l'application mobile, les versions en ligne, la version Nintendo Switch et les walkthroughs mobiles.",
+      "categoryLabel": "NUMÉRIQUE",
+      "whatIs": "Qu'est-ce que Mouse Trap Digital ?",
+      "whatIsDescription": "Les éditions numériques amènent Mouse Trap sur les écrans : un jeu vidéo, une application mobile, une version jouable en ligne et une sortie sur Nintendo Switch. Retrouvez le même plaisir de collecter du fromage et de déclencher des pièges, avec des plateaux 3D animés et du multijoueur en ligne.",
+      "why": "Pourquoi jouer à l'édition numérique ?",
+      "whySteps": {
+        "step1Title": "Jouez n'importe où, n'importe quand.",
+        "step1Description": "Profitez de Mouse Trap sur votre téléphone, tablette ou console sans installer le plateau physique.",
+        "step2Title": "Défier des joueurs en ligne",
+        "step2Description": "Affrontez vos amis ou des joueurs du monde entier grâce aux modes multijoueur en ligne et sur mobile.",
+        "step3Title": "Maîtrisez la version numérique",
+        "step3Description": "Utilisez nos guides mobiles pour apprendre les commandes numériques, les menus et les fonctionnalités en ligne en quelques minutes."
+      },
+      "featured": "Mis en avant et indispensables",
+      "all": "Tous les guides numériques"
+    },
+    "reviews": {
+      "title": "Avis sur Mouse Trap",
+      "description": "Critiques approfondies de Mouse Trap : évaluations du jeu de société, verdicts de l'édition rétro et critiques numériques Nintendo Switch.",
+      "metaTitle": "Avis sur Mouse Trap - Jeu de société, rétro et Switch",
+      "metaDescription": "Lisez des avis détaillés sur Mouse Trap couvrant le jeu de société, les éditions rétro et la version numérique Nintendo Switch.",
+      "categoryLabel": "AVIS",
+      "whatIs": "Quels sont les avis sur Mouse Trap ?",
+      "whatIsDescription": "Nos critiques évaluent Mouse Trap sous ses nombreuses formes : le jeu de plateau classique, les éditions rétro et vintage, et la version numérique Nintendo Switch. Nous couvrons le gameplay, les composants, la valeur et à qui chaque édition convient le mieux.",
+      "why": "Pourquoi lire nos avis ?",
+      "whySteps": {
+        "step1Title": "Décidez avant d'acheter",
+        "step1Description": "Obtenez des verdicts clairs sur chaque édition de Mouse Trap afin de dépenser votre argent pour la version qui vous plaira vraiment.",
+        "step2Title": "Comparer plateau et numérique",
+        "step2Description": "Voyez comment le jeu de société se compare aux versions numériques et Switch avant de choisir comment jouer.",
+        "step3Title": "Trouvez l'ajustement parfait",
+        "step3Description": "Choisissez l'édition de Mouse Trap qui convient à votre groupe, que ce soit pour une soirée jeux en famille ou pour jouer en solo."
+      },
+      "featured": "À la une & Indispensables",
+      "all": "Tous les avis"
+    }
   }
 }

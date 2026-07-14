@@ -1,11 +1,683 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Mouse Trap - Reglas, multijugador y atuendos",
+      "description": "Domina Mouse Trap con reglas claras, estrategias para el queso, mecánicas de la trampa, guías multijugador, desbloqueos de atuendos, detalles de las plataformas, actualizaciones y resolución de problemas.",
+      "keywords": "Mouse Trap, juego de mesa, reglas, multijugador, atuendos, queso, trampa, Nintendo Switch, móvil",
+      "ogTitle": "Wiki de Mouse Trap - Reglas, multijugador y atuendos",
+      "ogDescription": "Domina Mouse Trap con reglas claras, estrategias para el queso, mecánicas de la trampa, guías multijugador, desbloqueos de atuendos, detalles de las plataformas, actualizaciones y resolución de problemas.",
+      "twitterTitle": "Wiki de Mouse Trap - Reglas, multijugador y atuendos",
+      "twitterDescription": "Domina Mouse Trap con reglas claras, estrategias para el queso, mecánicas de la trampa, guías multijugador y detalles de las plataformas."
+    }
+  },
   "nav": {
     "guide": "Guía",
     "rules": "Reglas",
-    "setup": "Configuración",
+    "setup": "Preparación",
     "strategy": "Estrategia",
     "versions": "Versiones",
     "digital": "Digital",
     "reviews": "Reseñas"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar ahora",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Juego de mesa caótico de reacción en cadena",
+    "title": "Wiki de Mouse Trap",
+    "description": "Compite por el queso, activa la famosa trampa de reacción en cadena, desafía a hasta cuatro jugadores en línea o sin conexión y desbloquea coloridos atuendos de ratón.",
+    "getFreeCodesCTA": "Ver guía del juego",
+    "playOnRobloxCTA": "Juega en móviles y consolas",
+    "stats": {
+      "stat1": {
+        "value": "100K+",
+        "label": "Descargas en Android"
+      },
+      "stat2": {
+        "value": "4,7",
+        "label": "Valoración en App Store"
+      },
+      "stat3": {
+        "value": "1-4",
+        "label": "Jugadores admitidos"
+      },
+      "stat4": {
+        "value": "22",
+        "label": "Atuendos incluidos"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Mouse Trap",
+    "description": "Recoge, roba y protege el queso en un tablero 3D totalmente animado, activa el famoso artilugio de reacción en cadena y supera en puntuación a hasta tres ratones rivales."
+  },
+  "tools": {
+    "title": "Mouse Trap",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para jugar, ganar y personalizar Mouse Trap: el juego de tablero digital de reacción en cadena.",
+    "cards": [
+      {
+        "icon": "Libro abierto",
+        "title": "Guía para principiantes de Mouse Trap",
+        "description": "Primera partida, flujo del turno, el queso y el artilugio."
+      },
+      {
+        "icon": "Dados",
+        "title": "Cómo jugar a Mouse Trap",
+        "description": "Reglas digitales completas, turnos, robos y victoria."
+      },
+      {
+        "icon": "Queso",
+        "title": "Estrategia de queso en Mouse Trap",
+        "description": "Recoge, protege, roba y asegura la mayor cantidad de queso."
+      },
+      {
+        "icon": "Usuarios",
+        "title": "Guía multijugador de Mouse Trap",
+        "description": "Online, privado, local y Pass and Play para 1-4."
+      },
+      {
+        "icon": "Zap",
+        "title": "Reacción en cadena de Mouse Trap",
+        "description": "Activa el artilugio y sincroniza la trampa."
+      },
+      {
+        "icon": "Camiseta",
+        "title": "Ratones y atuendos de Mouse Trap",
+        "description": "Colores, pelajes, atuendos y desbloqueos de la reserva de queso."
+      },
+      {
+        "icon": "Capas",
+        "title": "Modos de juego de Mouse Trap",
+        "description": "Un jugador, online y formas locales de jugar."
+      },
+      {
+        "icon": "Calendario",
+        "title": "Plataformas y fechas de lanzamiento de Mouse Trap",
+        "description": "Ediciones de iOS, Android, Switch, PS4 y Steam."
+      }
+    ]
+  },
+  "modules": {
+    "mouseTrapBeginnerGuide": {
+      "eyebrow": "Primeros pasos",
+      "title": "Guía para principiantes de Mouse Trap",
+      "intro": "Mouse Trap es un juego de tablero digital por turnos para hasta cuatro jugadores. Cada partida es una carrera para recoger, robar y proteger el queso antes de que la Cheese Machine se agote.",
+      "steps": [
+        {
+          "title": "Elige un modo de juego",
+          "description": "Empieza con el modo de un jugador offline para aprender contra oponentes de la IA, o elige Pass and Play, juego local en consola, multijugador online privado o multijugador online abierto.",
+          "tip": "El modo de un jugador es el lugar más fácil para aprender las indicaciones del tablero sin esperar a otros jugadores."
+        },
+        {
+          "title": "Elige tu ratón",
+          "description": "Selecciona un color o pelaje de ratón y equipa un atuendo disponible. Los clásicos ratones rojo, azul, amarillo y verde están disponibles en las versiones compatibles.",
+          "tip": "La apariencia del ratón es estética y no cambia el objetivo de la partida."
+        },
+        {
+          "title": "Sigue las indicaciones del turno",
+          "description": "Los jugadores se turnan para moverse por el tablero animado. Completa la acción que se muestra tras el movimiento, como recoger queso, producir queso, robar a otro ratón o iniciar un evento especial.",
+          "tip": "Comprueba cada opción en pantalla antes de confirmar, ya que algunos turnos pueden afectar al total de queso de otro jugador."
+        },
+        {
+          "title": "Recoge y acumula queso",
+          "description": "Aumenta el total de tu partida siempre que haya queso disponible. El ganador se determina por la cantidad de queso acumulada al finalizar el encuentro.",
+          "tip": "Una pequeña ventaja puede desaparecer tras un robo exitoso, así que sigue recolectando incluso cuando vayas por delante."
+        },
+        {
+          "title": "Roba a los ratones rivales",
+          "description": "Aprovecha las oportunidades de robo para quitarles queso a tus oponentes y aumentar tu propio total. Apuntar al líder actual genera el mayor cambio de puntuación posible.",
+          "tip": "Evita repartir los robos de forma equitativa cuando un jugador tenga una ventaja clara."
+        },
+        {
+          "title": "Usa la Action Contraption",
+          "description": "Activa la famosa chain reaction de Mouse Trap cuando el juego presente la oportunidad. La secuencia animada puede interferir con un oponente y cambiar el equilibrio de la carrera.",
+          "tip": "La contraption puede tener éxito o fallar, así que sigue recogiendo queso en lugar de confiar solo en la trampa."
+        },
+        {
+          "title": "Termina con la mayor cantidad de queso",
+          "description": "La partida termina cuando la Cheese Machine se queda sin existencias. El ratón que tenga más queso en ese momento gana el juego.",
+          "tip": "Vigila el suministro de queso restante y prioriza las ganancias inmediatas a medida que se acerque el final."
+        },
+        {
+          "title": "Gasta tu reserva de queso",
+          "description": "Tras completar una partida, el queso restante se añade a tu reserva de queso persistente. Esta reserva puede usarse para desbloquear atuendos adicionales para tu ratón.",
+          "tip": "Completar partidas ayuda a desbloquear objetos cosméticos incluso cuando no ganas."
+        }
+      ]
+    },
+    "mouseTrapHowToPlay": {
+      "eyebrow": "Reglas del juego",
+      "title": "Cómo jugar a Mouse Trap",
+      "intro": "El juego digital Mouse Trap sustituye el tablero físico por un tablero 3D totalmente animado. Hasta cuatro ratones compiten para conseguir la mayor cantidad de queso mientras usan robos y la chain-reaction contraption contra sus rivales.",
+      "faqs": [
+        {
+          "question": "¿Cuál es el objetivo principal en Mouse Trap?",
+          "answer": "Recoge, roba y mantén más queso que cualquier otro jugador. Cuando la Cheese Machine se agota, el ratón con el mayor total de queso gana la partida."
+        },
+        {
+          "question": "¿Cuántas personas pueden jugar a Mouse Trap?",
+          "answer": "Mouse Trap admite de uno a cuatro jugadores. Las opciones incluyen Single Player offline contra la IA, Pass and Play offline, multijugador local en consola compatible, partidas privadas online y multijugador online abierto."
+        },
+        {
+          "question": "¿Cómo empieza una partida de Mouse Trap?",
+          "answer": "Selecciona un modo de juego, elige tu ratón y equípate un atuendo. Los jugadores entran en el tablero animado y se turnan para completar las indicaciones de movimiento y acción que muestra el juego."
+        },
+        {
+          "question": "¿Cómo funcionan los turnos en Mouse Trap?",
+          "answer": "Cada ratón actúa por turnos y se mueve por el tablero. Tras el movimiento, el juego resuelve o presenta una acción que puede producir queso, otorgar queso, robar queso, activar la contraption o iniciar otro evento del tablero."
+        },
+        {
+          "question": "¿Cómo se recoge el queso en Mouse Trap?",
+          "answer": "El queso se obtiene mediante acciones del tablero y oportunidades de la Cheese Machine. Tu total actual de la partida se muestra durante todo el juego y determina tu posición en la carrera."
+        },
+        {
+          "question": "¿Cómo funcionan los robos en Mouse Trap?",
+          "answer": "Ciertas acciones permiten a un jugador quitarle queso a un rival. Un robo exitoso reduce el total del oponente a la vez que aumenta el del jugador que roba, lo que resulta especialmente útil contra el líder actual."
+        },
+        {
+          "question": "¿Qué hace la contraption de Mouse Trap?",
+          "answer": "La Action Contraption inicia la famosa chain reaction animada del juego. Se utiliza para interferir con otro ratón, aunque la secuencia puede tener éxito o fallar antes de llegar a su etapa final."
+        },
+        {
+          "question": "¿Qué es el evento de Riggs the cat en Mouse Trap?",
+          "answer": "Riggs the cat aparece en un juego de bonificación incluido en la edición digital. Sigue las instrucciones en pantalla cuando comience el evento y completa su secuencia interactiva antes de volver al tablero principal."
+        },
+        {
+          "question": "¿Cuándo termina una partida de Mouse Trap?",
+          "answer": "La carrera continúa hasta que la Cheese Machine se agota. Entonces se comparan los totales finales de queso y el jugador con más queso es declarado ganador."
+        },
+        {
+          "question": "¿Qué pasa con el queso después de una partida de Mouse Trap?",
+          "answer": "El queso que tengas al final de una partida completada se añade a tu reserva de queso persistente. El queso guardado se puede gastar para desbloquear atuendos cosméticos adicionales."
+        }
+      ]
+    },
+    "mouseTrapCheeseStrategy": {
+      "eyebrow": "Estrategias ganadoras",
+      "title": "Guía de estrategia de queso de Mouse Trap",
+      "intro": "Ganar en Mouse Trap requiere más que recolectar cada trozo de queso visible. Los jugadores expertos vigilan la tabla de clasificación, reducen el total del ratón líder y cambian sus prioridades a medida que la Cheese Machine se vacía.",
+      "strategies": [
+        {
+          "priority": "Esencial",
+          "title": "Rastrea al líder actual",
+          "description": "Revisa el total de queso de cada jugador antes de elegir un objetivo. Dirige los robos y las acciones disruptivas hacia el ratón que tenga el montón más grande.",
+          "bestWhen": "Un oponente comienza a sacar una ventaja clara.",
+          "result": "El líder pierde impulso mientras tú generas una mayor ganancia relativa."
+        },
+        {
+          "priority": "Esencial",
+          "title": "Consigue queso garantizado",
+          "description": "Prioriza las ganancias de queso inmediatas cuando la alternativa dependa del resultado incierto de una contraption. La recolección fiable hace que tu puntuación suba en cada ronda.",
+          "bestWhen": "La Cheese Machine se está agotando o ya estás cerca del primer puesto.",
+          "result": "Evitas terminar la partida con una oportunidad de puntuación desaprovechada."
+        },
+        {
+          "priority": "Alta",
+          "title": "Usa los robos para cambiar el marcador",
+          "description": "Un robo aumenta tu total y reduce el de un oponente a la vez. Esto lo hace más valioso que una recolección del mismo tamaño cuando se le quita al jugador que necesitas superar.",
+          "bestWhen": "Puedes robarle al primer puesto o a un rival cercano.",
+          "result": "La diferencia entre tú y el objetivo cambia en ambas direcciones."
+        },
+        {
+          "priority": "Alta",
+          "title": "Presiona al líder con la trampa",
+          "description": "Usa las oportunidades de contraption contra el ratón cuyo total de queso suponga la mayor amenaza. Evita atacar repetidamente a un jugador que ya esté muy rezagado.",
+          "bestWhen": "Un rival tiene suficiente queso para seguir en cabeza tras un turno de recolección normal.",
+          "result": "El oponente más fuerte se enfrenta a la mayor interrupción."
+        },
+        {
+          "priority": "Alta",
+          "title": "Vigila la Cheese Machine",
+          "description": "El suministro restante de la Cheese Machine actúa como temporizador de la partida. Pasa de la interrupción a largo plazo a la puntuación directa a medida que el queso disponible se agote.",
+          "bestWhen": "El juego está entrando en sus turnos finales.",
+          "result": "Terminas con puntos en mano en lugar de esperar a una oportunidad posterior."
+        },
+        {
+          "priority": "Media",
+          "title": "Protege una ventaja ajustada",
+          "description": "Cuando llegues al primer puesto, sigue sumando queso en lugar de asumir que tu ventaja es segura. Los oponentes aún pueden reducir tu total mediante robos y acciones de trampa.",
+          "bestWhen": "Lideras solo por una pequeña cantidad.",
+          "result": "Tu ventaja se vuelve más difícil de borrar con una sola acción del rival."
+        },
+        {
+          "priority": "Media",
+          "title": "Evita desperdiciar ataques",
+          "description": "La selección de objetivos importa más que atacar tan a menudo como sea posible. Interrumpir al último puesto suele aportar menos valor que reducir el total de un jugador que compite por la victoria.",
+          "bestWhen": "Hay varios oponentes disponibles como objetivos.",
+          "result": "Cada acción ofensiva tiene un efecto más fuerte en la clasificación final."
+        },
+        {
+          "priority": "Progresión",
+          "title": "Completa partidas para conseguir atuendos",
+          "description": "El queso que queda al final de una partida contribuye a tu reserva de queso persistente, que desbloquea atuendos cosméticos. Terminar partidas hace avanzar tu colección incluso sin una victoria.",
+          "bestWhen": "Estás creando tu colección de atuendos.",
+          "result": "Jugar con regularidad genera progreso estético a largo plazo."
+        }
+      ]
+    },
+    "mouseTrapMultiplayerGuide": {
+      "eyebrow": "Jueguen juntos",
+      "title": "Guía del multijugador de Mouse Trap",
+      "intro": "Mouse Trap incluye opciones en línea y locales para familias, amigos y jugadores en solitario. Los requisitos exactos de hardware local y suscripciones en línea dependen de la plataforma utilizada.",
+      "modes": [
+        {
+          "mode": "Multijugador en línea privado",
+          "players": "2-4 jugadores",
+          "connection": "Requiere conexión a internet",
+          "hardware": "Cada jugador usa un dispositivo o consola compatible con el juego",
+          "subscription": "Nintendo Switch Online en Switch; PlayStation Plus en PS4; sin suscripción de consola en móviles",
+          "bestFor": "Jugar de forma remota con amigos y familiares invitados"
+        },
+        {
+          "mode": "Multijugador en línea público",
+          "players": "Hasta 4 jugadores",
+          "connection": "Requiere conexión a internet",
+          "hardware": "Cada jugador usa un dispositivo o consola compatible con el juego",
+          "subscription": "Nintendo Switch Online en Switch; PlayStation Plus en PS4; sin suscripción de consola en móviles",
+          "bestFor": "Unirse a otros jugadores de Mouse Trap cuando no haya amigos disponibles"
+        },
+        {
+          "mode": "Multijugador local en consola",
+          "players": "1-4 jugadores",
+          "connection": "No requiere internet para el juego local",
+          "hardware": "Una consola compatible y controles compatibles; se requiere un control por jugador",
+          "subscription": "No se requiere suscripción en línea para el juego local sin conexión",
+          "bestFor": "Jugar juntos en un televisor o consola"
+        },
+        {
+          "mode": "Pass and Play",
+          "players": "2-4 jugadores",
+          "connection": "Sin conexión",
+          "hardware": "Un dispositivo móvil o sistema compatible compartido entre los jugadores",
+          "subscription": "No se requiere suscripción en línea",
+          "bestFor": "Viajes, sesiones en dispositivos compartidos y jugar sin controles adicionales"
+        },
+        {
+          "mode": "Un jugador",
+          "players": "1 jugador con oponentes de IA",
+          "connection": "Sin conexión",
+          "hardware": "Un dispositivo o consola compatible",
+          "subscription": "No se requiere suscripción en línea",
+          "bestFor": "Aprender las reglas, practicar estrategias o jugar sin otras personas"
+        }
+      ]
+    },
+    "mouseTrapTrapChainReaction": {
+      "eyebrow": "Mecanismo de acción",
+      "title": "Guía de Chain Reaction de Mouse Trap",
+      "intro": "Los montones de queso más grandes pueden aparecer bajo la trampa, lo que hace que esta zona sea tan gratificante como peligrosa. Cuando un rival entra en la zona de la trampa o empieza a tomar una gran ventaja, activar la contraption inicia una larga chain reaction animada que podría atrapar al ratón expuesto.",
+      "stages": [
+        {
+          "title": "Vigila la zona de la trampa",
+          "description": "Las grandes recompensas de queso atraen a los jugadores bajo la trampa. No pierdas de vista qué oponente entra en la zona de peligro y cuánto queso tiene en ese momento.",
+          "strategy": "Prioriza a los oponentes que lideren la partida o que lleven una gran cantidad de queso."
+        },
+        {
+          "title": "Elige el momento adecuado",
+          "description": "Activa la trampa cuando otro ratón esté expuesto y ralentizar a ese jugador cambie significativamente la clasificación.",
+          "strategy": "Guarda la activación para un líder claro, un rival directo o una remontada al final de la partida antes de que se agote la Cheese Machine."
+        },
+        {
+          "title": "Balancea la bota",
+          "description": "La chain reaction comienza cuando la bota se balancea y golpea la pelota para ponerla en movimiento.",
+          "strategy": "Una vez activado, el contraption funciona automáticamente y los jugadores deben esperar a que se resuelva la secuencia completa."
+        },
+        {
+          "title": "Sigue la pelota",
+          "description": "La pelota rueda a través de los obstáculos de la máquina, viaja por el aire y cae en la sección de la bañera del contraption.",
+          "strategy": "La larga animación crea suspense porque el resultado de la trampa no se decide de inmediato."
+        },
+        {
+          "title": "Lanza al buceador",
+          "description": "El mecanismo móvil llega al trampolín y lanza al buceador, completando la parte final de la secuencia al estilo Rube Goldberg.",
+          "strategy": "Aprovecha este momento para comprobar los totales de queso restantes y planificar tu próximo movimiento para recolectar o robar."
+        },
+        {
+          "title": "Resuelve la trampa",
+          "description": "La jaula cae al final de la chain reaction y determina si el ratón objetivo es atrapado.",
+          "strategy": "Tras una interrupción exitosa, muévete rápidamente hacia el queso valioso mientras el oponente afectado se recupera."
+        }
+      ]
+    },
+    "mouseTrapMiceOutfits": {
+      "eyebrow": "Personalización de ratones",
+      "title": "Guía de ratones y atuendos de Mouse Trap",
+      "intro": "Mouse Trap permite a cada jugador elegir un ratón y añadirle un atuendo antes de una partida. El queso restante al final de la partida se transfiere a la reserva de queso del jugador, donde se puede gastar para desbloquear objetos cosméticos adicionales.",
+      "items": [
+        {
+          "title": "Colores de ratón clásicos",
+          "category": "Color del ratón",
+          "platform": "Móvil, Nintendo Switch, PlayStation y Steam",
+          "availability": "Incluido",
+          "description": "El juego digital incluye los cuatro colores clásicos de jugador (rojo, azul, amarillo y verde) que se usan para distinguir a los ratones durante una partida."
+        },
+        {
+          "title": "Selección de pelaje",
+          "category": "Apariencia del ratón",
+          "platform": "Nintendo Switch",
+          "availability": "Incluido",
+          "description": "La edición de Nintendo Switch permite a los jugadores elegir entre una variedad de colores de ratón y apariencias de pelaje antes de seleccionar un atuendo."
+        },
+        {
+          "title": "Armario inicial para móviles",
+          "category": "Atuendos incluidos",
+          "platform": "iOS",
+          "availability": "22 atuendos incluidos",
+          "description": "La edición de iOS incluye 22 atuendos con el juego base. Se pueden desbloquear objetos cosméticos adicionales con queso o conseguirse mediante compras opcionales."
+        },
+        {
+          "title": "Armario de Nintendo Switch",
+          "category": "Atuendos incluidos",
+          "platform": "Nintendo Switch",
+          "availability": "34 atuendos incluidos",
+          "description": "La edición de Nintendo Switch indica 34 atuendos incluidos con el juego, lo que proporciona un armario inicial más grande que el de la lista para móviles."
+        },
+        {
+          "title": "Desbloqueos de la reserva de queso",
+          "category": "---",
+          "platform": "Sistema de desbloqueo",
+          "availability": "Todas las ediciones actuales",
+          "description": "Se gana jugando"
+        },
+        {
+          "title": "Al final de cada partida, el queso que tenga el jugador se añade a la reserva de queso y puede usarse para desbloquear nuevos atuendos.",
+          "category": "Cosméticos opcionales para móviles",
+          "platform": "Atuendos adicionales",
+          "availability": "Móvil",
+          "description": "Compras opcionales en la aplicación"
+        }
+      ]
+    },
+    "mouseTrapGameModes": {
+      "eyebrow": "El juego premium para móviles no tiene anuncios, pero ofrece objetos cosméticos opcionales que pueden comprarse con dinero real.",
+      "title": "Formas de jugar",
+      "intro": "Guía de modos de juego de Mouse Trap",
+      "modes": [
+        {
+          "name": "El juego digital ofrece cuatro formas principales de jugar. Los modos sin conexión son ideales para viajes y práctica en solitario, mientras que los modos en línea conectan a amigos o emparejan a jugadores con fans de Mouse Trap de todo el mundo.",
+          "connection": "Un solo jugador",
+          "players": "Sin conexión",
+          "opponents": "1 jugador humano",
+          "bestFor": "Ratones controlados por la IA"
+        },
+        {
+          "name": "Aprender el tablero, probar estrategias y jugar durante los viajes",
+          "connection": "Multijugador privado en línea",
+          "players": "En línea",
+          "opponents": "Hasta 4 jugadores",
+          "bestFor": "Amigos y familiares invitados"
+        },
+        {
+          "name": "Noches de juegos familiares a distancia y partidas programadas con amigos",
+          "connection": "Multijugador público en línea",
+          "players": "En línea",
+          "opponents": "Hasta 4 jugadores",
+          "bestFor": "Jugadores de la comunidad en línea"
+        },
+        {
+          "name": "Encontrar oponentes cuando los amigos no están disponibles",
+          "connection": "Pass and Play",
+          "players": "Sin conexión",
+          "opponents": "Hasta 4 jugadores locales",
+          "bestFor": "Amigos y familiares en la misma habitación"
+        }
+      ]
+    },
+    "mouseTrapPlatformsReleaseDates": {
+      "eyebrow": "Viajes por carretera, reuniones familiares y juego local sin necesidad de dispositivos adicionales",
+      "title": "Comparación de plataformas",
+      "intro": "Plataformas y fechas de lanzamiento de Mouse Trap",
+      "platforms": [
+        {
+          "platform": "Mouse Trap se lanzó por primera vez en dispositivos móviles en 2023 antes de llegar a Nintendo Switch y PlayStation 4. Existe una versión para Windows en Steam con modos para un solo jugador, PvP en línea, multijugador en pantalla compartida y compatibilidad con Remote Play Together.",
+          "release": "iOS",
+          "status": "29 de marzo de 2023",
+          "players": "Disponible",
+          "playModes": "Hasta 4 jugadores",
+          "languages": "Inglés, francés, alemán, italiano y español"
+        },
+        {
+          "platform": "Android",
+          "release": "27 de abril de 2023",
+          "status": "Disponible",
+          "players": "Hasta 4 jugadores",
+          "playModes": "Un jugador sin conexión, multijugador en línea y Pass and Play sin conexión",
+          "languages": "Versiones localizadas del juego principal"
+        },
+        {
+          "platform": "Nintendo Switch",
+          "release": "7 de agosto de 2023",
+          "status": "Disponible",
+          "players": "Hasta 4 jugadores",
+          "playModes": "Un jugador sin conexión, multijugador en línea y juego local sin conexión",
+          "languages": "Inglés, español, francés, alemán e italiano"
+        },
+        {
+          "platform": "PlayStation 4",
+          "release": "24 de octubre de 2023",
+          "status": "Disponible",
+          "players": "1-4 en local y hasta 4 en línea",
+          "playModes": "Un jugador, local, en línea privado y en línea público",
+          "languages": "Inglés, francés, alemán, italiano y español"
+        },
+        {
+          "platform": "Windows PC a través de Steam",
+          "release": "Próximamente",
+          "status": "Lista de deseos disponible",
+          "players": "Un jugador y multijugador",
+          "playModes": "Un jugador, PvP en línea, PvP en pantalla compartida y Remote Play Together",
+          "languages": "Inglés, francés, italiano, alemán y español"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Mouse Trap: el juego de mesa digital de reacción en cadena",
+    "questions": [
+      {
+        "question": "¿Qué es Mouse Trap?",
+        "answer": "Mouse Trap es un juego de mesa digital por turnos para de uno a cuatro jugadores. Coleccionas, robas y proteges queso en un tablero 3D animado, y gana el jugador con más queso cuando la Cheese Machine se quede sin queso."
+      },
+      {
+        "question": "¿Cuántos jugadores admite Mouse Trap?",
+        "answer": "Mouse Trap admite de uno a cuatro jugadores a través de Un jugador contra la IA, partidas privadas y públicas en línea, multijugador local en consola y Pass and Play sin conexión."
+      },
+      {
+        "question": "¿Qué hace el mecanismo de Mouse Trap?",
+        "answer": "El mecanismo de acción inicia la famosa reacción en cadena animada de Mouse Trap. Actívala en el momento adecuado para interferir con un ratón rival, aunque la secuencia puede tener éxito o fallar antes de que caiga la jaula."
+      },
+      {
+        "question": "¿En qué plataformas está disponible Mouse Trap?",
+        "answer": "Mouse Trap está disponible en iOS, Android, Nintendo Switch y PlayStation 4. La versión para Windows PC figura en Steam como próximamente con soporte para Remote Play Together."
+      },
+      {
+        "question": "¿Cómo se desbloquean atuendos en Mouse Trap?",
+        "answer": "El queso que tengas al final de una partida completada de Mouse Trap se añade a tu reserva permanente de queso. Gasta el queso acumulado para desbloquear atuendos cosméticos adicionales para tu ratón."
+      },
+      {
+        "question": "¿Necesita Mouse Trap una conexión a internet?",
+        "answer": "Solo los modos multijugador en línea necesitan una conexión a internet y, en consola, la suscripción en línea de la plataforma. Un jugador y Pass and Play en Mouse Trap funcionan completamente sin conexión."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar a Mouse Trap?",
+    "description": "Descarga Mouse Trap en móviles y consolas, activa la trampa de reacción en cadena con hasta cuatro jugadores y únete a la comunidad oficial para recibir consejos y actualizaciones.",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Juega en móviles y consolas"
+  },
+  "footer": {
+    "title": "Mouse Trap Wiki",
+    "description": "Tu centro de recursos completo para las reglas de Mouse Trap, estrategias de queso, mecánicas de trampas, guías multijugador, atuendos de ratón y detalles de las plataformas.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "youtube": "YouTube",
+    "twitter": "X / Twitter",
+    "steamStore": "Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Condiciones de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Mouse Trap Wiki. No afiliado con Marmalade Game Studio ni Hasbro.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guías de Mouse Trap",
+      "description": "Guías paso a paso de Mouse Trap que cubren la preparación del tablero, las reglas, las mecánicas de las trampas y las estrategias para ganar en cada edición.",
+      "metaTitle": "Guías de Mouse Trap - Preparación, reglas y guías de estrategia",
+      "metaDescription": "Explora todas las guías de Mouse Trap: cómo jugar, preparación del tablero, trampas de reacción en cadena, reglas del queso y estrategias para ganar.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las guías de Mouse Trap?",
+      "whatIsDescription": "Nuestras guías de Mouse Trap te acompañan en cada parte del juego, desde la primera preparación del tablero hasta tácticas avanzadas de sincronización de trampas. Cada guía divide las reglas en pasos claros para que los nuevos jugadores puedan empezar a jugar en minutos y los veteranos puedan pulir su estrategia.",
+      "why": "¿Por qué leer nuestras guías?",
+      "whySteps": {
+        "step1Title": "Aprende el ciclo de juego completo",
+        "step1Description": "Comprende los turnos, los movimientos, la recolección de queso y cómo se activa la trampa para que siempre sepas qué hacer a continuación.",
+        "step2Title": "Prepárate sin cometer errores",
+        "step2Description": "Sigue los pasos ilustrados de preparación para dejar listos el tablero y el contraption de reacción en cadena de la manera correcta, siempre.",
+        "step3Title": "Diseña una estrategia ganadora",
+        "step3Description": "Aplica tácticas probadas para la sincronización de trampas y el robo de queso que funcionan tanto en la edición original como en las modernas."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "rules": {
+      "title": "Reglas de Mouse Trap",
+      "description": "Las reglas oficiales de Mouse Trap explicadas claramente: orden de turnos, queso, activación de trampas, número de jugadores y condiciones de victoria.",
+      "metaTitle": "Reglas de Mouse Trap - Cómo jugar y condiciones de victoria",
+      "metaDescription": "Domina las reglas oficiales de Mouse Trap: turnos, recolección de queso, activación de trampas, número de jugadores, clasificación por edad y victoria.",
+      "categoryLabel": "REGLAS",
+      "whatIs": "¿Cuáles son las reglas de Mouse Trap?",
+      "whatIsDescription": "Las reglas definen cómo se juega a Mouse Trap: cómo se mueven los ratones por el tablero, cómo se consigue y se roba el queso, cuándo se activa la famosa trampa de reacción en cadena y cómo gana un jugador. Explicamos cada regla con un lenguaje sencillo para que nada interrumpa tu noche de juegos.",
+      "why": "¿Por qué aprender las reglas?",
+      "whySteps": {
+        "step1Title": "Juega correctamente desde el primer turno",
+        "step1Description": "Conoce exactamente cómo funcionan los turnos, los movimientos y el queso para que no haya discusiones ni confusiones a mitad de la partida.",
+        "step2Title": "Activa la trampa de la forma correcta",
+        "step2Description": "Comprende las condiciones exactas que inician la reacción en cadena para que la trampa se active de manera justa cada vez.",
+        "step3Title": "Gana con confianza",
+        "step3Description": "Aprende las condiciones de victoria y las reglas según el número de jugadores para que todos sepan cómo se gana la partida."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las reglas"
+    },
+    "setup": {
+      "title": "Preparación de Mouse Trap",
+      "description": "Guías completas de preparación de Mouse Trap: montaje del tablero, construcción de la trampa, colocación de las piezas y orden de montaje de la reacción en cadena.",
+      "metaTitle": "Preparación de Mouse Trap: montaje del tablero, la trampa y las piezas",
+      "metaDescription": "Prepara Mouse Trap correctamente: monta el tablero, ensambla la trampa de reacción en cadena, coloca las piezas y empieza a jugar rápido.",
+      "categoryLabel": "PREPARACIÓN",
+      "whatIs": "¿Qué es la preparación de Mouse Trap?",
+      "whatIsDescription": "La preparación es todo lo que haces antes del primer turno: montar el tablero, construir la trampa contraption de reacción en cadena pieza por pieza y colocar los ratones y el queso. Una preparación correcta hace que el juego funcione sin problemas y que la trampa se active sin atascarse.",
+      "why": "Por qué es importante la preparación",
+      "whySteps": {
+        "step1Title": "Construye la trampa correctamente",
+        "step1Description": "Ensambla la contraption de reacción en cadena en el orden correcto para que cada engranaje, escalera y jaula funcione como es debido.",
+        "step2Title": "Coloca el tablero y las piezas",
+        "step2Description": "Despliega el tablero, coloca los ratones y prepara el queso para que el juego esté listo para empezar.",
+        "step3Title": "Evita errores comunes de montaje",
+        "step3Description": "Evita los errores de montaje frecuentes que hacen que la trampa se atasque o falle durante la partida."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de preparación"
+    },
+    "strategy": {
+      "title": "Estrategia de Mouse Trap",
+      "description": "Estrategia ganadora de Mouse Trap: robo de queso, sincronización de la trampa, tácticas de remontada y consejos familiares para cada partida.",
+      "metaTitle": "Estrategia de Mouse Trap: consejos para ganar y tácticas de queso",
+      "metaDescription": "ESTRATEGIA",
+      "categoryLabel": "¿Qué es la estrategia de Mouse Trap?",
+      "whatIs": "La estrategia es cómo conviertes las reglas en victorias: decidir cuándo correr por el queso, cuándo atraer a los oponentes a la trampa y cómo recuperarte cuando te quedas atrás. Una buena estrategia hace que cada partida sea reñida, emocionante y ganable.",
+      "whatIsDescription": "¿Por qué usar una estrategia?",
+      "why": "Sincroniza la trampa a la perfección",
+      "whySteps": {
+        "step1Title": "Aprende cuándo atraer a los rivales a la casilla de la trampa para que la reacción en cadena los atrape en el peor momento.",
+        "step1Description": "Roba queso con cabeza",
+        "step2Title": "Elige los momentos adecuados para robar queso y proteger tus reservas para mantenerte a la cabeza en el marcador.",
+        "step2Description": "Planifica tu remontada",
+        "step3Title": "Planifica tu remontada",
+        "step3Description": "Usa tácticas de remontada probadas para volver a la partida incluso si vas por detrás al principio."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las estrategias"
+    },
+    "versions": {
+      "title": "Versiones de Mouse Trap",
+      "description": "Comparativa de todas las versiones de Mouse Trap: original de 1963, ediciones vintage, reediciones de Hasbro y lanzamientos modernos de 2014/2016.",
+      "metaTitle": "Versiones de Mouse Trap - Ediciones de 1963, vintage y modernas",
+      "metaDescription": "Compara todas las ediciones de Mouse Trap: la original de 1963, los lanzamientos de Hasbro y vintage, y las versiones modernas de 2014/2016.",
+      "categoryLabel": "VERSIONES",
+      "whatIs": "¿Qué son las versiones de Mouse Trap?",
+      "whatIsDescription": "Mouse Trap se ha publicado en muchas ediciones desde 1963, desde el lanzamiento original de Ideal hasta coleccionables vintage, reediciones de Hasbro y las versiones modernas de 2014 y 2016. Cada edición mantiene la famosa trampa de chain reaction a la vez que actualiza el tablero, el arte y las piezas.",
+      "why": "¿Por qué comparar las versiones?",
+      "whySteps": {
+        "step1Title": "Encuentra la edición adecuada",
+        "step1Description": "Descubre qué versión de Mouse Trap se adapta a tu estilo de juego, desde el encanto retro hasta los componentes modernos.",
+        "step2Title": "Detecta el valor de lo vintage",
+        "step2Description": "Identifica ediciones vintage de colección y descubre por qué ciertos años son tan buscados por los coleccionistas.",
+        "step3Title": "Mira cómo ha evolucionado el juego",
+        "step3Description": "Sigue la evolución del tablero, la trampa contraption y las reglas a lo largo de seis décadas de lanzamientos."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las versiones"
+    },
+    "digital": {
+      "title": "Mouse Trap Digital",
+      "description": "Ediciones digitales de Mouse Trap: el videojuego, la aplicación móvil, el juego en línea, Nintendo Switch y guías completas para móviles.",
+      "metaTitle": "Mouse Trap Digital - Videojuego, móvil y Switch",
+      "metaDescription": "Juega a Mouse Trap en cualquier lugar: el videojuego, la aplicación móvil, versiones en línea, el lanzamiento de Nintendo Switch y guías para móviles.",
+      "categoryLabel": "DIGITAL",
+      "whatIs": "¿Qué es Mouse Trap Digital?",
+      "whatIsDescription": "Las ediciones digitales llevan Mouse Trap a las pantallas: un videojuego, una aplicación móvil, una versión jugable en línea y un lanzamiento para Nintendo Switch. Disfruta de la misma diversión de recoger queso y activar la trampa con tableros animados en 3D y multijugador en línea.",
+      "why": "¿Por qué jugar a la edición digital?",
+      "whySteps": {
+        "step1Title": "Juega en cualquier lugar y momento",
+        "step1Description": "Disfruta de Mouse Trap en tu teléfono, tableta o consola sin tener que montar el tablero físico.",
+        "step2Title": "Desafía a jugadores en línea",
+        "step2Description": "Enfréntate a amigos o jugadores de todo el mundo a través de los modos multijugador en línea y para móviles.",
+        "step3Title": "Domina la versión digital",
+        "step3Description": "Usa nuestras guías para móviles para aprender los controles digitales, los menús y las funciones en línea en cuestión de minutos."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías digitales"
+    },
+    "reviews": {
+      "title": "Reseñas de Mouse Trap",
+      "description": "Reseñas detalladas de Mouse Trap: valoraciones del juego de mesa, veredictos de ediciones retro y reseñas digitales de Nintendo Switch.",
+      "metaTitle": "Reseñas de Mouse Trap - Juego de mesa, retro y Switch",
+      "metaDescription": "Lee reseñas detalladas de Mouse Trap que cubren el juego de mesa, las ediciones retro y el lanzamiento digital para Nintendo Switch.",
+      "categoryLabel": "RESEÑAS",
+      "whatIs": "¿Qué son las reseñas de Mouse Trap?",
+      "whatIsDescription": "Nuestras reseñas evalúan Mouse Trap en sus múltiples formas: el juego de mesa clásico, las ediciones retro y vintage, y la versión digital para Nintendo Switch. Cubrimos la jugabilidad, los componentes, el valor y a quién se adapta mejor cada edición.",
+      "why": "¿Por qué leer nuestras reseñas?",
+      "whySteps": {
+        "step1Title": "Decide antes de comprar",
+        "step1Description": "Obtén veredictos claros sobre cada edición de Mouse Trap para que gastes en la versión que realmente disfrutarás.",
+        "step2Title": "Compara el juego de mesa y el digital",
+        "step2Description": "Descubre cómo se compara el juego de mesa con las versiones digital y para Switch antes de elegir cómo jugar.",
+        "step3Title": "Encuentra la opción ideal",
+        "step3Description": "Encuentra la edición de Mouse Trap adecuada para tu grupo, ya sea para una noche de juegos en familia o para jugar en solitario."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las reseñas"
+    }
   }
 }

@@ -1,11 +1,683 @@
 {
+  "seo": {
+    "home": {
+      "title": "Mouse Trap Wiki - Regeln, Multiplayer & Outfits",
+      "description": "Meistere Mouse Trap mit klaren Regeln, Käsestrategien, Fallenmechaniken, Multiplayer-Guides, Outfit-Freischaltungen, Plattformdetails, Updates und Fehlerbehebung.",
+      "keywords": "Mouse Trap, Brettspiel, Regeln, Multiplayer, Outfits, Käse, Falle, Nintendo Switch, Mobil",
+      "ogTitle": "Mouse Trap Wiki - Regeln, Multiplayer & Outfits",
+      "ogDescription": "Meistere Mouse Trap mit klaren Regeln, Käsestrategien, Fallenmechaniken, Multiplayer-Guides, Outfit-Freischaltungen, Plattformdetails, Updates und Fehlerbehebung.",
+      "twitterTitle": "Mouse Trap Wiki - Regeln, Multiplayer & Outfits",
+      "twitterDescription": "Meistere Mouse Trap mit klaren Regeln, Käsestrategien, Fallenmechaniken, Multiplayer-Guides und Plattformdetails."
+    }
+  },
   "nav": {
-    "guide": "Leitfaden",
+    "guide": "Guide",
     "rules": "Regeln",
     "setup": "Aufbau",
     "strategy": "Strategie",
     "versions": "Versionen",
     "digital": "Digital",
     "reviews": "Rezensionen"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Jetzt spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Weiterlesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "Chaotisches Kettenreaktions-Brettspiel",
+    "title": "Mouse Trap Wiki",
+    "description": "Liefere dir ein Rennen um den Käse, löse die berühmte Kettenreaktions-Falle aus, fordere bis zu vier Spieler online oder offline heraus und schalte farbenfrohe Maus-Outfits frei.",
+    "getFreeCodesCTA": "Spielanleitung ansehen",
+    "playOnRobloxCTA": "Auf Mobilgeräten & Konsole spielen",
+    "stats": {
+      "stat1": {
+        "value": "100.000+",
+        "label": "Android-Downloads"
+      },
+      "stat2": {
+        "value": "4,7",
+        "label": "App-Store-Bewertung"
+      },
+      "stat3": {
+        "value": "1-4",
+        "label": "Unterstützte Spieler"
+      },
+      "stat4": {
+        "value": "22",
+        "label": "Enthaltene Outfits"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Mouse Trap Gameplay",
+    "description": "Sammle, stiehl und beschütze Käse auf einem vollständig animierten 3D-Spielbrett, löse die berühmte Kettenreaktions-Apparatur aus und erziele mehr Punkte als bis zu drei gegnerische Mäuse."
+  },
+  "tools": {
+    "title": "Mouse Trap",
+    "titleHighlight": "Ressourcen",
+    "subtitle": "Alles, was du brauchst, um Mouse Trap – das digitale Kettenreaktions-Brettspiel – zu spielen, zu gewinnen und anzupassen",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Mouse Trap Einsteiger-Guide",
+        "description": "Erste Partie, Rundenablauf, Käse und die Apparatur"
+      },
+      {
+        "icon": "Dices",
+        "title": "Wie man Mouse Trap spielt",
+        "description": "Vollständige digitale Regeln, Runden, Stehlen und Gewinnen"
+      },
+      {
+        "icon": "Cheese",
+        "title": "Mouse Trap Käse-Strategie",
+        "description": "Sammle, beschütze, stiehl und horte den meisten Käse"
+      },
+      {
+        "icon": "Users",
+        "title": "Mouse Trap Mehrspieler-Guide",
+        "description": "Online, privat, lokal und Pass and Play für 1–4 Spieler"
+      },
+      {
+        "icon": "Zap",
+        "title": "Mouse Trap Kettenreaktion",
+        "description": "Löse die Apparatur aus und passe den richtigen Moment für die Falle ab"
+      },
+      {
+        "icon": "Shirt",
+        "title": "Mouse Trap Mäuse und Outfits",
+        "description": "Farben, Fellarten, Outfits und Freischaltungen für den Käsevorrat"
+      },
+      {
+        "icon": "Layers",
+        "title": "Mouse Trap Spielmodi",
+        "description": "Einzelspieler-, Online- und lokale Spielmöglichkeiten"
+      },
+      {
+        "icon": "Calendar",
+        "title": "Mouse Trap Plattformen und Veröffentlichungsdaten",
+        "description": "Versionen für iOS, Android, Switch, PS4 und Steam"
+      }
+    ]
+  },
+  "modules": {
+    "mouseTrapBeginnerGuide": {
+      "eyebrow": "Erste Schritte",
+      "title": "Mouse Trap Einsteiger-Guide",
+      "intro": "Mouse Trap ist ein rundenbasiertes digitales Brettspiel für bis zu vier Spieler. Jede Partie ist ein Wettlauf darum, Käse einzusammeln, zu stehlen und zu beschützen, bevor die Cheese Machine leer ist.",
+      "steps": [
+        {
+          "title": "Wähle einen Spielmodus",
+          "description": "Beginne mit dem Offline-Einzelspieler, um gegen KI-Gegner zu lernen, oder wähle Pass and Play, das lokale Spiel auf der Konsole, den privaten Online-Mehrspieler oder den offenen Online-Mehrspieler.",
+          "tip": "Der Einzelspieler-Modus ist die einfachste Möglichkeit, die Eingabeaufforderungen auf dem Spielbrett kennenzulernen, ohne auf andere Spieler warten zu müssen."
+        },
+        {
+          "title": "Wähle deine Maus",
+          "description": "Wähle eine Mausfarbe oder ein Fell aus und rüste ein verfügbares Outfit aus. Die klassischen roten, blauen, gelben und grünen Mäuse sind in den unterstützten Versionen verfügbar.",
+          "tip": "Das Aussehen der Maus ist rein kosmetisch und ändert nichts an deinem Spielziel."
+        },
+        {
+          "title": "Folge den Eingabeaufforderungen der Runde",
+          "description": "Die Spieler bewegen sich abwechselnd auf dem animierten Spielbrett. Führe die nach der Bewegung angezeigte Aktion aus, wie z. B. Käse sammeln, Käse herstellen, von einer anderen Maus stehlen oder ein Spezial-Event starten.",
+          "tip": "Überprüfe jede Auswahl auf dem Bildschirm vor dem Bestätigen, da manche Züge den Käsevorrat eines anderen Spielers beeinflussen können."
+        },
+        {
+          "title": "Käse sammeln und anhäufen",
+          "description": "Erhöhe deine Gesamtmenge in der Partie, wann immer Käse verfügbar wird. Der Gewinner wird durch die Menge an Käse bestimmt, die er bei Spielende besitzt.",
+          "tip": "Ein kleiner Vorsprung kann nach einem erfolgreichen Diebstahl schnell schwinden, sammle also auch dann weiter, wenn du in Führung liegst."
+        },
+        {
+          "title": "Stiehl von gegnerischen Mäusen",
+          "description": "Nutze Gelegenheiten zum Stehlen, um Gegnern Käse abzunehmen und deinen eigenen Vorrat zu vergrößern. Den aktuellen Führenden ins Visier zu nehmen, sorgt für den größtmöglichen Umschwung im Punktestand.",
+          "tip": "Vermeide es, Diebstähle gleichmäßig zu verteilen, wenn ein Spieler einen klaren Vorsprung hat."
+        },
+        {
+          "title": "Nutze die Action Contraption",
+          "description": "Löse die berühmte chain reaction von Mouse Trap aus, wenn das Spiel die Gelegenheit dazu bietet. Die animierte Sequenz kann einen Gegner behindern und das Gleichgewicht des Rennens verändern.",
+          "tip": "Die Contraption kann gelingen oder fehlschlagen, sammle also weiterhin Käse, anstatt dich nur auf die Falle zu verlassen."
+        },
+        {
+          "title": "Beende das Spiel mit dem meisten Käse",
+          "description": "Die Partie endet, wenn die Cheese Machine leer ist. Die Maus, die zu diesem Zeitpunkt den meisten Käse besitzt, gewinnt das Spiel.",
+          "tip": "Behalte den verbleibenden Käsevorrat im Auge und priorisiere sofortige Gewinne, wenn das Ende naht."
+        },
+        {
+          "title": "Gib deinen Käsevorrat aus",
+          "description": "Nach einem abgeschlossenen Spiel wird dein verbleibender Käse deinem dauerhaften Käsevorrat hinzugefügt. Dieser Vorrat kann verwendet werden, um zusätzliche Outfits für deine Maus freizuschalten.",
+          "tip": "Das Abschließen von Partien hilft beim Freischalten von kosmetischen Gegenständen, selbst wenn du nicht gewinnst."
+        }
+      ]
+    },
+    "mouseTrapHowToPlay": {
+      "eyebrow": "Spielregeln",
+      "title": "So wird Mouse Trap gespielt",
+      "intro": "Das digitale Mouse Trap-Spiel ersetzt den physischen Aufbau durch ein vollständig animiertes 3D-Spielbrett. Bis zu vier Mäuse treten gegeneinander an, um sich den meisten Käse zu sichern, während sie Diebstähle und die chain-reaction Contraption gegen ihre Rivalen einsetzen.",
+      "faqs": [
+        {
+          "question": "Was ist das Hauptziel in Mouse Trap?",
+          "answer": "Sammle, stiehl und besitze mehr Käse als alle anderen Spieler. Wenn die Cheese Machine leer ist, gewinnt die Maus mit dem höchsten Käsevorrat die Partie."
+        },
+        {
+          "question": "Wie viele Personen können Mouse Trap spielen?",
+          "answer": "Mouse Trap unterstützt einen bis vier Spieler. Zu den Optionen gehören Offline-Single Player gegen die KI, Offline-Pass and Play, unterstützter lokaler Konsolen-Mehrspielermodus, private Online-Spiele und offener Online-Mehrspielermodus."
+        },
+        {
+          "question": "Wie beginnt eine Mouse Trap-Partie?",
+          "answer": "Wähle einen Spielmodus, wähle deine Maus und rüste ein Outfit aus. Die Spieler betreten dann das animierte Spielbrett und führen abwechselnd die vom Spiel angezeigten Bewegungs- und Aktionsaufforderungen aus."
+        },
+        {
+          "question": "Wie funktionieren die Züge in Mouse Trap?",
+          "answer": "Jede Maus ist nacheinander an der Reihe und bewegt sich über das Spielbrett. Nach der Bewegung führt das Spiel eine Aktion aus oder bietet eine an, die Käse erzeugen, Käse verleihen, Käse stehlen, die Contraption aktivieren oder ein anderes Ereignis auf dem Spielbrett starten kann."
+        },
+        {
+          "question": "Wie wird in Mouse Trap Käse gesammelt?",
+          "answer": "Käse wird durch Aktionen auf dem Spielbrett und Gelegenheiten mit der Cheese Machine erlangt. Deine aktuelle Gesamtmenge in der Partie wird während des gesamten Spiels angezeigt und bestimmt deine Position im Rennen."
+        },
+        {
+          "question": "Wie funktioniert das Stehlen in Mouse Trap?",
+          "answer": "Bestimmte Aktionen ermöglichen es einem Spieler, einem Rivalen Käse abzunehmen. Ein erfolgreicher Diebstahl verringert den Vorrat des Gegners und erhöht gleichzeitig den Vorrat des stehlenden Spielers, was besonders gegen den aktuellen Führenden nützlich ist."
+        },
+        {
+          "question": "Was macht die Mouse Trap-Contraption?",
+          "answer": "Die Action Contraption startet die berühmte animierte chain reaction des Spiels. Sie wird verwendet, um eine andere Maus zu behindern, obwohl die Sequenz gelingen oder fehlschlagen kann, bevor sie ihre letzte Stufe erreicht."
+        },
+        {
+          "question": "Was ist das „Riggs the cat“-Ereignis in Mouse Trap?",
+          "answer": "Befolge die Anweisungen auf dem Bildschirm, wenn das Ereignis beginnt, und schließe seine interaktive Sequenz ab, bevor du zum Hauptspielbrett zurückkehrst."
+        },
+        {
+          "question": "Wann endet ein Mouse Trap-Spiel?",
+          "answer": "Das Rennen geht so lange weiter, bis die Cheese Machine leer ist. Die endgültigen Käsemengen werden dann verglichen, und der Spieler mit dem meisten Käse wird zum Gewinner erklärt."
+        },
+        {
+          "question": "Was passiert nach einer Mouse Trap-Partie mit dem Käse?",
+          "answer": "Der am Ende eines abgeschlossenen Spiels gehaltene Käse wird deinem dauerhaften Käsevorrat hinzugefügt. Gespeicherter Käse kann ausgegeben werden, um zusätzliche kosmetische Outfits freizuschalten."
+        }
+      ]
+    },
+    "mouseTrapCheeseStrategy": {
+      "eyebrow": "Gewinnstrategien",
+      "title": "Mouse Trap Käse-Strategieführer",
+      "intro": "Um bei Mouse Trap zu gewinnen, reicht es nicht aus, einfach nur jedes sichtbare Stück Käse einzusammeln. Starke Spieler behalten die Bestenliste im Auge, reduzieren den Käsevorrat der führenden Maus und passen ihre Prioritäten an, wenn sich die Cheese Machine dem Ende neigt.",
+      "strategies": [
+        {
+          "priority": "Essenziell",
+          "title": "Behalte die aktuelle Führung im Auge",
+          "description": "Überprüfe den Käsevorrat jedes Spielers, bevor du ein Ziel auswählst. Richte direkte Diebstähle und störende Aktionen gegen die Maus mit dem größten Haufen.",
+          "bestWhen": "Ein Gegner beginnt, sich einen deutlichen Vorsprung aufzubauen.",
+          "result": "Der Führende verliert an Schwung, während du einen größeren relativen Vorteil erzielst."
+        },
+        {
+          "priority": "Essenziell",
+          "title": "Nimm garantierten Käse",
+          "description": "Priorisiere sofortige Käsegewinne, wenn die Alternative von einem unsicheren Contraption-Ergebnis abhängt. Zuverlässiges Sammeln sorgt dafür, dass sich deine Punktzahl in jeder Runde weiter nach oben bewegt.",
+          "bestWhen": "Die Cheese Machine ist fast leer oder du bist bereits nah am ersten Platz.",
+          "result": "Du verhinderst, dass das Spiel mit einer ungenutzten Punktemöglichkeit endet."
+        },
+        {
+          "priority": "Hoch",
+          "title": "Nutze Diebstähle für Punkteschwankungen",
+          "description": "Ein Diebstahl erhöht sowohl deinen eigenen Vorrat als auch verringert er den eines Gegners. Das macht ihn wertvoller als ein gleich großes Sammeln, wenn er von dem Spieler gestohlen wird, den du überholen musst.",
+          "bestWhen": "Du kannst vom Erstplatzierten oder von einem engen Rivalen stehlen.",
+          "result": "Der Abstand zwischen dir und dem Ziel ändert sich in beide Richtungen."
+        },
+        {
+          "priority": "Hoch",
+          "title": "Setze den Führenden mit der Falle unter Druck",
+          "description": "Nutze Contraption-Gelegenheiten gegen die Maus, deren Käsevorrat die größte Bedrohung darstellt. Vermeide es, wiederholt einen Spieler ins Visier zu nehmen, der bereits weit zurückliegt.",
+          "bestWhen": "Ein Rivale hat genug Käse, um nach einer normalen Sammelrunde in Führung zu bleiben.",
+          "result": "Der stärkste Gegner wird am meisten behindert."
+        },
+        {
+          "priority": "Hoch",
+          "title": "Behalte die Cheese Machine im Auge",
+          "description": "Der verbleibende Vorrat der Cheese Machine fungiert als Spiel-Timer. Wechsle von langfristiger Störung zu direktem Punkten, wenn der verfügbare Käse zur Neige geht.",
+          "bestWhen": "Das Spiel geht in seine letzten Züge.",
+          "result": "Du beendest das Spiel mit sicheren Punkten, anstatt auf eine spätere Gelegenheit zu warten."
+        },
+        {
+          "priority": "Mittel",
+          "title": "Schütze einen knappen Vorsprung",
+          "description": "Wenn du die Führung übernimmst, sammle weiter Käse, anstatt davon auszugehen, dass dein Vorsprung sicher ist. Gegner können deinen Vorrat immer noch durch Diebstähle und Fallen-Aktionen reduzieren.",
+          "bestWhen": "Du führst nur mit einem kleinen Vorsprung.",
+          "result": "Dein Vorsprung ist mit einer einzigen Aktion eines Rivalen schwerer aufzuholen."
+        },
+        {
+          "priority": "Mittel",
+          "title": "Vermeide verschwendete Angriffe",
+          "description": "Die Auswahl des Ziels ist wichtiger als so oft wie möglich anzugreifen. Den Letztplatzierten zu stören, bringt meist weniger Nutzen, als den Vorrat eines Spielers zu reduzieren, der um den Sieg kämpft.",
+          "bestWhen": "Mehrere Gegner stehen als Ziele zur Verfügung.",
+          "result": "Jede offensive Aktion hat eine stärkere Auswirkung auf die Endplatzierung."
+        },
+        {
+          "priority": "Fortschritt",
+          "title": "Schließe Spiele ab, um Outfits freizuschalten",
+          "description": "Der am Ende eines Spiels verbleibende Käse fließt in deinen dauerhaften Käsevorrat ein, mit dem kosmetische Outfits freigeschaltet werden. Das Beenden von Spielen bringt deine Sammlung auch ohne Sieg voran.",
+          "bestWhen": "Du baust deine Outfit-Sammlung auf.",
+          "result": "Regelmäßiges Spielen führt zu langfristigem kosmetischen Fortschritt."
+        }
+      ]
+    },
+    "mouseTrapMultiplayerGuide": {
+      "eyebrow": "Gemeinsam spielen",
+      "title": "Mouse Trap Multiplayer-Guide",
+      "intro": "Mouse Trap enthält Online- und Offline-Optionen für Familien, Freunde und Solo-Spieler. Die genauen Anforderungen an lokale Hardware und Online-Abonnements hängen von der verwendeten Plattform ab.",
+      "modes": [
+        {
+          "mode": "Privater Online-Multiplayer",
+          "players": "2–4 Spieler",
+          "connection": "Internet erforderlich",
+          "hardware": "Jeder Spieler verwendet ein unterstütztes Gerät oder eine Konsole mit dem Spiel",
+          "subscription": "Nintendo Switch Online auf der Switch; PlayStation Plus auf der PS4; kein Konsolen-Abonnement auf Mobilgeräten",
+          "bestFor": "Aus der Ferne mit eingeladenen Freunden und der Familie spielen"
+        },
+        {
+          "mode": "Offener Online-Multiplayer",
+          "players": "Bis zu 4 Spieler",
+          "connection": "Internet erforderlich",
+          "hardware": "Jeder Spieler verwendet ein unterstütztes Gerät oder eine Konsole mit dem Spiel",
+          "subscription": "Nintendo Switch Online auf der Switch; PlayStation Plus auf der PS4; kein Konsolen-Abonnement auf Mobilgeräten",
+          "bestFor": "Tritt anderen Mouse Trap-Spielern bei, wenn keine Freunde verfügbar sind"
+        },
+        {
+          "mode": "Lokaler Konsolen-Multiplayer",
+          "players": "1–4 Spieler",
+          "connection": "Keine Internetverbindung für lokales Spielen erforderlich",
+          "hardware": "Eine kompatible Konsole und unterstützte Controller; ein Controller wird pro Spieler benötigt",
+          "subscription": "Keine Online-Mitgliedschaft für lokales Offline-Spielen erforderlich",
+          "bestFor": "Gemeinsam auf einem Fernseher oder einer Konsole spielen"
+        },
+        {
+          "mode": "Pass and Play",
+          "players": "2–4 Spieler",
+          "connection": "Offline",
+          "hardware": "Ein Mobilgerät oder unterstütztes System, das von den Spielern geteilt wird",
+          "subscription": "Keine Online-Mitgliedschaft erforderlich",
+          "bestFor": "Reisen, Spielrunden auf einem gemeinsamen Gerät und Spielen ohne zusätzliche Controller"
+        },
+        {
+          "mode": "Einzelspieler",
+          "players": "1 Spieler mit KI-Gegnern",
+          "connection": "Offline",
+          "hardware": "Ein unterstütztes Gerät oder eine Konsole",
+          "subscription": "Keine Online-Mitgliedschaft erforderlich",
+          "bestFor": "Die Regeln lernen, Strategien üben oder ohne andere Personen spielen"
+        }
+      ]
+    },
+    "mouseTrapTrapChainReaction": {
+      "eyebrow": "Aktionsvorrichtung",
+      "title": "Mouse Trap Chain Reaction-Guide",
+      "intro": "Die größten Käsehaufen können unter der Falle auftauchen, was diesen Bereich sowohl lohnend als auch gefährlich macht. Wenn sich ein Rivale in die Fallenzone bewegt oder einen großen Vorsprung aufbaut, startet das Aktivieren der Contraption eine lange, animierte Chain Reaction, die die ungeschützte Maus fangen kann.",
+      "stages": [
+        {
+          "title": "Beobachte den Fallenbereich",
+          "description": "Große Käsebelohnungen locken Spieler unter die Falle. Verfolge, welcher Gegner den Gefahrenbereich betritt und wie viel Käse er gerade besitzt.",
+          "strategy": "---"
+        },
+        {
+          "title": "Priorisiere Gegner, die das Match anführen oder eine große Menge Käse bei sich tragen.",
+          "description": "Wähle den richtigen Moment",
+          "strategy": "Aktiviere die Falle, wenn eine andere Maus ungeschützt ist und das Ausbremsen dieses Spielers den Spielstand maßgeblich verändern würde."
+        },
+        {
+          "title": "Hebe dir die Aktivierung für einen klaren Führenden, einen direkten Rivalen oder eine Aufholjagd im späten Spiel auf, bevor die Cheese Machine leer ist.",
+          "description": "Schwinge den Stiefel",
+          "strategy": "Die chain reaction beginnt, wenn der Stiefel schwingt und den Ball in Bewegung setzt."
+        },
+        {
+          "title": "Einmal aktiviert, läuft die contraption automatisch ab, und die Spieler müssen warten, bis die gesamte Sequenz abgeschlossen ist.",
+          "description": "Folge dem Ball",
+          "strategy": "Der Ball rollt durch die Hindernisse der Maschine, fliegt durch die Luft und landet im Badewannen-Abschnitt der contraption."
+        },
+        {
+          "title": "Die lange Animation erzeugt Spannung, da das Ergebnis der Falle nicht sofort feststeht.",
+          "description": "Starte den Taucher",
+          "strategy": "Der bewegliche Mechanismus erreicht das Sprungbrett und katapultiert den Taucher los, was den letzten Teil der Rube-Goldberg-artigen Sequenz abschließt."
+        },
+        {
+          "title": "Nutze diesen Moment, um die verbleibenden Käse-Gesamtbeträge zu prüfen und deinen nächsten Sammel- oder Diebstahlszug zu planen.",
+          "description": "Falle auflösen",
+          "strategy": "Der Käfig fällt am Ende der chain reaction und entscheidet darüber, ob die anvisierte Maus gefangen wird."
+        }
+      ]
+    },
+    "mouseTrapMiceOutfits": {
+      "eyebrow": "Bewege dich nach einer erfolgreichen Störung schnell zu wertvollem Käse, während der betroffene Gegner sich erholt.",
+      "title": "Mäuse-Anpassung",
+      "intro": "Mouse Trap Leitfaden für Mäuse und Outfits",
+      "items": [
+        {
+          "title": "Mouse Trap lässt jeden Spieler vor einem Match eine Maus auswählen und ein Outfit hinzufügen. Verbleibender Käse am Ende eines Spiels wird in den Cheese Hoard des Spielers übertragen, wo er ausgegeben werden kann, um zusätzliche kosmetische Gegenstände freizuschalten.",
+          "category": "Klassische Mäusefarben",
+          "platform": "Mäusefarbe",
+          "availability": "Mobilgeräte, Nintendo Switch, PlayStation und Steam",
+          "description": "Enthalten"
+        },
+        {
+          "title": "Das digitale Spiel enthält die vier klassischen Spielerfarben – Rot, Blau, Gelb und Grün – mit denen die Mäuse während eines Matches unterschieden werden.",
+          "category": "Fell-Auswahl",
+          "platform": "Aussehen der Maus",
+          "availability": "Nintendo Switch",
+          "description": "Enthalten"
+        },
+        {
+          "title": "Die Nintendo Switch-Edition ermöglicht es Spielern, aus einer Reihe von Mäusefarben und Fell-Varianten zu wählen, bevor sie ein Outfit aussuchen.",
+          "category": "Mobiler Starter-Kleiderschrank",
+          "platform": "Enthaltene Outfits",
+          "availability": "iOS",
+          "description": "22 Outfits enthalten"
+        },
+        {
+          "title": "Die iOS-Edition enthält 22 Outfits im Basisspiel. Zusätzliche kosmetische Gegenstände können mit Käse freigeschaltet oder durch optionale Käufe erworben werden.",
+          "category": "Nintendo Switch-Kleiderschrank",
+          "platform": "Enthaltene Outfits",
+          "availability": "Nintendo Switch",
+          "description": "34 Outfits enthalten"
+        },
+        {
+          "title": "Die Nintendo Switch-Edition führt 34 Outfits als im Spiel enthalten auf und bietet damit eine größere Start-Garderobe als die mobile Auflistung.",
+          "category": "Freischaltsystem",
+          "platform": "Alle aktuellen Editionen",
+          "availability": "Durch Spielen verdient",
+          "description": "Am Ende jedes Spiels wird der Käse, den der Spieler besitzt, dem Käsevorrat hinzugefügt und kann zum Freischalten neuer Outfits verwendet werden."
+        },
+        {
+          "title": "Optionale kosmetische Mobile-Inhalte",
+          "category": "Zusätzliche Outfits",
+          "platform": "Mobilgeräte",
+          "availability": "Optionale In-App-Käufe",
+          "description": "Das Premium-Mobilspiel ist werbefrei, bietet aber optionale kosmetische Gegenstände, die mit echtem Geld erworben werden können."
+        }
+      ]
+    },
+    "mouseTrapGameModes": {
+      "eyebrow": "Spielmöglichkeiten",
+      "title": "Leitfaden zu den Mouse Trap-Spielmodi",
+      "intro": "Das digitale Spiel bietet vier Hauptspielmöglichkeiten. Offline-Modi eignen sich für Reisen und Solotraining, während Online-Modi Freunde verbinden oder Spieler mit Mouse Trap-Fans auf der ganzen Welt zusammenbringen.",
+      "modes": [
+        {
+          "name": "Einzelspieler",
+          "connection": "Offline",
+          "players": "1 menschlicher Spieler",
+          "opponents": "KI-gesteuerte Mäuse",
+          "bestFor": "Das Spielbrett kennenlernen, Strategien testen und auf Reisen spielen"
+        },
+        {
+          "name": "Privater Online-Mehrspieler",
+          "connection": "Online",
+          "players": "Bis zu 4 Spieler",
+          "opponents": "Eingeladene Freunde und Familie",
+          "bestFor": "Gemeinsame Spieleabende aus der Ferne mit der Familie und geplante Partien mit Freunden"
+        },
+        {
+          "name": "Offener Online-Mehrspieler",
+          "connection": "Online",
+          "players": "Bis zu 4 Spieler",
+          "opponents": "Spieler aus der Online-Community",
+          "bestFor": "Gegner finden, wenn Freunde keine Zeit haben"
+        },
+        {
+          "name": "Pass and Play",
+          "connection": "Offline",
+          "players": "Bis zu 4 lokale Spieler",
+          "opponents": "Freunde und Familie im selben Raum",
+          "bestFor": "Roadtrips, Familientreffen und lokales Spielen ohne separate Geräte"
+        }
+      ]
+    },
+    "mouseTrapPlatformsReleaseDates": {
+      "eyebrow": "Plattformvergleich",
+      "title": "Mouse Trap-Plattformen und Veröffentlichungsdaten",
+      "intro": "Mouse Trap erschien zuerst 2023 für Mobilgeräte, bevor es für Nintendo Switch und PlayStation 4 veröffentlicht wurde. Eine Windows-Version ist auf Steam gelistet und unterstützt Einzelspieler, Online-PvP, Mehrspieler mit geteiltem Bildschirm sowie Remote Play Together.",
+      "platforms": [
+        {
+          "platform": "iOS",
+          "release": "29. März 2023",
+          "status": "Verfügbar",
+          "players": "Bis zu 4 Spieler",
+          "playModes": "Offline-Einzelspieler, Online-Mehrspieler und Offline-Pass and Play",
+          "languages": "Englisch, Französisch, Deutsch, Italienisch und Spanisch"
+        },
+        {
+          "platform": "Android",
+          "release": "27. April 2023",
+          "status": "Verfügbar",
+          "players": "Bis zu 4 Spieler",
+          "playModes": "Offline-Einzelspieler, Online-Mehrspieler und Offline-Pass-and-Play",
+          "languages": "Lokalisierte Versionen des Hauptspiels"
+        },
+        {
+          "platform": "Nintendo Switch",
+          "release": "7. August 2023",
+          "status": "Verfügbar",
+          "players": "Bis zu 4 Spieler",
+          "playModes": "Offline-Einzelspieler, Online-Mehrspieler und lokales Offline-Spiel",
+          "languages": "Englisch, Spanisch, Französisch, Deutsch und Italienisch"
+        },
+        {
+          "platform": "PlayStation 4",
+          "release": "24. Oktober 2023",
+          "status": "Verfügbar",
+          "players": "1–4 lokal und bis zu 4 online",
+          "playModes": "Einzelspieler, lokal, privates Online-Spiel und öffentliches Online-Spiel",
+          "languages": "Englisch, Französisch, Deutsch, Italienisch und Spanisch"
+        },
+        {
+          "platform": "Windows-PC via Steam",
+          "release": "Demnächst verfügbar",
+          "status": "Auf Wunschliste verfügbar",
+          "players": "Einzelspieler und Mehrspieler",
+          "playModes": "Einzelspieler, Online-PvP, Shared-Screen-PvP und Remote Play Together",
+          "languages": "Englisch, Französisch, Italienisch, Deutsch und Spanisch"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über Mouse Trap wissen musst – das digitale chain-reaction-Brettspiel",
+    "questions": [
+      {
+        "question": "Was ist Mouse Trap?",
+        "answer": "Mouse Trap ist ein rundenbasiertes digitales Brettspiel für ein bis vier Spieler. Auf einem animierten 3D-Spielbrett sammelst, stiehlst und schützt du Käse, und der Spieler, der den meisten Käse hat, wenn die Cheese Machine leer ist, gewinnt."
+      },
+      {
+        "question": "Wie viele Spieler unterstützt Mouse Trap?",
+        "answer": "Mouse Trap unterstützt ein bis vier Spieler im Einzelspielermodus gegen die KI, in privaten und öffentlichen Online-Matches, im lokalen Konsolen-Mehrspielermodus und im Offline-Pass-and-Play."
+      },
+      {
+        "question": "Was macht die Mouse Trap-contraption?",
+        "answer": "Die Action-contraption startet die berühmte animierte chain reaction von Mouse Trap. Löse sie im richtigen Moment aus, um eine gegnerische Maus zu behindern, wobei die Sequenz Erfolg haben oder fehlschlagen kann, bevor der Käfig fällt."
+      },
+      {
+        "question": "Auf welchen Plattformen ist Mouse Trap verfügbar?",
+        "answer": "Mouse Trap ist für iOS, Android, Nintendo Switch und PlayStation 4 verfügbar. Eine Windows-PC-Version ist auf Steam als „Demnächst verfügbar“ mit Remote Play Together-Unterstützung gelistet."
+      },
+      {
+        "question": "Wie schaltet man Outfits in Mouse Trap frei?",
+        "answer": "Käse, den du am Ende einer abgeschlossenen Mouse Trap-Partie besitzt, wird deinem dauerhaften Käsevorrat hinzugefügt. Gib gesammelten Käse aus, um zusätzliche kosmetische Outfits für deine Maus freizuschalten."
+      },
+      {
+        "question": "Benötigt Mouse Trap eine Internetverbindung?",
+        "answer": "Nur Online-Mehrspielermodi benötigen eine Internetverbindung und, auf Konsolen, die Online-Mitgliedschaft der jeweiligen Plattform. Einzelspieler und Pass and Play funktionieren in Mouse Trap komplett offline."
+      }
+    ]
+  },
+  "cta": {
+    "title": "---",
+    "description": "Bereit, Mouse Trap zu spielen?",
+    "joinCommunity": "Lade Mouse Trap für Mobilgeräte und Konsolen herunter, löse die Kettenreaktionsfalle mit bis zu vier Spielern aus und tritt der offiziellen Community für Tipps und Updates bei.",
+    "joinGame": "Tritt Discord bei"
+  },
+  "footer": {
+    "title": "Auf Mobilgeräten & Konsolen spielen",
+    "description": "Mouse Trap Wiki",
+    "resources": "Dein umfassendes Ressourcen-Hub für Mouse Trap-Regeln, Käse-Strategien, Fallenmechaniken, Mehrspieler-Guides, Mäuse-Outfits und Plattform-Details.",
+    "community": "Ressourcen",
+    "legal": "Community",
+    "discord": "Rechtliches",
+    "youtube": "Discord",
+    "twitter": "YouTube",
+    "steamStore": "X / Twitter",
+    "about": "Steam",
+    "privacy": "Über",
+    "terms": "Datenschutzrichtlinie",
+    "copyrightNotice": "Nutzungsbedingungen",
+    "copyright": "Urheberrecht",
+    "disclaimer": "© 2026 Mouse Trap Wiki. Nicht verbunden mit Marmalade Game Studio oder Hasbro."
+  },
+  "pages": {
+    "guide": {
+      "title": "Inoffizielle, von Fans erstellte Ressourcen-Website.",
+      "description": "Mouse Trap-Guides",
+      "metaTitle": "Schritt-für-Schritt-Anleitungen für Mouse Trap, die den Spielaufbau, die Regeln, Fallenmechaniken und Gewinnstrategien für jede Edition abdecken.",
+      "metaDescription": "Mouse Trap-Guides – Aufbau, Regeln & Strategie-Walkthroughs",
+      "categoryLabel": "Durchsuche jeden Mouse Trap-Guide: Spielanleitung, Spielaufbau, Kettenreaktionsfallen, Käse-Regeln und Gewinnstrategien.",
+      "whatIs": "GUIDES",
+      "whatIsDescription": "Was sind Mouse Trap-Guides?",
+      "why": "Warum unsere Guides lesen?",
+      "whySteps": {
+        "step1Title": "Lerne den vollständigen Spielablauf",
+        "step1Description": "Verstehe Spielzüge, Bewegungen, das Sammeln von Käse und wie die Falle aktiviert wird, damit du immer weißt, was als Nächstes zu tun ist.",
+        "step2Title": "Fehlerfreier Aufbau",
+        "step2Description": "Befolge die bebilderten Aufbauschritte, um das Spielbrett und die Kettenreaktions-Apparatur jedes Mal richtig vorzubereiten.",
+        "step3Title": "Entwickle eine Gewinnstrategie",
+        "step3Description": "Wende bewährte Taktiken für das Fallen-Timing und den Käsediebstahl an, die sowohl in der Original- als auch in den modernen Editionen funktionieren."
+      },
+      "featured": "Hervorgehoben & Wichtig",
+      "all": "Alle Anleitungen"
+    },
+    "rules": {
+      "title": "Alle Guides",
+      "description": "Mouse Trap-Regeln",
+      "metaTitle": "Die offiziellen Mouse Trap-Regeln klar erklärt: Zugreihenfolge, Käse, Fallenaktivierung, Spieleranzahl und Siegbedingungen.",
+      "metaDescription": "Mouse Trap-Regeln – Spielanleitung & Siegbedingungen",
+      "categoryLabel": "Meistere die offiziellen Mouse Trap-Regeln: Spielzüge, Käsesammeln, Fallenaktivierung, Spieleranzahl, Altersfreigabe und Sieg.",
+      "whatIs": "Wie lauten die Mouse Trap-Regeln?",
+      "whatIsDescription": "Die Regeln bestimmen, wie Mouse Trap gespielt wird: wie sich Mäuse auf dem Brett bewegen, wie Käse gesammelt und gestohlen wird, wann die berühmte chain-reaction-Falle auslöst und wie ein Spieler gewinnt. Wir erklären jede Regel in leicht verständlicher Sprache, damit nichts euren Spieleabend ausbremst.",
+      "why": "Warum die Regeln lernen?",
+      "whySteps": {
+        "step1Title": "Richtig spielen ab dem ersten Zug",
+        "step1Description": "Verstehe genau, wie Runden, Züge und Käse funktionieren, damit es mitten im Spiel nicht zu Streitigkeiten oder Verwirrung kommt.",
+        "step2Title": "Die Falle richtig auslösen",
+        "step2Description": "Verstehe die genauen Bedingungen, die die chain reaction auslösen, damit die Falle jedes Mal fair zuschnappt.",
+        "step3Title": "Souverän gewinnen",
+        "step3Description": "Lerne die Siegbedingungen und Regeln zur Spieleranzahl kennen, damit jeder weiß, wie das Spiel gewonnen wird."
+      },
+      "featured": "Vorgestellt & Unverzichtbar",
+      "all": "Alle Regeln"
+    },
+    "setup": {
+      "title": "Mouse Trap Aufbau",
+      "description": "Vollständige Anleitungen zum Mouse Trap-Aufbau: Brettmontage, Fallenkonstruktion, Platzierung der Spielfiguren und die Baureihenfolge der chain-reaction.",
+      "metaTitle": "Mouse Trap Aufbau – Montage von Brett, Falle & Spielfiguren",
+      "metaDescription": "Baue Mouse Trap richtig auf: Setze das Spielbrett zusammen, montiere die chain-reaction-Falle, platziere die Figuren und starte schnell ins Spiel.",
+      "categoryLabel": "SETUP",
+      "whatIs": "Was ist der Mouse Trap-Aufbau?",
+      "whatIsDescription": "Der Aufbau ist alles, was vor dem ersten Zug passiert: das Zusammenbauen des Spielbretts, das schrittweise Konstruieren der chain-reaction-contraption sowie das Platzieren der Mäuse und des Käses. Ein korrekter Aufbau sorgt für einen reibungslosen Spielablauf und verhindert, dass die Falle klemmt.",
+      "why": "Warum der Aufbau wichtig ist",
+      "whySteps": {
+        "step1Title": "Die Falle richtig aufbauen",
+        "step1Description": "Baue die chain-reaction-contraption in der richtigen Reihenfolge zusammen, damit jedes Zahnrad, jede Treppe und jeder Käfig wie vorgesehen funktioniert.",
+        "step2Title": "Spielbrett und Figuren platzieren",
+        "step2Description": "Lege das Spielbrett aus, positioniere die Mäuse und bereite den Käse vor, damit das Spiel startbereit ist.",
+        "step3Title": "Häufige Aufbaufehler vermeiden",
+        "step3Description": "Vermeide die häufigen Montagefehler, die dazu führen, dass die Falle während des Spiels klemmt oder versagt."
+      },
+      "featured": "Vorgestellt & Unverzichtbar",
+      "all": "Alle Aufbau-Anleitungen"
+    },
+    "strategy": {
+      "title": "Mouse Trap-Strategie",
+      "description": "Erfolgreiche Mouse Trap-Strategie: Käse stehlen, das richtige Timing für die Falle, Comeback-Taktiken und familienfreundliche Tipps für jede Partie.",
+      "metaTitle": "Mouse Trap-Strategie – Gewinntipps & Käse-Taktiken",
+      "metaDescription": "STRATEGIE",
+      "categoryLabel": "Was ist die Mouse Trap-Strategie?",
+      "whatIs": "Strategie ist der Weg, wie du Regeln in Siege verwandelst: die Entscheidung, wann du dem Käse nachjagst, wann du Gegner in die Falle lockst und wie du dich erholst, wenn du zurückliegst. Eine gute Strategie sorgt dafür, dass jedes Spiel knapp, spannend und gewinnbar bleibt.",
+      "whatIsDescription": "Warum Strategie nutzen?",
+      "why": "Das Timing der Falle perfektionieren",
+      "whySteps": {
+        "step1Title": "Lerne, wann du Rivalen auf das Fallenfeld locken musst, damit die chain reaction sie im ungünstigsten Moment erwischt.",
+        "step1Description": "Käse klug stehlen",
+        "step2Title": "Wähle die richtigen Momente, um Käse zu stehlen, und beschütze deinen Vorrat, um auf der Punktetafel vorne zu bleiben.",
+        "step2Description": "Plane dein Comeback",
+        "step3Title": "Plane dein Comeback",
+        "step3Description": "Nutze bewährte Comeback-Taktiken, um dich wieder ins Spiel zurückzukämpfen, selbst wenn du früh im Rückstand bist."
+      },
+      "featured": "Empfohlen & Unverzichtbar",
+      "all": "Alle Strategien"
+    },
+    "versions": {
+      "title": "Mouse Trap Versionen",
+      "description": "Jede Mouse Trap Version im Vergleich: das Original von 1963, Vintage-Editionen, Hasbro-Neuauflagen und die modernen Versionen von 2014/2016.",
+      "metaTitle": "Mouse Trap Versionen – 1963, Vintage- & moderne Editionen",
+      "metaDescription": "Vergleiche jede Mouse Trap Edition: das Original von 1963, Vintage- und Hasbro-Veröffentlichungen sowie die modernen Versionen von 2014/2016.",
+      "categoryLabel": "VERSIONEN",
+      "whatIs": "Was sind Mouse Trap Versionen?",
+      "whatIsDescription": "Mouse Trap wurde seit 1963 in vielen Editionen veröffentlicht, von der ursprünglichen Ideal-Version über Vintage-Sammlerstücke und Hasbro-Neuauflagen bis hin zu den modernen Versionen von 2014 und 2016. Jede Edition behält die berühmte chain-reaction Falle bei, während das Spielbrett, das Artwork und die Spielfiguren aktualisiert wurden.",
+      "why": "Warum Versionen vergleichen?",
+      "whySteps": {
+        "step1Title": "Finde die richtige Edition",
+        "step1Description": "Finde heraus, welche Mouse Trap Version zu deiner Spielweise passt – von Retro-Charme bis hin zu modernen Komponenten.",
+        "step2Title": "Erkenne den Vintage-Wert",
+        "step2Description": "Identifiziere sammelwürdige Vintage-Editionen und erfahre, was bestimmte Jahrgänge bei Sammlern so begehrt macht.",
+        "step3Title": "Erfahre, wie sich das Spiel entwickelt hat",
+        "step3Description": "Verfolge, wie sich das Spielbrett, die trap contraption und die Regeln im Laufe von sechs Jahrzehnten verändert haben."
+      },
+      "featured": "Empfohlen & Unverzichtbar",
+      "all": "Alle Versionen"
+    },
+    "digital": {
+      "title": "Mouse Trap Digital",
+      "description": "Digitale Mouse Trap Editionen: das Videospiel, die mobile App, das Online-Spiel, Nintendo Switch und vollständige mobile Walkthroughs.",
+      "metaTitle": "Mouse Trap Digital – Videospiel, Mobilgeräte & Switch",
+      "metaDescription": "Spiele Mouse Trap überall: als Videospiel, mobile App, Online-Version, auf der Nintendo Switch und mit mobilen Walkthroughs.",
+      "categoryLabel": "DIGITAL",
+      "whatIs": "Was ist Mouse Trap Digital?",
+      "whatIsDescription": "Die digitalen Editionen bringen Mouse Trap auf den Bildschirm: als Videospiel, mobile App, online spielbare Version und für Nintendo Switch. Du erlebst denselben Spaß beim Käsesammeln und Auslösen der Falle mit animierten 3D-Spielbrettern und Online-Mehrspieler.",
+      "why": "Warum die digitale Edition spielen?",
+      "whySteps": {
+        "step1Title": "Überall und jederzeit spielen",
+        "step1Description": "Genieße Mouse Trap auf deinem Smartphone, Tablet oder deiner Konsole, ohne das physische Spielbrett aufbauen zu müssen.",
+        "step2Title": "Fordere Spieler online heraus",
+        "step2Description": "Tritt in Online- und mobilen Mehrspielermodi gegen Freunde oder Spieler weltweit an.",
+        "step3Title": "Meistere die digitale Version",
+        "step3Description": "Nutze unsere mobilen Walkthroughs, um die digitale Steuerung, Menüs und Online-Funktionen in wenigen Minuten kennenzulernen."
+      },
+      "featured": "Empfohlen & Unverzichtbar",
+      "all": "Alle digitalen Guides"
+    },
+    "reviews": {
+      "title": "Mouse Trap Bewertungen",
+      "description": "Ausführliche Mouse Trap Bewertungen: Brettspiel-Rezensionen, Urteile zu Retro-Editionen und digitale Tests für Nintendo Switch.",
+      "metaTitle": "Mouse Trap Bewertungen – Brettspiel, Retro & Switch",
+      "metaDescription": "Lies detaillierte Mouse Trap Bewertungen zum Brettspiel, den Retro-Editionen und der digitalen Version für Nintendo Switch.",
+      "categoryLabel": "BEWERTUNGEN",
+      "whatIs": "Was sind Mouse Trap-Bewertungen?",
+      "whatIsDescription": "Unsere Bewertungen bewerten Mouse Trap in all seinen verschiedenen Formen: das klassische Brettspiel, Retro- und Vintage-Editionen sowie die digitale Version für Nintendo Switch. Wir behandeln das Gameplay, die Komponenten, den Wert und für wen sich die jeweilige Edition am besten eignet.",
+      "why": "Warum sollten Sie unsere Bewertungen lesen?",
+      "whySteps": {
+        "step1Title": "Entscheiden Sie vor dem Kauf",
+        "step1Description": "Erhalten Sie klare Urteile zu jeder Mouse Trap-Edition, damit Sie Ihr Geld für die Version ausgeben, die Ihnen wirklich Spaß macht.",
+        "step2Title": "Vergleichen Sie Brettspiel und digitale Version",
+        "step2Description": "Sehen Sie, wie das Tabletop-Spiel im Vergleich zu den digitalen und Switch-Veröffentlichungen abschneidet, bevor Sie sich für eine Spielweise entscheiden.",
+        "step3Title": "Finden Sie die passende Version",
+        "step3Description": "Stimmen Sie die richtige Mouse Trap-Edition auf Ihre Gruppe ab, egal ob für den Familienspielabend oder das Solospiel."
+      },
+      "featured": "Beliebt & Unverzichtbar",
+      "all": "Alle Bewertungen"
+    }
   }
 }

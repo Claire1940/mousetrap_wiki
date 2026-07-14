@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const path = '/about'
 
   return {
-    title: 'About Mouse Trap Wiki - Your Ultimate Steam Game Resource',
+    title: 'About Mouse Trap Wiki - Your Ultimate Board Game Resource',
     description: 'Learn about Mouse Trap Wiki, a community-driven resource hub providing comprehensive guides, rules, trap mechanics, cheese strategy, and multiplayer tactics for the Mouse Trap board game.',
     robots: {
       index: false,
@@ -171,8 +171,8 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Turkish, and French.
+                Content available in multiple languages including English, Spanish,
+                German, and French.
               </p>
             </div>
           </div>
