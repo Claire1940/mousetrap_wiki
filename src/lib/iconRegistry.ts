@@ -28,6 +28,18 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Mouse Trap 主题图标（桌游 / 奶酪 / 机关 / 装扮 / 平台）
+  Dices: LucideIcons.Dices,
+  Cheese: LucideIcons.Cheese,
+  Zap: LucideIcons.Zap,
+  Shirt: LucideIcons.Shirt,
+  Layers: LucideIcons.Layers,
+  Calendar: LucideIcons.Calendar,
+  Trophy: LucideIcons.Trophy,
+  Hand: LucideIcons.Hand,
+  Repeat: LucideIcons.Repeat,
+  Target: LucideIcons.Target,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
