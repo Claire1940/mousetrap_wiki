@@ -1,0 +1,5 @@
+# Content placeholder
+
+This directory is intentionally empty at this stage. Game content (MDX files) will be populated in later parts of the refactor.
+
+The build-time content manifest generator (`scripts/generate-content-manifest.mjs`) enumerates this directory; this `.gitkeep` ensures the empty directory is tracked by git so the manifest generator does not fail with exit(1).
